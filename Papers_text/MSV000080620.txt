@@ -1,0 +1,45 @@
+=== TITLE ===
+Absolute Proteome Analysis of Colorectal Mucosa, Adenoma, and Cancer Reveals Drastic Changes in Fatty Acid Metabolism and Plasma Membrane Transporters
+
+=== ABSTRACT ===
+Colorectal cancer is a leading cause of cancer-related death. It develops from normal enterocytes, through a benign adenoma stage, into the cancer and finally into the metastatic form. We previously compared the proteomes of normal colorectal enterocytes, cancer and nodal metastasis to a depth of 8100 proteins and found extensive quantitative remodeling between normal and cancer tissues but not cancer and metastasis (Wiśniewski et al. PMID 22968445). Here we utilize advances in the proteomic workflow to perform an in depth analysis of the normal tissue (N), the adenoma (A), and the cancer (C). Absolute proteomics of 10 000 proteins per patient from microdissected formalin-fixed and paraffin-embedded clinical material established a quantitative protein repository of the disease. Between N and A, 23% of all proteins changed significantly, 17.8% from A to C and 21.6% from N to C. Together with principal component analysis of the patient groups, this suggests that N, A, and C are equidistant but not on one developmental line. Our proteomics approach allowed us to assess changes in varied cell size, the composition of different subcellular components, and alterations in basic biological processes including the energy metabolism, plasma membrane transport, DNA replication, and transcription. This revealed several-fold higher concentrations of enzymes in fatty acid metabolism in C compared with N, and unexpectedly, the same held true of plasma membrane transporters.
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+Formalin-Fixed Paraffin Embedded Human Tissue
+
+Archival formalin-fixed and paraffin-embedded samples of adenoma and grade 2 or 3 of cancer were obtained from the Department of Pathology of Wrocław Medical University. Analysis of the samples followed an informed consent approved by the local ethics committee (no. KB-598/2011).
+Tissue Microdissection and Lysis
+
+Tissue was dissected with the Laser Pressure Catapulting (LPC) PALM Instrument (Zeiss, Göttingen, Germany) and lysed in a buffer consisting of 0.1 M Tris-HCl, pH 8.0, 0.1 M DTT, 0.5% (w/v) polyethylene glycol 20 000 and 4% SDS at 99 °C for 1 h as described (19) and visually demonstrated here. (20)
+Determination of Total Protein and Peptide
+
+Protein and peptide concentrations were assayed using the tryptophan fluorescence assay. (21)
+Protein Digestion and Peptide Fractionation
+
+Detergent was removed from the lysates, and the proteins were processed according to the MED-FASP protocol employing two consecutive steps of digestion with LysC and trypsin (22) using 30k filtration units (cat no. MRCF0R030, Millipore). (23) Peptides released by LysC and trypsin were fractionated into 4 and 2 SAX fractions, respectively.
+LC–MS/MS Analysis
+
+Peptides were separated over a C18 reverse-phase column (20 cm long, 75 μm inner diameter, in-house packed with ReproSil-Pur C18-AQ 1.8 μm resin (Dr. Maisch, Ammerbuch-Entringen, Germany)) and were eluted with a linear gradient of 5–30% buffer B (80% ACN and 0.5% acetic acid) at a flow rate of 250 nL/min over 195 min. This was followed by 10 min of elution from 30 to 60% buffer B, a washout of 95% buffer B, and re-equilibration with buffer A. Peptides were electrosprayed and analyzed on a Q Exactive mass spectrometer using a data-dependent mode with survey scans acquired at a resolution of 50 000 at m/z 200 (transient time 256 ms). Up to the top 10 most abundant isotope patterns with charge ≥2 from the survey scan were selected with an isolation window of 1.6 Th and fragmented by HCD (24) with normalized collision energies of 25. The maximum ion injection times for the survey scan and the MS/MS scans were 20 and 60 ms, respectively. The ion target value for both scan modes was set to 106, meaning that most MS/MS scans accumulated ions to 60 ms. The dynamic exclusion was 25 s and 10 ppm. The performance of the mass spectrometer was checked on the weekly basis using BSA and whole HeLa cell lysate runs. All samples were separated on the same LC column. During the period of the analysis no observable changes in the LC performance were observed. The A, C, and N samples were analyzed in an alternate order: A1, A2, C1, N1, A3, A4, C2, N2; A5, A6, and so as to minimize potential effects related to column deterioration.
+Data Analysis
+
+The MS data were analyzed using the software environment MaxQuant (25) version 1.2.6.20 and its built-in Andromeda search engine. (26) Proteins were identified by searching MS and MS/MS data against the complete human proteome sequences from UniProtKB, version of May 2013, containing 88 820 sequences, respectively. Carbamido-methylation of cysteine was set as fixed modification and N-terminal acetylation and oxidation of methionine as variable modifications. Up to two missed cleavages were allowed. The initial allowed mass deviation of the precursor ion was up to 6 ppm, and for the fragment masses it was up to 20 ppm. Mass accuracy of the precursor ions was improved by time-dependent recalibration algorithms of MaxQuant. The “match between runs” option was enabled to match identifications across samples within a time window of 30 s of the aligned retention times. The maximum false peptide and protein discovery rates were set to 0.01. Protein matching to the reverse database or identified only with modified peptides were filtered out. Proteins identified with single peptides were likewise removed. Relative protein quantitation was performed using the LFQ algorithm of MaxQuant. (27) Two-sample t-test was applied for testing of differences in protein titers between sample groups: A/N, C/A, and C/N. Significance of outliers was calculated by multiple hypothesis testing (28) with the threshold value of 0.05. Protein titers were calculated using the total protein approach (TPA) (16, 29) using the relationships
+Total protein (i):
+
+or
+Protein concentration (i):
+
+whereas the total protein content of the cells and the protein copy number per cells were assessed using the proteomic ruler approach assuming 6.5 pg as the DNA content of the 2n human cell: (30)
+Total protein per nucleus:
+
+and Protein (i) copy number:
+
+where NA is the Avogadro constant. The calculations were performed in Microsoft Excel. The LC–MS/MS label-free protein quantitation platform applied was verified with Western blots in our recent publications. (31-33) Pathway analysis on LFQ data was performed using “Perseus” (http://www.perseus-framework.org/).
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+

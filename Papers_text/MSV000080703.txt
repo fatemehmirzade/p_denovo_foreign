@@ -1,0 +1,36 @@
+=== TITLE ===
+Polyhydramnios, Transient Antenatal Bartter’s Syndrome, and MAGED2 Mutations
+
+=== ABSTRACT ===
+BACKGROUND
+
+Three pregnancies with male offspring in one family were complicated by severe polyhydramnios and prematurity. One fetus died; the other two had transient massive salt-wasting and polyuria reminiscent of antenatal Bartter’s syndrome.
+METHODS
+
+To uncover the molecular cause of this possibly X-linked disease, we performed whole-exome sequencing of DNA from two members of the index family and targeted gene analysis of other members of this family and of six additional families with affected male fetuses. We also evaluated a series of women with idiopathic polyhydramnios who were pregnant with male fetuses. We performed immunohistochemical analysis, knockdown and overexpression experiments, and protein–protein interaction studies.
+RESULTS
+
+We identified a mutation in MAGED2 in each of the 13 infants in our analysis who had transient antenatal Bartter’s syndrome. MAGED2 encodes melanoma-associated antigen D2 (MAGE-D2) and maps to the X chromosome. We also identified two different MAGED2 mutations in two families with idiopathic polyhydramnios. Four patients died perinatally, and 11 survived. The initial presentation was more severe than in known types of antenatal Bartter’s syndrome, as reflected by an earlier onset of polyhydramnios and labor. All symptoms disappeared spontaneously during follow-up in the infants who survived. We showed that MAGE-D2 affects the expression and function of the sodium chloride cotransporters NKCC2 and NCC (key components of salt reabsorption in the distal renal tubule), possibly through adenylate cyclase and cyclic AMP signaling and a cytoplasmic heat-shock protein.
+CONCLUSIONS
+
+We found that MAGED2 mutations caused X-linked polyhydramnios with prematurity and a severe but transient form of antenatal Bartter’s syndrome. MAGE-D2 is essential for fetal renal salt reabsorption, amniotic fluid homeostasis, and the maintenance of pregnancy. (Funded by the University of Groningen and others.)
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+STUDY DESIGN AND OVERSIGHT
+
+We conducted the study from April 2013 until May 2015. DNA samples were obtained with written informed consent from the patients or their guardians, as well as from unaffected family members. Clinical and biochemical data were collected retrospectively from medical charts. We studied the index family (F1) plus 6 additional families (F2 through F7, all of which had members with a transient clinical course of antenatal Bartter’s syndrome) of Dutch, German, Belgian, and Turkish descent chosen from a cohort of 300 families with antenatal Bartter’s syndrome. All affected infants were male and had tested negative for mutations in SLC12A1 (encoding NKCC2), KCNJ1 (encoding ROMK), and BSND (encoding barttin). We also evaluated a series of 11 women who had been counseled for idiopathic polyhydramnios during pregnancies with male fetuses. Polyhydramnios was diagnosed as an amniotic fluid index (a score indicating the amount of amniotic fluid measured on an ultrasonogram) of greater than 24 cm.12 The study was approved by the ethics committees at the University Medical Centers in Cologne and Groningen.
+LABORATORY ANALYSIS
+
+Standard methods were used to analyze electrolyte and creatinine levels and solute concentrations (osmolalities) in urine and blood. Plasma aldosterone and plasma renin concentrations were measured with the use of radioimmunologic assays.13 Urinary prostaglandin E2 (PGE2) was measured by gas chromatography–tandem mass spectrometry in cooled 24-hour urine samples, as described previously.14
+GENETIC ANALYSIS
+
+We performed whole-exome sequencing of DNA from Patient F1.III-1 and his mother (F1.II-2), as described previously.15 Splicing was analyzed in vitro with a minigene (pSPL3 splicing) assay.16 See the Supplementary Appendix, available with the full text of this article at NEJM.org, for further details of the genetic analysis methods, as well as for details of the immunohistochemical analysis, the studies of manipulating gene expression in a cell line, and interactome analyses.
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+

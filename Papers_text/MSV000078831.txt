@@ -1,0 +1,499 @@
+=== TITLE ===
+In-Depth Quantitative Proteomic
+Analysis of de Novo
+Protein Synthesis Induced by Brain-Derived Neurotrophic Factor
+
+=== ABSTRACT ===
+Measuring the synthesis of new proteins
+in the context of a much
+greater number of pre-existing proteins can be difficult. To overcome
+this obstacle, bioorthogonal noncanonical amino acid tagging (BONCAT)
+can be combined with stable isotope labeling by amino acid in cell
+culture (SILAC) for comparative proteomic analysis of de novo protein
+synthesis (BONLAC). In the present study, we show that alkyne resin-based
+isolation of l -azidohomoalanine (AHA)-labeled proteins using
+azide/alkyne cycloaddition minimizes contamination from pre-existing
+proteins. Using this approach, we isolated and identified 7414 BONCAT-labeled
+proteins. The nascent proteome isolated by BONCAT was very similar
+to the steady-state proteome, although transcription factors were
+highly enriched by BONCAT. About 30% of the methionine residues were
+replaced by AHA in our BONCAT samples, which allowed for identification
+of methionine-containing peptides. There was no bias against low-methionine
+proteins by BONCAT at the proteome level. When we applied the BONLAC
+approach to screen for brain-derived neurotrophic factor (BDNF)-induced
+protein synthesis, 53 proteins were found to be significantly changed
+2 h after BDNF stimulation. Our study demonstrated that the newly
+synthesized proteome, even after a short period of stimulation, can
+be efficiently isolated by BONCAT and analyzed to a depth that is
+similar to that of the steady-state proteome.
+
+=== INTRODUCTION ===
+Mass spectrometry (MS)-based
+quantitative proteomics is a powerful
+tool to study dynamic protein synthesis. Stable isotope labeling by
+amino acid in cell culture (SILAC) 1 is
+widely used in protein turnover (synthesis/degradation) studies. 2 This involves switching cells from regular culture
+medium to heavy SILAC medium that contains heavy isotope coded amino
+acids. All newly synthesized proteins from this point on are labeled
+by the heavy SILAC medium and thus can be easily distinguished in
+MS from pre-existing proteins. A variant of SILAC, pulsed SILAC 3 (pSILAC), uses two different heavy labels and
+thus allows comparison of newly synthesized protein levels between
+two experimental conditions. However, measuring the synthesis of new
+proteins over a relatively short period of time such as a few hours
+can be difficult due to a vast excess of pre-existing proteins.
+
+Another method to distinguish newly synthesized proteins from old
+proteins is bioorthogonal noncanonical amino acid tagging (BONCAT). 4 In BONCAT, proteins are metabolically labeled
+with l -azidohomoalaine (AHA), a methionine surrogate. The
+azide moiety from AHA allows labeled proteins to be covalently conjugated
+to alkyne-containing tags through azide/alkyne cycloaddition click
+chemistry. These tags can be engineered to include fluorescent reporters
+to allow selective visualization of new proteins. 4 , 5 Alternatively,
+for proteomic analysis, they can include affinity tags, such as biotin,
+which can be used to isolate newly synthesized proteins from total
+proteins prior to MS analysis. 6 , 7
+
+Combining BONCAT
+and pSILAC techniques allows for comparative analysis
+of newly synthesized proteins in a high background of pre-existing
+proteins. This strategy was first applied to study secreted proteins 8 and translation in primary cells 9 and now is becoming increasingly popular. 10 , 11 Although one version of the combination 8 of BONCAT and pSILAC has been referred to as QuaNCAT, 9 we prefer the term BONLAC because SILAC is used
+for quantitation.
+
+In this study, we performed a comprehensive
+characterization of
+the BONLAC approach in terms of its ability to identify and quantify
+the nascent proteome that is synthesized within a relatively short
+time period, and we used this approach to screen for brain-derived
+neurotrophic factor (BDNF)-induced proteins in HEK cells with stable
+expression of tropomyosin-related kinase B (TrkB). BDNF regulates
+many important aspects of neural function, including cell survival,
+cell fate decisions, axon growth, dendrite pruning, and long-term
+potentiation, a form of synaptic plasticity considered to be a cellular
+substrate for memory formation. 12 , 13 BDNF initiates intracellular
+signaling primarily through the receptor tyrosine kinase TrkB. 14 Activated TrkB eventually leads to translation
+of selected target mRNAs. However, the list of target mRNAs has yet
+to be completely characterized.
+
+Our in-depth BONLAC and pSILAC
+analyses of newly synthesized proteins
+upon BDNF treatment characterized the performance of the BONCAT methodology
+in a large-scale proteomic study. A group of 53 proteins was found
+to have increased abundance after BDNF treatment.
+
+=== METHODS ===
+HEK-293 cells overexpressing TrkB receptor
+(HEK-TrkB) were cultured in DMEM medium (Athena Environmental Sciences,
+Baltimore, MD) (methionine, 0.201 mM; lysine, 0.798 mM; arginine,
+0.398 mM) supplemented with 10% FBS (Gibco) to confluence. The culture
+medium was removed, and cells were washed with PBS. Then, cells were
+incubated in a culture medium without methionine, lysine, and arginine
+(Athena Environmental Sciences, Baltimore, MD) for 30 min. One cell
+population was exposed to DMEM medium supplemented with l -azidohomoalanine (AHA, 1 mM, synthesized as described by Link et
+al. 15 ), BDNF (25 ng/mL, Peptrotech), and 13 C 6 - 15 N 2 -lysine and 13 C 6 - 15 N 4 -arginine (Lys8/Arg10)
+for 2 h, and a control population was exposed to AHA and D 4 -lysine/ 13 C 6 -arginine (Lys4/Arg6). The SILAC
+amino acid concentrations were the same as those in the regular DMEM.
+In a replicate experiment, the SILAC labeling was reversed (BDNF was
+added to cells exposed to Lys4/Arg6).
+
+The enrichment procedures
+including cell lysis and tryptic digestion were performed using a
+kit (Click-iT Protein Enrichment Kit) from Invitrogen, following the
+protocol supplied with the kit with minor modifications. 8 Briefly, after labeling and BDNF treatment, cells
+were lysed in a buffer containing 8 M urea, 200 mM Tris, pH 8, 4%
+CHAPS, 1 M NaCl, and protease inhibitor cocktail (Sigma). Lysates
+of the BDNF treated/untreated cells were combined in equal volume.
+The mixed lysate was sonicated to reduce viscosity. AHA-labeled nascent
+proteins were cross-linked covalently to alkyne agarose beads using
+reagents provided by the kit. Beads were transferred to a SDS wash
+buffer (1% SDS, 100 mM Tris, pH 8, 250 mM NaCl, and 5 mM EDTA), and
+proteins on beads were then reduced with DTT at 70 °C and alkylated
+with iodoacetamide at room temperature. The beads then were washed
+sequentially with 100 column volumes of the following three buffers
+to remove nonspecific binding proteins: (1) SDS wash buffer, (2) 8
+M urea, and (3) 20% acetonitrile. Cross-linked proteins were digested
+with trypsin on-resin at 37 °C overnight in 25 mM ammonium bicarbonate,
+and the resulting tryptic peptides were desalted using StageTips 16 and dried under vacuum in a SpeedVac device.
+
+Cells were lysed with
+a solution containing 9 M urea, 20 mM Tris, pH 8, 0.2 mM EDTA, and
+protease inhibitors (Complete tablet; Roche, Mannheim, Germany). Proteins
+were then reduced with DTT and alkylated with iodoacetamide prior
+to overnight digestion with trypsin at 37 °C. 17 The tryptic peptides were desalted using StageTips and
+dried.
+
+The peptides
+were fractionated using hydrophilic interaction liquid chromatography
+(HILIC) according to a previously published protocol. 18 All HILIC experiments were performed on an Agilent 1100
+HPLC system using a 1 × 250 mm TSKgel Amide-80 5 μm particle
+column (Tosoh Biosciences). Peptides were loaded in 90% solvent B
+(98% acetonitrile with 0.1% TFA). Solvent A consisted of 2% acetonitrile
+with 0.1% TFA. Peptides were eluted with an inverse gradient of 90%
+B to 85% B in 5 min followed by 85% B to 70% B in 40 min and finally
+a steep gradient to 0% B in 5 min at 0.05 mL/min. Twelve fractions
+were collected from HILIC separation and analyzed by LC–MS.
+Ten of these fractions contained peptides.
+
+For
+LC–MS, a Thermo Scientific
+EASY-nLC 1000 coupled to a Q Exactive mass spectrometer 19 (Thermo Fisher Scientific) was used. A self-packed
+75 μm × 25 cm reversed-phase column (Reprosil C18, 3 μm,
+Dr. Maisch GmbH, Germany) was used for peptide separation. Peptides
+were eluted by a gradient of 3–30% acetonitrile in 0.1% formic
+acid over 120 min at a flow rate of 250 nL/min at 45 °C. The
+Q Exactive was operated in data-dependent mode with survey scans acquired
+at a resolution of 50 000 at m / z 400 (transient time = 256 ms). Up to the top 10 most abundant precursors
+from the survey scan were selected with an isolation window of 1.6
+Thomsons and fragmented by higher-energy collisional dissociation
+with normalized collision energies of 27. The maximum ion injection
+times for the survey scan and the MS/MS scans were 60 ms, respectively,
+and the ion target value for both scan modes was set to 1 000 000.
+
+The raw files
+were processed using the MaxQuant 20 computational
+proteomics platform (version 1.2.7.0) for peptide identification and
+quantitation. The fragmentation spectra were searched against the
+UniProt human protein database (downloaded Feb 08, 2013) containing
+87 647 protein sequences and allowing up to two missed tryptic
+cleavages. Carbamidomethylation of cysteine was set as a fixed modification,
+and oxidation of methionine and protein N-terminal acetylation, D 4 -lysine, 13 C 6 -arginine, 13 C 6 - 15 N 2 -lysine, and 13 C 6 - 15 N 4 -arginine were used as variable
+modifications for database searching. For the click-chemistry enriched
+BONCAT samples, AHA (−4.9863 Da) and l -2,4-diaminobutanoate
+(−30.9768 Da) were also used as variable modifications for
+methionine. The precursor and fragment mass tolerances were set to
+7 and 20 ppm, respectively. Both peptide and protein identifications
+were filtered at 1% false discovery rate (FDR) and thus were not dependent
+on the peptide score. Perseus (version 1.4.1.3) was used to determine
+significantly changed proteins upon BDNF treatment based on significance
+B values for quantified proteins at a FDR of 1% using a Benjamini–Hochberg
+correction for multiple hypothesis testing. Significance B values
+are p values for detection of significant outlier
+protein ratios calculated on the protein subsets obtained by intensity
+binning. 20 Each BONLAC and pSILAC experiment
+was performed with two biological replicates, with labels reversed
+between replicates, and each biological replicate was analyzed twice
+by LC–MS. In order for a protein to be designated as having
+differential expression, it had to have passed the 1% FDR filter as
+described above for both the forward and reverse biological replicates.
+All raw LC–MS data files are freely available and can be downloaded
+from the following site: http://massive.ucsd.edu/ProteoSAFe/status.jsp?task=f80fc3ba51f54b0e815ac085eb50ce0c
+
+To find statistically significantly
+overrepresented gene ontology (GO) terms and motifs, DAVID 21 (the database for annotation, visualization
+and integrated discovery, version 6.7) online function annotation
+tool was used. For retrieving protein interactions and constructing
+protein interaction networks, the STRING database 22 (version 9.1) was used. Cytoscape (version 3.1.0) was used
+to plot the protein interaction network exported by STRING.
+
+pr5006982_si_002.xlsx
+
+pr5006982_si_003.xlsx
+
+=== RESULTS ===
+BONCAT has been used to isolate newly synthesized proteins from
+pre-existing ones in previous proteomic studies. In most of these
+published studies, 6 , 7 , 9 − 11 , 23 , 24 AHA-labeled proteins were coupled to a biotin-alkyne tag and then
+isolated through avidin-based affinity purification. It was reported
+that using such a strategy newly synthesized proteins comprised only
+10–20% of the isolated proteins. 9 In the present study, we used a different enrichment method in which
+AHA-labeled proteins are coupled directly to alkyne agarose resin. 8 After stringent washes to remove nonspecific
+binding proteins, the resin-bound proteins were digested prior to
+LC–MS analysis.
+
+To assess the level of the nonlabeled
+proteins in our BONCAT samples, we performed the alkyne-based BONCAT
+sample preparation using HEK-TrKB cells that were labeled with AHA
+for 2 h and compared these results to a control experiment in which
+the same sample preparation was performed with the same amount of
+lysate from unlabeled cells. Both the BONCAT and the control samples
+were analyzed by LC–MS. The sample preparation was repeated
+three times. We consistently identified dramatically more peptides
+from the BONCAT samples (2371, 2578, and 2681) than from the control
+samples (69, 19 and 83) at 1% FDR. Moreover, the peptides from the
+control samples generally had very low signals compared to those from
+the BONCAT samples (Figure 1 ; see Supporting Information Figure S1 for a replicate
+result). This result shows that the alkyne resin-based enrichment
+method has minimal contamination from non-AHA-labeled proteins and
+can be used to isolate high-purity nascent proteomes. This result
+represents a substantial improvement compared to the biotin tag-based
+approach because very stringent washing conditions can be used to
+efficiently remove nonspecific binding proteins without causing loss
+of target proteins.
+
+Assessing the level of nonspecific binding proteins for
+enrichment
+of AHA-labeled proteins using alkyne resin-based click chemistry.
+Equal amounts of AHA-labeled or unlabeled (control) HEK cell lysates
+were used for the enrichment. Histograms of peptide intensities for
+the AHA labeled and the control samples are shown.
+
+To determine
+changes in protein synthesis induced by BDNF–TrkB signaling
+and to compare the performance of the two proteomic strategies, BONCAT/pSILAC(BONLAC)
+and pSILAC only (i.e., without enrichment of AHA-labeled proteins),
+we performed two experiments, as illustrated in Figure 2 . For the BONCAT experiment, HEK cells overexpressing TrkB
+were incubated in two different types of SILAC media that contained
+two sets of heavy isotope-labeled arginines and lysines (Arg4/Lys6
+and Arg10/Lys8) and AHA for 2 h. In one condition of the AHA-SILAC
+media, BDNF also was included to activate the TrkB pathway. The two
+cell populations were then combined in a 1:1 ratio and lysed. The
+newly synthesized proteins, which were labeled by both AHA and SILAC,
+were isolated using azide/alkyne cycloaddition click chemistry. After
+on-resin tryptic digestion of proteins, the resulting peptides were
+fractionated by hydrophilic interaction chromatography (HILIC), and
+the fractions were analyzed by LC–MS for protein identification
+and quantitation. This experiment is referred to as the BONLAC experiment
+hereafter.
+
+Schematic BONLAC and pSILAC workflows to investigate protein synthesis
+induced by BDNF signaling. HEK cells overexpressing TrkB were treated
+or left untreated with BDNF for 2 h. Concomitant with the treatment,
+the cells were labeled with SILAC and AHA. The samples were then mixed
+and analyzed using two workflows. In the BONLAC workflow, AHA-labeled
+proteins were separated from pre-existing proteins prior to LC–MS
+analysis, whereas in the pSILAC workflow, proteins were analyzed without
+the isolation step. Two biological replicates were performed with
+the SILAC labeling switched, and each biological replicate was analyzed
+twice by LC–MS.
+
+For the purpose of comparison, a parallel experiment was
+performed
+using the same workflow described above except that the click chemistry
+enrichment step was omitted. This was essentially a pSILAC experiment.
+Approximately the same amount of BONLAC and pSILAC peptides (10 μg)
+was used for HILIC and LC–MS. This experiment is referred to
+as the pSILAC experiment.
+
+From the pSILAC experiment result,
+SILAC label incorporation was
+estimated to be ∼1.7% based on relative signal intensities
+of light and medium/heavy peptide signals. In the BONLAC proteins,
+SILAC incorporation was dramatically higher, with a median value of
+76% (Figure 3 ; see Supporting
+Information Figure S2 for a replicate result). Essentially
+all proteins identified from the BONLAC experiment were SILAC-labeled,
+demonstrating its power to enrich for newly synthesized proteins.
+It is noted that the incorporation of labeled amino acids was lower
+than 100%, most likely caused by residual light lysine and arginine
+in the cells.
+
+SILAC label incorporation of proteins identified from
+the BONLAC
+and pSILAC analyses.
+
+From the BONLAC experiment, 7474 proteins were identified
+(1% FDR).
+(See Supporting Information Table S1 for
+details.) To our knowledge, this represents the most comprehensive
+proteomic analysis of newly synthesized proteome isolated by BONCAT
+to date. From the pSILAC samples, 7144 proteins were identified. (See Supporting Information Table S2 for details.)
+Because the pSILAC samples had very low SILAC incorporation, proteins
+identified from these samples represent the steady-state proteome.
+There was a remarkable overlap between proteins identified from the
+BONLAC and pSILAC experiments: 6389 proteins were identified in both
+(85% of BONLAC proteins and 89% of pSILAC proteins). The MS intensities
+of proteins from the two samples were also strongly correlated (Figure 4 ; see Supporting Information Figure S3 for a replicate result). These results suggest that the
+proteome being actively synthesized closely mirrored the steady-state
+proteome. More importantly, our result shows that BONLAC can be used
+to study the whole nascent proteome with coverage similar to that
+of the steady-state proteome.
+
+Correlation of protein intensities between the
+newly synthesized
+proteome (identified from the BONLAC experiment) and the steady-state
+proteome (identified from the pSILAC experiment).
+
+In total, 8229 proteins were identified from the two experiments,
+with 1085 identified only by BONLAC and 722 only by pSILAC. A gene
+ontology enrichment analysis was performed for the groups of proteins
+unique to BONLAC. The result shows that transcription factors are
+highly enriched in these proteins ( p -value = 2.94
+× 10 –40 ). Using a manually curated transcription
+factor database 25 that contains 1391 transcription
+factors, 483 transcription factors were found by BONLAC and 253 by
+pSILAC. Two-hundred eighteen transcription factors were found by both
+protocols. GO analysis on proteins unique to pSILAC revealed no significantly
+enriched GO terms. It is unlikely that the enrichment of transcription
+factors in the BONLAC samples was due to greater rates of synthesis
+for transcription factor proteins because the SILAC incorporation
+levels of transcription factors in general were not significantly
+higher than those of other proteins.
+
+Taken together, these results
+suggest BONCAT is efficient in capturing
+transcription factors.
+
+In
+theory, when using the alkyne resin-based approach, peptides with
+methionine in their sequence should not be identified from BONCAT
+samples because those peptides would remain attached to the resin
+via their AHA residues (substituted for methionine) after digestion,
+but, in fact, about 20% of all peptides identified from the BONLAC
+samples contain at least one methionine, which is only moderately
+lower than that of the pSILAC samples (26%). This suggests that methionines
+in the newly synthesized proteins were only partially replaced by
+AHA. To assess the level of AHA label, we compared peptide intensities
+measured from the BONLAC and pSILAC samples (Figure 5 ; see Supporting Information Figure
+S4 for a replicate result). There was a shift between the intensity
+ratio distributions of methionine-containing peptides and non-methionine-containing
+peptides, which was caused by partial replacement of methionine by
+AHA. On the basis of the shift, the estimated occurrence ratio of
+AHA to methionine in BONCAT samples is 3 to 7, i.e., only 30% of methionine
+in the newly synthesized proteins were replaced by AHA.
+
+Assessing the
+level of AHA-methionine replacement. Intensity ratio
+histograms for non-methionine-containing peptides (blue) and methionine-containing
+peptides (red) are shown. Normalization was performed so that the
+median ratio for non-methionine-containing peptides is 1:1. The median
+log 2 ratio for methionine-containing peptides is 0.524
+(indicated by dashed line), which corresponds to an AHA/methionine
+ratio of 3:7 for BONLAC proteins.
+
+In addition to methionine peptides, we also identified some
+AHA
+peptides, as a result of incomplete click chemistry reaction. However,
+these peptides account for only 0.4% of all identified peptides, suggesting
+very high efficiency of the azide/alkyne cycloaddition click chemistry
+reaction. In addition, in 19% of these AHA peptides, AHA was in the
+reduced form of l -2,4-diaminobutanoate, suggesting that during
+the sample preparation reduction of AHA is a common, but not dominant,
+side reaction.
+
+A potential concern of the BONCAT approach is that
+proteins with
+low numbers of methionines are under-represented because the enrichment
+step requires the presence of AHA (substituted for methionine) in
+target proteins. This bias can be aggravated by low AHA labeling levels.
+A previous BONCAT study has reported that there is no such bias. 8 However, in that study, only secreted proteins
+were considered. In addition, most of the proteins were identified
+after 24 h of AHA labeling; thus, the level of AHA-methionine substitution
+is expected to be much higher than that in this study, which used
+only 2 h of AHA labeling. We compared the distributions of proteins
+containing different numbers of methionines for the BONLAC and pSILAC
+experiments (Figure 6 ; see Supporting Information Figure S5 for a replicate result).
+The result shows that the BONLAC and pSILAC proteins had almost identical
+density curves, indicating that, at the whole proteome level, there
+was no bias against low-methionine count proteins even with an AHA/methionine
+ratio of 3:7 in newly synthesized proteins.
+
+BONCAT did not over-
+or under-represent methionine-containing proteins.
+Distribution of identification frequency of proteins with different
+numbers of methionines is shown for the BONLAC and pSILAC experiments.
+
+Of the identified BONLAC proteins,
+7176 out of the 7414 were quantified by SILAC, and 53 proteins showed
+consistent and significant SILAC ratio changes upon BNDF treatment
+at 1% FDR (Figure 7 and Table 1 ; for details, see Supporting Information Tables S1 and S2). For the pSILAC analysis, only 1840 out of 7144
+identified proteins were quantified due to the low signals for the
+medium and heavy SILAC-labeled peptides. Only one protein (ADAMTS1)
+had significant SILAC ratio changes. This protein also was identified
+as a changing protein by BONLAC. The dramatic difference between the
+two experiments in the ability to quantify newly synthesized proteins
+highlights the importance of BONCAT enrichment prior to quantitation.
+
+Identification
+of proteins whose synthesis rates were significantly
+changed upon BDNF treatment. Protein SILAC ratios from two biological
+replicates are shown, with significantly changed proteins marked in
+red (FDR = 0.01 in both replicates).
+
+TF, transcription
+factor.
+
+Among the 53 proteins
+were some well-known BDNF-induced proteins
+such as Jun, 26 Fos, 26 CDKN1A, 27 Arc, 28 and early growth response proteins (EGR1 and EGR2). 29 MKD-1 is a phosphatase known to be induced by
+BDNF in primary neurons. 30 This confirmed
+that the BONLAC approach was able to detect previously confirmed and
+biologically relevant BDNF target proteins. Most of the proteins in
+Table 1 have not heretofore been associated
+with BDNF signaling. A gene ontology analysis of the 53 changing proteins
+revealed that transcription regulator activity is highly enriched:
+24 of the 53 proteins have transcription regulator activity ( p -value: 5 × 10 –11 ) and 16 of the
+53 proteins are transcription factors according to the transcription
+factor database. 25 To find the connections
+between the changing proteins, we used these proteins as an input
+to retrieve known protein interactions from the STRING protein interaction
+database. This resulted in a strongly connected network, which includes
+36 of the 53 proteins (Figure 8 ), suggesting
+that the list of changing proteins identified in BONLAC is not a random
+list. Most proteins have not been previously reported to be involved
+in BDNF signaling and thus represent novel candidates for BDNF-induced
+proteins.
+
+Protein interaction network for proteins with changed SILAC ratios
+from the BONLAC analysis. BDNF is included to form a more complete
+network. Nodes in red are previously reported BDNF-induced proteins.
+Lines connecting nodes represent protein interactions documented in
+the STRING database used. Red lines represent physical protein–protein
+binding. Black lines represent functional regulation/association.
+
+=== CONCLUSION ===
+In
+proteomic analysis, the strength of BONCAT lies in its ability
+to separate newly synthesized proteins from pre-existing ones. Therefore,
+a key question is how clean the BONCAT protein preparation is. Our
+results indicate that it is possible to isolate newly synthesized
+proteins using BONCAT with minimal contamination from pre-existing
+proteins. This not only facilitates proteins identification/quantitation
+for the isolated nascent proteome but also opens the door to combining
+BONCAT with quantitation methods other than SILAC such as chemical
+labeling methods and label-free methods. This will be important for
+BONCAT applications for which it is difficult to use SILAC labeling.
+
+We used BONCAT to purify a newly synthesized proteome and characterize
+it to a depth of 7414 proteins. To our knowledge, this is the most
+comprehensive MS analysis of a newly synthesized proteome. This result
+demonstrates that BONCAT enables in-depth proteomic analysis of newly
+synthesized proteins with coverage similar to that of a steady-state
+proteome. Our result also shows that the majority of the steady-state
+proteome can be readily captured by BONCAT. An interesting observation
+is that transcription factors were enriched efficiently by BONCAT.
+Thus, BONCAT can be used as a tool to investigate this important category
+of proteins. This observation might have been caused by the following:
+(1) transcription factors have fast degradation rates. This is supported
+by a previous study that shows transcription factor mRNAs have significantly
+increased average decay rates compared with those of other transcripts. 31 (2) Some transcription factors were induced
+by BDNF. However, this should not be a major contribution, as we found
+that a relatively small number of transcription factors were activated
+by BDNF.
+
+We also found that the extent of AHA replacement of
+methionine
+residues in our BONCAT samples was about 30%. This was most likely
+due to residual methionine inside the cell even after 30 min of methionine
+starvation before AHA labeling. Because methionine is preferred over
+AHA in vivo for protein synthesis, even low levels of methionine in
+the cell can significantly decrease the level of AHA labeling. However,
+we believe incomplete AHA labeling is beneficial for BONCAT analysis
+because methionine-containing peptides, which account for about one-quarter
+of all peptides, can be identified and thus contribute to protein
+identification and quantitation. These peptides would not be detected
+in the case of 100% AHA labeling because they would be attached to
+alkyne beads by click chemistry and cannot be recovered for LC–MS
+analysis. A high AHA labeling level could be considered beneficial
+because, in theory, it might improve BONCAT protein recovery. However,
+our results indicate that the azide/alkyne cycloaddition click chemistry
+yield is very high and thus a higher AHA level does not necessarily
+translate into higher recovery. On the contrary, for the alkyne resin-based
+approach, excessive AHA can cause a reduction in identification of
+methionine-containing peptides, which in turn compromises protein
+identification and quantitation. Our data show that at a 30% AHA level,
+protein identification was not affected by AHA labeling and little
+bias was observed against low-methionine count proteins. Another potential
+disadvantage of high AHA levels in labeling media is that AHA can
+change intracellular signaling and protein expression profiles. Therefore,
+AHA labeling parameters (including AHA concentration and methionine
+starvation time) are worthy of attention when designing an experiment
+to ensure sufficient protein recovery and at the same time minimize
+adverse effects.
+
+Application of the BONLAC (BONCAT/pSILAC) approach
+to the study
+of the BDNF signaling pathway resulted in the identification of 53
+proteins whose translation was significantly changed by BDNF treatment.
+This not only provides novel candidates of BDNF signaling for further
+biological investigation but also confirms the capability of BONLAC
+to reveal biologically relevant translational events with deep coverage
+and high accuracy.

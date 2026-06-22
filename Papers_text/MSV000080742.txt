@@ -1,0 +1,110 @@
+=== TITLE ===
+EBprot: Statistical analysis of labeling-based quantitative proteomics data
+
+=== ABSTRACT ===
+Labeling-based proteomics is a powerful method for detection of differentially expressed proteins (DEPs). The current data analysis platform typically relies on protein-level ratios, which is obtained by summarizing peptide-level ratios for each protein. In shotgun proteomics, however, some proteins are quantified with more peptides than others, and this reproducibility information is not incorporated into the differential expression (DE) analysis. Here, we propose a novel probabilistic framework EBprot that directly models the peptide-protein hierarchy and rewards the proteins with reproducible evidence of DE over multiple peptides. To evaluate its performance with known DE states, we conducted a simulation study to show that the peptide-level analysis of EBprot provides better receiver-operating characteristic and more accurate estimation of the false discovery rates than the methods based on protein-level ratios. We also demonstrate superior classification performance of peptide-level EBprot analysis in a spike-in dataset. To illustrate the wide applicability of EBprot in different experimental designs, we applied EBprot to a dataset for lung cancer subtype analysis with biological replicates and another dataset for time course phosphoproteome analysis of EGF-stimulated HeLa cells with multiplexed labeling. Through these examples, we show that the peptide-level analysis of EBprot is a robust alternative to the existing statistical methods for the DE analysis of labeling-based quantitative datasets. The software suite is freely available on the Sourceforge website http://ebprot.sourceforge.net/. All MS data have been deposited in the ProteomeXchange with identifier PXD001426 (http://proteomecentral.proteomexchange.org/dataset/PXD001426/).
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+2.1 Outlier detection
+
+Before we estimate the model parameters and score proteins for DE, we first apply an outlier removal procedure to the peptide-ratio data. The purpose of outlier detection is to identify peptides with aberrant ratios away from the median ratio (in log scale) in each protein, where the degree of ratio variability must be within a certain tolerable bound. To do this, we select all the proteins with at least m peptides (default urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0001) and estimate the standard deviation of peptide log ratios for each protein. Next, we take the median SD as the “reference” SD, denoted by ω, and go through individual proteins with at least two peptides and remove a peptide if it is outside urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0002 range around the median log ratio of the corresponding protein. The choice of the factor 4 is to ensure that only the extreme outliers are removed since the interval covers >99.9% of the range if the data are generated under Gaussian distribution. Should all peptides fail to meet this criteria (e.g. proteins with two peptides), the protein will be removed from the analysis and the list of removed proteins is reported in the software.
+
+2.2 Hierarchical mixture model
+
+2.2.1 Probability model
+
+We denote the peptide ratio data by urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0003 for urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0004 and urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0005, where urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0006 is the log transformed ratio for peptide t of protein p. We use vector notation urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0007 to denote the ratios of urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0008 peptides in protein p. The probability model for urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0009 is a latent variable model, where the latent state urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0010 for protein p takes on one of three values: 1 if the protein is upregulated, 0 if it is not DE, or -1 if it is downregulated. Conditional on urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0011, we define the likelihood of observing the peptide ratio data urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0012 as
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0013
+(1)
+for urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0014 and
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0015
+(2)
+for urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0016, where urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0017 denotes Gaussian distribution with mean μ and SD σ. The null distribution is modelled with a Gaussian scale mixture with a common mean parameter μ0, to allow for the possibility that there are groups of proteins with a varying degree of reproducibility in the peptide ratios. Accordingly, we further define a nested latent variable urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0018 indicating the scale mixture membership within the non-DEPs, which is inferred but not of interest for further inference.
+In sum, if we denote the underlying true proportion of upregulated, downregulated, and non-DE proteins by urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0019 respectively (urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0020), the entire model can be written as
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0021
+(3)
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0022
+(4)
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0023
+(5)
+Note that this model is an adaptation of the probability model frequently utilized in the significance analysis in the microarray literature 12-15, with the distinction that the null component was modified to be a scale mixture instead of a single Gaussian distribution. The null distribution in EBprot is the distribution of the log ratios of non-DEPs, which can have a variable shape depending on the accuracy and precision of ratios (after suitable normalization procedure), and therefore the scale mixture helps to add flexibility to fit such distributions well. Moreover, our model allows a varying number of observations per protein, as is often the case for many proteins in shotgun proteomics experiments.
+2.2.2 Estimation and scoring procedures
+
+In EBprot, the model estimation proceeds in four steps: (Step A) initial model fitting; (Step B) refitting by removing proteins with highly inconsistent ratios (outlier peptides) despite the outlier filtering step; (Step C) computing probability scores and FDR; and (Step D) flagging spurious proteins above a selected score threshold.
+
+Step A: In the initial model fitting step, model parameters are estimated using the EM algorithm 19. We consider the scale mixture components in the null model as additional K mixture components, and thus estimate all Gaussian mean/variance parameters as if there are urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0024 Gaussian mixtures, with the exception that the mean of the null component μ0 is fixed at the mode of the entire ratio distribution. See Supporting Information for the detailed procedure.
+
+Step B: After the initial model fitting, we compute the posterior probability score (PPscore) for each protein from the initial model fit as follows:
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0025
+(6)
+This score can be interpreted as a signed probability score, which has a positive sign if the ratio was greater than 1 (upregulated) and a negative sign otherwise (downregulated) 14.
+Following this step, another round of model fitting is iterated. This is necessary at times because a protein can be assigned high scores when it has peptides with inconsistent ratios. Although this rarely happens in high quality datasets, this refitting step excluding the peptides with highly inconsistent ratios reassures that those spurious peptides do not jeopardize the estimation of mixture components. EBprot has an optional argument to specify two criteria to filter out such proteins in the model refitting process: (a) surveillance probability urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0026 and (b) fold change requirements urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0027. Given the values, EBprot flags a protein p if urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0028 is met but its median peptide ratio does not meet the minimal fold change requirement, and excludes these proteins from the model fitting procedure. Using the proteins satisfying all filtering criteria, the model is fit one more time as described in Step A. Finally, the PPscores are computed using the final model fit and reported for all proteins again to preserve the original data. In addition to the PPscore, we also report the posterior (log) odds of upregulation and downregulation as
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0029
+(7)
+where urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0030 denotes urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0031. This additional score can be useful when further prioritization is required after DEPs are selected based on a certain PPscore threshold.
+Step C: Final probability scores urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0032 are computed using the Bayes formula provided in Step B. For the FDR estimation at a score threshold urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0033, we modify the definition of 12 to incorporate the direction of change, namely Bayesian FDR (BFDR) as
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0034
+(8)
+for upregulated proteins (urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0035) and
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0036
+(9)
+for downregulated proteins (urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0037). These estimates are reported as a single column (BFDR) for each EBprot analysis run output.
+Step D: Since we report the PPscores for all proteins, the users are expected to apply suitable flagging criteria (surveillance probability, fold change criteria) to mark spurious cases for the reporting purposes. In our default reports, we use surveillance probability 0.9 and fold change criteria (1/2, 2).
+
+2.3 Mode of analysis in various experimental designs
+
+The aforementioned model was built for comparison of two samples or conditions. Nevertheless the modeling framework can be easily extended to analyze data in multigroup comparisons or replicate designs as long as there is no systematic difference between different group comparisons and the ratios can therefore be merged into a single dataset. Here, we describe how EBprot handles such situations and what it reports in three different scenarios.
+
+2.3.1 Independent experiments
+
+The first scenario is when the dataset has multiple labeling experiments and each experiment corresponds to the comparison of independent biological samples. In this case, we recommend that EBprot be applied to each ratio separately through the “Independent Comparison” option, which performs analysis as such in a single command line call. This implies that the hierarchical mixture model will be fitted and the PPscore and BFDR will also be derived separately for each ratio dataset.
+
+2.3.2 Replicate experiments
+
+The second scenario is when labeling experiments are performed with technical and/or biological replicates for the same comparison. “Technical replicate” refers to a repeated MS experiment of the same biological material (without labeling the samples again), whereas “Biological replicate” refers to a repeated MS experiment of newly labeled biological samples (e.g. forward and reverse labeling of the same biological samples). Ideally one would expect a single confidence score for the same protein since the set of experiments gives repeated measurements across replicate experiments. However, we have observed that these replicate MS runs can introduce systematic shifts in the ratio distributions and merging the ratio datasets for joint modeling can introduce artifacts. For this reason, with the “ReplicateDesign” option, we suggest that the ratios from technical replicates be averaged prior to the analysis (discarding peptides that do not appear in all technical replicates if desired), and the ratios from biological replicates be used as the input. Under this design option, EBprot fits replicate-specific models and provides a post hoc processing step to indicate in how many replicates each protein was up- and downregulated at a given BFDR threshold.
+
+2.3.3 Multiplexed experiments
+
+In the third scenario, multiple samples are compared in a single labeling experiment through multiplexed labeling (e.g. multiplexed iTRAQ and TMT labeling). These datasets can be analyzed by the “MultiplexDesign” option. Here, EBprot treats the ratios for different pairs of conditions for the same protein as different ratios, but models them in one integrated mixture model and computes the probability scores and associated BFDR simultaneously. This design option is thus suitable for time course experiments or the analysis of the same biological sample across multiple conditions (e.g. time course following a treatment), assuming that the reference channel of the labeling was common and all labeled samples were analyzed in a single MS experiment.
+
+2.4 Peptide-protein mapping
+
+When peptide-level quantitative data are rolled up to protein-level statistical summary, an important issue is the handling of shared peptides. In our current implementation of EBprot, we assume that the peptides with unique mapping to a protein or a protein group are used for quantification. In this work, we used peptide-level MaxQuant output data (UPS1) or published data with preassigned protein IDs (lung cancer and EGFR-stimulated HeLa cell data), and thus the protein–peptide hierarchy information was already fixed. In the UPS1 and lung cancer datasets, we took the leading Uniprot IDs reported in the “Proteins” column as protein IDs and computed the scores for those proteins. For the phosphoproteome data, since we analyzed the dataset at the peptide level with unique site localization following the original analysis, we did not suffer from the issue of handling shared peptides.
+
+2.5 Datasets
+
+2.5.1 Simulation datasets
+
+Simulation datasets were generated to emulate the behavior of real data, especially with respect to the number of peptides per protein. After examining the distribution of the number of peptides per protein in the UPS1 dataset and the lung cancer dataset analyzed later, we sampled the number of peptides per protein urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0038 from a mixture of Poisson distributions
+urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0039
+for 2000 proteins, where urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0040 denotes the probability mass function of Poisson distribution with mean λ. This generated a nearly identical distribution for the number of peptides per protein to that of the UPS1 dataset.
+Next, we randomly sampled 100 upregulated and 100 downregulated proteins and sampled its peptide ratios from Gaussian distributions with mean log (2) and urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0041 (depending on the direction of change) and SD 0.75 (this setup is called Set 1). We also generated data with increased signal, specifically by adjusting the mean of Gaussian distributions for the DEPs to log (3) and urn:x-wiley:16159853:media:pmic12008:pmic12008-math-0042 with SD 0.50 (Set 2). For the peptide ratios for non-DEPs, we generated data from the Gaussian distribution with zero mean and SD 0.25. For the protein-level ratio data, we created datasets at the peptide level first, and derived the corresponding protein-level datasets by taking the median of the log ratios over the peptides for each protein. See Supporting Information Fig. 1 for the distribution of the number of peptides per protein and (natural) log-scaled peptide ratios for both settings.
+
+2.5.2 UPS1 benchmark SILAC dataset
+
+HCT116 cells were SILAC-labeled by culturing them in SILAC DMEM (Invitrogen) containing either 13C- and 15N-labeled lysine and arginine (K8R10; heavy) (Cambridge Isotopes) or 12C- and 14N-labeled lysine and arginine (K0R0; light) (Sigma-Aldrich), 10% dialyzed FBS (Thermo Scientific), and 1% penicillin-streptomycin (Gibco) at 37° C in a humidity-saturated 5% CO2 atmosphere. The cells were cultured for approximately six doublings to ensure complete incorporation before harvesting. Cells were washed once with PBS before lysis using 8 M urea in 100 mM ammonium bicarbonate. Protein concentration was determined using the Bradford assay (Bio-rad).
+
+The lyophilized UPS1 (Sigma-Aldrich) was reconstituted in a buffer containing 8 M urea and 50 mM ammonium bicarbonate. A series of 100, 300, and 600 fmol of UPS1 proteins were spiked into a constant cell lysate mix containing 2 μg of light- and 2μg of heavy-labeled HCT116 Parental. Reduction, followed by alkylation, was carried out on the samples with 5 mM DTT (Sigma-Aldrich) and 10 mM iodoacetamide (Sigma-Aldrich), respectively, at room temperature for 30 min. In-solution digestion was performed using Lys-C (Promega) at 37° C for 16 h, followed by trypsin (Promega) at 37° C for 8 h. Desalting was carried out on self-packed C18 stage-tips. The eluted peptides were separated by reverse-phase chromatography on Thermo Scientific Easy-Spray column (PepMap® RSLC, C18, 2mm, 100Å, 75 mm × 50 cm) using Thermo Scientific nanoflow HPLC system (Easy-nLC 1000). Easy-nLC 1000 was coupled to Thermo Scientific Q Exactive benchtop Quadrupole-Orbitrap mass spectrometer. Peptides were loaded into column with buffer A (0.1% formic acid, 2% acetonitrile) and eluted with a 190 min gradient at a flow rate of 200 nL/min from 8 to 40% buffer B (0.1% formic acid, 80% acetonitrile) for 180 min and till 100% buffer for 10 min.
+
+Mass spectra were acquired in the positive ion mode with MS2. Full MS used a resolution of 70 000 with target value of 3E6 for 10 ms ranging from 310 to 2000 m/z. MS2 resolution was 17 500 with target value of 5E4 for 50 ms using top 20 most intense peaks with isolation window of 2 m/z. NCE of 25 and dynamic exclusion window of 15 s were used. The ion intensity threshold was 1E4. All precursor and fragment mass tolerances were set to 20 ppm/0.5 Da in the Q Exactive benchtop Quadrupole-Orbitrap.
+
+The UPS1 datasets were searched against the human sequence database from UniProt Knowledgebase (2014) with a total of 88 479 sequences. Database searches were performed with tryptic specificity allowing maximum two missed cleavages and labeled arginine and lysine. Carbamidomethylation of cysteine was specified as a fixed modification with N-acetylation and oxidized methionine permitted as a variable modification. SILAC peptide and protein quantification was performed with MaxQuant version 1.3.0.5. The proteins were considered identified when supported by at least one unique peptide with a minimum length of seven amino acids. Maximum FDR was set to 0.01 for both protein and peptide.
+
+The MS proteomics data have been deposited to the ProteomeXchange Consortium 20 via the PRIDE partner repository with the project accession identifier PXD001426 (username: reviewer45653@ebi.ac.uk, password 9ClmKEik).
+
+2.5.3 Other datasets
+
+For the lung cancer dataset, the MaxQuant output files were downloaded from the ProteomeXchange at http://proteomecentral.proteomexchange.org (PDX000438) 21. The iTRAQ phosphoproteome dataset was also downloaded from the Supporting Information Table 1 from the journal website 18. We used the reported peptide ratio data for the phosphoproteome analysis.
+
+2.5.4 Perseus
+
+For Perseus analysis, we used the default options for SigB score calculation. The significance B module in Perseus calculates p-values for the detection of significant ratios, applied to subsets of proteins grouped by an intensity binning procedure. The p-values are computed as the tail probabilities in the Gaussian distribution of the log-ratios in each subset. We used the protein level ratios and intensities reported in the MaxQuant protein-level output file (ProteinGroups.txt) as the input in Perseus.
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+

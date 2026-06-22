@@ -1,0 +1,30 @@
+=== TITLE ===
+Evaluation of different phospho-tyrosine antibodies for label-free phosphoproteomics
+
+=== ABSTRACT ===
+Background
+Mass spectrometry based phosphoproteomics emerged as advantageous approach for the analysis of tyrosine phosphorylation on proteins and tyrosine kinase signaling. Immunoaffinity purification is required for comprehensive analysis. Here we compared the performance of two antibodies for label-free phosphotyrosine-based phosphoproteomics.
+Methods
+Phosphopeptide immunoprecipitation of six technical replicates corresponding to 10 mg protein from HCT116 cells was performed using agarose bead-coupled phosphotyrosine antibodies P-Tyr-1000 (N = 3) and 4G10 (N = 3). NanoLC–MS/MS was performed using a Q Exactive mass spectrometer. For relative quantitation of protein phosphorylation, spectral counts of phosphoproteins and ion intensities of phosphopeptides were determined using MaxQuant.
+Results
+From the 3 samples incubated with P-Tyr-1000 a total of 689 phosphopeptides were identified with 60% ID reproducibility. The phosphopeptide capture using 4G10 resulted in a total of 421 at 46% ID reproducibility. The P-Tyr-1000 was applied to EGFR mutated U87 cells. Erlotinib reduced EGFR phosphorylation with 59% at y978, y1125, y1138, y1172, and y1197. EGFR inhibition was accompanied by enhanced phosphorylation of FYN, MET, PTK2, DYRK1A, MAPK1 and EPHA2.
+Conclusion
+The P-Tyr-1000 phosphotyrosine antibody performs superiorly when compared to 4G10 antibody for label-free phosphotyrosine-based phosphoproteomics. This workflow allows evaluation of drug target phosphorylation and may give insights in the pharmacodynamic effects of tyrosine kinase inhibitors.
+Clinical significance
+In the past decade multiple tyrosine kinase inhibitors (TKIs) have been implemented in standard treatment regimens for patients with cancer. Unfortunately the majority of patients develops resistance to these drugs. Reliable tools for analysis of pharmacodynamic effects and drug resistance mechanisms are therefore warranted. Phosphoproteomic analyses have meanwhile emerged as a sophisticated approach for the determination of protein phosphorylation. These analyses rely on antibodies for enrichment of tyrosine-phosphorylated peptides. Here we compared two commercially available phosphotyrosine antibodies and show that P-Tyr-1000 yields 64% more phosphopeptides than 4G10 antibody, while including almost all 4G10 captured phosphopeptides. The workflow can be reproducibly performed at intermediate protein input levels of 10 mg. Furthermore, application of the P-Tyr-1000 antibody in a standardized phosphoproteomics workflow allows relative quantitation of drug target inhibition and provides insights in alternative signaling pathways in cancer cells.
+
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+Supplementary methods. 
+Peptides were separated by an Ultimate 3000 nanoLC-MS/MS system (Dionex LC-Packings, Amsterdam, The Netherlands) equipped with a 20 cm × 75 μm ID fused silica column custom packed with 3 μm 120 Å ReproSil Pur C18 aqua (Dr Maisch GMBH, Ammerbuch-Entringen, Germany) at 300 nl/min in a 10–40% buffer B (buffer A: 0.5% acetic acid (Fischer Scientific), buffer B: 80% ACN, 0.5% acetic acid) gradient in 90 min (120 min inject-to-inject). Eluting peptides were ionized at a potential of +2 kVa into a Q Exactive mass spectrometer (Thermo Fisher, Bremen, Germany). Intact masses were measured at resolution 70.000 (at m/z 200) in the orbitrap using an AGC target value of 3 × 106 charges. The top 10 peptide signals (charge-states 2+ and higher) were submitted to MS/MS in the HCD (higher-energy collision) cell (4 amu isolation width, 25% normalized collision energy). MS/MS spectra were acquired at resolution 17.500 (at m/z 200) in the orbitrap using an AGC target value of 2 × 105 charges and an underfill ratio of 0.1%. Dynamic exclusion was applied with a repeat count of 1 and an exclusion time of 30 s. 
+MS/MS spectra were searched against the Uniprot human reference proteome FASTA file (release February 2013, 70136 entries, and release January 2014, 61552 entries) using MaxQuant 1.4.1.2.(1). Enzyme specificity was set to trypsin and up to two missed cleavages were allowed. Cysteine carboxamidomethylation (Cys, +57.021464 Da) was treated as fixed modification and serine, threonine and tyrosine phosphorylation (+79.966330 Da), methionine oxidation (Met,+15.994915 Da) and N-terminal acetylation (N-terminal, +42.010565 Da) as variable modifications. Peptide precursor ions were searched with a maximum mass deviation of 4.5 ppm and fragment ions with a maximum mass deviation of 20 ppm. Peptide, protein and site identifications were filtered at an FDR of 1% using the decoy database strategy. The minimal peptide length was 7 amino-acids and the minimum Andromeda score for modified peptides was 40 and the corresponding minimum delta score was 17(2). Peptide identifications were propagated across samples using the match-between-runs option checked. Searches were performed with the label-free quantification option selected. For statistical analysis of phospho-protein spectral counts, the beta-binomial test has been used as previously published(3). 
+
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+

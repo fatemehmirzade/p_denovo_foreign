@@ -1,0 +1,70 @@
+=== TITLE ===
+The Null-Test for peptide identification algorithm in Shotgun proteomics
+
+=== ABSTRACT ===
+The present research proposed general evaluation strategy named Null-Test for peptide identification algorithm in Shotgun proteomics. The Null-Test method based on random matching can be utilized to check whether the algorithm has a tendency to make a mistake or has potential bugs, faultiness, errors etc., and to validate the reliability of the identification algorithm. Unfortunately, none of the five famous identification software could pass the most stringent Null-Test. PatternLab had good performance in both Null-Test and routine search by making a good control on the overfitting with sound design. The fuzzy logics based method presented as another candidate strategy could pass the Null-Test and has competitive efficiency in peptide identification. Filtering the results by appropriate FDR would increase the number of discoveries in an experiment, at the cost of losing control of Type I errors. Thus, it is necessary to utilize some more stringent criteria when someone wants to design or analyze an algorithm/software. The more stringent criteria will facilitate the discovery of latent bugs, faultiness, errors etc. in the algorithm/software. It would be recommended to utilize independent search combining random database with statistics theorem to estimate the accurate FDR of the identified results.
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+2.1. Null-Test
+An incorrect PSM is easy to be discriminated by researcher or algorithm, but the random matches might be hard to be distinguished for the reason that they can confuse the human sometimes or have a broad distribution of score by engaging in the correct ones. This broad distribution of random matching makes the boundary of distinction between correct and incorrect matching ambiguous. At last, it is hard to set a definite cut-off value for the scores of PSMs. There is another concern with this problem that is how to detect the mistakes the peptide identification algorithm will tend to make. The Null-Test designed in this work is trying to validate the reliability of peptide identification algorithm. The basic function of the peptide identification algorithm is to distinguish the correct PSMs from the candidates, which means that the algorithm is at least a one class classifier. In the viewpoint of an ideal classifier, there will be no significant difference while two random sample sets with equal statistical distribution are compared. Strictly, the ideal peptide identification algorithm will not determine any peptide in the random sequence database while using its reverse as a decoy, because the reverse of a random database is still a random database with the same distribution and vice versa. If a classifier is overfitting or an algorithm/software has potential bugs, faultiness, errors etc., it will distinguish these two random sets. So the Null-Test can verify the robustness and reliability of a peptide identification algorithm. The detailed procedures of Null-Test are shown in Table 2.
+Table 2. The procedures of Null-Test.
+
+Steps	Description
+1	Generate 120,000 proteins (or more) whose lengths uniformly and randomly distribute in the range of [100, 1000]. And all the amino acid residues have the same probability to exist in a specific protein sequence. Then all the protein sequences are reversed to generate the reversed decoy database.
+2	Set FDR = 0.2, and other parameters are set as desired. Start the Target-Decoy searching.
+3	If the algorithm identifies 1 or 0 peptide, it passes the Null-Test. If the algorithm identifies > 1 peptides, it does not pass the Null-Test.
+In Step 1, the number of protein is the more the better. It will have statistical meaning when the protein number is larger than 100,000. The average length of protein sequences in the Null-Test database is 550 amino-acid residues, and then entire sequence length of the database satisfies the relation of 550 ∗ 100000 > 205. The database will get enough repetitions for the peptides shorter than 5 amino-acid residues, which will guarantee that the accidental matching of short peptide does not affect the testing results. If the protein number is larger than 120,000, some of the software such as Morpheus [26], [27] would crash while running. So in this research the number of random proteins would be set as 120,000. It would be appropriate that the length of random sequence is in the range of [100, 1000], because it can provide appreciable amount of peptide by theoretical digestion.
+The value of FDR in Null-Test is set to 0.2 following the convention in pattern recognition [28]. The expected probability of observing the reversed protein in Null-Test is 0.5 at any score level because the random database and its reverse are undistinguishable from theoretical perspective. It will be adequately strict via setting FDR = 0.2 for determining the robustness and reliability of the identification algorithm.
+When the random protein database is large enough, it is reasonable to implement a single Null-Test for a specific algorithm. If the peptide identification algorithm is robust and not overfitting, its FDR calculated by arranging the scores in descending order will reach 0.2 immediately. If the peptide identification software/algorithm would not present all the scores of PSMs, we can judge the reliability of software/algorithm by counting how many random peptides have come out. In this situation, the ideal result is that a software/algorithm just identifies 0 or 1 peptide. The more peptides come out (V in Table 1), the lower reliability the software/algorithm will have. If the peptide identification software/algorithm would present all the scores of PSMs, we can judge the reliability of software/algorithm by how fast its FDR converges to 0.5. The FDR was calculated via Nr/Ntop, where Ntop stands for the N top-scored PSMs according to the specific cut-off value, and Nr stands for the N top-scored PSMs from the reversed database according to the same cut-off value.
+According to multiple independent Null-Test, the determination for all the algorithm will have much more rigorous statistical meaning. The present research will implement 7 independent Null-Tests in total and discuss the reliability of the peptide identification algorithm.
+2.2. The Fuzzy Logic Based Scoring (FLOGS) method
+The perfect reference of Null-Test is human intelligence, but it is not convenient to implement manual analysis for a large dataset. Therefore, we attempt to design a scoring method by simulating the logical reasoning and the fuzzy discrimination of human intelligence. At last, a novel scoring method named Fuzzy Logic based Scoring (FLOGS) as a reference for Null-Test has been proposed in this work. The ion space (or spectral space) based scoring methods, such as pFind [29], [30] and Morpheus [26], [27], would be simplified as fragment counting methods for the reason that the ion space is extremely complicated. This simplification would have a risk in robustness. FLOGS will be based on the information space of the candidate peptide which will be more regular and easier to transform into calculation formula. Suppose a candidate peptide has l amino residues, then it reflects an information vector with length l. Define the information vector as a column vector whose corresponding peptide is arranged as N-terminal on top and C-terminal at bottom. If a bn ion of the candidate peptide has been detected in the mass spectrum, then it reflects a vector with 1 from the 1st position to the nth and 0 elsewhere. Other N-terminal ions are encoded in the same way, but the C-terminal ions are encoded in a reverse direction (details in Fig. 2). At last all encoded vectors are collected in an encoding matrix C.
+Fig. 2
+Download: Download high-res image (92KB)
+Download: Download full-size image
+Fig. 2. The encoding law for a peptide whose length is 6.
+
+When the encoding matrix C has been generated, the information matrix X will be calculated via Eq. (1) X contains three kinds of “mutual verification between ions”: the self-identified, the existence of short ion under the guarantee of long ion and the intersection of different terminal ions. These mutual verifications are based on the inner product of xij = ciT ⋅ cj which is the element-wise explanation of Eq. (1). If i = j, it is a self-identifying of the same fragment; if the fragment ion expressed by the ith column is longer than the fragment ion expressed by the jth column and both ions have the same terminal, the ith ion guarantees the existence of the jth ions; if the sum of the length of ith and jth fragment ion is larger than l and the two ions have different terminals, then the inner products will detect the intersection which is larger than 0. A detailed schematic diagram is shown in Fig. 3.
+(1)
+Fig. 3
+Download: Download high-res image (74KB)
+Download: Download full-size image
+Fig. 3. The schematic diagram about the three mutual verifications accomplished by matrix product.
+
+Another important part of FLOGS is the fuzzy discrimination for the quality of a specific mass spectrum based on the logistics function (Fig. 4). Suppose u to be the proportion of valid signal in the spectrum. In the situation of label-free experiment, u equals to the proportion of matched signal in the total intensity of the spectrum; in the situation of labeling experiment, u equals to the proportion of matched signal in the sum of valid labeled signal of the spectrum. The response curve in Fig. 4 demonstrates the quantization of judgment about the quality of the mass spectrum (good, neutral and bad) based on the experience of researchers. When the proportion of the valid MS signal is lower than 0.3, the intuitive judgment of the spectrum declines fast.
+Fig. 4
+Download: Download high-res image (43KB)
+Download: Download full-size image
+Fig. 4. The fuzzy logistics function and its response curve.
+
+Finally, we combine the fuzzy function and the information matrix and get Eq. (2). The variable p represents the number of complementary ion observed in the spectrum. In order to normalize the information content of each peptide to 1, the sum of the elements of X is divided by l. After score method in the source code of Morpheus is substituted by FLOGS, then the source code is compiled to run.
+(2)
+3. Experiment and data
+3.1. Sample preparation and LC-MS data acquisition
+MCF-7 cells (107) were suspended with 8 M urea containing 1% cocktail (v/v), and then sonicated in an ice-water ultrasonic bath for 3 min (10 s on and 10 s off) to extract proteins. The solution was then centrifuged at 20000 rpm for 30 min, and the supernatant was stored at − 80 °C before it was used.
+BCA assay was performed to determine the protein concentration. Proteins extracted from MCF-7 cells were further diluted with 20 mM NH4HCO3 (pH 8.0) to 0.2 mg/mL. All protein samples were denatured by heating at 95 °C for 5 min. Then, samples were cooled at room temperature and reduced with 10 mM DTT at 56 °C for 1.5 h. Subsequently, cysteine residues were alkylated in 20 mM IAA at room temperature for 40 min in the dark. The in-solution digestion was performed by adding trypsin into protein solution with a substrate-to-enzyme ratio of 50:1 (m/m) and incubated at 37 °C overnight. Finally FA was added to adjust the pH of solution to 2–3 and terminate the reaction. The resulted peptides were stored at − 20 °C before usage.
+A nano-RPLC-ESI-MS/MS system integrated with Ultimate™ 3000 RSLCnano and Q Exactive™ (Thermo Fisher, San Jose, CA, USA) was used for analysis of real samples. The experimental conditions of nano-RPLC were as follows: C18 trap column (150 μm i.d., 3 cm length); C18 separation column (75 μm i.d., 13 cm length); mobile phase, 2% (v/v) ACN containing 0.1% (v/v) FA (A), 98% (v/v) ACN containing 0.1% (v/v) FA (B); flow rate, 300 nL/min; separation gradient: 0–5 min, 2–5% B; 5–85 min, 5–22% B; 85–110 min, 22–35% B; 110–120 min, 35–80% B; 120–135 min, 80% B.
+For Q Exactive™ analysis, the instrument was operated at positive ion mode. The temperature of ion transfer capillary and the spray voltage were set at 275 °C and 2.7 kV. Total ion chromatograms and mass spectra were recorded from m/z 300 to 1800 with Xcalibur software (version 2.3.0). One microscan was set for each MS and MS/MS scan. MS/MS spectra were acquired in the data dependent mode, and set as 1 full MS scan (resolution = 70,000, at m/z 200) followed by 15 MS/MS scans (resolution = 17,500, at m/z 200). The AGC value and max injection time of MS scan were 1e6 and 50 ms, and those for MS/MS scan were 1e5 and 100 ms, respectively. Precursor selection was based on parent ions intensity. Isolation of precursors was performed with a window of 2 Da. The normalized collision energy of higher-energy C-trap dissociation (HCD) was 28 eV. The dynamic exclusion duration was 20 s.
+3.2. Data analysis
+The random sequences of 120,000 proteins for Null-Test were generated by MATLAB2014a. And the subsequent statistics analysis was handled by MATLAB. The Swiss-Prot protein database of human contains 40,550 proteins, which had been downloaded on June 2014. The protein identification software used in this work are Morpheus 1.0, pFind 2.8, Mascot 2.3.2, MaxQuant 1.3 and PatternLab 4.0 [31], [32], [33], [34].
+The common parameters of identification are shown on Table 3. The unique parameters of each software follow the optimal recommendation.
+Table 3. The common parameters of identification.
+
+Search parameters	Empty Cell
+Enzyme	Trypsin
+Maximum missed cleavages	2
+Fixed modifications	Carbamidomethyl (C)
+Variable modifications	Acetyl (Protein N-term), oxidation (M)
+Peptide mass tolerance	20 ppm
+Fragment mass tolerance	20 ppm
+Mass values	Monoisotopic
+
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+
