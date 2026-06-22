@@ -1,0 +1,52 @@
+=== TITLE ===
+Human aqueous humor proteome in cataract, glaucoma, and pseudoexfoliation syndrome.
+
+=== ABSTRACT ===
+Twenty-nine human aqueous humor samples from patients with eye diseases such as cataract and glaucoma with and without pseudoexfoliation syndrome were characterized by LC-high resolution MS analysis. In total, 269 protein groups were identified with 1% false discovery rate including 32 groups that were not reported previously for this biological fluid. Since the samples were analyzed individually, but not pooled, 36 proteins were identified in all samples, comprising the constitutive proteome of the fluid. The most dominant molecular function of aqueous humor proteins as determined by GO analysis is endopeptidase inhibitor activity. Label-free protein quantification showed no significant difference between glaucoma and cataract aqueous humor proteomes. At the same time, we found decrease in the level of apolipoprotein D as a marker of the pseudoexfoliation syndrome. The data are available from ProteomeXchange repository (PXD002623).
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+2.1 Subjects
+This study was performed under the guidance of the institutional Ethical Committees. The samples were collected from the patients in ophthalmological department of Botkin Moscow City Clinical Hospital (Moscow, Russia). The informed consent of all participating subjects was obtained under the institutional ethical requirements.
+
+Human aqueous humor samples were collected from 29 Caucasian patients undergoing surgery. At the moment of specimen withdrawal, the patients had not been subjected to any laser eye surgery operations for the previous year and major surgeries for the previous 5 years. They also did not have any chronic systemic disorders, cancer, asthma, or diabetes.
+
+Sixteen specimens were obtained during cataract surgery, while thirteen samples were collected from glaucoma patients during sinus trabeculectomy surgery, see Table 1. Collection of aqueous humor was performed as described previously 26. Briefly, a 1 mm paracentesis was made in the peripheral cornea and the tip of a 25-gauge cannula was inserted through the paracentesis tract into the mid-anterior chamber. Small volume of aqueous humor (50–100 μL) was slowly aspirated. Aspiration was stopped as soon as the anterior chamber began to shallow. After the removal from the anterior segment the aqueous humor specimens were transferred to vials, frozen, and stored at –80°C.
+
+Table 1. Summary of human aqueous humor samples
+Group	Eye disease	Sample size (n)	Age (Mean ± SD)	Protein concentration, [μg/μL] (Mean ± SD)
+1	Cataract	11	67.5 ± 12.1	4.6 ± 1.7
+2	Pseudoexfoliative cataract	5	76 ± 5.2	2.5 ± 1.6
+3	Primary open angle glaucoma	7	76.9 ± 3.6	4.3 ± 1.8
+4	Pseudoexfoliative glaucoma	6	74.5 ± 6.9	2.7 ± 0.7
+All	29	72.6 ± 9.3	3.8 ± 1.8
+All samples of aqueous humor utilized herein were obtained from diseased patients during surgery. In general, this biofluid is not available from a healthy person. Invasive interventions in order to obtain healthy hAH specimens are not ethically approved in most cases.
+
+2.2 Sample preparation
+The amount of total protein in each sample was measured by bicinchoninic acid assay (Sigma, USA) using NanoDrop ND-1000 spectrophotometer (Thermo Scientific, USA).
+
+Protein digestion was carried out by filter-aided sample preparation technique 27. Briefly, 50 μg of a sample was loaded onto a Microcon filter unit YM-30 (Millipore) and washed with 8 M urea, followed by protein alkylation with 50 mM iodoacetamide in 8 M urea in darkness for 20 min. After alkylation, the filters were washed twice with 8 M urea and twice with 40 mM ammonium bicarbonate. Trypsin (Promega, USA) was added to the samples at 100:1 protein-to-enzyme ratio and incubated overnight at 37°C. Later the same quantity of trypsin was added followed by incubation for 2 h. Resultant peptides were collected from the filters by centrifugation.
+
+2.3 LC-MS/MS analysis
+Chromatographic analyses were performed on an Agilent HPLC system 1100 Series (Agilent Technologies, USA), where 4 μg of peptides in 5% v/v formic acid was injected onto a trap column Zorbax 300SB–C18, 5 × 0.3 mm (Agilent Technologies, USA). After washing with 5% v/v acetonitrile with 0.1% v/v peptides were resolved on a 150 mm x 75 μm Zorbax 300SB-C18 reverse phase analytical column (Agilent Technologies, USA) over 30 min organic gradient of 5–60% acetonitrile, 0.1% formic acid with flow rate of 300 nl/min. Peptides were ionized by nano-electrospray ionization at 2.0 kV using a fused silica emitter with internal diameter of 8 μm (New Objective, USA). MS/MS analysis was carried out on an Orbitrap QExactive mass spectrometer (Thermo Scientific, USA). Mass spectra were acquired in positive ion mode. High resolution data were acquired in the Orbitrap analyzer with resolution of 70 000 (m/z 400) for MS and 15 000 (m/z 400) for MS/MS scans. Survey MS scan was followed by MS/MS spectra of the five most abundant precursors. For peptide fragmentation higher energy collisional dissociation was set to 35 eV; the signal threshold was set to 5000 for an isolation window of 2 m/z and the first mass of higher energy collisional dissociation spectra was set to 100 m/z. Fragmented precursors were dynamically excluded from targeting for 90 seconds. Singly charged ions and ions with undefined charge were excluded from triggering MS/MS scans. The automatic gain control target value was regulated at 1 × 106 with maximum injection time of 100 ms and at 1 × 105 with maximum injection time of 250 ms for MS and MS/MS scans, respectively. All samples were analyzed in two or more technical replicates. All runs of LC-MS/MS lasted for 136.5 h. All analyses were performed for one week in order to minimize the environmental factors influencing the mass-spectrometer performance.
+
+The MS data were deposited to ProteomeXchange Consortium 28 via PRIDE partner repository (PXD002623).
+
+2.4 Protein identification and label-free quantification analysis
+All raw files were processed using MaxQuant software version 1.5.2.8 29. The spectra were searched by Andromeda search engine against the human Uniprot database, release "2014_06" containing sequences of 88 976 human proteins. The MaxQuant analysis included an initial search with precursor mass tolerance of 20 ppm, the results were used for mass recalibration. In the main Andromeda search, precursor and fragment mass tolerances were set to 4.5 ppm and 20 ppm, respectively. The search included variable modifications, such as methionine oxidation and N-terminal acetylation, and carbamidomethyl cysteine as a fixed modification. Minimal peptide length was set to seven amino acids and maximum of two missed cleavages was allowed. FDR was set to 1% for both peptide and protein identifications with reversed decoy mode according to the default parameter settings. Label-free quantification (LFQ) was performed according to the default parameter settings of MaxQuant. Unique and razor peptides of protein groups were used to calculate protein ratios in course of LFQ. The search parameters are additionally available in Supporting Information Table 1.
+
+Bioinformatic analysis of the MaxQuant output was performed with the Perseus software, version 1.5.1.6 (available at www.MaxQuant.org) 30. The proteins that were identified by two of more unique peptides were selected. The default setting of the software use trypsin, serum albumin, keratins, skin proteins, such as hornerin and filaggrins as contaminants. We have excluded only trypsin and keratins from the analysis. Despite the fact that keratins are intrinsically contained in hAH, their isoforms are usually not discriminated in shotgun analysis and are not informative. We assumed that albumin, hornerin, and filaggrins identified in aqueous humor were more likely to be hAH intrinsic components rather than contaminants.
+
+2.5 Sample classification
+The final dataset contained mean LFQ intensity for 269 proteins identified in total 29 samples. In order to find variables differing between patients with or without PEX we employed decision tree algorithm implemented in rpart library from R language and environment for statistical computing, version 3.1.2 [www.r-project.org].
+
+2.6 GO analysis
+GO 31 and UniProt 32 were used to annotate proteins with biological process, molecular function, and cellular component categories. Enrichment analysis was performed using GOrilla resource 33. The background set was downloaded from the HGNC website [www.genenames.org].
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+

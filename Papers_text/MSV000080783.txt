@@ -1,0 +1,675 @@
+=== TITLE ===
+N -Myristoyltransferase Inhibition
+Induces ER-Stress, Cell Cycle Arrest, and Apoptosis in Cancer Cells
+
+=== ABSTRACT ===
+N -Myristoyltransferase (NMT) covalently attaches
+a C14 fatty acid to the N-terminal glycine of proteins and has been
+proposed as a therapeutic target in cancer. We have recently shown
+that selective NMT inhibition leads to dose-responsive loss of N -myristoylation on more than 100 protein targets in cells,
+and cytotoxicity in cancer cells. N -myristoylation
+lies upstream of multiple pro-proliferative and oncogenic pathways,
+but to date the complex substrate specificity of NMT has limited determination
+of which diseases are most likely to respond to a selective NMT inhibitor.
+We describe here the phenotype of NMT inhibition in HeLa cells and
+show that cells die through apoptosis following or concurrent with
+accumulation in the G1 phase. We used quantitative proteomics to map
+protein expression changes for more than 2700 proteins in response
+to treatment with an NMT inhibitor in HeLa cells and observed down-regulation
+of proteins involved in cell cycle regulation and up-regulation of
+proteins involved in the endoplasmic reticulum stress and unfolded
+protein response, with similar results in breast (MCF-7, MDA-MB-231)
+and colon (HCT116) cancer cell lines. This study describes the cellular
+response to NMT inhibition at the proteome level and provides a starting
+point for selective targeting of specific diseases with NMT inhibitors,
+potentially in combination with other targeted agents.
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+In-gel fluorescence was recorded using an ETTAN
+Dige Imager (GE Healthcare). Chemiluminescence was recorded using
+a LAS-3000 Imaging System (Fujifilm). Absorbance in 96-well plates
+was measured using a SpectraMax M2/M2e Microplate Reader from Molecular
+devices. Culture media and reagents were obtained from Sigma-Aldrich,
+Gibco (Life technologies) and A&E Scientific (PAA). For quantitative
+proteomics (SILAC), R10K8 and R0K0 DMEM media were purchased from
+Dundee cell products, and the cell dissociation buffer (enzyme free,
+PBS-based) was obtained from Gibco (Life Technologies). Dialyzed FBS
+was obtained from Sigma-Aldrich. All buffers were filtered using a
+0.2 μM filter to prevent any contamination. MTS assay was performed
+as previously described. 3
+
+HeLa, MDA-MB-231, and MCF-7 cells were
+grown in DMEM supplemented with 10% FBS and 1% penicillin/streptomycin.
+HCT 116 cells were grown in McCoy’s 5a Medium Modified supplemented
+with 0.22 g/L glutamine, 10% FBS, and 1% penicillin/streptomycin.
+All cells were grown in a humidified 10% CO 2 -containing
+atmosphere at 37 °C. Cells were plated 24 h before treatments.
+The number of cells plated for each cell line can be found in the Supporting Information .
+
+Cells were incubated
+with inhibitor 1 (0, 1, or 5 μM) for 0–7
+days before cell lysis (Western blot analysis), cell fixation (flow
+cytometry experiments), or treatment with MTS (cell cytotoxicity assay).
+The total amount of DMSO was normalized to the maximum amount of DMSO
+used.
+
+After treatment with inhibitor 1 , cells were washed with PBS (3×) and lysed on ice (lysis buffer
+for apoptosis samples: PBS 1×, 0.1% SDS, 1% Triton X-100, 1 ×
+EDTA-free complete protease inhibitor (Roche Diagnostics), and lysis
+buffer for ER stress/UPR samples: 100 mM tris at pH 7.4, 4% SDS, EDTA-free
+protease inhibitor). Lysates were kept on ice for 20 min and centrifuged
+at 17 000 g for 20 min to remove insoluble
+material. Supernatants were collected and stored at −80 °C.
+Protein concentration was determined using the Bio-Rad DC Protein
+Assay. Proteins were separated on an SDS-PAGE gel and transferred
+to PVDF membranes (Millipore, Immobilon-PSQ membrane, pore size 0.2
+μM) or nitrocellulose membranes (GE Healthcare, Hybond ECL,
+pore size 0.45 μM) using a wet transfer setup and a Tris-glycine
+transfer buffer supplemented with 0.1% SDS and 10% MeOH. Membranes
+were washed with TBS-T (1 × TBS, 0.1% Tween-20), blocked (5%
+dried skimmed milk in TBS-T), washed with TBS-T (3×), and then
+incubated with the appropriate primary antibody [BiP (Cell Signaling
+Technology, 9956S), Ero1-Lα (Cell Signaling Technology, 9956S),
+IRE1α (Cell Signaling Technology, 9956S), PDI (Cell Signaling
+Technology, 9956S), PERK (Cell Signaling Technology, 9956S), c-Src
+(Cell Signaling Technology, 2123), Tubulin (Santa Cruz, SC53646),
+pro-caspase 3 (Cell Signaling Technology SC13156), NMT1 (Atlas Antibodies,
+HPA022963), BID (Cell Signaling Technology 2002S), PARP (Santa Cruz,
+SC8007), CHOP (Cell Signaling Technology, 2895), Hsp90 (Santa Cruz,
+sc-69703), eIF2α (Cell Signaling Technology, 9722), phosphor-eIF2α
+(Cell Signaling Technology, 9721), or ATF4 (Proteintech, 10835-1-AP)]
+in blocking solution overnight, washed with TBS-T (4×, 10 min),
+incubated with the appropriate secondary antibodies in blocking solution
+for 1 h (mouse: HRP goat anti mouse, 1/20 000, BD Pharmingen, cat.
+no. 554002; rabbit: HRP goat anti rabbit, 1/5000, Invitrogen, cat.
+no. G-21234) washed with TBS-T (4×, 10 min) and developed with
+Luminata Crescendo Western HRP substrate (Millipore) according to
+the manufacturer’s instructions and on a Fujifilm LAS 3000
+imager.
+
+After treatment with inhibitor 1 or DMSO, both adherent and floating cells were harvested
+and washed with PBS (2 × 1 mL). Cell pellets were resuspended
+in 70% EtOH and fixed overnight at 4 °C or for several days at
+−20 °C. Fixed cells were washed with PBS (2 × 1 mL).
+Cell pellets were resuspended in PI solution (200 μL, 50 μg/mL)
+and transferred to a 5 mL tube for flow cytometry analysis. A total
+of 10 μL of RNase was added to each tube. Samples were quickly
+vortexed and incubated at RT in the dark prior to analysis. Samples
+were processed using a BD LSRFortessa cell analyzer (BD Biosciences,
+UK). The distribution of cells in each phase of the cell cycle was
+calculated using FlowJo 7.6.5 software.
+
+Dead and apoptotic cells were
+detected using an FITC Annexin V Apoptosis Detection Kit I (BD Pharmingen)
+and the protocol described by the supplier with some modifications.
+
+After treatment with the inhibitor or DMSO, both adherent and floating
+cells were harvested and washed with PBS (2 × 1 mL). Cell pellets
+were resuspended in 200 μL of 1× binding buffer (1 ×
+10 6 cells/mL). A total of 100 μL of the solution
+were transferred to a 5 mL tube. A total of 5 μL of FITC Annexin
+V and 5 μL PI were added. The samples were vortexed and incubated
+for 15 min at RT in the dark. A total of 400 μL of 1× binding
+buffer was added to each tube prior to analysis by flow cytometry.
+Samples were analyzed within 1 h following PI and Annexin V addition.
+Samples were processed using a BD LSRFortessa cell analyzer (BD Biosciences,
+UK). Samples were compensated automatically using untreated cells
+and unstained, apoptotic cells (1 μM STS treatment for 6 h)
+stained with Annexin V and dead cells (10 μM treated cells for
+7 days) stained with PI.
+
+The distribution of apoptotic, dead,
+and alive cells was calculated
+using FlowJo 7.6.5 software.
+
+Cells were treated
+with BrdU (10 mM,
+GE Healthcare) for 30 min before the end of the experiment. Both adherent
+and floating cells were harvested and washed with PBS (1 × 1
+mL). Cell pellets were resuspended in 70% EtOH and fixed overnight
+at 4 °C or for several days at −20 °C. Fixed cells
+were washed with PBS (1 × 1 mL) and collected by centrifugation.
+Cells were resuspended in 2 M HCl/0.5% (v/v) Triton X-100 and incubated
+at RT for 30 min.
+
+Cells were collected by centrifugation, washed
+in 1 mL of neutralizing solution (0.1 M Tris at pH 8.5), and collected
+once more before addition of 1 mL of blocking solution (1% (w/v) BSA/0.5%
+(v/v) Tween 20 in PBS). A total of 10 6 cells were transferred
+to a Falcon tube and collected by centrifugation. Cells were resuspended
+directly in a solution of the FITC-conjugated anti-BrdU antibody (347583,
+BD Biosciences, 1 μL) in blocking solution (1% (w/v) BSA/0.5%
+(v/v) Tween 20 in PBS, 19 μL) and incubated at RT in the dark
+for 30 min. Cells were then washed with blocking solution and collected
+by centrifugation. Cell pellets were resuspended in PI solution (200
+μL, 50 μg/mL) and transferred to a 5 mL tube for flow
+cytometry analysis. A total of 10 μL of RNase was added to each
+tube. Samples were incubated at RT in the dark prior to analysis.
+FITC-fluorescence against PI fluorescence using the FlowJo 7.6.5 software.
+BrdU positive cells were scored as the population of cells with FITC-fluorescence
+higher than that of the G1 or G2/M population
+
+Following treatment
+with inhibitor 1 for 0, 1, 2, or 3 days (5 μM),
+adherent and floating cells were lysed in 100 mM Tris at pH 7.4, 4%
+SDS, 0.1 M DTT EDTA-free protease inhibitor. Protein concentration
+was determined, and the samples were spiked-in with a heavy spike-in
+standard prepared by lysing heavy HeLa cells in the same lysis buffer.
+The samples and spike-in standard were mixed in a 1:1 ratio. Samples
+were digested according to a Filter-Aided Sample Preparation (FASP)
+protocol, which was performed using a 5 kDa molecular weight cutoff
+filter (EMD Millipore), according to Sharma et al. ( 26 ) with modifications. Briefly, 30 μL
+of each sample (60 μg of lysate) was mixed with 200 μL
+of 8 M urea in 100 mM Tris-HCl (pH 8.5; urea buffer) in the spin filter
+and centrifuged at 14 000 g for 15 min at 20
+°C to remove SDS. The centrifugation steps were repeated if the
+volume left in the filter exceeded 50 μL. The proteins were
+washed with 200 μL of urea buffer to exchange any remaining
+SDS by urea. The proteins were alkylated with 100 μL of 50 mM
+iodoacetamide for 20 min at RT in the dark. The proteins were washed
+with urea buffer (2 × 100 μL) and with 50 mM ammonium bicarbonate
+(pH 8.0; 5 × 200 μL). A total of 1 μg of trypsin
+in 100 μL of 50 mM ammonium bicarbonate (pH 8.0) was added to
+the proteins in the spin filter, and proteins were digested with trypsin
+overnight at 37 °C. Peptides were eluted by centrifugation by
+the addition of 40 μL of 50 mM ammonium bicarbonate (pH 8.0)
+and of 50 μL of 0.5 M NaCl. Where indicated, samples were fractionated
+to increase the number of identified proteins according to a published
+protocol. 34 Samples were acidified with
+TFA (1% (v/v) TFA) and loaded on the sorbent and washed with 0.2%
+(v/v) TFA in Milli-Q water (2 × 60 μL) to desalt the sample.
+Elution occurred from the sorbent (SDB-RPS from 3M) with 60 μL
+of 100 mM ammonium formate, 40% (v/v) ACN, and 0.5% (v/v) formic acid
+to give “fraction 1,” with 60 μL of 5% (v/v) ammonium
+hydroxide and 80% (v/v) ACN to yield “fraction 2,” followed
+by elution with 60 μL 5% (v/v) ammonium hydroxide and 80% (v/v)
+ACN to give “fraction 3.” Fractions were concentrated
+and peptides dissolved in 0.5% TFA and 2% acetonitrile in water before
+being transferred into LC-MS sample vials. Nonfractionated samples
+were desalted prior to LC-MS/MS analysis according to a published
+protocol. 57 Elution from the sorbent (SDC-XC
+from 3M) with 70% acetonitrile in water was followed by speed-vac-assisted
+solvent removal, reconstitution of peptides in 0.5% TFA, and 2% acetonitrile
+in water and transferred into LC-MS sample vials.
+
+The analysis was performed as previously
+described 3 using an Acclaim PepMap RSLC
+column (50 cm × 75 μm inner-diameter; Thermo Fisher Scientific)
+using a 2 h acetonitrile gradient in 0.1% aqueous formic acid at a
+flow rate of 250 nL min –1 . Easy nLC-1000 was coupled
+to a Q Exactive mass spectrometer via an easy-spray
+source (all Thermo Fisher Scientific). The Q Exactive was operated
+in data-dependent mode with survey scans acquired at a resolution
+of 75 000 at m / z 200 (transient
+time 256 ms). Up to 10 of the most abundant isotope patterns with
+a charge of +2 or higher from the survey scan were selected with an
+isolation window of 3.0 m / z and
+fragmented by higher-energy collision dissociation (HCD) with normalized
+collision energies of 25. The maximum ion injection times for the
+survey scan and the MS/MS scans (acquired with a resolution of 17 500
+at m / z 200) were 20 and 120 ms,
+respectively. The ion target value for MS was set to 106 and for MS/MS
+to 105, and the intensity threshold was set to 8.3 × 102.
+
+The data were processed with
+MaxQuant version 1.3.0.5, 58 and the peptides
+were identified from the MS/MS spectra searched against the human
+Swissprot+Isoforms database (July 2013) using the Andromeda search
+engine. Cysteine carbamidomethylation was used as a fixed modification
+and methionine oxidation as a variable modification. Up to two missed
+cleavages were allowed. “Unique and razor peptides”
+mode was selected. The FDR was set to 0.01 for peptides, proteins,
+and sites. Other parameters were used as preset in the software. Data
+were analyzed using Microsoft Office Excel 2007 and Perseus version
+1.3.0.4.
+
+The experiment
+comprised three biological replicates for each sample (0 day treatment,
+1 day treatment, 2 day treatment, 3 day treatment). The replicates
+were grouped together. Ratios of light/heavy (L/H, corresponding to
+the amount of protein in the lysate treated with the inhibitor for
+0–3 days/amount of protein in the spike-in standard) found
+for each protein, each condition, and each replicate (three biological
+replicates) were determined by MaxQuant as explained above. The data
+were filtered to require at least two valid values in the “0
+day treatment” protein group. Ratios were logarithmized (base
+2). L/H ratios were normalized to the median value in each replicate.
+An ANOVA test was performed to detect significant changes between
+the four time points (permutation based FDR statistics were applied
+(250 permutation, FDR < 0.05, 2 tailed, s0 = 1). The data were
+filtered to keep only proteins which were significantly up/down regulated
+based on the ANOVA test. The data were further filtered by keeping
+only the proteins with a Log2 fold change higher than 1 (“up-regulated”
+proteins) or lower than −1 (“down-regulated”
+proteins) after 3 days (for protein with no valid value in the 3 day
+samples, the data were manually inspected, and protein with a Log2
+fold change higher than 1 (or lower than −1) after 2 days was
+added to the list of significant proteins). To get the Log2 fold change
+after 1 day treatment, 2 day treatment, and 3 day treatment, the Log2
+mean of L/H ratios for “0 day treatment” was subtracted
+from the mean of L/H ratios of the 1 day treatment, 2 day treatment,
+and 3 day treatment, respectively.
+
+For the fractionated
+samples (three fractions/replicate, three biological replicate for
+each sample (0 day treatment and 3 day treatment), 18 LC-MS runs in
+total), fractions of a same biological replicate were combined using
+the “set fractions” function in MaxQuant. The data were
+filtered to require at least one valid value. The replicates were
+grouped together. Ratios of light/heavy (L/H, corresponding to amount
+of protein in the lysate treated with the inhibitor for 0–3
+days/amount of protein in the spike-in standard) found for each protein,
+each condition, and each replicate (three biological replicates) were
+determined by MaxQuant as explained above. L/H ratios were normalized
+to the median value in each sample. A modified t test
+with permutation based FDR statistics was applied (“two-sample
+test,” FDR of 0.02, s0 = 1) between the two groups. Protein
+interaction networks were generated with STRING 9.1 59 and visualized with Cytoscape 3.2.0. 60 Biological processes were analyzed with ClueGo 2.1.5. 61
+
+cb6b00371_si_002.xlsx
+
+cb6b00371_si_003.xlsx
+
+cb6b00371_si_004.xlsx
+
+=== RESULTS ===
+We sought to investigate
+the response of cancer cells to compound 1 in more detail
+to aid understanding of the mechanism of
+action of this selective NMT inhibitor. The effect of NMT inhibition
+on cell proliferation and apoptosis was evaluated in HeLa cells treated
+with various concentrations of inhibitor 1 or with vehicle
+(DMSO) for 1, 3, or 7 days. 0.2 μM inhibitor 1 corresponds
+to the EC 50 value measured by a standard metabolic activity
+(MTS) assay. 3 As demonstrated by previous
+tagging analyses, 0.2 μM and 1 μM inhibitor correspond
+to concentrations sufficient to inhibit 50% and 90% NMT activity in
+HeLa cells, while treatment with 5 μM or 10 μM results
+in undetectable NMT activity in cells. 3 Complete NMT inhibition results in the previously observed plateau
+of residual metabolic activity in an MTS assay after 3 days ( Supporting Information Figure 1 ). After 1 day,
+samples treated with 1, 5, or 10 μM inhibitor displayed a significant
+G1 accumulation ( p < 0.01; Figure 1 B and C). After 3 days, a substantial proportion
+of cells treated with 1 μM or greater inhibitor concentration
+were sub-G1 (dead/apoptotic), with the remainder mainly arrested in
+the G1 phase. Following 7 days of inhibition, cells were mostly dead/apoptotic
+(sub-G1) in samples treated with >1 μM of inhibitor, whereas
+ca. 40% of cells treated with 0.2 μM inhibitor were dead after
+7 days, consistent with the MTS assay ( Supporting
+Information Figure 1 ). These findings suggest that upon NMT
+inhibition cells undergo G1 arrest followed by cell death. Selective
+NMT inhibition is characterized by a progressive onset of cytotoxicity,
+and we hypothesized that this is due to the time required to turn
+over existing N -myristoylated proteins in cells,
+concurrent with evolution of the proteome toward a predominance of
+nonmyristoylated NMT substrates. To confirm the observed cell cycle
+arrest phenotype, cells were stained with BrdU/PI and analyzed by
+flow cytometry ( Figure 1 D and Supporting Information Figure 2 ).
+BrdU staining after 1- and 3-day treatments with inhibitor 1 indicated a substantial decrease in DNA synthesis, confirming that
+cells arrested.
+
+To investigate the mode of cell death, markers of apoptosis
+were analyzed by Western blot in HeLa cells treated for 1, 3, or 7
+days with inhibitor 1 ( Figure 2 A). Staurosporine (STS), a nonspecific kinase
+inhibitor known to induce apoptosis, 28 was
+used as a positive control for apoptosis, and HsNMT1, which was previously
+shown to be cleaved during apoptosis, 29 was also assessed. Markers of apoptosis did not change after 1 day
+of inhibition in agreement with cell cytotoxicity 3 and cell cycle analyses ( Figure 1 C). However, at 3 days treatment, PARP, BID,
+Caspase 3, and HsNMT1 were all cleaved to a substantial extent. After
+7 days of inhibition, it proved difficult to detect full length or
+cleaved PARP, HsNMT1, and Caspase 3, probably because of complete
+degradation. These results suggested that HeLa cells were dying at
+least in part through apoptosis.
+
+Prolonged NMT inhibition induces apoptosis
+in HeLa cells. (A) Western
+blot analysis of apoptotic markers in HeLa cells treated for 0, 1,
+3, or 7 days with 5 μM inhibitor 1 . Cells were
+treated with staurosporine (STS) (1 μM) for 4 h as a control
+for apoptosis. (B) Flow cytometry analyses of cells treated with Annexin
+V and PI following treatment with inhibitor 1 .
+
+An annexin V-FITC/PI dual staining
+assay was used to confirm whether
+inhibitor 1 could induce apoptosis in HeLa cells ( Figure 2 B and Supporting Information Figure 3 ). Treatment with
+inhibitor 1 showed that annexin-V-positive cells increased
+in a time-dependent manner in response to NMT inhibition. Early apoptotic
+cells appeared after 24 h treatment, consistent with relocation of
+phosphatidylserine being a relatively early event in the apoptotic
+cascade. There was a substantial population of dead cells observed
+after 3 days of treatment, and all cells stained positive for annexin
+V after 7 days of treatment, consistent with cell cycle analysis ( Figure 1 C) and MTS assay.
+Thus, taken together, data in Figure 2 suggest that cells die in response to NMT inhibition
+through apoptosis.
+
+A potentially important NMT substrate for
+the mode of action of
+cytotoxicity is the proto-oncogene c-Src, which is a validated target
+for cancer therapy. 30 Src family kinase
+inhibitors, such as dasatinib, can induce apoptosis and a G1 arrest
+as observed in the context of NMT inhibition, while high levels of
+c-Src tyrosine kinase activity have been associated with cancer progression,
+where they promote cell survival, proliferation, and metastasis. 31 N -myristoylation is required
+for the autophosphorylation of c-Src and, as a consequence, for its
+tyrosine kinase activity. 21 Upon NMT inhibition,
+we observed a decrease of phosphorylated c-Src after 1 day and 3 days,
+suggesting that c-Src had a reduced protein kinase activity, while
+levels of total c-Src remained constant ( Supporting
+Information Figure S4 ). However, while c-Src is an interesting
+downstream target, we have previously shown that NMT has over 100
+protein substrates in mammalian cells, and it is thus reasonable to
+suppose that additional proteins and pathways will be linked to the
+mode of action of NMT inhibition.
+
+We next sought to determine the progressive
+effects of NMT inhibition on key pathways in cells through whole proteome
+analysis. NMT inhibition induces negligible toxicity at 1 day, and
+we hypothesized that early mechanism-related changes in protein abundance
+might occur by 2 days, while after 3 days proteins affected by the
+inhibitor would reflect cell death pathways. We have previously shown
+that after 1-day treatment with inhibitor 1 , 3 the abundance of the large majority of proteins
+is not significantly affected. We thus performed a quantitative analysis
+of the proteome following treatment of HeLa cells with 1 (5 μM) for 0, 1, 2, and 3 days using a Spike-in SILAC approach, 32 which allows quantitative comparison between
+multiple biological samples ( n = 3 biological replicates)
+without restricting conditions for the experiment to media specific
+for isotopic labeling ( Supporting Information
+Table 1 ). HeLa cells grown in standard DMEM media were treated
+with the inhibitor for 0–3 days and after lysis samples were
+spiked with lysate obtained from HeLa cells grown in media containing
+heavy Lys and Arg. Tryptic digestion of the samples using filter-assisted
+sample preparation (FASP) 33 enabled quantification
+of proteome-wide changes in protein abundance, determined in 3-fold
+replicate experiments at each of the four time points of inhibitor
+treatment on a high resolution nanoLC-MS/MS platform. A total of 1160
+proteins were quantified in at least two replicates at each of the
+time points ( Supporting Information Table 1 and
+Figure S5 ), with L/H ratios normalized to the median value
+in each sample. Proteins with a fold-change ratio of at least 2 (ANOVA-test,
+FDR < 0.05) after 3-day treatment compared to no treatment (0 day)
+are presented in Figure 3 A. Twenty proteins were significantly down-regulated, while 37 proteins
+were up-regulated in response to NMT inhibition. Interestingly, the
+same groups of proteins were consistently and progressively down-
+or up-regulated over the course of the experiment, suggesting a consistent
+mechanism operating over time; these changes were strongest at 3 days,
+suggesting that the later time-point is most suitable to identify
+significantly affected proteins.
+
+Quantitative proteomics and pathway analyses
+of NMT inhibited HeLa
+cells. (A) Dynamic profile of significantly altered protein levels.
+Cells were treated with DMSO control or inhibitor 1 (5
+μM for 1, 2, or 3 days), and >1100 proteins were quantified
+across the four samples ( n = 3 biological replicates). 3 Proteins for which abundance is significantly
+affected after 3 days of treatment and with a Log2 fold change >1
+are shown (ANOVA, FDR < 0.05, s0 = 1). Red indicates significantly
+down-regulated proteins and blue significantly up-regulated proteins.
+(B) Volcano plot of log2 ratios representing log2 fold change of 3-day
+treatment to control, with lysate fractionation to increase proteome
+coverage (>3000 proteins quantified, n = 3 biological
+replicates). Dashed lines represent t test significance
+cutoff (Benjamini–Hochberg FDR 0.02, s0 of 1). A total of 398
+proteins are differentially expressed at 3 days. Red indicates significantly
+down-regulated proteins. Blue shows significantly up-regulated proteins,
+and gray represents all other proteins. (C) GO annotations (biological
+process and cellular compartment) of proteins significantly up- and
+down-regulated after 3-day treatment, obtained from ClueGO and Cytoscape.
+The term p-value and the percentage of associated genes are indicated.
+
+In order to obtain deeper protein
+quantification at 3 days, proteins
+were subjected to FASP and tryptic peptides fractionated by pipet-based
+strong anion exchange chromatography 34 prior
+to analysis by nanoLC-MS/MS. Three biological replicates were analyzed
+in 3 fractions for each time point (0 and 3 day treatment), leading
+to 18 data sets with excellent reproducibility between replicates
+(Pearson coefficient 0.816 to 0.921, Supporting
+Information Figure S6 ). More than 3500 proteins were identified,
+and 2749 proteins were accurately quantified in at least two replicates
+of both samples ( Supporting Information Figure
+S6 and Table 2 ). The H/L ratio was normalized to the median
+over biological replicates, and the resultant quantitative distribution
+of relative protein abundance exhibited a broad spectrum of dynamics
+from −2.6 to +2.6 log2 fold change. In total, 398 differentially
+expressed proteins were identified with >1.5-fold change ( t test significant, FDR = 0.02, s0 = 1) in the treated sample
+compared to control ( Figure 3 B), with 162 significantly down-regulated and 236 significantly
+up-regulated by NMT inhibition.
+
+A combination
+of approaches was deployed to understand the biological functions
+most affected by NMT inhibition across the 398 differentially expressed
+proteins. The Cytoscape ClueGo plug-in ( Figure 3 C, Supporting Information
+Figure S7–S9 and Table 3 ) allowed functional grouping
+and visualization of nonredundant biological terms across the network,
+while analysis of the network using STRING enabled the main clusters
+of proteins to be obtained ( Figure 4 ). NMT inhibition most significantly ( p < 10 –4 ) down-regulated chromosome organization/condensation
+processes, consistent with cell cycle arrest, and mitochondrial electron
+transport ( Figure 3 C). The most significantly ( p < 10 –10 ) up-regulated biological processes encompassed Golgi vesicle transport
+and the response to endoplasmic reticulum (ER) stress and carboxylic
+acid metabolism. In particular, proteins involved in activation of
+the unfolded protein response, protein N -glycosylation,
+and the ER-nucleus signaling pathway were strongly induced, including
+ER chaperone BiP, 35 which plays a central
+role in the folding and assembly of proteins, degradation of misfolded
+proteins, and preservation of ER homeostasis. A number of known BiP
+interacting proteins were also up-regulated, including other chaperones
+(GRP170/HYOU1) or cochaperones (DNAJC10), together with proteins involved
+in protein quality control (e.g., Calreticulin). Interestingly, the
+four other most significantly up-regulated biological processes are
+closely related to ER-stress. Notably, either activation of N-glycolysation
+by addition of N-glycan precursor N-acetylglucosamine or gain of function
+of GFAT/GFPT1 (which was overexpressed in the present study) were
+recently shown to activate the ER-associated degradation (ERAD) pathway
+and act as a protective mechanism by activating the clearance of misfolded
+proteins. 36
+
+Proteome-wide expression
+changes upon NMT inhibition for 3 days
+in HeLa cells. Network analysis was performed with STRING and biological
+processes analyzed with ClueGo+. The interaction network was visualized
+with Cytoscape, and the most significantly enriched biological process
+clusters are indicated. (A) Network of up-regulated proteins. (B)
+Network of down-regulated proteins.
+
+NMT inhibition also resulted in significant up-regulation
+of proteins
+involved in incorporation of amino acids during protein translation,
+including aminoacyl-tRNA synthetases, amino acid transporters and
+proteins involved in the machinery of protein synthesis, such as tryptophan—tRNA
+ligase, cytoplasmic (WARS), serine—tRNA ligase, cytoplasmic
+(SARS), or bifunctional glutamate/proline-tRNA ligase (EPRS). This
+is consistent with induction of ER-stress, which has recently been
+shown to result in an increase in translation, and a potential mechanism
+for cell death. 37 , 38 Interestingly, we discovered
+significant up-regulation of five t-RNA ligase proteins, IARS, EPRS,
+GARS, AARS, and WARS, as well as seven proteins involved in the unfolded
+protein response, SEC31A, HSPA5, SRPR, AARS, GFPT1, HYOU1, and ASNS.
+To confirm induction of ER-stress following NMT inhibition, we analyzed
+cell lysates from HeLa cells treated with inhibitor 1 for 0, 1, 3, and 7 days by Western blot ( Figure 5 ) and found that key markers of ER-stress,
+including BiP, Ero1-Lα, IRE1α, PDI-1, and PERK were relatively
+up-regulated in this cell line following NMT inhibition. Furthermore,
+CHOP, the pro-apoptotic transcription factor of the unfolded protein
+response (UPR), and proteins upstream of CHOP in the pro-apoptotic
+pathway of the UPR (PERK, eIF2α and ATF4) were also up-regulated
+( Figure 5 ), strongly
+suggesting that the UPR pathway contributes to activation of apoptosis.
+
+NMT inhibition
+induces ER stress in HeLa cells. Western blot analyses
+of markers of ER stress and unfolded protein response; HeLa were treated
+with inhibitor 1 (5 μM) for 0, 1, 3, or 7 days.
+Hsp90 was used as a loading control. Data are representative of at
+least three biological replicates.
+
+NMT inhibition also appears to impact pathways relevant to
+ER to
+Golgi trafficking, a critical process involved in the sorting of properly
+folded, processed, and assembled proteins from unfolded or immature
+proteins, and from ER-resident proteins. 39 SEC23, SEC24, SEC13 and SEC31, SAR1a, and the components of COPII,
+which are associated with ER to the Golgi transport vesicles, are
+all up-regulated upon treatment with inhibitor 1 , as
+are COPII-associated proteins such as SLY1 (SCFD1) and melanoma inhibitory
+activity protein 3 (MIA3). 40 , 41
+
+As the proteome and myristoylated proteome of HeLa
+cells have been previously well-characterized, we initially employed
+this cell line to probe the mode of action of inhibitor 1 . In order to test the scope of this finding, MTS assays and cell
+cycle analyses were carried out for 1 in three additional
+cancer cell lines: MDA-MB-231 (breast cancer), HCT-116 (colon), and
+MCF-7 (breast; Supporting Information Figure 10A ). The time-dependent response with residual metabolic activity characteristic
+of on-target NMT inhibition was found to be strongly conserved between
+these lines, suggesting a conserved mode of action through NMT inhibition.
+However, MDA-MB-231 and HCT-116 were not as sensitive to 3-day NMT
+inhibition, showing residual metabolic activities of 51% and 73%,
+respectively. MCF-7 also had a different pattern with a somewhat lower
+EC 50 and a plateau of metabolic activity at 64%. Following
+prolonged NMT inhibition (7 days), treatment with 10 μM of inhibitor 1 resulted in cell death for all of these lines. In line with
+a conserved mode of action, all ER-stress markers previously probed
+in HeLa were also progressively up-regulated in all three cell lines,
+following NMT inhibition over 1, 3, and 7 days ( Supporting Information Figure 10E ).
+
+Similarly to HeLa
+cells, MDA-MB-231, HCT-116, and MCF-7 underwent G1 accumulation after
+1–2 days ( Supporting Information Figure
+10B–D ). An increase in the number of subG0/G1 cells
+was also observed after 3 days for MCF-7 and MDA-MB-231 cells but
+not for HCT-116, suggesting that these cells might be less sensitive
+to NMT inhibition. NMT inhibition also induced apoptosis in MDA-MB-231,
+MCF-7, and HCT-116 cells; however, induction was slower in HCT-116,
+in agreement with the small sub G0/G1 population observed in cell
+cycle analysis ( Supporting Information Figure
+10C ). These variations in sensitivity between lines may result
+from differential NMT substrate expression or NMT enzyme activity,
+the particular importance of specific NMT substrates in a given cell
+line, or differences in susceptibility to downstream cell death pathways
+(e.g., apoptosis).
+
+=== CONCLUSION ===
+In the present study,
+in-depth quantitative proteomics analysis
+was used to characterize the proteome-wide cellular response to NMT
+inhibition, identifying 398 significantly differentially expressed
+proteins. These changes were distributed across multiple important
+processes, with a substantial proportion converging on pathways related
+to cell cycle regulation and ER stress. The inhibitor used in the
+present study has been shown to be a selective pharmacological tool
+for inhibition of NMT activity in human cells. 3 Although we cannot categorically exclude a contribution from other
+targets, time-dependent cytotoxicity as well as a strong correlation
+between dose-dependent tagging of NMT substrate with YnMyr and dose-dependent
+cytotoxicity in HeLa are highly consistent with on-target and selective
+NMT inhibition in mammalian cells. 3
+
+ER-stress is a mechanism employed by cells to restore normal function
+of the ER following accumulation of misfolded proteins. Initially,
+proteins involved in protein folding or degradation (the unfolded
+protein response (UPR) pathway) are up-regulated, concurrent with
+an attenuation of translation of protein involved in the cell cycle
+and a G1 arrest, 42 in close agreement with
+observations made in the present study. During ER-stress, misfolded
+proteins are degraded in the ER associated degradation (ERAD) pathway
+by the proteasome, or alternatively by autophagy, which can act as
+a protective mechanism by helping cells to cope with ER-stress. 43 Several proteins involved in autophagy were
+up-regulated in the present study, including CTSD, GABARAPL2, LAMP1,
+MAP1LC3A, MAP1LC3B, MAP1LC3B2, RAB1A, and SQSTM1. If ER homeostasis
+is not restored, prolonged ER-stress will result in apoptosis and/or
+autophagy, and cell death, 44 and we observed
+that selective inhibition of NMT in HeLa cells resulted in progressive
+induction of ER stress and eventual cell death, at least in part through
+apoptosis. Interestingly, induction of ER-stress by tunicamycin, an
+N-glycosylation inhibitor widely employed to promote ER-stress, resulted
+in a comparable phenotype in neuroblastoma SH-SY5Y cells, with up-regulation
+of ER chaperones (BiP), aminoacyl-tRNA synthases, and proteins involved
+in protein transport, as well as induction of apoptosis. 45 NMT inhibition appeared to have a similar phenotype
+(G1 accumulation, increasing cell death over time, ER-stress) in a
+range of cancer cell lines, albeit with variations in sensitivity
+( Supporting Information Figure S10 ).
+
+With more than 70 different proteins proven to be cotranslationally
+myristoylated by NMTs in HeLa cells, NMT inhibition is likely to affect
+multiple pathways, several of which could potentially trigger ER-stress.
+Notably, ADP-ribosylation factors (ARFs) are N -myristoylated
+small GTPases essential for COPI vesicle formation in retrograde protein
+transport from Golgi to ER. 46 N -myristoylation of ARF1 is required for binding to phospholipid membranes
+and activation by guanine nucleotide exchange factors (GEFs) that
+promote the exchange of GDP for GTP. 46 , 47 Inhibition
+of Golgi-specific Brefeldin A resistance factor 1 (GBF1), the ARF
+guanine nucleotide-exchange factor (GEF), by Brefeldin A prevents
+ARF activation and COPI recruitment to membranes, resulting in accumulation
+of proteins in the ER, ER-stress, and finally apoptosis. 46 , 48 Interestingly, GBF1 is also up-regulated in the present study, consistent
+with its recently reported role in responding to reduced ARF activity. 49 Taken together, these data suggest that ARFs
+merit future investigation as potentially important NMT substrates
+for the cytotoxic mode of action of NMT inhibitors. Arf1-targeted
+agents have recently been reported with potent in vivo anticancer activity, 50 and NMT inhibition
+is likely to result in a mechanistically distinct but functionally
+similar outcome by preventing Arf1 localization at the Golgi.
+
+One of the 26S regulatory proteasome subunits (PSMC1) and four
+E3 ubiquitin ligases involved in the proteasome degradation pathway
+(MGRN1, RNF125, ZNRF1, and ZNRF2) are N -myristoylated,
+and ER-stress may also be enhanced following malfunction of the proteasome
+machinery. Indeed, Bortezomib A, a 26S proteasome inhibitor, is known
+to induce ER-stress by overloading the ERAD pathway with misfolded
+proteins. 43 During ER-stress, degradation
+of misfolded proteins by the proteasome (ERAD pathway) also allows
+recycling of essential amino acids in cells, and it was recently shown
+that proteasome inhibition can lead to cell death through the failure
+of amino acid homeostasis. 51 In this context,
+it is particularly interesting that starvation response processes
+were highly enriched ( p < 10 –4 ) upon NMT inhibition.
+
+It is also conceivable that NMT inhibition
+could result in accumulation
+of excess free myristic acid as a result of lowered flux through the N -myristoylation pathway. Although longer chain fatty acids
+have been observed to enhance ER-stress, 52 this mechanism seems unlikely to contribute to the mode of action
+in cells since introduction of excess myristic acid is minimally cytotoxic
+in comparison to longer chain fatty acids. 53
+
+The present study provides a resource to guide
+future targeting
+of specific diseases with NMT inhibitors and a preliminary study of
+the pathways affected by an NMT inhibitor as a single agent in cancer
+cells. While most of the pathways highlighted in our whole proteome
+analysis may be important for phenotypes other than cytotoxicity,
+we have shown that NMT inhibition kills HeLa cells at least in part
+through the ER stress and UPR pathways.
+
+ER stress has been shown
+to be chronically activated in many tumors,
+where it allows tumor cells to proliferate and survive under extreme
+conditions such as hypoxia and protects them from chemotherapy. 54 Pharmacological ER stress can impose an additional
+burden on this pro-survival pathway, activating pro-apoptotic pathways
+and cell death. Several drugs promoting ER-stress have already entered
+the clinic, or are in clinical trials, such as Bortezomib A or Brefeldin
+A, discussed above. 55 However, these compounds
+can either increase sensitivity or resistance to anticancer therapies,
+depending on the inhibitor and the cancer cell line. 56 As both the proteasome and autophagy are important in the
+response to ER-stress to degrade unfolded proteins, it has been suggested
+that it might be beneficial to modulate these pathways simultaneously, 56 and NMT inhibitors offer a novel combination
+of ER-stress promoting mechanisms. In future studies it will be interesting
+to test the hypothesis that cell lines dependent on chronic ER-stress
+to survive will be particularly sensitive to NMT inhibition as a single
+agent, subject to cell-line-specific susceptibility to apoptosis.
+In contrast, normal and slowly proliferating cells that lack pre-existing
+ER stress could be less susceptible.
+
+Taken together, the data
+presented here suggest that NMT inhibition
+progressively induces a unique and specific cell state through alteration
+of pathways connected to its 100+ substrate proteins. We have highlighted
+some of the most prominent pathways affected following extended inhibitor
+exposure, but it is also clear that the influence of NMT inhibition
+is remarkably subtle, with only 14% of the proteome significantly
+modulated after 3 days. We suggest that two complementary approaches
+could be used in the future to unlock the potential of NMT inhibitors
+for oncology indications: (1) wider screening of cancer cell line
+panels to uncover unanticipated sensitivities for specific cancer
+subtypes and (2) comparative proteomic analysis of NMT substrate profiles
+and proteome changes in contrasting or drug-resistant cell lines,
+to reveal sensitivity or resistance mechanisms. We anticipate that
+deeper system level analysis of these data sets will lead not only
+to novel indications for human NMT inhibitors as single agents but
+also to identification of drug synergies that exploit the altered
+signaling network induced by NMT inhibition to reverse resistance,
+improve efficacy, or extend the therapeutic index for agents already
+in the clinic.

@@ -1,0 +1,45 @@
+=== TITLE ===
+ATR inhibition rewires cellular signaling networks induced by replication stress.
+
+=== ABSTRACT ===
+The slowing down or stalling of replication forks is commonly known as replication stress and arises from multiple causes such as DNA lesions, nucleotide depletion, RNA-DNA hybrids, and oncogene activation. The ataxia telangiectasia and Rad3-related kinase (ATR) plays an essential role in the cellular response to replication stress and inhibition of ATR has emerged as therapeutic strategy for the treatment of cancers that exhibit high levels of replication stress. However, the cellular signaling induced by replication stress and the substrate spectrum of ATR has not been systematically investigated. In this study, we employed quantitative MS-based proteomics to define the cellular signaling after nucleotide depletion-induced replication stress and replication fork collapse following ATR inhibition. We demonstrate that replication stress results in increased phosphorylation of a subset of proteins, many of which are involved in RNA splicing and transcription and have previously not been associated with the cellular replication stress response. Furthermore, our data reveal the ATR-dependent phosphorylation following replication stress and discover novel putative ATR target sites on MCM6, TOPBP1, RAD51AP1, and PSMD4. We establish that ATR inhibition rewires cellular signaling networks induced by replication stress and leads to the activation of the ATM-driven double-strand break repair signaling.
+
+=== INTRODUCTION ===
+
+
+=== METHODS ===
+2.1 Cell culture
+Human osteosarcoma cells (U2OS) were obtained from ATCC and cultured in D-MEM medium supplemented with 10% fetal bovine serum, L-glutamine, penicillin, and streptomycin. For SILAC labeling, cells were cultured in media containing either L-arginine and L-lysine, L-arginine (13C6), and L-lysine (2H4) or L-arginine (13C6 15N4) and L-lysine (13C6 15N2) (Cambridge Isotope Laboratories) as described previously 43. All cells were cultured at 37°C in a humidified incubator containing 5% CO2.
+
+2.2 Cell viability
+Cells were plated in 96-well plates (4000 cells per well) and treated in triplicate with the indicated combination of hydroxyurea and VE-821. After 72 h Cell Titer Blue reagent (Promega) was added to the cells for 4 h and cell viability was assessed by measuring the fluorescence (excitation 560 nm, emission 590 nm) on a microplate reader (Tecan).
+
+2.3 Flow cytometry
+Cells were detached using trypsin, washed two times in PBS and permeabilized in 90% methanol. Phosphorylation of H2AX was detected with an antibody specific for histone variant H2AX phosphorylated on Serine 139 conjugated to Alexa 647 dye (BD Biosciences). To determine the DNA content cells were stained with 7-AAD. Cells were washed, resuspended in PBS and analyzed on a Fortessa LSR flow cytometer (BD Biosciences). Raw data were analyzed using the flowCore package for the R software environment.
+
+2.4 Cell lysis
+Cells were pretreated with 1 μM VE-821 (Selleckchem) for 1 h and subsequently treated with 2 mM HU for indicated time periods. Cells were washed with ice-cold phosphate-buffered saline and lysed in modified RIPA buffer (50 mM Tris pH 7.5, 150 mM NaCl, 1 mM EDTA, 1% NP-40, 0.1% sodium deoxycholate) supplemented with protease inhibitors (Protease inhibitor cocktail, Sigma), 1 mM sodium orthovanadate, 5 mM β-glycerophosphate, 5 mM sodium flouride. Lysates were cleared by centrifugation at 16 000 × g for 15 min and protein concentrations were estimated using QuickStart Bradford Protein assay (BioRad).
+
+2.5 MS sample preparation
+Proteins were precipitated in fourfold excess of ice-cold acetone and subsequently redissolved in denaturation buffer (6 M urea, 2 M thiourea in 10 mM HEPES pH 8.0). Cysteines were reduced with 1 mM dithiothreitol and alkylated with 5.5 mM chloroacetamide. Proteins were digested with endoproteinase Lys-C (Wako Chemicals) and sequencing grade-modified trypsin (Sigma). Protease digestion was stopped by addition of TFA to 0.5% and precipitates were removed by centrifugation. Peptides were purified using reversed-phase Sep-Pak C18 cartridges (Waters) and eluted in 50% acetonitrile. For the enrichment of phosphorylated peptides, 5 mg of peptides in binding buffer (50% acetonitrile, 6% TFA in H2O) were incubated with 10 mg TiO2 spheres (GL sciences) for 1 h. The beads were washed twice in binding buffer and subsequently peptides were eluted using elution buffer (10% NH4OH, 25% acetonitrile in H2O). The eluates were concentrated to remove NH4OH and peptides were fractionated in five fractions using micro-column-based SCX 44 and desalted on reversed phase C18 StageTips 45.
+
+2.6 MS analysis
+Peptide fractions were analyzed on a quadrupole Orbitrap mass spectrometer (Q Exactive Plus, Thermo Scientific) equipped with a UHPLC system (EASY-nLC 1000, Thermo Scientific) as described 46. Peptide samples were loaded onto C18 reversed phase columns (15 cm length, 75 μm inner diameter, 1.9 μm bead size) and eluted with a linear gradient from 8 to 40% acetonitrile containing 0.1% formic acid in 2 h. The mass spectrometer was operated in data-dependent mode, automatically switching between MS and MS2 acquisition. Survey full-scan MS spectra (m/z 300–1650) were acquired in the Orbitrap. The ten most intense ions were sequentially isolated and fragmented by higher energy C-trap dissociation (HCD) 47. Peptides with unassigned charge states, as well as with charge states less than +2 were excluded from fragmentation. Fragment spectra were acquired in the Orbitrap mass analyzer.
+
+2.7 Peptide identification
+Raw data files were analyzed using MaxQuant (development version 1.5.2.8) 48. Parent ion and MS2 spectra were searched against a database containing 88 473 human protein sequences obtained from the UniProtKB released in December 2013 using Andromeda search engine 50. Spectra were searched with a mass tolerance of 6 ppm in MS mode, 20 ppm in HCD MS2 mode, strict trypsin specificity and allowing up to three miscleavages. Cysteine carbamidomethylation was searched as a fixed modification, whereas protein N-terminal acetylation, methionine oxidation, and phosphorylation of serine, threonine, and tyrosine were searched as variable modifications. Site localization probabilities were determined by MaxQuant using the PTM scoring algorithm as described previously 48, 51. The dataset was filtered based on posterior error probability to arrive at a false discovery rate below 1% estimated using a target-decoy approach 52. The mass spectrometric raw data have been deposited to the ProteomeXchange Consortium (http://proteomecentral.proteomexchange.org) via the PRIDE partner repository 53 with the dataset identifier PXD002135.
+
+2.8 Computational analysis
+Statistical analysis was performed using the R software environment. Correlation coefficient (rho) and significance were determined using Spearman's rank method. The significance level of the employed ratio cut-off was estimated as described previously 48. Briefly, the standard deviation was calculated separately for up- and downregulated sites based on the 0.16 and 0.84 quantile, respectively. p values were calculated using the complementary error function and adjusted using the Benjamini and Hochberg FDR. Functional protein interaction network analysis was performed using interaction data from the STRING database 54. Only interactions with a score > 0.7 are represented in the networks. Cytoscape version 3.2.0 55 was used for visualization of protein interaction networks.
+
+2.9 Pull down
+Cells were lysed in 500 μL of modified RIPA buffer supplemented with protease and phosphatase inhibitors. Twenty microliters of preequilibrated GFPTrap agarose (Chromotek) were added to the cleared lysate and incubated for 1 h in the cold room on a rotation wheel. The beads were washed 4× with modified RIPA buffer followed by the addition of NuPAGE LDS Sample Buffer (Life Technologies) supplemented with 1 mM DTT. Proteins were eluted by heating at 70ºC for 10 min and alkylated with 5.5 mM chloroacetamide for 30 min prior to loading on the SDS-PAGE and in-gel digestion.
+
+2.10 SDS-PAGE and Western blotting
+Proteins were resolved on 4–12% gradient SDS-PAGE gels (NuPAGE® Bis-Tris Precast Gels, Life Technologies) and transferred onto nitrocellulose membranes. Membranes were blocked using 10% skimmed milk solution in PBS supplemented with 0.1% Tween-20. The following antibodies from Cell Signaling Technology were used according to the manufacturers’ instructions: CHK1 (#2360), pCHK1 S345 (#2341) CHK2 (#3440), pCHK2 T68 (#2661), pNBS S343 (#3001), pATM S1981 (#5883). Secondary antibodies coupled to horseradish peroxidase (Jackson ImmunoResearch Laboratories) were used for immunodetection. The detection was performed with SuperSignal West Pico Chemiluminescent Substrate (Thermo Scientific).
+
+=== RESULTS ===
+
+
+=== CONCLUSION ===
+
