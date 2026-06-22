@@ -1,0 +1,35 @@
+AcquisitionMethod: top 10 data dependent acquisition method
+AlkylationReagent: IAA
+CellLine: OVCAR3
+CellLine: OVCAR433
+CellLine: OVCAR5
+CellLine: SKOV3
+CellPart: exosomes
+CleavageAgent: trypsin
+Disease: epithelial ovarian cancer
+EnrichmentMethod: differential centrifugation
+EnrichmentMethod: ultracentrifugation
+FactorValue: OVCAR3
+FactorValue: OVCAR433
+FactorValue: OVCAR5
+FactorValue: SKOV3
+FlowRateChromatogram: 250 nL/minute
+FragmentMassTolerance: 20 ppm
+GradientTime: 230 min
+Instrument: QExactive tandem mass spectrometer (Thermo Scientific)
+IonizationType: Easy-Spray nano-electrospray ionization source (Thermo Scientific)
+MaterialType: cell line
+Modification: carbamidomethylation of cysteine
+Modification: oxidation of methionine
+NumberOfMissedCleavages: 2
+NumberOfSamples: four
+Organism: human
+OrganismPart: exosomes
+PooledSample: pooled
+ReductionReagent: DTT
+SamplingTime: 48 h starvation in serum-free media
+Separation: EASY-nLC 1000 nano flow ultra-performance liquid chromatography system
+Separation: 50 cm EASY-Spray column (PepMap C18, 2 μm particles, 100 Å pore size; Thermo Scientific)
+Temperature: 37 °C
+Time: 48 h
+Treatment: starved

@@ -1,0 +1,47 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: iodoacetamide
+AlkylationReagent: IAA
+CellLine: Human Embryonic Kidney 293 (HEK-293)
+CellLine: HEK-293 cells
+CleavageAgent: trypsin
+CollisionEnergy: normalized energy set at 25%
+EnrichmentMethod: Acclaim C18 PepMap microprecolumn (300 μm id × 5 mm, 5 μm particle size, 100 Å pore size; Dionex)
+FlowRateChromatogram: 0.3 mL/min
+FlowRateChromatogram: 0.3 μL/min
+FlowRateChromatogram: 8 μL/min
+FractionationMethod: RP chromatography prefractionation
+FractionationMethod: Phenomenex Gemini C18 column (Phenomenex Inc., Torrance, CA, USA), average pore size 110 Å, particle size 5 μm, length 250 mm, and internal column diameter 2 mm
+FragmentMassTolerance: 0.01 Da
+FragmentationMethod: high-energy collision dissociation
+GradientTime: 1 min
+GradientTime: 25 min
+GradientTime: 5 min
+GradientTime: 19 min
+GradientTime: 133 min
+GradientTime: 28 min
+GradientTime: 12 min
+GradientTime: 25 min
+GradientTime: 3 min
+GradientTime: 4 min
+GradientTime: 28 min
+GradientTime: 5 min
+GradientTime: 10 min
+GradientTime: 5 min
+GradientTime: 30 min
+GradientTime: 65 min
+Instrument: Q-Exactive Orbitrap mass spectrometer (Thermo Fisher Scientific)
+IonizationType: Nanoflow Easy-Spray
+MaterialType: cells
+MaterialType: cell line
+Modification: Carbamidomethylation of cysteine residues
+Modification: oxidation of methionine
+Modification: acetylation of the N-terminus of proteins
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: ten fractions
+NumberOfMissedCleavages: two
+NumberOfTechnicalReplicates: three
+Organism: Human
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+Separation: Ultimate 3000 system equipped with RSLC Nano pump and an autosampler
+Separation: EASY-Spray PepMap RSLC C18 column (500 mm × 75 μm, 2 μm particle size, 100 Å pore size; Dionex)

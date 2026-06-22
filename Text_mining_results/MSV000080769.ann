@@ -1,0 +1,46 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: Carbamidomethyl
+CellPart: extracellular vesicle (EV) fraction
+CellPart: rest-secretome (RS) fraction
+CellType: human primary macrophages
+CellType: monocytes
+CleavageAgent: trypsin
+Compound: Ultrapure LPS
+Compound: Z-YVAD-fmk,1 25 μm
+Compound: GM-CSF 10 ng/ml
+DiseaseTreatment: Ultrapure LPS
+DiseaseTreatment: Caspase-4 inhibitor (Z-YVAD-fmk,1 25 μm)
+EnrichmentMethod: size-exclusion filtration using Amicon 15-ml tubes with a 100-kDa cutoff
+EnrichmentMethod: concentrated using Amicon 15-ml filters with a 10-kDa cutoff
+EnrichmentMethod: STAGE-TIP method using a C18 resin disk (3 M Empore)
+FactorValue: Ultrapure LPS
+FactorValue: Z-YVAD-fmk
+FlowRateChromatogram: 300 nl/min
+FractionIdentifier: enriched extracellular vesicle (EV) fraction
+FractionIdentifier: rest-secretome (RS) fraction
+FractionationMethod: size-exclusion centrifugation
+FractionationMethod: SDS-PAGE
+FragmentationMethod: high energy collision dissociation (HCD)
+GradientTime: 60 min
+Instrument: quadrupole Orbitrap mass spectrometer (QExactive, ThermoElectron, Bremen, Germany)
+IonizationType: nanoelectrospray ion source (EasySpray/Thermo)
+Label: label-free quantitative proteomics
+MaterialType: cells
+Modification: protein N-acetylation
+Modification: methionine oxidation
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: two fractions
+NumberOfMissedCleavages: two
+Organism: human
+OrganismPart: macrophages
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+Separation: Easy nLC1000 nano-LC system
+Separation: EasySpray column capillary of 25-cm bed length (C18, 2-μm beads, 100 Å, 75-μm inner diameter, Thermo)
+Specimen: extracellular vesicle (EV) fraction
+Specimen: rest-secretome (RS) fraction
+Staining: silver-stained
+Temperature: 37 °C
+Treatment: Ultrapure LPS
+Treatment: mock-transfected with Lipofectamine
+Treatment: Caspase-4 inhibitor (Z-YVAD-fmk,1 25 μm)

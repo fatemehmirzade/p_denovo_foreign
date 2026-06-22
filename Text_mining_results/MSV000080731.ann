@@ -1,0 +1,26 @@
+AcquisitionMethod: data-dependent collision-induced dissociation (CID)
+Age: 20–25 years old
+CellType: BM-derived MSCs
+CellType: BM-MSCs
+CellType: AD-MSCs
+CellType: BM- or AD-derived stromal cells
+CleavageAgent: trypsin
+FactorValue: BM-ECM
+FactorValue: AD-ECM
+FractionationMethod: standard (one-dimension) SDS-PAGE
+FractionationMethod: discrete serial sections of each lane of the gel
+FragmentationMethod: collision-induced dissociation (CID)
+Instrument: Thermo Fisher LTQ
+IonizationType: electrospray ionization
+MaterialType: cells
+Modification: Methionine oxidation
+NumberOfBiologicalReplicates: 4
+Organism: Human
+OrganismPart: bone marrow
+OrganismPart: adipose
+PooledSample: pooled
+Separation: capillary HPLC-electrospray ionization tandem mass spectrometry
+Separation: HPLC-ESI-MS/MS
+Separation: On-line HPLC separation
+Separation: Eksigent NanoLC micro HPLC
+Staining: Coomassie blue staining

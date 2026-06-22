@@ -1,0 +1,49 @@
+AcquisitionMethod: top-15 strategy
+Age: reproductive age
+CellLine: Ishikawa cancer cells
+CellType: primary stromal cell
+CellType: endometrial stromal cells
+CellType: eutopic endometrial primary stromal cell
+CellType: ectopic endometrial primary stromal cell
+CleavageAgent: dimethylated porcine trypsin
+CollisionEnergy: normalized collision energy of 27
+DevelopmentalStage: secretory phase
+Disease: endometriosis
+FactorValue: healthy controls
+FactorValue: endometriosis patients
+FactorValue: stromal cells from endometrium of healthy controls
+FactorValue: stromal cells from endometrium of endometriosis patients
+FactorValue: stromal cells from peritoneal lesions
+FlowRateChromatogram: 200 nL/min
+FractionationMethod: strong cation exchange (SCX)
+FractionationMethod: C18 StageTips
+FragmentMassTolerance: ≤20 ppm
+FragmentationMethod: higher-energy collisional dissociation
+GradientTime: 240 min
+Instrument: Q Exactive (Thermo Fisher Scientific)
+Label: stable isotope labeling by amino acids in cell culture
+Label: SILAC
+MaterialType: cells
+MaterialType: tissue
+Modification: Methionine oxidation
+Modification: asparagine/glutamine deamidation
+Modification: protein N-terminal acetylation
+Modification: cysteine carbamidomethylation
+NumberOfBiologicalReplicates: 16
+NumberOfFractions: six fractions
+NumberOfSamples: 6
+NumberOfSamples: 5
+NumberOfSamples: 5
+Organism: Homo sapiens
+OrganismPart: endometrium
+OrganismPart: peritoneal endometriotic lesions
+PrecursorMassTolerance: ≤20 ppm
+ReductionReagent: DTT
+Separation: Ultimate 3000 RSLCnano system (Dionex)
+Separation: C18 cartridge trap-column (Dionex)
+Separation: in-house packed (3 μm C18 particles, Dr Maisch) analytical 50 cm × 75 μm emitter-column (New Objective)
+Sex: women
+Specimen: biopsy
+SpikedCompound: SILAC standard
+Temperature: 37 °C
+TumorSite: peritoneal lesions

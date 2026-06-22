@@ -1,0 +1,54 @@
+AcquisitionMethod: top 8
+AlkylationReagent: iodacetamide
+CellLine: HCT116
+CellLine: SW480
+CellPart: cytoplasmic
+CellPart: nuclear
+CleavageAgent: trypsin/lys-c mixture
+Compound: KP46 1 μm
+Compound: KP772 5 μm
+Compound: KP1339 80 μm
+Compound: KP1537 0.5 μm
+Compound: As2O3 5 μm
+Disease: colon carcinoma
+DiseaseTreatment: arsenic trioxide
+DiseaseTreatment: KP46
+DiseaseTreatment: KP772
+DiseaseTreatment: KP1339
+DiseaseTreatment: KP1537
+DiseaseTreatment: As2O3
+FactorValue: SW480
+FactorValue: HCT116
+FactorValue: KP46 1 μm
+FactorValue: KP772 5 μm
+FactorValue: KP1339 80 μm
+FactorValue: KP1537 0.5 μm
+FactorValue: As2O3 5 μm
+FractionIdentifier: cytoplasmic
+FractionIdentifier: nuclear
+FractionationMethod: Cells were fractionated into cytoplasmic and nuclear extract
+FragmentMassTolerance: 20 ppm
+GradientTime: 90 min
+Instrument: QExactive orbitrap mass spectrometer (Thermo Scientific, Austria)
+Label: label-free quantification
+MaterialType: cells
+MaterialType: cell line
+NumberOfBiologicalReplicates: 3
+NumberOfTechnicalReplicates: twice
+Organism: Homo sapiens
+OrganismPart: cytoplasmic
+OrganismPart: nuclear
+PrecursorMassTolerance: 50 ppm
+PrecursorMassTolerance: 25 ppm
+ReductionReagent: DTT
+ReductionReagent: dithiothreitol
+SamplingTime: 24 h
+Separation: nanoLC-system (Dionex Ultimate 3000, Thermo Scientific, Austria)
+Separation: 75 μm×50 cm C-18 separation column (Dionex, Acclaim PepMap RSCL)
+SyntheticPeptide: synthetic peptides
+Time: 24 h
+Treatment: KP46
+Treatment: KP772
+Treatment: KP1339
+Treatment: KP1537
+Treatment: As2O3

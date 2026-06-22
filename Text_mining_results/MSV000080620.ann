@@ -1,0 +1,51 @@
+AcquisitionMethod: data-dependent mode
+AnatomicSiteTumor: colorectal
+BiologicalReplicate: A1
+BiologicalReplicate: A2
+BiologicalReplicate: C1
+BiologicalReplicate: N1
+BiologicalReplicate: A3
+BiologicalReplicate: A4
+BiologicalReplicate: C2
+BiologicalReplicate: N2
+BiologicalReplicate: A5
+BiologicalReplicate: A6
+CellType: enterocytes
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energies of 25
+Disease: Colorectal cancer
+Disease: adenoma
+FactorValue: normal tissue
+FactorValue: adenoma
+FactorValue: cancer
+FlowRateChromatogram: 250 nL/min
+FractionationMethod: SAX
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GradientTime: 195 min
+GradientTime: 10 min
+Instrument: Q Exactive mass spectrometer
+IonizationType: electrosprayed
+Label: label-free protein quantitation
+Label: LFQ
+MaterialType: tissue
+Modification: Carbamido-methylation of cysteine
+Modification: N-terminal acetylation
+Modification: oxidation of methionine
+NumberOfFractions: 4
+NumberOfFractions: 2
+NumberOfMissedCleavages: two
+Organism: Human
+OrganismPart: colorectal enterocytes
+OrganismPart: colorectal tissue
+OriginSiteDisease: colorectal
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: DTT
+Separation: C18 reverse-phase column (20 cm long, 75 μm inner diameter, in-house packed with ReproSil-Pur C18-AQ 1.8 μm resin (Dr. Maisch, Ammerbuch-Entringen, Germany))
+Specimen: formalin-fixed and paraffin-embedded clinical material
+Treatment: adenoma
+Treatment: cancer
+Treatment: normal tissue
+TumorGrade: grade 2 or 3
+TumorSite: colorectal

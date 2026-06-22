@@ -1,0 +1,57 @@
+AlkylationReagent: iodoacetamide
+CellLine: HeLa cells
+CleavageAgent: trypsin
+CollisionEnergy: 26 normalized collision energy (NCE)
+Compound: thymidine 1 mm
+Compound: taxol
+Compound: MG132 10 μm
+Compound: Flavopiridol 2 μm
+Compound: RO-3306 5 μm
+DevelopmentalStage: mitotic
+DevelopmentalStage: G2 and M phase
+DiseaseTreatment: Flavopiridol
+DiseaseTreatment: RO-3306
+EnrichmentMethod: titanium dioxide microspheres
+EnrichmentMethod: TiO2 microspheres
+FactorValue: Flavopiridol
+FactorValue: RO-3306
+FractionationMethod: Strong-cation exchange chromatography
+FragmentMassTolerance: 0.02 Da
+FragmentationMethod: HCD
+GeneticModification: GST tag
+GeneticModification: 10x-His tag
+GradientTime: 60 min gradient
+Instrument: Q-Exactive Plus hybrid quadrupole Orbitrap mass spectrometer (ThermoFisher Scientific)
+IonizationType: nanospray source (ThermoFisher Scientific)
+Label: heavy or light DMEM
+Label: 13C615N2-lysine
+Label: 13C615N4-arginine
+Label: 12C614N2-lysine
+Label: 12C614N4-arginine
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethylcysteine
+Modification: oxidized methionine
+Modification: heavy lysine
+Modification: heavy arginine
+Modification: phosphorylated serine
+Modification: phosphorylated threonine
+Modification: phosphorylated tyrosine
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: three
+Organism: Homo sapiens
+Organism: Saccharomyces cerevisiae
+PrecursorMassTolerance: ± 1 Da
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 30 min
+Separation: Easy-nLC 1000
+Separation: trap column (1 cm length, 100 μm inner diameter, ReproSil, C18 AQ 5 μm 120 Å pore (Dr. Maisch, Ammerbuch, Germany))
+Separation: fritless analytical resolving column (35 cm length, 100 μm inner diameter, ReproSil, C18 AQ 3 μm 120 Å pore)
+Temperature: 37 °C
+Time: 22 h
+Time: 3 h
+Time: 16 h
+Time: 30 min
+Treatment: Flavopiridol
+Treatment: RO-3306

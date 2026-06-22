@@ -1,0 +1,54 @@
+AcquisitionMethod: data-dependent product ion mode
+AlkylationReagent: iodoacetamide
+CellLine: HEK293FT
+CellType: primary human fibroblasts
+CellType: HCA2-hTertcells
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy was 35%
+DevelopmentalStage: quiescent
+FactorValue: WT
+FactorValue: WT +vector
+FactorValue: ATG5 −/ −
+FactorValue: ATG7 −/ −
+FactorValue: 0
+FactorValue: 2
+FactorValue: 4
+FactorValue: 6
+FlowRateChromatogram: 10 μmL/min
+FlowRateChromatogram: 250 μml/min
+FractionationMethod: high-pH fractionation
+FractionationMethod: Pierce High pH Reversed-Phase Peptide Fractionation Kit
+FragmentationMethod: high-energy collision dissociation
+FragmentationMethod: HCD
+GeneticModification: ATG5 −/ −
+GeneticModification: ATG7 −/ −
+Genotype: wild-type
+Genotype: autophagy-deficient
+GradientTime: 3 hr shallow gradient
+GradientTime: 3% B for 3 min
+GradientTime: 3%–6% B for 5 min
+GradientTime: 6%–28% B for 125min
+GradientTime: 28%–50% B for 10 min
+GradientTime: 50%–97% Bfor 1 min
+GradientTime: isocraticat97% B for 18 min
+GradientTime: equilibrated with 3% B for 18 min
+GrowthRate: quiescent
+Instrument: Orbitrap Fusion Tribrid mass spectrometer
+Label: stable isotope labeling with amino acids in cell culture (SILAC)
+Label: SILAC
+MS2MassAnalyzer: Orbitrap (OT)
+MaterialType: cells
+NumberOfFractions: Eight
+Organism: Homo sapiens
+PrecursorMassTolerance: ±10 ppm
+ReductionReagent: Tris (2-carboxyethyl) phosphine
+ReductionReagent: TCEP
+SamplingTime: 0, 2, 4 and 6 days of labeling
+Separation: nano liquid chromatography (LC) column
+Separation: Eksigent (Δublin) ekspert nano-LC 425 system
+Separation: reversed-phase trap (300 mm inner diameter [ID] × 0.5 cm, packed with Zorbax5-mm C18 material)
+Separation: nano-LC column (75 mm ID × 100 cm, packed with 3-μm particles)
+Time: 0
+Time: 2
+Time: 4
+Time: 6 days

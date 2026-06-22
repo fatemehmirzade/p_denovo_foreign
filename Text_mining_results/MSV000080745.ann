@@ -1,0 +1,36 @@
+AcquisitionMethod: data-dependent mode
+CellType: macrophages
+CellType: dendritic cells
+CellType: Neutrophils
+CellType: Bone marrow monocytes
+CellType: Splenic dendritic cells
+CellType: BM-DC
+CellType: BM-M
+CleavageAgent: tryptic
+CollisionEnergy: normalized collision energy 27%
+Disease: fungal infections
+Disease: fungal sepsis
+FlowRateChromatogram: 25 μL min -1
+FlowRateChromatogram: 230 nl min -1
+FragmentMassTolerance: ± 0.03 Da
+GeneticModification: Cbl-b 29-483
+GeneticModification: C373A Cbl-b 29-483
+GradientTime: 165 min
+GradientTime: 120min
+GradientTime: 5min
+GradientTime: 2min
+Instrument: Q Exactive Plus mass spectrometer (Thermo Scientific)
+IonizationType: nanospray source
+MaterialType: cells
+Modification: Beta-methylthiolation on cysteine
+Modification: oxidation on methionine
+Modification: acetylation on lysine
+Modification: phosphorylation on serine, threonine and tyrosine
+Modification: deamidation on asparagine and glutamine
+Modification: ubiquitinylation on lysine
+NumberOfMissedCleavages: 2
+Organism: human
+PrecursorMassTolerance: ±5 ppm
+Separation: UltiMate 3000 HPLC RSLC nano system
+Separation: PepMap C18, 5 mm × 300 μm ID, 5 μm particles, 100 Å pore size
+Separation: PepMap C18, 500 mm × 75 μm ID, 2 μm, 100 Å

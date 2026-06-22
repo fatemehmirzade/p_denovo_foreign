@@ -1,0 +1,46 @@
+AcquisitionMethod: data-dependent mode
+CellLine: HepG2 (ATCC HB-8065)
+CellPart: nuclei
+CellPart: cytosol
+CellPart: membrane fractions
+CellType: human hepatocytes
+CleavageAgent: endoproteinase LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energies of 25
+Depletion: Cys-depleted
+Disease: hepatoma
+EnrichmentMethod: PEGylation strategy
+FactorValue: native human hepatocytes
+FactorValue: HepG2 cells
+FlowRateChromatogram: 250 nl/min
+FractionIdentifier: pH 12
+FractionIdentifier: pH 6
+FractionIdentifier: pH 4
+FractionIdentifier: pH 2
+FractionIdentifier: pH 5
+FractionationMethod: pipette tip SAX
+FragmentMassTolerance: 0.5 Da
+FragmentationMethod: HCD
+GradientTime: 4 h
+Instrument: QExactive mass spectrometer (Thermo)
+IonizationType: nanoelectrospray source
+Label: Total Protein Approach
+Label: Proteomic Ruler
+MaterialType: tissue
+MaterialType: cells
+MaterialType: cell line
+Modification: PEGylation
+Modification: Cys-enriched
+NumberOfBiologicalReplicates: 7
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 4 fractions
+NumberOfTechnicalReplicates: duplicates
+Organism: human
+OrganismPart: liver tissue
+OrganismPart: hepatocytes
+OrganismPart: nuclei
+OrganismPart: cytosol
+OrganismPart: membrane fractions
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: DTT
+Separation: reverse phase column (20 cm × 75 μm inner diameter) packed with 1.8 μm C18 particles

@@ -1,0 +1,35 @@
+AcquisitionMethod: data-dependent acquisition mode
+AcquisitionMethod: multiple reaction monitoring (MRM)
+CellType: saphenous vein smooth muscle cells (SMCs)
+CleavageAgent: tryptic
+CleavageAgent: tryptase β1
+CleavageAgent: chymase
+Compound: recombinant human chymase 1 μg/mL
+Compound: tryptase β1 250 ng/mL
+Disease: venous hypertension
+Disease: varicose veins
+EnrichmentMethod: sequential extraction procedure
+EnrichmentMethod: decellularization using 0.08% SDS and extraction of ECM proteins using 4 M guanidine hydrochloride (GuHCl)
+FactorValue: normal saphenous veins
+FactorValue: varicose saphenous veins
+FactorValue: recombinant human chymase
+FactorValue: tryptase β1
+FractionationMethod: SDS–PAGE
+Instrument: LTQ-Orbitrap XL, Thermo Fisher Scientific
+Instrument: Q Exactive Plus instrument (Thermo Fisher Scientific)
+Instrument: TSQ Vantage, Thermo Fisher Scientific
+MaterialType: tissue
+NumberOfBiologicalReplicates: 6
+NumberOfBiologicalReplicates: 5
+NumberOfSamples: 6
+NumberOfSamples: 6
+NumberOfSamples: 5
+NumberOfSamples: 5
+Organism: human
+OrganismPart: saphenous veins
+OrganismPart: great saphenous vein
+OriginSiteDisease: saphenous veins
+SamplingTime: 24 h
+Separation: nanoflow LC system (Thermo Fisher Scientific, Ultimate 3000 RSLC nano)
+Treatment: recombinant human chymase
+Treatment: tryptase β1

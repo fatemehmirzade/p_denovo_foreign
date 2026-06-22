@@ -1,0 +1,44 @@
+AcquisitionMethod: Data-dependent acquisition
+AlkylationReagent: iodoacetamide
+CellPart: extracellular vesicle (EV)
+CellType: human macrophages
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27
+Compound: influenza A (H3N2) strain Udorn/72 2.56 hemagglutination unit/mL
+Disease: Influenza A viruses (IAVs)
+EnrichmentMethod: ultracentrifugation
+FactorValue: untreated
+FactorValue: IAV-infected
+FactorValue: 9 h
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: SDS-PAGE
+FragmentMassTolerance: 20 mmu
+FragmentationMethod: higher energy collisional dissociation
+GradientTime: 90 min
+GradientTime: 3 h
+Instrument: quadrupole Orbitrap mass spectrometer (QExactive, Thermo Fisher Scientific, USA)
+IonizationType: positive ion mode
+MaterialType: cells
+Modification: carbamidomethyl (C)
+Modification: oxidation (M)
+Modification: deamidation (N, Q)
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: five to six pieces
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: dithiotreitol
+SamplingTime: 9 h postinfection
+SamplingTime: 9 h
+Separation: automated nanoflow capillary LC–MS/MS
+Separation: EASY nanoLC 1000
+Separation: Aclaim Pepmap 100 (75 μm × 2 cm, nanoViper, C18, 3 μm, 100 Å, Proxeon, Thermo Fisher Scientific, USA)
+Separation: 75 μm × 15 cm Acclaim PepMap100 C18 column (Dionex, Thermo Fisher Scientific, USA)
+Specimen: extracellular vesicle
+Specimen: EVs
+Staining: silver-stained
+Strain: Udorn/72
+Temperature: 37 °C
+Time: 9 h
+Treatment: untreated
+Treatment: influenza A (H3N2) strain Udorn/72 infection

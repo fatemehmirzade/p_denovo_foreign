@@ -1,0 +1,41 @@
+AcquisitionMethod: single-shot LC-MS/MS label-free phosphoproteomics
+AlkylationReagent: iodoacetamide
+CellLine: HT29
+CellLine: CaCo2
+CellLine: HCT116
+CellLine: RKO
+CellLine: SW480
+CellLine: SW1398
+CellLine: Colo205
+CellLine: DLD1
+CleavageAgent: trypsin
+CollisionEnergy: 25% normalized collision energy
+Disease: colorectal cancer (CRC)
+EnrichmentMethod: TiOx-based phosphopeptide enrichment
+EnrichmentMethod: TiO2 beads based using aliphatic hydroxy-acid modified metal oxide chromatography
+FactorValue: CRC prognostic subtypes
+FactorValue: CCS3 poor prognosis subtype
+FlowRateChromatogram: 6 μl/min
+FlowRateChromatogram: 300 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+FragmentationMethod: higher-energy collision
+GradientTime: 90 min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher, Bremen, Germany)
+Label: label-free
+Label: label-free quantification
+MS2MassAnalyzer: orbitrap
+MaterialType: cell line
+Modification: Cysteine carboxamidomethylation
+Modification: serine, threonine and tyrosine phosphorylation
+Modification: methionine oxidation
+Modification: N-terminal acetylation
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: two
+NumberOfSamples: 8
+Organism: human
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: dithiotreitol
+ReductionReagent: DTT
+Separation: Ultimate 3000 nanoLC-MS/MS system
+Separation: 20 cm × 75 μm ID fused silica column custom packed with 3 μm 120 Å ReproSil Pur C18 aqua

@@ -1,0 +1,48 @@
+AcquisitionMethod: parallel reaction monitoring
+AcquisitionMethod: PRM
+AcquisitionMethod: data-dependent acquisition
+CellLine: HepG2; Sigma
+CellType: Human Epidermal Keratinocyte
+CellType: Human Prostate Epithelial Cell
+CellType: Human Mammary Epithelial Cell
+CellType: Human Renal Proximal Tubular Epithelial Cell
+CellType: Human Neuron
+CellType: Human aortic smooth muscle cells (HA-SMCs)
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25
+FactorValue: Human Epidermal Keratinocyte Lysate-adult
+FactorValue: Human Prostate Epithelial Cell Lysate
+FactorValue: Human Mammary Epithelial Cell Lysate
+FactorValue: Human Renal Proximal Tubular Epithelial Cell Lysate
+FactorValue: Human Neuron Lysate
+FactorValue: Human hepatocytes
+FactorValue: Human aortic smooth muscle cells
+FactorValue: Human parathyroid whole cell lysate
+FactorValue: kidney tubule
+FactorValue: artery
+FlowRateChromatogram: 4 μL/min
+FlowRateChromatogram: 350 nL/min
+FractionationMethod: SDS-PAGE
+FractionationMethod: gel band between 75 and 150 kDa was resected
+FragmentMassTolerance: 0.8 Da
+FragmentationMethod: high-energy collisional dissociation
+GradientTime: 60-min gradient
+GradientTime: 0–5 min
+GradientTime: 5–45 min
+GradientTime: 45.1 to 50 min
+GradientTime: 50.1 to 60 min
+Instrument: Orbitrap nano-ESI Q-Exactive mass spectrometer (Thermo Scientific)
+IonizationType: positive ion electrospray ionization
+MaterialType: tissue
+Modification: carbamidomethyl
+Modification: methionine oxidation
+NumberOfMissedCleavages: two
+Organism: human
+OrganismPart: kidney tubule
+OrganismPart: artery
+OrganismPart: kidney
+OrganismPart: aorta
+PrecursorMassTolerance: 2Th
+Separation: nanoLC (Dionex Ultimate 3000 UHPLC)
+Separation: Rapid Separation Liquid Chromatography, 75 μm × 50 cm nanoViper C18 3 μm 100 column (Acclaim, PepMap)
+Staining: Coomassie blue stain

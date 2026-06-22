@@ -1,0 +1,68 @@
+AcquisitionMethod: data-dependent bottom up analytical platform
+AcquisitionMethod: top 12 method
+AcquisitionMethod: top 8 method
+AlkylationReagent: iodoacetamide
+AlkylationReagent: IAA
+CellPart: secreted
+CellPart: cytoplasmic
+CellPart: nuclear protein fractions
+CellPart: cytoplasm
+CellPart: nuclear extract
+CellPart: supernatant
+CellType: primary human endothelial cells
+CellType: fibroblasts
+CellType: peripheral blood mononuclear cells
+CellType: primary human dermal fibroblasts (NHDF)
+CellType: human umbilical vein endothelial cells (HUVEC)
+CellType: PBMCs
+CleavageAgent: Trypsin
+CollisionEnergy: 30% normalized collision energy
+Compound: IL-1β 10 ng/ml
+Disease: inflammation
+DiseaseTreatment: interleukin 1-β
+DiseaseTreatment: IL-1β
+EnrichmentMethod: C-18 spin columns
+FactorValue: IL-1β
+FactorValue: 24 h
+FactorValue: HUVEC
+FactorValue: NHDF
+FactorValue: PBMCs
+FlowRateChromatogram: 10 μl/min
+FlowRateChromatogram: 300 nl/min
+FractionationMethod: SDS-PAGE
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GradientTime: 235 min
+GradientTime: 95 min
+Instrument: QExactive orbitrap mass spectrometer
+IonizationType: nanospray ion source
+Label: label-free quantification
+Label: LFQ
+MS2MassAnalyzer: orbitrap
+MaterialType: cells
+Modification: carbamidomethylation of cysteines
+Modification: methionine oxidation
+Modification: N-terminal protein acetylation
+NumberOfBiologicalReplicates: 7
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 4 slices
+NumberOfMissedCleavages: two
+NumberOfSamples: fourteen
+NumberOfSamples: six
+Organism: human
+OrganismPart: dermal fibroblasts
+OrganismPart: umbilical vein endothelial cells
+OrganismPart: peripheral blood mononuclear cells
+PrecursorMassTolerance: 25 ppm
+ReductionReagent: DTT
+ReductionReagent: dithiothreitol
+SamplingTime: 24 h
+Separation: nanoUPLC-system UtiMate 3000 RSLCnano
+Separation: 2 cm x75 μm C18 Pepmap100 pre-column
+Separation: 50 cm × 75 μm Pepmap100 analytical column
+Staining: silver staining
+SyntheticPeptide: synthetic standard peptides
+Temperature: 37 °C
+Time: 24 h
+Treatment: interleukin 1-β
+Treatment: IL-1β

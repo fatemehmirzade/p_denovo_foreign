@@ -1,0 +1,38 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+Bait: ActivX desthiobiotin-ATP probe
+Bait: ATP probe
+CellLine: HeLa-S3 cells
+CleavageAgent: trypsin
+CleavageAgent: sequencing-grade trypsin
+CollisionEnergy: normalized HCD collision energy, 25%
+Compound: ATP 10 μM
+Compound: staurosporine 10 μM
+EnrichmentMethod: Immobilized streptavidin agarose resin
+FactorValue: 10 μM ATP
+FactorValue: 10 μM staurosporine
+FlowRateChromatogram: 280 nL/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 85 min
+Instrument: Q Exactive
+Label: label-free
+Label: SILAC
+Label: spike-in SILAC
+MS2MassAnalyzer: octopole collision cell
+MaterialType: cell line
+Modification: Carbamidomethylation of cysteine
+Modification: methionine oxidation
+Modification: desthiobiotinylated lysine
+NumberOfMissedCleavages: three
+Organism: Homo sapiens
+PrecursorMassTolerance: 7 ppm
+ReductionReagent: DTT
+Separation: UltiMate 3000 Nano LC system
+Separation: fused silica column (300 mm length × 75 μm i.d.) packed in-house with reverse-phase material ReproSil-Pur C18-AQ, 1.9 μm resin
+Separation: trap column (0.075 × 20 mm, Acclaim PepMap RSLC Nano-Trap Column; Thermo Scientific)
+Temperature: 37 °C
+Treatment: ATP
+Treatment: staurosporine
+Treatment: crizotinib

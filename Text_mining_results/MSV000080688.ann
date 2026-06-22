@@ -1,0 +1,69 @@
+AcquisitionMethod: data-dependent
+AlkylationReagent: IAA
+CellLine: human cervical cancer cells (HeLa)
+CellLine: NPC1-KO HeLa cells
+CellLine: WT HeLa cells
+CellPart: late endosomes/lysosomes
+CellPart: plasma membrane
+CellPart: lysosomes
+CellPart: LE/LYS
+CellPart: PM
+CleavageAgent: trypsin
+CleavageAgent: EndoLys-C
+CollisionEnergy: 32% Normalized Collision Energy
+Compound: aminolipid-coated SPIONs 2 mg/ml
+Compound: carboxylipid-coated SPIONs 2 mg/ml
+Compound: methoxylipid-coated SPIONs 2 mg/ml
+Compound: DMSA-coated SPIONs 200 μg/ml
+Disease: Niemann-Pick disease type C1
+Disease: NPC1 deficiency
+EnrichmentMethod: magnetic isolation
+EnrichmentMethod: magnetic labeling
+FactorValue: WT
+FactorValue: NPC1-KO
+FactorValue: TCL
+FactorValue: LE/LYS
+FactorValue: PM
+FlowRateChromatogram: 300 nL/min
+FlowRateChromatogram: 250 nL/min
+FractionationMethod: SDS-PAGE on a 4–12% gradient Bis-Tris pre-cast gel
+FragmentMassTolerance: 20 mmu
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GeneticModification: NPC1-KO
+Genotype: wild-type
+Genotype: NPC1 deficient
+GradientTime: 130 min
+GradientTime: 150 min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Instrument: Q Exactive HF mass spectrometer (Thermo Fisher Scientific)
+IonizationType: electrospray ion source
+IonizationType: positive ionization mode
+Label: MaxLFQ
+MaterialType: cells
+MaterialType: cell line
+Modification: methionine oxidation
+Modification: pyro-glutamate formation of amino terminal glutamine
+Modification: acetylation of the protein N-terminus
+Modification: Carbamidomethylation of cysteine residues
+Modification: oxidation of methionine residues (to sulfoxides)
+Modification: acetylation of protein N-termini
+NumberOfFractions: 16 equally sized slices
+NumberOfMissedCleavages: 1
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+OrganismPart: late endosomes/lysosomes
+OrganismPart: plasma membrane
+PrecursorMassTolerance: 10 ppm
+PrecursorMassTolerance: 4.5
+ReductionReagent: DTT
+SamplingTime: chase 4 h
+SamplingTime: chase 15 h
+Separation: Ultimate 3000 RSLC nano LC
+Separation: analytical column (made in-house, 75 μm I.D. ×150 mm, 5 μm beads C18 Reprosil-HD, Dr. Maisch)
+Separation: analytical column (made in-house, 75 μm I.D. ×400 mm, 3 μm beads C18 Reprosil-HD, Dr. Maisch)
+Staining: SimplyBlueTM SafeStain
+Temperature: 37 °C
+Time: 0 to 4 h
+Time: 15 h

@@ -1,0 +1,75 @@
+Age: 64 to 75
+AlkylationReagent: iodoacetamide
+AnatomicSiteTumor: breast
+CellLine: ZR-75-1
+CellPart: cytoplasmic fraction
+CellType: primary human mammary fibroblasts
+CleavageAgent: trypsin
+CollisionEnergy: 30% normalized collision energy
+CollisionEnergy: 35% normalized collision energy
+Compound: TGFβ 2 ng/mL
+Compound: IL-1β 10 ng/mL
+DevelopmentalStage: postmenopausal
+Disease: breast adenocarcinoma
+Disease: invasive breast carcinoma
+FactorValue: tumor-central
+FactorValue: tumor-near
+FactorValue: tumor-distant
+FactorValue: TGFβ
+FactorValue: IL-1β
+FactorValue: quiescent cell state
+FlowRateChromatogram: 10 μL/min
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: SDS-PAGE
+FragmentMassTolerance: 20 mmu
+FragmentMassTolerance: 0.6 Da
+FragmentMassTolerance: 20 ppm
+FragmentMassTolerance: 0.5 Da
+FragmentationMethod: HCD
+FragmentationMethod: CID
+GradientTime: 45 min
+GradientTime: 185 min
+GradientTime: 235 min
+Instrument: QExactive Orbitrap (Thermo Fisher Scientific, Austria)
+Instrument: LTQ Orbitrap Velos (Thermo Fisher Scientific, Austria)
+IonizationType: nanospray ion source
+Label: LFQ
+MS2MassAnalyzer: HCD cell
+MS2MassAnalyzer: ion trap
+MS2MassAnalyzer: CID cell
+MaterialType: tissue
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethyl–cysteine
+Modification: methionine oxidation
+Modification: N-terminal protein acetylation
+Modification: Carbamidomethylation of cysteine residues
+Modification: oxidation of methionine residues
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: eight slices
+NumberOfFractions: four slices
+NumberOfMissedCleavages: two
+NumberOfTechnicalReplicates: duplicates
+Organism: Homo sapiens
+OrganismPart: breast
+OrganismPart: mammary
+OriginSiteDisease: breast
+PrecursorMassTolerance: 5 ppm
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 7 days with TGFβ
+SamplingTime: 24 h with IL-1β
+Separation: Dionex Ultimate 3000 UHPLC
+Separation: 2 cm × 75 μm C18 Pepmap100 precolumn
+Separation: 15 cm × 75 μm Pepmap100 column
+Separation: 50 cm × 75 μm Pepmap100 column
+Sex: women
+Specimen: biopsy
+Staining: silver-stained
+SyntheticPeptide: synthetic standard peptides
+Time: 7 days
+Time: 24 h
+Treatment: TGFβ
+Treatment: IL-1β
+TumorGrade: histological grade of 2
+TumorSite: breast

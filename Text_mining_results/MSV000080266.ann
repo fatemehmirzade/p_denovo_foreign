@@ -1,0 +1,55 @@
+AlkylationReagent: cysteine carboxamidomethylation
+AnatomicSiteTumor: bone marrow
+CellLine: HeLa cells
+CellPart: secretomes
+CellPart: extracellular vesicle
+CellPart: lysate
+CellType: AML blasts
+CellType: lymphocytes
+CellType: primary AML cells
+CleavageAgent: trypsin
+CollisionEnergy: 35% normalized activation energy
+CollisionEnergy: 25% normalized collision energy
+CollisionEnergy: normalized collision energy of 25
+Disease: acute myeloid leukemia (AML)
+DiseaseTreatment: chemotherapy
+EnrichmentMethod: differential ultracentrifugation
+FactorValue: apoptosis-resistant
+FactorValue: apoptosis-sensitive
+FlowRateChromatogram: 6 μl/min
+FlowRateChromatogram: 300 nl/min
+FractionationMethod: 1D SDS-PAGE
+FractionationMethod: gel lanes were sliced into nine pieces
+FragmentMassTolerance: 1 atomic mass unit
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GradientTime: 60 min
+Instrument: LTQ-FTMS instrument (ThermoFisher)
+Instrument: Q Exactive mass spectrometer (ThermoFisher)
+IonizationType: nanospray source
+IonizationType: Nanospray Flex Ion source
+MS2MassAnalyzer: linear ion trap
+MS2MassAnalyzer: HCD cell
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+MaterialType: biofluid
+Modification: methionine oxidation
+Modification: N-acetylation
+NumberOfFractions: nine pieces
+NumberOfMissedCleavages: two
+NumberOfMissedCleavages: One
+Organism: Homo sapiens
+OrganismPart: bone marrow
+PrecursorMassTolerance: 10 ppm
+PrecursorMassTolerance: 4.5 ppm
+SamplingTime: at diagnosis
+SamplingTime: after different cycles of chemotherapy
+Separation: Ultimate 3000 nano-LC-MS/MS system
+Separation: 20 cm × 75 μm inner diameter fused silica column custom packed with 3 μm 120 Å ReproSil Pur C18 aqua
+Separation: nano-LC-MS/MS
+Staining: Coomassie Brilliant Blue G250
+Temperature: 37 °C
+Time: 18 h
+Treatment: apoptosis-resistant
+Treatment: apoptosis-sensitive
+TumorSite: bone marrow

@@ -1,0 +1,36 @@
+AcquisitionMethod: data-dependent acquisition mode
+AlkylationReagent: iodoacetamide
+BiologicalReplicate: CSF1
+BiologicalReplicate: CSF2
+CellPart: Extracellular vesicles
+CellPart: EVs
+CellPart: soluble CSF fraction
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 30
+EnrichmentMethod: ultracentrifugation
+EnrichmentMethod: Sucrose cushion isolation
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: ultracentrifugation
+FractionationMethod: gradient gels
+FractionationMethod: NuPAGE 4–12% Bis-Tris gel
+FragmentMassTolerance: 20 p.p.m.
+FragmentationMethod: higher-energy C-trap dissociation fragmentation
+GradientTime: 90 min.
+Instrument: Q Exactive mass spectrometer (ThermoFisher Scientific)
+MaterialType: biofluid
+Modification: Cysteine carbamidomethylation
+Modification: N-acetylation of proteins
+Modification: oxidized methionine
+Modification: serine, threonine, and tyrosine phosphorylations
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: 9 bands
+NumberOfMissedCleavages: two
+NumberOfSamples: Two independent pools
+Organism: human
+OrganismPart: cerebrospinal fluid
+PooledSample: pooled
+PrecursorMassTolerance: 7 p.p.m.
+ReductionReagent: DTT
+Separation: 75 μm × 42 cm custom packed Reprosil C18 aqua column (1.9 μm, 120 Å)
+Separation: U3000 RSLC high pressure nanoLC (Dionex)
+Staining: Coomassie brilliant blue G-250

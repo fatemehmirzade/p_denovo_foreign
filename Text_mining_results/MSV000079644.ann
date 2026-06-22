@@ -1,0 +1,74 @@
+AcquisitionMethod: Full-MS/ddMS2
+AcquisitionMethod: PRM
+AcquisitionMethod: DDA
+AlkylationReagent: iodoacetamide
+AlkylationReagent: iodoacetimide
+Bait: multidrug inhibitor beads
+CellLine: HCT116
+CellType: Bone marrow cells
+CleavageAgent: Sequencing grade trypsin
+CleavageAgent: sequencing grade modified trypsin
+CollisionEnergy: NCE 25%
+CollisionEnergy: NCE 35%
+Compound: GDC-0973
+Compound: GDC-0623
+Compound: SCH772984
+Compound: DMSO
+Disease: colorectal carcinoma
+DiseaseTreatment: GDC-0973
+DiseaseTreatment: GDC-0623
+DiseaseTreatment: SCH772984
+DiseaseTreatment: MAPK blockade
+EnrichmentMethod: active kinase enrichment methodology based on multidrug inhibitor beads
+EnrichmentMethod: Multiplex inhibitor beads
+EnrichmentMethod: MIB enrichment
+FactorValue: GDC-0973
+FactorValue: GDC-0623
+FactorValue: SCH772984
+FactorValue: DMSO
+FlowRateChromatogram: 600 nL/min
+FlowRateChromatogram: 400 nL/min
+FlowRateChromatogram: 200 nL/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+Genotype: wildtype
+GradientTime: 6-h gradients
+GradientTime: 20 min
+GradientTime: 288 min
+GradientTime: 36 min
+GradientTime: 18 min
+GradientTime: 18 min
+GradientTime: 10 min
+Instrument: Q Exactive Plus instrument (Thermo Fisher Scientific)
+Label: label-free
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+MaterialType: cell line
+MaterialType: tissue
+Modification: Carbamidomethyl-C
+Modification: Acetyl (Protein N-term)
+Modification: Acetyl+Oxidation (Protein N-term M)
+Modification: Gln->pyro-Glu (N-term Q)
+Modification: Met-loss (Protein N-term M)
+Modification: Met-loss+Acetyl (Protein N-term M)
+Modification: Oxidation (M)
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: up to one allowed missed cleavage site
+Organism: mouse
+Organism: human
+OrganismPart: bone marrow
+OrganismPart: femora
+OrganismPart: tibiae
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: DTT
+SamplingTime: treated with drug or equivalent amounts of DMSO for 90 min
+Separation: prototype 200 cm fused silica monolithic silica-C18 column, 100 µm inner diameter
+Separation: Waters NanoAcquity UPLC system
+Separation: EasySpray 50 cm column
+Strain: C57BL/6
+Time: 90 min
+Treatment: GDC-0973
+Treatment: GDC-0623
+Treatment: SCH772984
+Treatment: DMSO

@@ -1,0 +1,49 @@
+AcquisitionMethod: full-scan MS
+AcquisitionMethod: data-dependent MS/MS scans
+Bait: tyrosine-phosphorylated proteins
+CellLine: Kit225
+CellLine: Hut102
+CellType: T cell
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25 eV
+Compound: IL-2 200 U/mL
+Compound: IL-15 200 U/mL
+Compound: IL-2 5 × 103 U/mL
+Compound: IL-15 5 × 103 U/mL
+Disease: T lymphoma
+Disease: T-cell lymphoma
+DiseaseTreatment: IL-2
+DiseaseTreatment: IL-15
+EnrichmentMethod: Immunoprecipitation of tyrosine-phosphorylated proteins
+EnrichmentMethod: TiO2 enrichment
+FactorValue: unstimulated
+FactorValue: IL-2
+FactorValue: IL-15
+FlowRateChromatogram: 250 nL/min
+FractionationMethod: NuPAGE 4–12% Bis-Tris Gel
+FractionationMethod: cut into slices
+FragmentationMethod: higher energy C-trap dissociation
+GradientTime: 140-min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+IonizationType: nanoelectrospray source
+Label: SILAC
+MaterialType: cell line
+Modification: Carbamidomethyl (C)
+Modification: oxidation (M)
+Modification: acetyl (protein N-term)
+Modification: deamidation (NQ)
+Modification: phospho-STY (STY)
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 7 ppm
+SamplingTime: 5 min
+Separation: 75 μm inner diameter and 20-cm long column packed in-house with ReproSil-Pur C18-AQ 3 μm resin
+Separation: EASY-nLC 1000 ultra-high pressure system
+Staining: Colloidal Blue
+Temperature: 37°C
+Time: 5 min
+Treatment: unstimulated
+Treatment: IL-2
+Treatment: IL-15

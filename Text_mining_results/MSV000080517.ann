@@ -1,0 +1,35 @@
+AcquisitionMethod: data-dependent ‘top 10’ method
+AlkylationReagent: iodoacetamide
+Bait: HLA-I molecules
+Bait: HLA-II molecules
+CellLine: T2
+CellLine: LCL1 (IHW09005, HLA-A0301, B2705, C0102)
+CellLine: LCL2 (IHW09216, HLA-A0201, A0301, B3502, B3801)
+CellLine: T2-A3
+CellLine: T2-B7
+CellLine: T2-B27
+CellType: PBMC
+Depletion: deplete the endogenous antibodies
+Disease: metastatic malignant melanoma
+DiseaseTreatment: Ipilimumab
+EnrichmentMethod: immunoaffinity purified
+EnrichmentMethod: immunoaffinity purification
+FlowRateChromatogram: 250 nl min −1
+FragmentMassTolerance: 20 p.p.m.
+FragmentationMethod: higher energy collisional dissociation
+GradientTime: 90 min
+Instrument: Q Exactive
+Instrument: Q Exactive HF
+IonizationType: nanoelectrospray ion source
+MaterialType: tissue
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+Modification: phosphorylation
+NumberOfSamples: 140
+Organism: human
+OrganismPart: melanoma tissue
+OrganismPart: tumour tissue
+PrecursorMassTolerance: 6 p.p.m.
+Separation: nanoflow HPLC (Proxeon Biosystems, Thermo Fisher Scientific, Odense)
+Separation: 50 cm long, 75 μm inner diameter column with ReproSil-Pur C18-AQ 1.9 μm resin (Dr. Maisch GmbH, Ammerbuch-Entringen, Germany)
+SyntheticPeptide: Synthetic peptides for spectra validation

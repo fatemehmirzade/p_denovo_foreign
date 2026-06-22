@@ -1,0 +1,34 @@
+AcquisitionMethod: data-dependent acquisition
+AcquisitionMethod: top-20 method
+AlkylationReagent: iodoacetamide
+CellLine: HeLa cell line
+CleavageAgent: trypsin
+CollisionEnergy: 25 V of normalized collisional energy
+FlowRateChromatogram: 250 nL/min
+FragmentMassTolerance: ±20 ppm
+FragmentMassTolerance: 20 mmu
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy collisional dissociation
+GradientTime: 150 min
+GradientTime: 12 min
+GradientTime: 88 min
+GradientTime: 15 min
+GradientTime: 15 min
+GradientTime: 8 min
+GradientTime: 2 min
+GradientTime: 10 min
+Instrument: Orbitrap Q Exactive mass spectrometer (Thermo Scientific)
+MaterialType: cell line
+Modification: carbamidomethylation of C
+Modification: oxidation of M
+Modification: acetylation of protein N terminus
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: 3
+NumberOfSamples: Three
+Organism: human
+PrecursorMassTolerance: ±20 ppm
+PrecursorMassTolerance: 10 ppm
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: DTT
+Separation: Thermo Scientific EASY-Spray columns (PepMap® RSLC, C18, 100 Å, 2 μm bead packed 50 cm column)
+Separation: Easy-nLC 1000 pump (Proxeon Biosystems, Odense, Denmark, now part of Thermo Fisher Scientific)

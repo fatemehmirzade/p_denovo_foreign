@@ -1,0 +1,50 @@
+AcquisitionMethod: LC-MS/MS
+AcquisitionMethod: SRM-MS
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: carbamidomethylation
+Bait: EGFR
+Bait: wild type
+Bait: mutant EGFR
+CellLine: HEK293 T-REx
+CleavageAgent: trypsin
+CollisionEnergy: CE = 0.03*m/z + 2.905
+CollisionEnergy: CE = 0.038*m/z + 2.281
+Compound: EGF 10 ng/ml
+Compound: anisomycin 10 μm
+EnrichmentMethod: immunoprecipitation
+EnrichmentMethod: IP
+EnrichmentMethod: immobilized anti-flag M2 beads
+FactorValue: EGF
+FactorValue: anisomycin
+FactorValue: 4 °C
+FactorValue: 37 °C
+FlowRateChromatogram: 250 nl/min
+FragmentMassTolerance: 20 ppm
+GeneticModification: C-terminal Flag tagged wild type
+GeneticModification: mutant EGFR
+GradientTime: 120 min
+Instrument: Q-Exactive LC-MS/MS (Thermo Fisher, San Jose, CA)
+Instrument: TSQ Vantage, Thermo Fisher, San Jose, CA
+Instrument: Q Exactive mass spectrometer
+IonizationType: nano-ESI source
+Label: LFQ
+MaterialType: cell line
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+Modification: phospho-serine
+Modification: phospho-threonine
+Modification: phospho-tyrosine
+Modification: Gly-Gly addition to lysine
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: Two
+Organism: Homo sapiens
+PrecursorMassTolerance: 6 ppm
+SamplingTime: 1 h at 4 °C
+SamplingTime: 15 min
+Separation: 50-cm Easy-Spray column with a 75-μm inner diameter packed with 2 μm C18 resin
+Separation: EASY nLC 1000 chromatography system
+SyntheticPeptide: IPLENLQIIR
+Temperature: 4 °C
+Temperature: 37 °C
+Treatment: EGF
+Treatment: anisomycin

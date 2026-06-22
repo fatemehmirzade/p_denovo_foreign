@@ -1,0 +1,51 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: Chloroacetamide
+Bait: His10-SUMO-2
+Bait: His10-SUMO-2-K0-Q87R
+CellLine: HeLa cells
+CleavageAgent: Lys-C
+CleavageAgent: Trypsin
+CleavageAgent: Sequencing Grade Modified Trypsin
+CollisionEnergy: 25%
+CollisionEnergy: 30%
+DiseaseTreatment: heat shock
+EnrichmentMethod: Ni-NTA beads (Qiagen)
+EnrichmentMethod: Neutravidin beads (Thermo)
+FactorValue: mock treated
+FactorValue: 43 °C
+FactorValue: 1 h
+FlowRateChromatogram: 250 nl min −1
+FragmentMassTolerance: 20 p.p.m.
+FragmentationMethod: Higher-Collisional Dissociation
+GeneticModification: stably expressing wild-type His10-SUMO-2
+GeneticModification: stably expressing lysine-deficient His10-SUMO-2 (AllKR-Q87R mutant)
+GradientTime: 2 h
+GradientTime: 4 h
+Instrument: Q-Exactive (Thermo)
+Label: SILAC
+Label: medium SILAC
+Label: heavy SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: SUMOylation
+Modification: acetylation
+Modification: SNHSA
+Modification: SNHSSSB
+Modification: Protein N-terminal acetylation
+Modification: methionine oxidation
+Modification: peptide N-terminal carbamylation
+NumberOfMissedCleavages: five
+Organism: Homo sapiens
+PrecursorMassTolerance: 6 p.p.m.
+ReductionReagent: $eta$-mercaptoethanol
+ReductionReagent: $eta$-ME
+ReductionReagent: DTT
+SamplingTime: incubated at 43 °C for 1 h
+Separation: nanoscale LC-MS/MS
+Separation: EASY-nLC system (Proxeon)
+Separation: reversed-phase C18 column packed in-house
+Temperature: 43 °C
+Time: 1 h
+Treatment: mock treated
+Treatment: incubated at 43 °C for 1 h
+Treatment: heat shock

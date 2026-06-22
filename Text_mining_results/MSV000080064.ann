@@ -1,0 +1,52 @@
+AcquisitionMethod: shotgun protein tandem mass spectrometry (MS/MS)
+AcquisitionMethod: data dependent manner
+AcquisitionMethod: data-dependent mode
+Age: Bronze Age
+Age: present day
+AlkylationReagent: carbamidomethylation
+CleavageAgent: Tryptic
+CollisionEnergy: normalized collision energy of 40%
+CollisionEnergy: 28% normalized collision energy
+CollisionEnergy: 35% normalized collision energy
+CollisionEnergy: Normalized collision energy was 25%
+EnrichmentMethod: filter-aided sample preparation (FASP)
+FlowRateChromatogram: 250 nl per min
+FlowRateChromatogram: 250 nl/min
+FlowRateChromatogram: 250 nL/min
+FragmentMassTolerance: 0.07 Da
+FragmentationMethod: Higher energy collision induced dissociation (HCD)
+GradientTime: 2 min
+GradientTime: 57 min
+GradientTime: 60 min
+GradientTime: 65 min
+GradientTime: 130 minute linear gradient
+GradientTime: 20 minute gradient
+Instrument: LTQ-Orbitrap VELOS mass spectrometer (Thermo Fischer Scientific, Bremen, Germany)
+Instrument: Q-Exactive
+Instrument: Orbitrap Elite
+IonizationType: nano electrospray ion source
+MS2MassAnalyzer: Orbitrap
+MS2MassAnalyzer: linear ion trap
+Modification: acetyl (protein N-term)
+Modification: deamidated (NQ)
+Modification: glutamine to pyroglutamate
+Modification: methionine oxidation
+Modification: hydroxylation of proline
+NumberOfBiologicalReplicates: 98
+NumberOfMissedCleavages: two
+NumberOfSamples: 98
+Organism: human
+OrganismPart: dental calculus
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 10 ppm
+Separation: Eksigent-NanoLC-Ultra 1D plus HPLC system
+Separation: self-made tip column (75 μm × 80 mm) packed with reverse phase C18 material (AQ, 3 μm 200 Å, Bischoff GmbH, Leonberg, Germany)
+Separation: UPLC separation on an EASY-Spray column (50 cm × 75 μm ID, PepMap RSLC C18, 2 μm) connected to a Dionex Ultimate 3000 nUPLC
+Separation: nAcquity UPLC (1.7 um BEH130 C18, 75 um × 250 mm)
+Separation: EASY-nLCTMsystem (Thermo Scientific, Odense, Denmark)
+Separation: 15 cm analytical column (75 μm inner diameter) in-house packed with 3 μm C18 beads (Reprosil-AQ Pur, Dr. Maisch)
+SpikedCompound: bovine fetuin
+Time: Bronze Age (ca. 3000 BCE)
+Time: present day
+Time: medieval Norse colonies
+Time: 15 th century CE

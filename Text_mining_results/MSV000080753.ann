@@ -1,0 +1,39 @@
+AcquisitionMethod: data-dependent MS/MS
+AlkylationReagent: iodoacetamide
+AnatomicSiteTumor: breast
+CellPart: cytosolic fraction
+CleavageAgent: modified trypsin
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27 %
+Disease: invasive ductal breast carcinomas
+Disease: IDCs
+EnrichmentMethod: chemo-enzymatically enriched
+EnrichmentMethod: Click-iT enzymatic labeling
+EnrichmentMethod: Immunoprecipitation of TAMRA-labeled O-GlcNAc proteins
+FactorValue: LNM
+FactorValue: non-LNM
+FlowRateChromatogram: 300 nL/min
+FragmentMassTolerance: 20 mmu
+FragmentationMethod: HCD
+GradientTime: 8 min
+GradientTime: 50 min
+GradientTime: 12 min
+GradientTime: 3 min
+Instrument: Q Exactive
+IonizationType: electrospray-ionization
+MaterialType: tissue
+Modification: O-GlcNAc
+Modification: Oxidation (Met)
+Modification: carbamidomethyl (Cys)
+NumberOfMissedCleavages: two
+NumberOfSamples: 53
+Organism: Homo sapiens
+OrganismPart: breast
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: dithiothreitol
+Separation: online nanoflow-liquid-chromatography
+Separation: nano-LC column (75 μm I.D. × 10 cm, packed with Pepmap C18 sorbent)
+Treatment: LNM
+Treatment: non-LNM
+TumorSite: breast

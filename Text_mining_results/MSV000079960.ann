@@ -1,0 +1,67 @@
+Age: newborn
+Age: adult
+AlkylationReagent: acrylamide
+CellPart: secretomes
+CellType: human newborn and adult monocytes
+CellType: monocytes
+CellType: CD14 positive
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27%
+Compound: Alum 5 μg/ml
+Compound: MPLA 100 ng/ml
+Compound: MPLA 1000 ng/ml
+Compound: R848 5 μ m
+Compound: R848 50 μ m
+EnrichmentMethod: proteins were precipitated from the supernatants using trichloroacetic acid
+FactorValue: newborn
+FactorValue: adult
+FactorValue: Alum
+FactorValue: MPLA
+FactorValue: R848
+FactorValue: 5 μg/ml
+FactorValue: 100 ng/ml
+FactorValue: 1000 ng/ml
+FactorValue: 5 μ m
+FactorValue: 50 μ m
+FactorValue: 24 h
+FlowRateChromatogram: 400 nl/min
+FractionationMethod: SDS-PAGE (NuPage; Invitrogen, NY)
+FractionationMethod: gel lanes were excised and subjected to in-gel tryptic digestion
+FragmentMassTolerance: 0.02 Dalton (Da)
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+Instrument: Q Exactive; Thermo Scientific
+Label: label-free
+MS2MassAnalyzer: Orbitrap mass analyzer
+MaterialType: cells
+MaterialType: biofluid
+Modification: carbamidomethyl
+Modification: methionine oxidation
+Modification: pyroGlu formation
+Modification: Glu->pyro-Glu
+Modification: Gln->pyro-Glu
+Modification: ammonia-loss
+NumberOfBiologicalReplicates: 6
+NumberOfBiologicalReplicates: 7
+NumberOfMissedCleavages: one
+NumberOfMissedCleavages: two
+NumberOfSamples: 6 for adult
+NumberOfSamples: 7 for newborn
+Organism: human
+OrganismPart: monocytes
+OrganismPart: cord blood
+OrganismPart: blood
+PrecursorMassTolerance: 10 parts per million (ppm)
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 24 h with vehicle, Alum, MPLA, or R848
+Separation: nanoflow ultrahigh-performance liquid chromatography (UPLC) system (Eksigent/Sciex; Framingham, MA)
+Separation: in-house packed 100 μm i.d. × 15 cm C18 column (Magic C18, 5 μm, 200Å; Michrom Bioresource; Auburn, CA)
+Staining: Coomassie Blue
+Temperature: 37 °C
+Time: 24 h
+Treatment: vehicle
+Treatment: Alum
+Treatment: MPLA
+Treatment: R848
+Treatment: sterile medium

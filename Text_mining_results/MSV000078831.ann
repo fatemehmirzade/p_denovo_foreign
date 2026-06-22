@@ -1,0 +1,52 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: HEK-293 cells overexpressing TrkB receptor (HEK-TrkB)
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energies of 27
+Compound: BDNF 25 ng/mL
+DiseaseTreatment: BDNF stimulation
+DiseaseTreatment: BDNF treatment
+EnrichmentMethod: alkyne resin-based isolation of l -azidohomoalanine (AHA)-labeled proteins
+EnrichmentMethod: Click-iT Protein Enrichment Kit
+EnrichmentMethod: BONCAT
+FactorValue: BDNF
+FactorValue: 2 h
+FlowRateChromatogram: 0.05 mL/min
+FlowRateChromatogram: 250 nL/min
+FractionationMethod: hydrophilic interaction liquid chromatography
+FractionationMethod: HILIC
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy collisional dissociation
+GeneticModification: overexpressing TrkB receptor
+GradientTime: 5 min
+GradientTime: 40 min
+GradientTime: 5 min
+GradientTime: 120 min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Label: BONCAT
+Label: SILAC
+Label: BONLAC
+Label: 13 C 6 - 15 N 2 -lysine
+Label: 13 C 6 - 15 N 4 -arginine
+Label: D 4 -lysine
+Label: 13 C 6 -arginine
+MaterialType: cells
+MaterialType: cell line
+Modification: Carbamidomethylation of cysteine
+Modification: oxidation of methionine
+Modification: protein N-terminal acetylation
+Modification: AHA
+Modification: l -2,4-diaminobutanoate
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: Twelve fractions
+NumberOfMissedCleavages: two
+NumberOfTechnicalReplicates: twice
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 7 ppm
+ReductionReagent: DTT
+SamplingTime: 2 h after BDNF stimulation
+Separation: Thermo Scientific EASY-nLC 1000
+Separation: self-packed 75 μm × 25 cm reversed-phase column (Reprosil C18, 3 μm, Dr. Maisch GmbH, Germany)
+Time: 2 h
+Treatment: BDNF

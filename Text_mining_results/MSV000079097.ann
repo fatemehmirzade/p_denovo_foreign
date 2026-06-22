@@ -1,0 +1,55 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: Jurkat E6-1 cells (ATCC)
+CleavageAgent: trypsin
+CollisionEnergy: HCD-normalized collision energy was set to 25
+Compound: MG-132 2 μm
+Compound: MG132 5 μm
+Compound: PR-619 5 μm
+Compound: dimethyl sulfoxide (DMSO) 0.5%
+DiseaseTreatment: 2 μm MG-132
+DiseaseTreatment: 5 μm MG132
+DiseaseTreatment: 5 μm PR-619
+DiseaseTreatment: 0.5% dimethyl sulfoxide (DMSO)
+EnrichmentMethod: anti-K-ε-GG antibody
+EnrichmentMethod: K-ε-GG enrichment
+FactorValue: 2 μm MG-132
+FactorValue: 5 μm MG132
+FactorValue: 5 μm PR-619
+FactorValue: 0.5% dimethyl sulfoxide (DMSO)
+FlowRateChromatogram: 3 ml/min
+FlowRateChromatogram: 200 nl/min
+FractionationMethod: Off-line basic RP fractionation
+FractionationMethod: basic RP LC method
+FragmentationMethod: HCD
+GradientTime: 64-min
+GradientTime: 150 min
+GrowthRate: ∼6 doublings
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+IonizationType: electrospray
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: Oxidized methionines
+Modification: Gly-Gly addition to lysines
+Modification: N-terminal protein acetylation
+Modification: Carbamidomethylation of cysteines
+NumberOfFractions: 80 basic RP fractions
+NumberOfFractions: eight total fractions
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 4 h with 2 μm MG-132
+SamplingTime: 4 h with either 5 μm MG132, 5 μm PR-619, or 0.5% dimethyl sulfoxide (DMSO)
+Separation: nanoflow-UPLC-HCD-MS/MS
+Separation: Proxeon Easy-nLC 1000
+Separation: microcapillary column (360 μm outer diameter × 75 μm inner diameter)
+Separation: ReproSil-Pur C18-AQ 1.9 μm beads
+Time: 4 h
+Treatment: MG-132
+Treatment: PR-619
+Treatment: dimethyl sulfoxide

@@ -1,0 +1,36 @@
+AcquisitionMethod: NanoLC–MS/MS
+AlkylationReagent: carboxamidomethylation
+CellLine: HCT116
+CellLine: U87
+CleavageAgent: trypsin
+CollisionEnergy: 25% normalized collision energy
+Compound: Erlotinib
+Disease: cancer
+DiseaseTreatment: Erlotinib
+EnrichmentMethod: Phosphopeptide immunoprecipitation
+EnrichmentMethod: phosphotyrosine-based phosphoproteomics
+FactorValue: P-Tyr-1000
+FactorValue: 4G10
+FactorValue: Erlotinib
+FlowRateChromatogram: 300 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+FragmentationMethod: higher-energy collision
+Genotype: EGFR mutated
+GradientTime: 90 min
+Instrument: Q Exactive mass spectrometer
+Label: label-free
+MS2MassAnalyzer: orbitrap
+MaterialType: cells
+Modification: Cysteine carboxamidomethylation
+Modification: serine, threonine and tyrosine phosphorylation
+Modification: methionine oxidation
+Modification: N-terminal acetylation
+NumberOfMissedCleavages: two
+NumberOfSamples: 6
+NumberOfTechnicalReplicates: six
+Organism: Homo sapiens
+PrecursorMassTolerance: 4.5 ppm
+Separation: Ultimate 3000 nanoLC-MS/MS system
+Separation: 20 cm × 75 μm ID fused silica column custom packed with 3 μm 120 Å ReproSil Pur C18 aqua
+Treatment: Erlotinib

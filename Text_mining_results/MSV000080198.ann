@@ -1,0 +1,49 @@
+AlkylationReagent: iodoacetamide
+Bait: MCM2
+Bait: MCM3
+Bait: MCM4
+Bait: MCM5
+Bait: MCM6
+Bait: MCM7
+CellLine: U2OS
+CellLine: U2OS Flp-In T-Rex cells
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy was set at 35%
+Compound: Doxycyclin 2 μg/mL
+Compound: biotin 50 μM
+Compound: etoposide
+EnrichmentMethod: GFP-Immunoprecipitation
+EnrichmentMethod: Streptavidin Purification
+FactorValue: DNA damage
+FlowRateChromatogram: 4 μL/min
+FlowRateChromatogram: 200 nL/min
+FractionationMethod: SDS-PAGE gel electrophoresis
+FractionationMethod: gel was cut into slices
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: collision-induced dissociation
+GeneticModification: GFP
+GeneticModification: BirA*
+GeneticModification: MCM2 to MCM7
+GradientTime: 4 h gradient
+Instrument: OrbiTrap QExactive mass spectrometer (Thermo Scientific)
+IonizationType: electrosprayed
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethylation on cysteine
+Modification: methionine oxidation
+Modification: protein N-terminal acetylation
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 7 ppm
+ReductionReagent: DTT
+SamplingTime: 48 h
+SamplingTime: 24 h
+Separation: Dionex Ultimate 3000 nanoHPLC system
+Separation: Acclaim PepMap100 C18 column (0.3 mm id × 5 mm, Thermo Scientific)
+Separation: PepMap C18 nano column (75 μm × 50 cm, Thermo Scientific)
+Staining: Coomassie Blue
+Time: 48 h
+Time: 24 h
+Treatment: etoposide

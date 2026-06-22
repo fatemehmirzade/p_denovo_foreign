@@ -1,0 +1,60 @@
+AcquisitionMethod: Data-dependent acquisition
+AlkylationReagent: iodoacetamide
+AlkylationReagent: IAA
+Bait: ZNF521
+Bait: ZNF521 ΔNBD
+CellLine: HEK293T
+CellLine: DAOY
+CellLine: K562
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25%
+Compound: dithiobis (succinimidyl propionate) DSP 0.05
+Compound: dithiobis (succinimidyl propionate) DSP 0.25
+Compound: dithiobis (succinimidyl propionate) DSP 1 mM
+EnrichmentMethod: immunoprecipitation
+EnrichmentMethod: coimmunoprecipitation
+FactorValue: 0.05
+FactorValue: 0.25
+FactorValue: 1 mM
+FactorValue: 5
+FactorValue: 15
+FactorValue: 30 min
+FactorValue: ZNF521
+FactorValue: ZNF521-ΔNBD
+FlowRateChromatogram: 500 nL/min
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: strong cation exchange (SCX) StageTips
+FragmentMassTolerance: 0.02 Da
+FragmentationMethod: HCD
+GeneticModification: FUIGW-ZNF521
+GeneticModification: FUIGW-ZNF521 ΔNBD
+GeneticModification: p3xFlag-CMV-7.1 expressing the first 1–15, 1–20 zinc fingers and the last 24–30 zinc fingers for ZNF521
+GeneticModification: Zfp423 Myc-DDK-tagged clone in pCMV6 entry
+GeneticModification: pFlag-CS2-OAZ
+GeneticModification: pFlag-CS2-OAZ-ZNF-1–13
+GeneticModification: GFP-ZNF521 fusion protein
+GradientTime: 70 min
+GradientTime: 5 min
+Instrument: quadrupole-orbitrap mass spectrometer Q-Exactive (Thermo Fisher Scientific, Bremen, Germany)
+IonizationType: nanoelectrospray (nESI)
+Label: 18O labeling
+Label: label-free
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethyl cysteine
+Modification: oxidized methionine
+Modification: C-terminal 18O labeling
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: four SCX fractions
+NumberOfMissedCleavages: 1
+Organism: Homo sapiens
+PrecursorMassTolerance: 1.6 m/z
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: harvested for immunoprecipitation after 48 h
+Separation: Easy LC 1000 nanoscale liquid chromatography (nanoLC) system
+Separation: pulled fused silica capillary, 75 μm i.d., in-house packed to a length of 10 cm with 3 μm C18 silica particles
+Staining: EZ Blue Gel Staining Reagent
+Temperature: 37 °C
+Treatment: dithiobis[succinimidyl propionate]
+Treatment: DSP

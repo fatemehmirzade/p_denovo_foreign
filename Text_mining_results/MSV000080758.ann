@@ -1,0 +1,16 @@
+AcquisitionMethod: LC–MS/MS
+CleavageAgent: trypsin
+Compound: Human CaM
+Compound: plectin-ABD isoform 1a
+FragmentMassTolerance: 0.03 Da
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+Label: isotopically light (nonlabeled)
+Label: heavy (labeled)
+Modification: carbamidomethylation of cysteine
+Modification: oxidation of methionine
+Organism: Human
+PrecursorMassTolerance: 15 ppm
+PrecursorMassTolerance: 10 ppm
+Separation: LC–MS/MS
+Treatment: cross-linked by isotopically light (nonlabeled) and heavy (labeled) disuccinimidyl suberate (DSS-d0 and DSS-d12)

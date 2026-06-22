@@ -1,0 +1,44 @@
+AcquisitionMethod: nano LC–MS/MS
+AcquisitionMethod: MALDI–TOF MS
+Bait: His–Bcnt
+Bait: His–BCNT
+CellLine: HEK (human embryonic kidney)-293T
+CellLine: T-Rex293 (HEK-TR)
+CellLine: G11 (HEK-TR clone which constitutively expresses His–BCNT)
+CleavageAgent: trypsin
+CleavageAgent: endoproteinase Asp-N
+CleavageAgent: Achromobacter protease I
+Compound: nicotinamide 4 mM
+Compound: trichostatin A 50 nM
+EnrichmentMethod: Ni-NTA
+EnrichmentMethod: Ni 2+ -nitrilotriacetate
+EnrichmentMethod: anti-His antibody-linked beads
+EnrichmentMethod: nickel-chelating affinity chromatography
+FactorValue: nicotinamide
+FactorValue: trichostatin A
+FractionationMethod: SDS/PAGE
+FragmentationMethod: LIFT mode
+GeneticModification: His–Bcnt
+GeneticModification: His–BCNT
+GeneticModification: His-variants
+GeneticModification: Ser 250 substitutions
+GeneticModification: His-tag peptide
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Instrument: ultrafleXtreme TOF/TOF MS (Bruker Daltonics)
+MaterialType: cells
+MaterialType: cell line
+Modification: pyro-Glu (N-term Q)
+Modification: Oxidation (M)
+Modification: Phospho (ST)
+Modification: Acetyl (K)
+Organism: Homo sapiens
+Organism: Bos taurus
+Organism: Escherichia coli
+Separation: nano LC–MS/MS
+Staining: Coomassie Brilliant Blue
+Staining: Quick-CBB Plus
+Strain: E. cloni 10G
+Strain: BL21(DE3)
+Time: 2 h
+Treatment: nicotinamide
+Treatment: trichostatin A

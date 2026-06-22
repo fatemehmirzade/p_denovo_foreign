@@ -1,0 +1,55 @@
+AcquisitionMethod: LC-ESI-MS/MS
+AlkylationReagent: iodoacetamide
+CellLine: HEK293
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: 35%
+CollisionEnergy: 25%
+FactorValue: HEK293 cells
+FactorValue: Mouse brain
+FlowRateChromatogram: 0.8 mL/min
+FlowRateChromatogram: ∼300 nL/min
+FractionationMethod: basic pH reverse phase fractionation
+FragmentMassTolerance: 0.01 Da
+FragmentationMethod: HCD
+FragmentationMethod: HCD-MS2
+GradientTime: 50 min
+GradientTime: 3 hr
+Instrument: LTQ Orbitrap Elite, Thermo Scientific
+Instrument: Q-Exactive Orbitrap mass spectrometer
+IonizationType: ESI
+MaterialType: cells
+MaterialType: tissue
+Modification: phosphorylation
+Modification: glycosylation
+Modification: methylation
+Modification: cysteine alkylation
+Modification: Oxidation (M)
+Modification: deamidation (N, Q)
+Modification: phosphorylation (ST)
+Modification: pyro-glutamate (N-term Q)
+Modification: carbamylation (K)
+Modification: Formylation (ST)
+Modification: iron (ED)
+Modification: iodoacetmaide (M)
+Modification: N-terminal methionine cleavage
+Modification: acetylation
+Modification: Acetylation (K)
+Modification: dihydroxy tryptophan (W)
+Modification: methylation (K)
+Modification: iodination (Y)
+Modification: mono-methylation
+Modification: di-methylation
+Modification: tri-methylation
+Modification: diphthalamide modification
+NumberOfFractions: total of 96 fractions which were consolidated into 24
+NumberOfMissedCleavages: 1
+NumberOfSamples: 24
+Organism: Homo sapiens
+Organism: Mus musculus
+OrganismPart: brain
+PrecursorMassTolerance: 5 ppm
+PrecursorMassTolerance: 500 Da
+ReductionReagent: dithiothreitol
+Separation: 100 μm I.D. microcapillary column packed first with ∼0.5 cm of Magic C 4 resin (5 μm, 100 Å, Michrom Bioresources, Auburn, CA) followed by 20 cm of Maccel C 18 AQ resin (3 μm, 200 Å, Nest Group, Southborough, MA)
+Strain: C57BL/6 × 129/sv

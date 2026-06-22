@@ -1,0 +1,55 @@
+AcquisitionMethod: data dependent acquisition
+AcquisitionMethod: DDA
+AcquisitionMethod: data independent acquisition
+AcquisitionMethod: DIA
+AlkylationReagent: iodoacetamide
+AnatomicSiteTumor: lung
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy set to 28
+CollisionEnergy: normalized collision energy value was set to 30
+Disease: lung squamous cell carcinomas
+FactorValue: frozen lung squamous cell carcinomas
+FactorValue: adjacent tissues
+FlowRateChromatogram: 0.2 ml/min
+FlowRateChromatogram: 300 nl/min
+FractionationMethod: basic pH reversed phase HPLC
+FractionationMethod: bRPLC
+FragmentMassTolerance: 0.05 Da
+GradientTime: 9 minutes
+GradientTime: 4 minutes
+GradientTime: 50 minutes
+GradientTime: 5.5 minutes
+GradientTime: 13 min
+GradientTime: 8.5 minutes
+GradientTime: 90-minute gradient
+GradientTime: 8 minutes
+GradientTime: 60 minutes
+GradientTime: 7 minutes
+GradientTime: 5 minutes
+GradientTime: 1 minute
+GradientTime: 10 minutes
+Instrument: QExactive Plus, Thermo
+IonizationType: electrospray
+Label: label-free quantification
+Label: LF
+Label: TMT 6-plex
+Label: TMT
+MaterialType: tissue
+Modification: carbamidomethylation (cysteine)
+Modification: oxidation (methionine)
+Modification: pyroglutamic acid (glutamic acid)
+NumberOfBiologicalReplicates: 8
+NumberOfFractions: Twelve concatenated fractions
+NumberOfMissedCleavages: no limitation on missed cleavages
+NumberOfMissedCleavages: Two missed tryptic cleavages
+NumberOfSamples: 4 frozen lung squamous cell carcinomas and 4 adjacent tissues
+Organism: human
+OrganismPart: lung
+PrecursorMassTolerance: 10 ppm
+PrecursorMassTolerance: 15 ppm
+ReductionReagent: DTT
+Separation: RSLC
+Separation: C18, 75 μm ID×50 cm, 2 μm, 100Å, Dionex, Sunnyvale, CA
+SpikedCompound: standard peptide retention time calibrator mixture (PRTC, Pierce #88320)
+Treatment: lung squamous cell carcinomas
+TumorSite: lung

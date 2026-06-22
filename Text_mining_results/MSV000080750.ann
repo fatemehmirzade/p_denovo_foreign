@@ -1,0 +1,40 @@
+AcquisitionMethod: data-dependent mode
+AcquisitionMethod: LC-MS/MS
+AlkylationReagent: chloroacetamide
+Bait: ISG15
+CellLine: HeLa cells
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25%
+Compound: interferon α2 1000 units per ml
+EnrichmentMethod: nickel affinity purification
+EnrichmentMethod: His-affinity purification
+FactorValue: interferon α2 1000 units per ml
+FactorValue: 40 hr
+FlowRateChromatogram: 250 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: CID
+GeneticModification: Flag-His ISG15 ectopic expression
+GeneticModification: 3xFlag-6His-ISG15
+GradientTime: 130 min
+GradientTime: 55 min
+Instrument: Q Exactive mass spectrometer
+IonizationType: NanoFlex source
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: GlyGly modification of lysine residues
+Modification: oxidation of methionine residues
+Modification: pyroglutamate formation of N-terminal glutamine residues
+Modification: Carbamidomethyl formation of cysteine residues
+NumberOfMissedCleavages: three
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: tris(2-carboxyethyl)phosphine
+ReductionReagent: TCEP
+SamplingTime: 40 hr post-treatment
+Separation: Easy-nLC 1000 UHPLC system
+Separation: reverse-phase column (made in-house, 75 μm I.D. × 300 mm, 1.9 μm beads C18 Reprosil-Pur, Dr Maisch GmbH, Germany)
+Time: 40 hr
+Treatment: type I interferon
+Treatment: interferon α2

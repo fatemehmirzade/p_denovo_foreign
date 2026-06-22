@@ -1,0 +1,22 @@
+Bait: nvGW182
+Bait: nvΔDNAJ
+Bait: nvΔCED
+Bait: nvΔCED1
+Bait: nvΔCED2
+Bait: nvΔCED3
+Bait: nvΔCED4
+Bait: nvCED
+Bait: nvDNAJ
+CellLine: HEK293
+Compound: GST-fusions
+EnrichmentMethod: GST pull-downs
+EnrichmentMethod: affinity purified
+FactorValue: GST-fusions
+GeneticModification: GST-fusions
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+Label: Label-free quantitation (LFQ)
+MaterialType: cells
+Organism: Homo sapiens
+SamplingTime: 24 h post-transfection
+Separation: Liquid chromatography
+Time: 24 h post-transfection

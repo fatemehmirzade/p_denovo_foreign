@@ -1,0 +1,56 @@
+AcquisitionMethod: Top5 data-dependent MS/MS scan method
+AcquisitionMethod: topN method
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27 eV
+Depletion: Agilent Multiple Affinity Removal Spin Cartridge
+Depletion: ProteoPrep20 Plasma Immunodepletion Kit
+Disease: healthy
+EnrichmentMethod: Agilent Multiple Affinity Removal Spin Cartridge
+EnrichmentMethod: ProteoPrep20 Plasma Immunodepletion Kit
+FactorValue: women
+FactorValue: men
+FactorValue: plasma
+FactorValue: serum
+FlowRateChromatogram: 450 nl/min
+FractionationMethod: basic reversed-phase pre-fractionation
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy C-trap dissociation
+GradientTime: 20 min
+GradientTime: 15 min
+GradientTime: 5 min
+GradientTime: 50 min
+GradientTime: 10 min
+GradientTime: 12 min
+Instrument: Q Exactive HF Orbitrap (Thermo Fisher Scientific)
+IonizationType: nano-electrospray ion source
+Label: label-free quantification
+MaterialType: biofluid
+Modification: cysteine carbamidomethylation
+Modification: N-terminal acetylation
+Modification: methionine oxidations
+NumberOfBiologicalReplicates: 10
+NumberOfFractions: 46 collected fractions
+NumberOfFractions: 8 fractions
+NumberOfMissedCleavages: two
+NumberOfSamples: 15
+NumberOfSamples: 32
+NumberOfSamples: 30
+Organism: human
+OrganismPart: blood
+OrganismPart: plasma
+OrganismPart: serum
+PrecursorMassTolerance: 7 ppm
+SamplingTime: 6 a.m.
+SamplingTime: 9 a.m.
+SamplingTime: 12 p.m.
+SamplingTime: 3 p.m.
+Separation: EASY-nLC 1000 ultra-high-pressure system
+Separation: 40 cm HPLC-columns (internal diameter 75 μm; in-house packed into the tip with ReproSil-Pur C18-AQ 1.9 μm resin; Dr. Maisch)
+Sex: women
+Sex: men
+SyntheticPeptide: Plasma PrESTs
+Time: 6 a.m.
+Time: 9 a.m.
+Time: 12 p.m.
+Time: 3 p.m.

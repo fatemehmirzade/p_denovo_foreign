@@ -1,0 +1,25 @@
+CellLine: HEK293
+CellLine: HeLa
+CellLine: K562
+CellLine: HepG2
+CellLine: MCF-10A
+CellLine: MDA-MB
+CellLine: MCF7
+CellLine: WI38
+CellLine: C2C12
+CellLine: NIH3T3
+CellType: myoblasts
+CellType: myotubes
+MaterialType: cells
+MaterialType: tissue
+Modification: deamidation
+Modification: methylation
+Organism: human
+Organism: mouse
+Organism: zebrafish
+Organism: Drosophila melanogaster
+Organism: C. elegans
+OrganismPart: brain tissue
+OrganismPart: liver
+PooledSample: pooled
+SyntheticPeptide: synthetic peptides

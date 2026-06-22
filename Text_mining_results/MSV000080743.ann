@@ -1,0 +1,16 @@
+Bait: full-length SPRTN-WT
+Bait: SPRTN-E112A
+Bait: SPRTN-Y117C
+CellLine: LCLs
+CleavageAgent: His-tagged TEV protease
+Disease: Ruijs-Aalfs syndrome (RJALS)
+EnrichmentMethod: Ni-sepharose IMAC gravity flow column
+EnrichmentMethod: HiTrap SP HP column
+GeneticModification: full-length SPRTN-WT
+GeneticModification: SPRTN-E112A
+GeneticModification: SPRTN-Y117C
+GeneticModification: Z-basic-his tag
+Instrument: LC/ESI-TOF mass spectrometry
+IonizationType: ESI
+MaterialType: cells
+Organism: E. coli

@@ -1,0 +1,43 @@
+AcquisitionMethod: data-dependent mode
+AcquisitionMethod: targeted mode
+AcquisitionMethod: tMS 2 mode
+AlkylationReagent: N-ethylmaleimide
+AlkylationReagent: iodoacetamide
+Bait: TTR
+CellLine: HEK293
+CellPart: soluble proteins
+CleavageAgent: trypsin
+CleavageAgent: Trypsin/Lys-C Mix
+Compound: Ubc9 fused to TTR
+Compound: non-fused TTR
+EnrichmentMethod: polyclonal anti-TTR antibodies
+FactorValue: Ubc9 fused to TTR
+FactorValue: non-fused TTR
+FractionationMethod: SDS-PAGE
+FragmentMassTolerance: ±20 mmu
+GeneticModification: Ubc9 fused to TTR
+GeneticModification: Ubc9 mut
+GeneticModification: K14,153,154R mutant of Ubc9
+GeneticModification: haemagglutinin tag
+GeneticModification: C-terminal histidine tag
+GeneticModification: rTTR fused with glutathione-S-transferase
+GradientTime: 60 min
+Instrument: Q-Exactive MS instrument (Thermo Fisher Scientific)
+IonizationType: nanospray source
+MS2MassAnalyzer: Orbitrap mass analyser
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethylation (C)
+Modification: oxidation (M)
+Modification: GlyGly-tagged (K)
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+Organism: Escherichia coli
+PrecursorMassTolerance: ±10 ppm
+ReductionReagent: DTT
+SamplingTime: grown for 24 h
+Separation: C18 precolumn (AcclaimPepMap100, 2 cm x 75 μm inner diameter, C18, 3 μm, 100 Å)
+Separation: analytical column (AcclaimPepMapRLSC, 15 cm × 75 μm, C18, 2 μm, 100 Å)
+Staining: Coomassie blue R250
+Strain: BL21 pLys
+Time: 24 h

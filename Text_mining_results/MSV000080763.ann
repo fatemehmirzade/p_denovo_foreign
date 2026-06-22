@@ -1,0 +1,39 @@
+AcquisitionMethod: data-dependent acquisition mode
+AcquisitionMethod: data dependent acquisition mode
+AlkylationReagent: Chloroacetamide
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CleavageAgent: Lysyl Endoproteinase
+CleavageAgent: Trypsin
+CollisionEnergy: Normalized collision energy was set at 28
+Disease: periodontitis
+Disease: dental caries
+Disease: orally healthy
+EnrichmentMethod: solid-phase extraction
+EnrichmentMethod: desalted and concentrated on Waters Sep-Pak reversed-phase C 18 cartridges
+FactorValue: periodontitis
+FactorValue: dental caries
+FactorValue: orally healthy
+FlowRateChromatogram: 200 nl/min
+FragmentationMethod: Higher-Collisional Dissociation
+FragmentationMethod: HCD
+GradientTime: 2 h
+GradientTime: 110 min
+GradientTime: 25 min
+GradientTime: 5 min
+GradientTime: 5 min
+GradientTime: 5 min
+Instrument: Q Exactive HF instrument (Thermo Scientific, Bremen, Germany)
+IonizationType: electrospray source
+MaterialType: biofluid
+NumberOfBiologicalReplicates: 30
+NumberOfSamples: 30
+Organism: human
+OrganismPart: saliva
+ReductionReagent: tris (2-carboxyethyl)phosphine
+Separation: online nano-scale liquid chromatography tandem mass spectrometry (LC-MS/MS)
+Separation: in-house packed 50 cm capillary column with 1.9 μm Reprosil-Pur C 18 beads
+Separation: EASY-nLC 1000 system (Thermo Scientific)
+Treatment: periodontitis
+Treatment: dental caries
+Treatment: orally healthy

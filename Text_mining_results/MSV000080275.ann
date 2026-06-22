@@ -1,0 +1,39 @@
+AcquisitionMethod: LC–MS/MS
+Age: between 41 and 70 years
+AncestryCategory: ethnicity
+CellPart: cell-free sputum supernatant
+CleavageAgent: trypsin
+Compound: salbutamol 200 μg
+Disease: Chronic obstructive pulmonary disease (COPD)
+Disease: early stage COPD
+Disease: asymptomatic smokers
+Disease: former smokers
+Disease: never smokers
+DiseaseTreatment: salbutamol
+FactorValue: current asymptomatic smokers
+FactorValue: smokers with early stage COPD
+FactorValue: former smokers
+FactorValue: never smokers
+FlowRateChromatogram: 200 nL/min
+GradientTime: 200 min
+Instrument: Q Exactive™ mass-analyzer (Thermo Scientific)
+Label: Tandem Mass Tag™ 6-plex (TMTsixplex™)
+MaterialType: biofluid
+NumberOfBiologicalReplicates: 240
+NumberOfSamples: 240
+NumberOfSamples: 216
+NumberOfSamples: 54
+NumberOfTechnicalReplicates: duplicate
+Organism: human
+OrganismPart: sputum
+OriginSiteDisease: lung
+PooledSample: pooled
+ReductionReagent: DTT
+Separation: EASY-nanoLC 1000
+Separation: 50 cm C18RP RSLC EASY-spray™ column (2 μm particle size; Thermo Scientific)
+Sex: Male
+Sex: female
+Treatment: current asymptomatic smokers
+Treatment: smokers with early stage COPD
+Treatment: former smokers
+Treatment: never smokers

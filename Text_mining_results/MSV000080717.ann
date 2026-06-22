@@ -1,0 +1,30 @@
+AlkylationReagent: Carbamidomethylation
+CellType: primary human macrophages
+CleavageAgent: tryptic
+Compound: influenza A virus
+Disease: influenza A virus infected
+EnrichmentMethod: phosphopeptide enrichment with IMAC
+EnrichmentMethod: IMAC
+FactorValue: untreated
+FactorValue: infected with IAV
+FactorValue: 6 h
+FractionationMethod: strong cation exchange fractionation
+FragmentMassTolerance: 0.02 Da
+Instrument: Q Exactive ESI-quadrupole-orbitrap mass spectrometer
+IonizationType: ESI
+MaterialType: cells
+Modification: oxidation (M)
+Modification: phosphorylation (S, T, and Y)
+Modification: acetylation (protein N-terminal)
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: two
+NumberOfSamples: two control and two IAV infected samples
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 5 ppm
+SamplingTime: 6 h
+Separation: EASY-nLC 1000 nanoflow LC
+Temperature: 37 °C
+Time: 6 h
+Treatment: untreated
+Treatment: infected with IAV

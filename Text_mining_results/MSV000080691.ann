@@ -1,0 +1,56 @@
+AcquisitionMethod: data-dependent acquisition mode
+AlkylationReagent: N-ethylmaleimide
+Bait: EGFR
+Bait: RAB7
+Bait: RAB7-Y183F
+Bait: GRB2
+CellLine: HeLa cells
+CellLine: breast adenocarcinoma cells MDA-MB231
+CellLine: lung adenocarcinoma A549 cells
+CellLine: Ovarian cancer cell line HeyA8
+CellPart: cytoplasmic/plasma membrane
+CleavageAgent: trypsin
+Compound: EGF 100 ng/mL
+Compound: TGF-α 100 ng/mL
+EnrichmentMethod: ubiquitylated peptides were enriched
+EnrichmentMethod: phosphorylated tyrosine peptide enrichment
+EnrichmentMethod: enriched for phosphorylated serine and threonine-containing peptides
+EnrichmentMethod: titansphere chromatography
+EnrichmentMethod: immunoprecipitated proteins
+FactorValue: EGF
+FactorValue: TGF-α
+FactorValue: 1 min
+FactorValue: 1-40 min
+FactorValue: 90 min
+FractionationMethod: microcolumn-based strong cation exchange (SCX) chromatography
+GeneticModification: N-terminally HA-tagged EGFR
+GeneticModification: RAB5-GFP
+GeneticModification: RAB11-GFP
+GeneticModification: GFP-tagged human RAB7 (GFPRAB7a)
+GeneticModification: RAB7-Y183F
+GradientTime: 80 min
+GradientTime: 135 min
+Instrument: Q Exactive
+Instrument: LTQ-Orbitrap Velos
+Instrument: Q-Exactive Plus
+IonizationType: nanoelectrospray ion source
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: ubiquitylated
+Modification: phosphorylated tyrosine
+Modification: phosphorylated serine
+Modification: phosphorylated threonine
+NumberOfBiologicalReplicates: 2
+Organism: human
+SamplingTime: 1 min upon stimulation
+SamplingTime: 1-40 min
+SamplingTime: 90 min stimulation
+Separation: EASY-nLC system
+Separation: 15 cm analytical column (75 μm inner-diameter) in-house packed with 1.9 μm reversed-phase C18 beads (Reprosil-Pur AQ, Dr. Maisch)
+Temperature: 37°C
+Time: 1 min
+Time: 1-40 min
+Time: 90 min
+Treatment: EGF
+Treatment: TGF-α

@@ -1,0 +1,55 @@
+Age: 69-year-old
+AlkylationReagent: iodoacetamide
+CellPart: soluble
+CellPart: aggregated amyloidal plaque
+CleavageAgent: sequencing-grade modified trypsin
+CollisionEnergy: normalized collision energy was set to 28
+Compound: ammonium acetate buffer (AAB, 50 mM, pH 6.0)
+Compound: triethylammonium bicarbonate (TEAB, 50 mM, pH8.5)
+Compound: ammonium bicarbonate buffer (ABB, 50 mM, pH 8.0)
+Disease: subarachnoid hemorrhage
+Disease: dementia
+EnrichmentMethod: ultracentrifugation-electrostatic repulsion hydrophilic interaction chromatography (UC-ERLIC)
+EnrichmentMethod: ultracentrifugation
+FactorValue: 10
+FactorValue: RT (22 °C)
+FactorValue: 37 °C
+FactorValue: day 1
+FactorValue: day 3
+FactorValue: day 7
+FlowRateChromatogram: 300 nl/min
+FractionationMethod: ERLIC separation on an amine-column
+FragmentMassTolerance: 0.02 Da
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GradientTime: 60 min gradient
+Instrument: Q-Exactive apparatus (Thermo Fisher, MA)
+IonizationType: EASY nanospray source
+IonizationType: electrospray
+Label: label-free quantitation (LFQ)
+MaterialType: tissue
+Modification: Carbamidomethylation
+Modification: oxidation
+Modification: deamidation
+NumberOfFractions: 26 separate fractions
+NumberOfMissedCleavages: Two
+Organism: human
+OrganismPart: brain tissue
+OriginSiteDisease: brain
+PooledSample: pooled
+PrecursorMassTolerance: 5.1 ppm
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: dithiothreitol
+Separation: Dionex Ultimate 3000 RSLC nanoLC system
+Separation: acclaim peptide trap column
+Separation: Dionex EASY-spray column (PepMap® C18, 3um, 100A)
+Sex: male
+Temperature: 10
+Temperature: RT (22 °C)
+Temperature: 37 °C
+Time: day 1
+Time: day 3
+Time: day 7
+Treatment: subarachnoid hemorrhage
+Treatment: dementia

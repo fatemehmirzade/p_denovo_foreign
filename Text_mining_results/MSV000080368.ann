@@ -1,0 +1,27 @@
+Bait: Dsg
+Disease: pemphigus
+Disease: PV
+Disease: PF
+EnrichmentMethod: affinity purified on Dsg
+FactorValue: PV
+FactorValue: PF
+FractionIdentifier: unbound fraction
+FractionIdentifier: bound fraction
+FractionationMethod: affinity purified on Dsg
+FragmentMassTolerance: mass error PPM ≤1.5
+Instrument: Q Exactive Plus mass spectrometer (Thermo Scientific)
+MaterialType: biofluid
+NumberOfBiologicalReplicates: 6
+NumberOfTechnicalReplicates: 3-4
+Organism: Homo sapiens
+OrganismPart: serum
+SamplingTime: time 0
+SamplingTime: 0.7 year later
+SamplingTime: 1.8 years later
+Separation: Nano-ACQUITY UPLC system (Waters)
+SpikedCompound: stable isotopically labeled peptides
+Time: 6 years
+Time: 6.6 years
+Time: 0
+Time: 0.7 year later
+Time: 1.8 years later

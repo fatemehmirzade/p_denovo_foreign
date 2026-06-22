@@ -1,0 +1,23 @@
+AcquisitionMethod: Label free quantification
+AcquisitionMethod: LFQ
+Bait: GFP-DONSON
+Bait: DONSON
+CellLine: HeLa-Flp-In T-REx
+Compound: 2 mM HU
+EnrichmentMethod: GFP-trap magnetic agarose beads
+EnrichmentMethod: iPOND
+FactorValue: asynchronous
+FactorValue: S-phase accumulated
+GeneticModification: GFP-DONSON
+Label: Label free quantification (LFQ)
+MaterialType: cell line
+Modification: M(ox)
+Modification: protein N-terminal acetylation
+Modification: carbamylation
+NumberOfBiologicalReplicates: 3
+Organism: human
+SamplingTime: 24 h treatment with 2 mM HU
+Time: 24 h
+Treatment: asynchronous
+Treatment: S-phase accumulated
+Treatment: 24 h treatment with 2 mM HU

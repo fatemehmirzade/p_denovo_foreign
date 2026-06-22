@@ -1,0 +1,53 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: RKO
+CellLine: A431
+CellPart: nucleus
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 28
+Compound: H 2 O 2 500 μM
+Compound: EGF 100 ng/mL
+DiseaseTreatment: 500 μM H 2 O 2
+DiseaseTreatment: 100 ng/mL EGF
+EnrichmentMethod: streptavidin sepharose
+FactorValue: 500 μM H 2 O 2
+FactorValue: 100 ng/mL EGF
+FactorValue: 5 min
+FactorValue: 10 min
+FlowRateChromatogram: 300 nL/min
+FragmentMassTolerance: 0.1 Da
+FragmentationMethod: HCD
+GradientTime: 0–15 min, 2% B; 35 min, 15% B; 40 min, 20% B; 50 min, 30% B; 55 min, 35% B; 59–65 min, 90% B; 80–85 min, 2% B
+GradientTime: 0–10 min, 5% B; 100 min, 35% B; 120–130 min, 90% B; 140–150 min, 5% B
+Instrument: Q Exactive hybrid quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific)
+IonizationType: electrospray
+Label: DYn-2
+Label: DYn-2- d 6
+MaterialType: cells
+MaterialType: cell line
+Modification: S-sulfenylation
+Modification: S-sulfenylcysteine tagged with DYn-2-triazohexanoic acid group
+Modification: DTH
+Modification: carbamidomethyl
+Modification: heavy DTH modification on cysteine
+Modification: DTH- d 6
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: three
+NumberOfTechnicalReplicates: two
+Organism: human
+PrecursorMassTolerance: 0.01 Da
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 5 min
+SamplingTime: 10 min
+Separation: Easy-nLC1000 system
+Separation: 360 μm outer diameter × 75 μm inner diameter microcapillary precolumn packed with Jupiter C18 (5 μm, 300 Å, Phenomenex)
+Separation: 360 μm outer diameter × 50 μm inner diameter microcapillary analytical column packed with the ReproSil-Pur C18-AQ (3 μm, 120 Å, Dr. Maisch)
+Temperature: 37 °C
+Time: 5 min
+Time: 10 min
+Treatment: hydrogen peroxide
+Treatment: epidermal growth factor
+Treatment: 500 μM H 2 O 2
+Treatment: 100 ng/mL EGF
+Treatment: vehicle

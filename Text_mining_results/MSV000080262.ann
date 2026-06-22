@@ -1,0 +1,22 @@
+AcquisitionMethod: data-dependent mode
+CellLine: MCC13
+CellLine: MCC26
+CellLine: MKL1
+CellLine: MKL2
+CellPart: exosomes
+CellPart: extracellular vesicles
+Disease: Merkel cell carcinoma
+EnrichmentMethod: differential centrifugation
+EnrichmentMethod: filtration
+EnrichmentMethod: ExoQuick exosome precipitation reagent
+FactorValue: MCPyV-negative
+FactorValue: MCPyV-positive
+Genotype: MCPyV-negative
+Genotype: MCPyV-positive
+Instrument: Thermo Scientific Q-Exactive mass spectrometer
+MaterialType: cell line
+NumberOfBiologicalReplicates: 3
+NumberOfSamples: 4
+Organism: Homo Sapiens
+Separation: Thermo Fisher Scientific EASY system
+Specimen: exosomes

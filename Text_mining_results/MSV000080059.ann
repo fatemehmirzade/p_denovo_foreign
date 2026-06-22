@@ -1,0 +1,58 @@
+AcquisitionMethod: data-dependent scheme
+CellLine: UT7
+CellLine: K562
+CellPart: whole-cell lysates
+CellType: primary erythroid cells
+CellType: erythroid progenitors
+CellType: CD34 + progenitors
+CellType: CD36 + erythroid progenitors
+CellType: late burst-forming units-erythroid (BFU-Es)
+CellType: orthochromatic erythroblasts
+CellType: reticulocytes
+CellType: pyrenocytes
+CellType: erythroblast
+Compound: IL6
+Compound: IL3
+Compound: SCF
+Compound: EPO
+Compound: dexamethasone
+Compound: human serum
+Compound: fetal calf serum
+DevelopmentalStage: late burst-forming units-erythroid (BFU-Es)
+DevelopmentalStage: basophilic stage
+DevelopmentalStage: orthochromatic erythroblasts
+DevelopmentalStage: reticulocytes
+DevelopmentalStage: pyrenocytes
+DevelopmentalStage: progenitor stage
+DevelopmentalStage: Ortho stage
+FactorValue: differentiation stages
+FactorValue: reticulocytes
+FactorValue: pyrenocytes
+FractionationMethod: strong cationic exchange (SCX) StageTips
+FractionationMethod: isoelectric focalization using an Agilent 3100 Off-Gel fractionator
+FragmentationMethod: collision-induced dissociation (CID)
+FragmentationMethod: higher-energy collisional dissociation (HCD)
+GradientTime: 3-hr gradient
+GradientTime: 2-hr elution process
+Instrument: Q-Exactive
+Instrument: Orbitrap-Velos mass spectrometer (Thermo Fisher Scientific)
+Instrument: Orbitrap Velos mass spectrometer
+Label: Label-free protein quantification
+Label: ITRAQ
+MS2MassAnalyzer: linear trap quadrupole (LTQ)
+MaterialType: cells
+MaterialType: cell line
+Organism: human
+OrganismPart: cord blood
+SamplingTime: Each day
+Separation: C18 reverse-phase resin (75-μm inner diameter and 15-cm length)
+Time: 7 days
+Time: 3 days
+Time: 5 days
+Treatment: IL6
+Treatment: IL3
+Treatment: SCF
+Treatment: EPO
+Treatment: dexamethasone
+Treatment: human serum
+Treatment: fetal calf serum

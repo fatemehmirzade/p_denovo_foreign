@@ -1,0 +1,30 @@
+AcquisitionMethod: top10 data-dependent approach
+AlkylationReagent: iodoacetamide
+AnatomicSiteTumor: lymph node
+CleavageAgent: sequencing grade trypsin
+CollisionEnergy: normalized collision energy of 30%
+Disease: metastatic melanoma
+DiseaseTreatment: surgical excision
+FactorValue: pigmentation
+FactorValue: high immune
+FlowRateChromatogram: 250 nL/min
+FractionationMethod: Strong cation exchange chromatography
+FragmentMassTolerance: 1 Da
+FragmentationMethod: HCD
+GradientTime: 120 min
+GradientTime: 180 min
+GradientTime: 185 min
+GradientTime: 5 min
+Instrument: Q-Exactive
+MS2MassAnalyzer: Orbitrap mass analyzer
+MaterialType: tissue
+NumberOfBiologicalReplicates: 10
+NumberOfFractions: 6 fractions
+NumberOfMissedCleavages: three
+NumberOfSamples: 10
+Organism: Human
+OrganismPart: lymph node
+PrecursorMassTolerance: 1 Da
+ReductionReagent: DTT
+Separation: column (50 cm x 75 μm, C18, 2 μm and 100Å, PN 164540, Thermo Scientific, San José, CA, USA)
+TumorSite: lymph nodes

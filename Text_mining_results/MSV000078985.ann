@@ -1,0 +1,53 @@
+AcquisitionMethod: LC-MS/MS
+AlkylationReagent: carbamidomethylation
+AnatomicSiteTumor: breast
+BiologicalReplicate: 36
+BiologicalReplicate: 38
+BiologicalReplicate: 39
+BiologicalReplicate: 40
+BiologicalReplicate: 41
+CleavageAgent: trypsin
+Disease: amyloid
+Disease: breast cancer
+Disease: malignant medulloblastoma
+FactorValue: amyloid tissue
+FactorValue: control tissue
+FactorValue: one-slide-at-a-time pressure-based paraffin removal
+FactorValue: all-at-once paraffin removal
+FactorValue: freshly frozen samples
+FactorValue: Group 3
+FactorValue: Group 4
+FragmentMassTolerance: 10 ppm
+FragmentMassTolerance: 20 ppm
+FragmentMassTolerance: 20 ppm/40 ppm
+FragmentationMethod: HCD
+Genotype: Group 3
+Genotype: Group 4
+Instrument: SCIEX TripleTOF 5600+
+Instrument: SCIEX TripleTOF 6600
+Instrument: Thermo Q-Exactive
+MaterialType: tissue
+Modification: mono- and di-methylation (nTerm and Lys)
+Modification: single and double oxidation (Met and Pro)
+Modification: variable carbamidomethylation (nTerm and Cys)
+Modification: oxidation
+NumberOfBiologicalReplicates: 5
+NumberOfBiologicalReplicates: 12
+NumberOfBiologicalReplicates: 10
+NumberOfSamples: Twenty experiments
+NumberOfSamples: twelve experiments
+NumberOfSamples: five HCD experiments
+NumberOfSamples: ten experiments
+NumberOfTechnicalReplicates: two technical replicates
+NumberOfTechnicalReplicates: five technical replicates
+Organism: human
+OrganismPart: amyloid tissue
+OrganismPart: breast tissue
+OrganismPart: breast cancer FFPE sample
+OrganismPart: malignant medulloblastoma
+PrecursorMassTolerance: 10 ppm
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 50 ppm
+Separation: LC-MS/MS
+Specimen: FFPE
+TumorSite: breast

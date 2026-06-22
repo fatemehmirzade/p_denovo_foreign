@@ -1,0 +1,33 @@
+Bait: OTUB1
+Bait: OTUB1 WT
+Bait: OTUB1 N22A
+CellLine: Human embryonic kidney cells (HEK293)
+Compound: FIH-V5
+EnrichmentMethod: Immunoprecipitation
+FactorValue: empty vector
+FactorValue: FLAG-OTUB1 WT
+FactorValue: N22A
+FactorValue: nutrient starvation
+FactorValue: re-stimulation with nutrient rich media
+GeneticModification: FIH-V5
+GeneticModification: FLAG-OTUB1
+GeneticModification: FLAG-HA-OTUB1
+GeneticModification: FIH H199A
+GeneticModification: FLAG-OTUB1 N22A
+GeneticModification: shOTUB1
+Instrument: Q-Exactive mass spectrometer (Thermo Scientific)
+MaterialType: cells
+MaterialType: cell line
+Modification: hydroxylation/oxidation
+NumberOfBiologicalReplicates: 3
+NumberOfTechnicalReplicates: two
+Organism: Homo sapiens
+SamplingTime: 8 h prior to nutrient starvation
+SamplingTime: nutrient starvation (8 h) followed by re-stimulation with nutrient rich media for one additional hour
+SyntheticPeptide: Human HIF1 N803: DESGLPQLTSYDCEVNAPI
+SyntheticPeptide: Murine Notch N2012: VEGMLEDLINSHADVNAVDD
+SyntheticPeptide: Human OTUB1 N22: QQQKQEPLGSDSEGVNCLAYDEAIMAQQDRIQQE
+SyntheticPeptide: Human OTUB1 N22A: QQQKQEPLGSDSEGVACLAYDEAIMAQQDRIQQE
+Time: 8 h
+Time: one additional hour
+Treatment: nutrient starvation

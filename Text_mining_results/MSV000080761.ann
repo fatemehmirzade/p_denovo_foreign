@@ -1,0 +1,40 @@
+AcquisitionMethod: data-dependent MS/MS mode
+AlkylationReagent: methyl methane thiosulfonate
+AlkylationReagent: MMTS
+CellLine: MCF-10A
+CellLine: MCF-7
+CellLine: MDA-MB-231
+CleavageAgent: trypsin
+CollisionEnergy: stepped normalized collision energy (NCE) of 20%
+Disease: breast cancer
+FactorValue: MCF-10A
+FactorValue: MCF-7
+FactorValue: MDA-MB-231
+FlowRateChromatogram: 300 nl/min
+FragmentMassTolerance: 0.5 Da
+FragmentationMethod: HCD
+GradientTime: 3 min
+GradientTime: 120 min
+GradientTime: 2 min
+GradientTime: 9 min
+Instrument: Q-Exactive (quadrupole-orbitrap) mass spectrometer (Thermo Fisher Scientific)
+Label: SILAC
+Label: SILAC-SPROX
+MaterialType: cells
+MaterialType: cell line
+Modification: oxidation of methionine
+Modification: deamidation of Asparagine and Glutamine (N and Q)
+Modification: acetylation of the protein N-terminus
+Modification: MMTS at cysteine
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: 2
+Organism: human
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: tris(2-carboxyethyl)phosphine hydrochloride
+ReductionReagent: TCEP
+Separation: EASY-nLC 1000 system
+Separation: Jupiter 4μm Proteo 90Å reversed phase resin
+Separation: trapping column (100μm ID x 20 mm)
+Separation: analytical column (75μm ID x 150 mm)
+Temperature: 37°C

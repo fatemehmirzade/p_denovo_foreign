@@ -1,0 +1,17 @@
+CleavageAgent: trypsin
+Compound: PAD2 1.4 U/ml
+Compound: TGFβ1-LAP 0.1 μg/ml
+FactorValue: PAD2 1.4 U/ml
+FragmentMassTolerance: 0.015 Da
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)
+IonizationType: nano-electrospray ionization source
+MaterialType: cells
+Modification: Carbamidomethyl (C)
+Modification: citrullination (R)
+Modification: deamidation (N, Q)
+Modification: oxidation (M)
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+PrecursorMassTolerance: 5 ppm
+Separation: nanoflow HPLC system (Easy-nLC1000, Thermo Fisher Scientific)
+Treatment: citrullination

@@ -1,0 +1,44 @@
+AcquisitionMethod: LC-MS/MS
+Age: 65–79 years of age
+Age: 62–75 years of age
+AlkylationReagent: iodoacetamide
+CleavageAgent: trypsin
+DevelopmentalStage: advanced age
+Disease: healthy
+EnrichmentMethod: ultrafiltration
+EnrichmentMethod: hydrophilic-lipophilic-balanced reversed-phase cartridge (Oasis HLB)
+FlowRateChromatogram: 0.2 mL/min
+FractionIdentifier: Frs. 11–13
+FractionIdentifier: 14–17
+FractionIdentifier: 18–21
+FractionIdentifier: Frs. 3–5
+FractionIdentifier: 6
+FractionIdentifier: 7–9
+FractionationMethod: Strong cation exchange chromatography
+GradientTime: 60 min linear gradient separation
+GradientTime: 60 min gradient
+Instrument: Q Exactive (Thermo Fisher Scientific)
+IonizationType: nanoelectrospray ionization source (Proxeon Biosystems)
+Label: Label-free quantification
+MaterialType: biofluid
+Modification: carbamidomethyl cysteine
+Modification: oxidized methionine
+Modification: protein N-acetylation
+Modification: oxidized proline
+NumberOfBiologicalReplicates: 6
+NumberOfFractions: 26 fractions per sample were collected for proteomics
+NumberOfFractions: 12 fractions per sample were collected for peptidomics
+NumberOfMissedCleavages: two
+NumberOfMissedCleavages: 50
+NumberOfSamples: six
+NumberOfTechnicalReplicates: duplicate
+Organism: human
+OrganismPart: urine
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+Separation: C18 trap column, packed with Varian Pursuit (5 μm C18)
+Sex: female
+Sex: male

@@ -1,0 +1,53 @@
+AcquisitionMethod: data-dependent “top 10” method
+AlkylationReagent: iodoacetamide
+AlkylationReagent: Carbamidomethylation of cysteine
+Bait: HLA-I molecules
+CellLine: JY
+CellLine: SupB15WT
+CellLine: HCC1143
+CellLine: HCC1937
+CellLine: HB95
+CellLine: HCT116
+CellLine: SupB15RT
+CellType: Primary fibroblast cells
+CleavageAgent: trypsin
+CollisionEnergy: Normalized collision energy was 25%
+Compound: imatinib 1 μ m
+Disease: cancer
+Disease: human colon cancer
+DiseaseTreatment: imatinib
+EnrichmentMethod: immunoaffinity purified HLA-I molecules
+EnrichmentMethod: Sep-Pak tC18 (Waters, Milford, MA) cartridges
+EnrichmentMethod: Silica C-18 column tips (Harvard Apparatus, Holliston, MA)
+EnrichmentMethod: C 18 based StageTip
+FactorValue: imatinib
+FlowRateChromatogram: 250 nl/min
+FractionationMethod: SAX fractions
+FractionationMethod: SCX fractions
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 90 min
+GradientTime: 120 or 240-min gradient
+Instrument: Q Exactive mass spectrometer
+Instrument: Q Exactive instrument
+IonizationType: nanoelectrospray ion source
+IonizationType: nano-electrospray source
+MaterialType: cells
+MaterialType: cell line
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+NumberOfBiologicalReplicates: 3
+NumberOfBiologicalReplicates: 4
+NumberOfFractions: three SAX fractions
+NumberOfFractions: three SCX fractions
+NumberOfMissedCleavages: two
+NumberOfSamples: seven
+Organism: human
+OrganismPart: fibroblast
+PrecursorMassTolerance: 6 ppm
+Separation: nanoflow HPLC (Proxeon Biosystems, Thermo Fisher Scientific, Bremen, Germany)
+Separation: 20 cm long, 75 μm inner diameter column with ReproSil-Pur C18-AQ 1.9 μm resin
+Separation: 50 cm reversed phase column (75 μm inner diameter, packed in-house with ReproSil-Pur C18-AQ 1.9 μm resin (Dr. Maisch GmbH))
+Separation: Proxeon Ultra EASY-nLC system (Thermo Fisher Scientific)
+Treatment: imatinib

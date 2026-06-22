@@ -1,0 +1,48 @@
+AcquisitionMethod: TOP10 data-dependent acquisition
+Age: adolescent
+AlkylationReagent: MMTS
+Bait: SP1
+Bait: GATA1
+Bait: RUNX1
+Bait: rs6904029
+CellLine: K562
+CellPart: nuclear extract
+CellPart: nuclei
+CellType: primary foreskin fibroblasts
+CellType: peripheral blood mononuclear cells (PBMCs)
+CleavageAgent: trypsin/LysC mix
+CollisionEnergy: NCE = 25
+EnrichmentMethod: DNA pulldowns
+EnrichmentMethod: on-bead digestion
+FactorValue: K562
+FactorValue: primary foreskin fibroblasts
+FactorValue: peripheral blood mononuclear cells
+FractionationMethod: strong anion exchange
+FragmentMassTolerance: 20 ppm
+GradientTime: 94 min
+GradientTime: 239 min
+Instrument: QExactive mass spectrometer (Thermo Fisher Scientific)
+Label: dimethyl labeling
+Label: label-free protein quantification
+Label: label-free quantification
+MaterialType: cells
+MaterialType: tissue
+Modification: Methylthiol
+Modification: carbamidomethylation
+Modification: Acetylation of N-termini
+Modification: oxidation of methionines
+NumberOfFractions: 6 fractions
+NumberOfMissedCleavages: two
+Organism: human
+OrganismPart: foreskin
+OrganismPart: peripheral blood mononuclear cells
+OrganismPart: nuclei
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: TCEP
+Separation: 30 cm column packed in-house with 1.8 μm Reprosil-Pur C18-AQ
+Separation: Easy-nLC 1000
+Specimen: biopsy
+Specimen: buffy coats
+SpikedCompound: universal protein standard 2
+SpikedCompound: UPS2
+Temperature: 37 °C

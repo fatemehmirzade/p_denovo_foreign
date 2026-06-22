@@ -1,0 +1,28 @@
+AcquisitionMethod: online nanoLC-MS/MS
+Bait: centrosomes
+CellLine: Jurkat
+CellLine: HeLa
+CellPart: centrosomes
+CleavageAgent: modified trypsin
+Compound: nocodazole 0.2 μM
+Compound: cytochalasin D 1 μg/ml
+Compound: CK666
+Compound: siRNA against PCM1
+EnrichmentMethod: centrifugation onto a 60% sucrose cushion
+EnrichmentMethod: centrifugation through a discontinuous (70%, 50% and 40%) sucrose gradient
+FactorValue: non treated
+FactorValue: CK666-treated
+FactorValue: transfected with siRNA against PCM1
+FractionationMethod: 4-12% NuPAGE gel
+GradientTime: 120-min gradient
+Instrument: Q-Exactive Plus, Thermo Scientific
+MaterialType: cell line
+NumberOfBiologicalReplicates: 2
+Organism: Homo sapiens
+OrganismPart: centrosomes
+Separation: online nanoLC-MS/MS
+Separation: UltiMate 3000 RSLCnano
+Staining: R-250 Coomassie blue
+Treatment: non treated
+Treatment: CK666-treated
+Treatment: transfected with siRNA against PCM1

@@ -1,0 +1,57 @@
+AcquisitionMethod: SIM
+AcquisitionMethod: Data dependent MS/MS
+AlkylationReagent: iodoacetamide
+AlkylationReagent: IAA
+Bait: cTnT
+CleavageAgent: Trypsin Gold
+CleavageAgent: trypsin
+CollisionEnergy: NCE was optimised for each peptide
+Compound: purified human intact cTnT 1.5 mg/L
+Disease: ST-segment elevated myocardial infarction (STEMI)
+Disease: multiple myeloma
+Disease: gallstone disease
+EnrichmentMethod: immunoprecipitation
+FactorValue: 0 h
+FactorValue: 4 h
+FactorValue: 8 h
+FactorValue: 24 h
+FactorValue: 32 h
+FactorValue: 48 h
+FlowRateChromatogram: 300 nL/min
+FractionIdentifier: 37 kDa
+FractionIdentifier: 29 kDa
+FractionIdentifier: 19, 18, and 16 kDa
+FractionationMethod: SDS-PAGE
+FragmentMassTolerance: 0.1 Da
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 30 min
+GradientTime: 1 min
+GradientTime: 4 min
+Instrument: Q Exactive hybrid quadrupole-Orbitrap mass spectrometer
+MaterialType: biofluid
+Modification: oxidised methionine
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: 2
+NumberOfTechnicalReplicates: 6
+Organism: human
+OrganismPart: serum
+PooledSample: pooled
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 0, 4, 8, 24, 32, and 48 h
+Separation: UHPLC Dionex Ultimate 3000
+Separation: Acclaim PepMap 100, 100 μm × 2 cm, C18, 5 μm, 100 A trap column
+Separation: Acclaim PepMap RSLC, 75 μm × 15 cm, C18, 2 μm, 100 A analytical column
+SpikedCompound: purified human intact cTnT
+Staining: Bio-Safe™ Coomassie
+SyntheticPeptide: synthesised cTnT peptides
+Temperature: 37 °C
+Time: 0 h
+Time: 4 h
+Time: 8 h
+Time: 24 h
+Time: 32 h
+Time: 48 h
+Treatment: incubated at 37 °C

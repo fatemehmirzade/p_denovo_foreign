@@ -1,0 +1,26 @@
+AcquisitionMethod: HCD acquisition
+AcquisitionMethod: affinity purification (AP)
+AcquisitionMethod: AP-MS
+CellLine: HEK293
+EnrichmentMethod: affinity purification
+EnrichmentMethod: AP
+EnrichmentMethod: pulldown
+FragmentMassTolerance: 0.1 Da
+FragmentationMethod: HCD
+Label: SILAC
+MaterialType: cells
+Modification: oxidation on methionine (M+15.995)
+Modification: N-term acetylation (+42.011)
+Modification: N-term Carbamylation (+43.006)
+Modification: Pyro-glu on glutamine (−17.027Q)
+Modification: deamidation on aspargine (N+0.984)
+Modification: deamidation on glutamine (Q+0.984)
+Modification: Carbamidomethylation
+Modification: SILAC variable modifications of +8.0142 on Lysine and +10.0083 on Arginine
+NumberOfSamples: 227
+NumberOfSamples: 365
+Organism: human
+PooledSample: pooled
+PrecursorMassTolerance: 10 ppm
+Separation: LC/MS
+SyntheticPeptide: synthetic peptide spectra from ProteomeTools

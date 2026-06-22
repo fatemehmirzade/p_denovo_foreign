@@ -1,0 +1,75 @@
+AcquisitionMethod: affinity purification-mass spectrometry
+AcquisitionMethod: AP-MS
+AcquisitionMethod: data-dependent shotgun liquid chromatography-tandem mass spectrometry
+AcquisitionMethod: parallel reaction monitoring
+AcquisitionMethod: PRM
+AlkylationReagent: iodoacetamide
+Bait: ASK1
+Bait: ASK2
+Bait: ASK3
+CellLine: HEK-293 cells (CRL-1573, ATCC)
+CleavageAgent: trypsin gold
+CollisionEnergy: normalized collision energy of 27
+Compound: ethanol (vehicle control, 0.08% v/v)
+Compound: HNE 10 μm
+Compound: HNE 50 μm
+DiseaseTreatment: ethanol (vehicle control, 0.08% v/v)
+DiseaseTreatment: 10 μm HNE
+DiseaseTreatment: 50 μm HNE
+EnrichmentMethod: affinity purification-mass spectrometry (AP-MS)
+EnrichmentMethod: co-immunoprecipitation (co-IP)
+EnrichmentMethod: immunopurified
+FactorValue: ethanol (vehicle control, 0.08% v/v)
+FactorValue: 10 μm HNE
+FactorValue: 50 μm HNE
+FlowRateChromatogram: 300 nL/min
+FractionIdentifier: 1–9
+FractionationMethod: Size exclusion chromatography (SEC)
+FractionationMethod: 10% Bis-Tris gel
+FragmentMassTolerance: 20 ppm
+GeneticModification: tandem HA-FLAG tag ASK1
+GeneticModification: HA-V5 tag ASK2
+GeneticModification: HA-Myc tag ASK3
+GradientTime: 100 min gradient
+GradientTime: 2–5% acetonitrile over 5 min
+GradientTime: 5 to 35% acetonitrile over 80 min
+GradientTime: 35–90% acetonitrile over 5 min
+GradientTime: 10 min at 90% acetonitrile
+GradientTime: 70 min gradient
+GradientTime: 2–5% acetonitrile over 5 min
+GradientTime: 5 to 35% acetonitrile over 50 min
+GradientTime: 35–90% acetonitrile over 5 min
+GradientTime: 10 min at 90% acetonitrile
+Instrument: ThermoFisher Scientific Q Exactive Plus
+IonizationType: Nanoflex source
+Label: labeled reference peptide (LRP)
+Label: stable isotope dilution (SID)
+MaterialType: cells
+MaterialType: cell line
+Modification: carbimidomethyl modification on Cys
+Modification: oxidation on Met
+Modification: pyro-glu on Gln
+NumberOfBiologicalReplicates: 3
+NumberOfBiologicalReplicates: 4
+NumberOfBiologicalReplicates: 5
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: 9
+NumberOfMissedCleavages: four
+NumberOfTechnicalReplicates: two
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+ReductionReagent: dithiothreitol (DTT)
+SamplingTime: 1 h at 37 °C
+Separation: Proxeon nLC1000 LC
+Separation: 11 cm long column with a 75 μm internal diameter (New Objective, Woburn, MA, PF360–75-10-N-5) packed with 3 μm particle size and 120 Å pore size ReproSil-Pur C18-AQ resin
+SpikedCompound: labeled reference peptide (LRP)
+SpikedCompound: heavy isotope labeled analog of each target peptide
+Staining: Simply Blue safe stain
+SyntheticPeptide: synthetic peptide standards
+Temperature: 37 °C
+Time: 1 h
+Treatment: ethanol
+Treatment: 10 μm HNE
+Treatment: 50 μm HNE

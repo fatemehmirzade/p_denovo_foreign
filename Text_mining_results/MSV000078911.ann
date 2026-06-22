@@ -1,0 +1,46 @@
+AcquisitionMethod: parallel reaction monitoring
+AcquisitionMethod: PRM
+AlkylationReagent: iodoacetamide
+BiologicalReplicate: Biological Repeat 1
+BiologicalReplicate: Biological Repeat 2
+CellLine: 231-BR
+CellLine: MDA-MB-231
+CellPart: membrane proteins
+CellPart: soluble proteins
+CleavageAgent: trypsin
+CleavageAgent: Lys-C endoproteinase
+CollisionEnergy: normalized collision energy of 30.0
+Disease: brain metastatic breast cancer
+Disease: breast cancer
+EnrichmentMethod: Membrane proteins were enriched
+FactorValue: 231-BR
+FactorValue: MDA-MB-231
+FlowRateChromatogram: 400 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy collision-induced dissociation
+GradientTime: 240-min gradient
+GradientTime: 20 to 215 min
+GradientTime: 5 mins
+GradientTime: 5 min
+Instrument: Q-Exactive Plus (Thermo Fisher Scientific)
+Instrument: Q Exactive mass spectrometer (Thermo Scientific, Bremen, Germany)
+Label: SILAC
+Label: label-free
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+MaterialType: cell line
+Modification: S-carbamidomethylation of cysteine residues
+Modification: protein N-terminal acetylation
+Modification: N-terminal glutamine conversion to pyroglutamate
+Modification: methionine oxidation
+Modification: 13C6-labeled lysine
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: two
+Organism: human
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: dithiotreitol
+Separation: NanoAcquity ultraperformance liquid chromatography system
+Separation: EASY-Spray PepMap C18 75 μm × 150 mm column
+Separation: SPE-LC (modified EASY-nLC 1000, Thermo, Odense, Denmark)
+Separation: 6 cm columns with pulled emitter and ReproSil-Pur 120 C18-AQ 3 μm material
+Temperature: 37 °C

@@ -1,0 +1,36 @@
+AcquisitionMethod: data-dependent MS2 scans
+Age: 19–45 years
+AlkylationReagent: chloroacetamide
+AncestryCategory: various ethnic backgrounds
+CellPart: exosomes
+CellPart: low-density membrane fractions
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: Normalized collision energy of HCD fragmentation was set at 35%
+Disease: healthy
+EnrichmentMethod: immunoaffinity purified using the PTMScan® Ubiquitin Remnant Motif (K-ε-GG) Kit (#5562, Cell Signaling Technology)
+FractionationMethod: SDS-PAGE
+FragmentMassTolerance: 10 ppm
+FragmentationMethod: HCD
+Instrument: Q Exactive Hybrid Quadrupole-Orbitrap, Thermo Fisher Scientific
+IonizationType: nano-electrospray ion source
+MaterialType: biofluid
+Modification: Carbamidomethyl at cysteine
+Modification: oxidation at methionine
+Modification: di-glycine (+114.042927, Unimod Accession #: 121) at lysine
+Modification: LeuArgGlyGly (LRGG, +383.228103, Unimod Accession #: 535) at lysine
+NumberOfBiologicalReplicates: 20
+NumberOfFractions: 32 pieces
+NumberOfMissedCleavages: three
+NumberOfTechnicalReplicates: two
+Organism: human
+OrganismPart: urine
+PooledSample: pooled
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+Separation: nano-liquid chromatography (UltiMate® 3000 RSLCnano system, Thermo Fisher Scientific)
+Sex: female
+Sex: male
+SpikedCompound: AQUA peptide mixture
+Staining: Coomassie
+SyntheticPeptide: Lys11-, Lys48-, and Lys63-linked polyubiquitin AQUA peptides

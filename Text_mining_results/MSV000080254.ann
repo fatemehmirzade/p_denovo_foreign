@@ -1,0 +1,15 @@
+AcquisitionMethod: shotgun proteome strategy
+CellLine: Hep3B
+CellLine: MHCC97H
+CellLine: HCCLM3
+Disease: hepatocellular carcinoma (HCC)
+FactorValue: metastasis
+FactorValue: nonmetastasis
+Genotype: HBV infective background with HBAg+
+Instrument: Orbitrap Q-Exactive (Thermo Fisher Scientific, San Jose, CA)
+Instrument: Triple TOF 5600 (AB SCIEX, Concord, ON)
+Label: label-free quantification
+Label: extracting ion current (XIC)-based label-free quantification
+MaterialType: cell line
+NumberOfSamples: 12 batches
+Organism: human

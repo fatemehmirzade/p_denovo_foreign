@@ -1,0 +1,88 @@
+AcquisitionMethod: Shotgun
+AcquisitionMethod: PRM
+AcquisitionMethod: SRM
+AcquisitionMethod: data-dependent MS2 scans
+AcquisitionMethod: immunoenrichment-SRM
+Age: median age 35 years old
+Age: median age 62
+Age: median age 63
+Age: median age 61
+Age: median age 36
+Age: median age 30
+Age: median age 28
+AlkylationReagent: iodoacetamide
+AncestryCategory: different ethnic background
+Bait: KLK4
+CellLine: HEK293
+CleavageAgent: modified trypsin
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27
+CollisionEnergy: normalized collision energy was set to 23
+DevelopmentalStage: nonpregnant
+Disease: prostate cancer
+Disease: negative biopsy
+EnrichmentMethod: immunoenrichment-SRM
+FactorValue: biopsy-confirmed prostate cancer
+FactorValue: negative biopsy
+FactorValue: healthy men
+FactorValue: nonpregnant women
+FlowRateChromatogram: 8 μml/min
+FlowRateChromatogram: 350 nL/min
+FragmentMassTolerance: 0.02 Da
+FragmentationMethod: collision induced dissociation (CID)
+Genotype: biopsy-confirmed prostate cancer
+Genotype: negative biopsy outcome
+GradientTime: 22 min
+GradientTime: 1% to 14% of buffer B for 1 min
+GradientTime: 14% to 40% for 11 min
+GradientTime: 40% to 65% for 2 min
+GradientTime: 65% to 100% for 1 min
+GradientTime: 100% for 7 min
+Instrument: Q ExactiveTM Plus Hybrid Quadrupole-OrbitrapTM Mass Spectrometer (Thermo Scientific)
+Instrument: TSQ QuantivaTM triple quadrupole mass spectrometer (Thermo Scientific)
+Instrument: QTRAP 6500 quadrupole-ion trap mass spectrometer (AB Sciex, Concord, ON, Canada)
+IonizationType: nanoelectrospray ionization source
+MS2MassAnalyzer: orbitrap
+MaterialType: biofluid
+Modification: oxidation of methionine and tryptophan
+Modification: N-terminal peptide acetylation
+Modification: cysteine carbamidomethylation
+Modification: glutamine and asparagine deamidation
+Modification: N-terminal protein acetylation
+Modification: pyro-carbamidomethyl
+NumberOfBiologicalReplicates: 10
+NumberOfBiologicalReplicates: 21
+NumberOfBiologicalReplicates: 20
+NumberOfBiologicalReplicates: 36
+NumberOfBiologicalReplicates: 22
+NumberOfBiologicalReplicates: 3
+NumberOfBiologicalReplicates: 5
+NumberOfBiologicalReplicates: 10
+NumberOfMissedCleavages: 1
+NumberOfSamples: 10 SP samples
+NumberOfSamples: 21 SPs
+NumberOfSamples: 20 SPs
+NumberOfSamples: 36 men
+NumberOfSamples: 22 men
+NumberOfSamples: 3 healthy men
+NumberOfSamples: Five cervico-vaginal fluid (CVF) samples
+NumberOfSamples: Ten sweat (SW) samples
+NumberOfTechnicalReplicates: two
+Organism: Human
+OrganismPart: sweat
+OrganismPart: cervico-vaginal fluid
+OrganismPart: seminal plasma
+OrganismPart: blood serum
+OriginSiteDisease: prostate
+PooledSample: pooled
+PrecursorMassTolerance: 7 ppm
+ReductionReagent: dithiothreitol
+Separation: C18 (5 μm) trap precolumn (i.d. 200 μm)
+Separation: 15 cm long C18 (3 μm) analytical column (i.d. 75 μm) with a 8 μm tip
+Separation: C18 analytical column
+Sex: men
+Sex: women
+SpikedCompound: heavy isotope-labeled peptides
+SpikedCompound: heavy isotope-labeled peptide internal standards
+SyntheticPeptide: Heavy isotope-labeled synthetic peptides
+SyntheticPeptide: Quantified & Stable Isotope Labeled Peptides (SpikeTidesTM_TQL)

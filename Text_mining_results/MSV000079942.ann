@@ -1,0 +1,78 @@
+AcquisitionMethod: MRM
+AlkylationReagent: IAA
+CellPart: cytoplasmic fraction
+CellPart: nuclear proteins
+CellPart: nuclear fraction
+CellType: peripheral blood mononuclear cells (PBMCs)
+CleavageAgent: trypsin
+CollisionEnergy: 30% normalized collision energy
+CollisionEnergy: 19.9 eV
+CollisionEnergy: 19.1 eV
+CollisionEnergy: 15.4 eV
+CollisionEnergy: 16.6 eV
+CollisionEnergy: 14.2 eV
+CollisionEnergy: 16.3 eV
+CollisionEnergy: 14.7 eV
+CollisionEnergy: 10.8 eV
+CollisionEnergy: 13.4 eV
+CollisionEnergy: 23.5 eV
+Compound: LPS 1 μg/mL
+Compound: PHA 5 μg/mL
+Compound: dexamethasone 100 ng/mL
+Disease: inflammation
+DiseaseTreatment: dexamethasone
+EnrichmentMethod: C-18 spin columns
+FactorValue: control
+FactorValue: inflammatory activation
+FactorValue: inflammatory activation and subsequent dexamethasone treatment
+FlowRateChromatogram: 10 μL/min
+FlowRateChromatogram: 300 nL/min
+FlowRateChromatogram: 400nL/min
+FractionIdentifier: 4 slices
+FractionationMethod: SDS-PAGE gel
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GradientTime: 235 min
+GradientTime: 95 min
+GradientTime: 20 min
+Instrument: QExactive Orbitrap mass spectrometer
+Instrument: 6490 triple quadrupole mass spectrometer
+IonizationType: nanospray ion source
+Label: label-free quantitative (LFQ)
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+Modification: carbamidomethylation on cysteins
+Modification: methionine oxidation
+Modification: N-terminal protein acetylation
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 4 slices
+NumberOfMissedCleavages: 2
+NumberOfTechnicalReplicates: duplicate
+NumberOfTechnicalReplicates: triplicate
+Organism: Homo sapiens
+OrganismPart: peripheral blood mononuclear cells
+OrganismPart: blood
+PrecursorMassTolerance: 5 ppm
+ReductionReagent: DTT
+SamplingTime: 4 h of cultivation
+SamplingTime: 3 h in serum-free medium
+Separation: Dionex Ultimate 3000 nano LC system
+Separation: 2 cm × 75 μm C18 Pepmap100 precolumn
+Separation: 50 cm × 75 μm Pepmap100 analytical column
+Separation: nanoflow LC system (1260 Infinity Series, Agilent, Palo Alto, CA)
+Separation: HPLC-Chip cube (Agilent)
+Separation: protein ID HPLC-Chip
+Separation: 40 nL Zorbax 300SB-C18 trapping column
+Separation: 150 mm × 75 μm Zorbax 300SB-C18 analytical column
+Staining: silver staining
+SyntheticPeptide: Glu1-Fribrinopeptide B
+SyntheticPeptide: M28
+SyntheticPeptide: HK0
+SyntheticPeptide: HK1
+Temperature: 37 °C
+Time: 4 h
+Time: 3 h
+Treatment: inflammatory activation
+Treatment: dexamethasone
+Treatment: LPS
+Treatment: PHA

@@ -1,0 +1,54 @@
+AcquisitionMethod: multiple reaction monitoring
+AcquisitionMethod: MRM
+CellPart: cytoplasmic
+CellPart: nuclear
+CellType: Normal human dermal fibroblasts (NHDF)
+CellType: human mesenchymal stem cells (hMSC)
+CleavageAgent: trypsin
+CollisionEnergy: 30% normalized collision energy
+Compound: IL-1β 10 ng/mL
+Compound: dexamethasone 100 ng/mL
+Disease: chronic inflammation
+DiseaseTreatment: IL-1β
+DiseaseTreatment: dexamethasone
+FactorValue: 10 ng/mL
+FactorValue: 100 ng/mL
+FactorValue: 24 h
+FlowRateChromatogram: 10 μL/min
+FlowRateChromatogram: 300 nL/min
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 95 min
+GradientTime: 235 min
+GradientTime: 20 min
+Instrument: Q Exactive orbitrap mass spectrometer (Thermo Fisher Scientific)
+Instrument: Q Exactive orbitrap
+Instrument: Agilent 6490 triple quadrupole mass spectrometer
+IonizationType: HESI
+IonizationType: nanospray ion source
+Label: Label-free quantification
+Label: label-free
+MS2MassAnalyzer: orbitrap
+MaterialType: cells
+NumberOfBiologicalReplicates: 3
+NumberOfBiologicalReplicates: 5
+NumberOfTechnicalReplicates: technical duplicates
+NumberOfTechnicalReplicates: technical triplicate
+Organism: human
+OrganismPart: dermal fibroblasts
+OrganismPart: mesenchymal stem cells
+ReductionReagent: dithiothreitol
+SamplingTime: 24 h at 37 °C and 5% CO2
+SamplingTime: 24 h
+Separation: nano-HPLC system (Dionex Ultimate 3000)
+Separation: 2 cm × 75 μm C18 Pepmap100 precolumn (Thermo Fisher Scientific)
+Separation: 50 cm × 75 μm Pepmap100 analytical column (Thermo Fisher Scientific)
+Separation: nano-chip-LC Agilent Infinity series HPLC1290 system
+SyntheticPeptide: synthetic standard peptides
+Temperature: 37 °C
+Time: 24 h
+Time: 1 h
+Time: 23 h
+Time: 6 h
+Treatment: IL-1β
+Treatment: dexamethasone

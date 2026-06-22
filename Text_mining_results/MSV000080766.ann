@@ -1,0 +1,40 @@
+Bait: FIH
+Bait: PHD3
+Bait: RIPK4
+Bait: MAPK6
+CellLine: HEK293T
+Compound: V5-FIH
+Compound: DMOG
+Compound: V5-PHD3
+Compound: FLAG-RIPK4
+Compound: FLAG-MAPK6
+Compound: HA-PHD3
+Compound: JNJ
+EnrichmentMethod: immunoprecipitated
+FactorValue: V5-FIH
+FactorValue: empty vector
+FactorValue: DMOG
+FactorValue: V5-PHD3
+FactorValue: FLAG-RIPK4
+FactorValue: FLAG-MAPK6
+FactorValue: HA-PHD3
+FactorValue: JNJ
+GeneticModification: V5-FIH
+GeneticModification: V5-PHD3
+GeneticModification: FLAG-RIPK4
+GeneticModification: FLAG-MAPK6
+GeneticModification: HA-PHD3
+Label: LFQ
+MaterialType: cells
+MaterialType: cell line
+Modification: N-terminal acetylation (protein)
+Modification: oxidation (M)
+Modification: oxidation (MWYFKPHDN)
+NumberOfBiologicalReplicates: 3
+Organism: Homo sapiens
+SamplingTime: 48 hr post-transfection
+SamplingTime: 4 hr with DMOG
+Time: 48 hr
+Time: 4 hr
+Treatment: DMOG
+Treatment: JNJ

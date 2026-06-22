@@ -1,0 +1,26 @@
+AcquisitionMethod: fast
+AlkylationReagent: iodoacetamide
+CellLine: HEK293
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+Depletion: depletion of SDS
+FlowRateChromatogram: 200 nl/min
+FractionIdentifier: Fraction 1
+FractionIdentifier: Fraction 2
+FractionIdentifier: Fraction 3
+FractionIdentifier: Fraction 4
+FractionIdentifier: Fraction 5
+FractionIdentifier: Fraction 6
+FractionationMethod: in-gel peptide isoelectric focusing using immobilized pH gradient strips
+FractionationMethod: isoelectric focusing
+GradientTime: 214 min
+Instrument: Q-Exactive mass spectrometer
+IonizationType: electrospray ionization
+MaterialType: cells
+MaterialType: cell line
+NumberOfFractions: six pieces
+Organism: Homo sapiens
+Separation: reversed-phase chromatography
+Separation: EASY-nLC
+Separation: in-house-manufactured 20-cm fritless silica microcolumns with an inner diameter of 75 μm
+Separation: ReproSil-Pur C18-AQ 3-μm resin

@@ -1,0 +1,16 @@
+Bait: Kinases
+Bait: mutants
+CellLine: HEK293T
+Compound: PKCγ M501I
+Compound: PKD1 D665N
+Disease: ovarian cancer
+EnrichmentMethod: FLAG affinity purification
+FactorValue: PKCγ M501I
+FactorValue: PKD1 D665N
+GeneticModification: FLAG affinity purification
+GeneticModification: PKCγ M501I
+GeneticModification: PKD1 D665N
+MaterialType: cell line
+MaterialType: cells
+Modification: phosphorylation
+Organism: Homo sapiens

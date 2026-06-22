@@ -1,0 +1,42 @@
+AlkylationReagent: iodoacetamide
+Bait: CD99
+CellLine: HeLa
+CleavageAgent: chymotrypsin
+CleavageAgent: trypsin
+CollisionEnergy: 1 kV
+CollisionEnergy: normalized collision energy of 25
+Compound: recombinant meprin β 15 nM
+EnrichmentMethod: immunoprecipitated
+EnrichmentMethod: affinity chromatography
+FlowRateChromatogram: 300 nl/min
+FractionationMethod: Reversed-phase (RP)-HPLC
+FractionationMethod: SDS-PAGE (12% gel)
+FragmentMassTolerance: 0.02 Da
+FragmentationMethod: postsource decay
+FragmentationMethod: collision-induced dissociation (CID)
+FragmentationMethod: high-energy collision-induced dissociation (HCD)
+GeneticModification: myc/FLAG-tagged CD99
+GeneticModification: untagged meprin β
+GradientTime: 4–30 min
+GradientTime: 30–35 min
+GradientTime: 35–45 min
+GradientTime: 45–60 min
+Instrument: 5800 MALDI-time of flight (TOF) mass spectrometer (Sciex, Darmstadt, Germany)
+Instrument: Orbitrap-Q Exactive Plus (Thermo Fisher Scientific)
+IonizationType: matrix-assisted desorption/ionization
+IonizationType: MALDI
+IonizationType: electrospray ionization
+MaterialType: cells
+MaterialType: cell line
+Modification: reductive dimethylation
+Modification: dimethylation
+Modification: carbamidomethylation
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: ±10 ppm
+ReductionReagent: DTT
+SamplingTime: 36–48 h after transfection
+Separation: Nano-UHPLC-MS
+Separation: Acclaim PepMap 100 C-18 column (75 µm inner diameter × 500 mm, 2 µm, 100 Å; Thermo Fisher Scientific)
+Staining: Coomassie blue
+SyntheticPeptide: SSGSFSDADLADGVSGGE

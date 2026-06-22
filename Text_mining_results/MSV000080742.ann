@@ -1,0 +1,37 @@
+AlkylationReagent: iodoacetamide
+CellLine: HCT116
+CellLine: HeLa
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: NCE of 25
+Compound: UPS1 100 fmol
+Compound: UPS1 300 fmol
+Compound: UPS1 600 fmol
+Compound: EGF
+Disease: lung cancer
+FactorValue: 100 fmol
+FactorValue: 300 fmol
+FactorValue: 600 fmol
+FlowRateChromatogram: 200 nL/min
+FragmentMassTolerance: 0.5 Da
+GradientTime: 190 min gradient
+GradientTime: 180 min
+GradientTime: 10 min
+Instrument: Thermo Scientific Q Exactive benchtop Quadrupole-Orbitrap mass spectrometer
+Label: SILAC
+Label: iTRAQ
+Label: TMT
+MaterialType: cells
+MaterialType: tissue
+Modification: Carbamidomethylation of cysteine
+Modification: N-acetylation
+Modification: oxidized methionine
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: DTT
+Separation: reverse-phase chromatography on Thermo Scientific Easy-Spray column (PepMap® RSLC, C18, 2mm, 100Å, 75 mm × 50 cm)
+Separation: Thermo Scientific nanoflow HPLC system (Easy-nLC 1000)
+SpikedCompound: UPS1
+Temperature: 37° C
+Treatment: EGF-stimulated

@@ -1,0 +1,50 @@
+AcquisitionMethod: data-dependent
+AlkylationReagent: chloroacetamide
+CellLine: HCT116
+CellLine: HCT116.625
+CellLine: HCT116.ctrl
+CellLine: SW620
+CellLine: SW620.625
+CellLine: SW620.ctrl
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy (NCE) 28
+CollisionEnergy: 25 NCE
+Compound: doxycycline hyclate 50 ng ml⁻¹
+Compound: oxPt
+Compound: oxPt 16 μM
+Disease: colorectal cancers (CRC)
+Disease: mCRC
+DiseaseTreatment: oxPt and 5-FU
+EnrichmentMethod: TiO 2 beads
+FactorValue: miR-625-3p
+FactorValue: oxPt
+FactorValue: 16 μM
+FlowRateChromatogram: 250 nl min −1
+FractionationMethod: denaturing Bis-Tris gel
+GeneticModification: miR-625-3p
+GeneticModification: scramble
+GeneticModification: FLAG-MAP2K6
+GeneticModification: FLAG-MAP2K6DN
+GradientTime: 250 min
+GradientTime: 15 min washout
+GradientTime: 220 min
+GradientTime: 30 min linear increase
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: Carbamidomethylation of cysteine
+Modification: oxidation of methionine
+Modification: protein amino (N)-terminal acetylation
+Modification: pyro-glutamate formation from glutamine
+Modification: phosphorylation
+NumberOfBiologicalReplicates: 3
+Organism: Homo sapiens
+PrecursorMassTolerance: 2 m / z
+PrecursorMassTolerance: 2.2 m / z
+ReductionReagent: dithiothreitol
+Separation: in-house made 50 cm capillary column packed with 1.9 μm Reprosil-Pur C18 beads
+Separation: EASY-nLC 1,000 system
+Temperature: 37 °C
+Treatment: oxPt

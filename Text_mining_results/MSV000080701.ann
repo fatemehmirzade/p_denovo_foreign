@@ -1,0 +1,40 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: carbamidomethylation
+CellLine: HeLa S3
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25%
+Compound: EGF 100 ng/ml
+Compound: pervanadate 1 mM
+Compound: calyculin A 50 ng/ml
+DevelopmentalStage: mitotic phase
+Disease: cancer
+DiseaseTreatment: 100 ng/ml EGF
+DiseaseTreatment: 1 mM pervanadate and 50 ng/ml calyculin A
+EnrichmentMethod: TiO2 beads
+EnrichmentMethod: immunoprecipitation with a mix of anti-P-Tyr antibodies
+FactorValue: mitosis
+FactorValue: growth factor signaling
+FactorValue: 5 min
+FactorValue: 15 min
+FractionationMethod: strong cation exchange (SCX) chromatography
+FragmentationMethod: HCD
+GradientTime: 120 or 240 min gradient
+Instrument: Q Exactive instrument (Thermo Fisher Scientific)
+IonizationType: nano-electrospray source
+Label: label-free quantitation
+MS2MassAnalyzer: Orbitrap analyzer
+MaterialType: cell line
+Modification: N-acetylation of protein
+Modification: oxidation of methionine
+Modification: phosphorylation of Ser, Thr, Tyr residue (STY)
+NumberOfMissedCleavages: two
+Organism: human
+SamplingTime: 5 or 15 min
+Separation: 50 cm reversed phase column (75 μm inner diameter, packed in-house with ReproSil-Pur C18-AQ 1.9 μm resin [Dr. Maisch GmbH])
+Separation: Proxeon Ultra EASY-nLC system
+Temperature: 37°C
+Time: 5 min
+Time: 15 min
+Treatment: 100 ng/ml EGF
+Treatment: 1 mM pervanadate
+Treatment: 50 ng/ml calyculin A

@@ -1,0 +1,69 @@
+AcquisitionMethod: Top15 data-dependent MS/MS scan method
+AcquisitionMethod: topN method
+Age: between 18 and 65 years
+BMI: between 30 and 40 kg/m2
+CleavageAgent: Trypsin
+CleavageAgent: LysC
+CollisionEnergy: normalized collision energy of 27 eV
+Compound: liraglutide 1.2 mg
+Depletion: depletion of the top 20 most abundant plasma proteins
+Depletion: Agilent Multiple Affinity Removal Spin Cartridge
+Depletion: ProteoPrep20 Plasma Immunodepletion Kit
+Disease: obese
+Disease: obesity
+Disease: metabolic diseases
+DiseaseTreatment: very low‐calorie powder diet
+DiseaseTreatment: liraglutide
+EnrichmentMethod: depletion of the top 20 most abundant plasma proteins
+EnrichmentMethod: Agilent Multiple Affinity Removal Spin Cartridge
+EnrichmentMethod: ProteoPrep20 Plasma Immunodepletion Kit
+FactorValue: weight loss
+FactorValue: weight maintenance
+FactorValue: liraglutide
+FactorValue: week −8
+FactorValue: week 0
+FactorValue: weeks 4
+FactorValue: weeks 13
+FactorValue: weeks 26
+FactorValue: weeks 39
+FactorValue: weeks 52
+FlowRateChromatogram: 350 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy C-trap dissociation (HCD)
+GradientTime: 45-min runs
+GradientTime: linear 18-min gradient
+GradientTime: 12-min increase
+GradientTime: 6 min
+GradientTime: 5.5-min increase
+GradientTime: 3.5-min wash
+Instrument: Q Exactive HF Orbitrap (Thermo Fisher Scientific)
+IonizationType: nano-electrospray ion source (Thermo Fisher Scientific)
+Label: Label-free protein quantitation (LFQ)
+MaterialType: biofluid
+Modification: cysteine carbamidomethylation
+Modification: N-terminal acetylation
+Modification: methionine oxidations
+NumberOfBiologicalReplicates: 43
+NumberOfMissedCleavages: two
+NumberOfSamples: 1,294
+NumberOfTechnicalReplicates: triplicate
+Organism: human
+OrganismPart: plasma
+PrecursorMassTolerance: 7 ppm
+SamplingTime: before weight loss (week −8)
+SamplingTime: directly after (week 0)
+SamplingTime: weeks 4, 13, 26, 39, 52
+Separation: EASY-nLC 1000 ultra-high-pressure system
+Separation: 40-cm HPLC columns [ID: 75 μm; in-house packed into the tip with ReproSil-Pur C18-AQ 1.9 μm resin (Dr. Maisch GmbH)]
+Sex: women
+Sex: men
+Specimen: plasma
+Time: week −8
+Time: week 0
+Time: weeks 4
+Time: weeks 13
+Time: weeks 26
+Time: weeks 39
+Time: weeks 52
+Treatment: weight loss
+Treatment: liraglutide

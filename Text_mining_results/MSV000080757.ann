@@ -1,0 +1,47 @@
+AcquisitionMethod: top-10
+AlkylationReagent: iodoacetamide
+AnatomicSiteTumor: breast
+CellLine: HCC1599
+CellLine: MCF7
+CellLine: HCC1937
+CellLine: HCC2218
+CellLine: HMEC
+CellType: Human mammary epithelial cells
+CleavageAgent: trypsin
+Disease: breast cancer
+Disease: breast tumours
+FactorValue: ERPR
+FactorValue: Her2
+FactorValue: TN
+FractionIdentifier: pH: 3, 4, 5, 6, 8 and 11
+FractionationMethod: strong anion exchange chromatography in a StageTip format
+FragmentMassTolerance: 6–20 p.p.m.
+FragmentationMethod: Higher energy collisional dissociation
+Genotype: oestrogen receptor positive (luminal)
+Genotype: Her2 positive
+Genotype: triple negative
+GradientTime: 200-min
+GrowthRate: exponential growth
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+IonizationType: nano-electrospray ion source
+Label: super-SILAC
+Label: 13 C 6 15 N 4 -arginine (Arg-10)
+Label: l- 13 C 6 15 N 2 -lysine (Lys-8)
+MaterialType: tissue
+MaterialType: cells
+Modification: methionine oxidation
+Modification: N-terminal acetylation
+Modification: carbamidomethyl cysteine
+NumberOfBiologicalReplicates: 40
+NumberOfFractions: six fractions
+NumberOfSamples: 40
+Organism: Human
+OrganismPart: breast tumours
+PooledSample: pooled
+PrecursorMassTolerance: 6–20 p.p.m.
+ReductionReagent: DTT
+Separation: in-house made 30-cm-reverse phase columns (75 μm inner diameter, 1.8 μm ReproSil-Pur C18 beads)
+Separation: EASY-nLC nano high performance liquid chromatography system (Thermo Scientific)
+Specimen: FFPE tumour blocks
+Staining: hematoxylin and eosin staining
+TumorSite: breast

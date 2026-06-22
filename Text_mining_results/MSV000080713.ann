@@ -1,0 +1,18 @@
+AcquisitionMethod: LC-MS/MS
+Bait: hAha1-Y223E
+Bait: hAha1-Y223F
+CellLine: 293T cells
+CleavageAgent: trypsin
+Compound: hAha1-Y223E-FLAG
+Compound: hAha1-Y223F-FLAG
+EnrichmentMethod: purified
+FactorValue: hAha1-Y223E-FLAG
+FactorValue: hAha1-Y223F-FLAG
+GeneticModification: hAha1-Y223E-FLAG
+GeneticModification: hAha1-Y223F-FLAG
+Label: isotopically labeled
+MaterialType: cells
+MaterialType: cell line
+NumberOfBiologicalReplicates: 3
+Organism: Homo sapiens
+Separation: LC-MS/MS

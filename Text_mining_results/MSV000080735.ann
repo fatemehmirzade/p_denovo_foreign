@@ -1,0 +1,33 @@
+AcquisitionMethod: data dependent acquisition
+AcquisitionMethod: DDA
+AlkylationReagent: iodoacetamide
+AlkylationReagent: IAA
+CellLine: HepG2
+CleavageAgent: trypsin
+CollisionEnergy: normalize collision energy (NEC) of 30% with a step of 10%
+EnrichmentMethod: phosphate ion pre-coordinated affinity materials
+EnrichmentMethod: Ti4+-IMAC adsorbents
+EnrichmentMethod: TiO2 adsorbents
+FactorValue: orthophosphate
+FactorValue: β-glycerophosphate
+FactorValue: pyrophosphate
+FactorValue: Ti4+-IMAC
+FactorValue: TiO2
+FlowRateChromatogram: 300 nL/min
+FragmentationMethod: stepped HCD fragmentation
+GradientTime: 90 min
+Instrument: AB Sciex 5800 MALDI-TOF/TOF mass spectrometer
+Instrument: Q Exactive mass spectrometer
+IonizationType: linear positive ion mode
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+MaterialType: cell line
+Modification: phosphorylation of serine (S), threonine (T) and tyrosine (Y)
+Modification: oxidation of methionine (M)
+Modification: carbamidomethylation of cysteine (C)
+NumberOfMissedCleavages: 3
+Organism: Homo sapiens
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+Separation: 15 cm × 75 μm I.D. C18 column (C18 AQ, Sunchrom, 5 μm, 120 Å)
+Temperature: 37 °C

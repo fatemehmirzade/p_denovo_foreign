@@ -1,0 +1,49 @@
+AcquisitionMethod: Data-dependent analysis
+AlkylationReagent: carbamidomethyl (Cys)
+CellLine: OVCA429
+CellLine: OVISE
+CellType: ovarian clear cell carcinoma cell lines
+CleavageAgent: trypsin
+Compound: DMSO
+Compound: doxycycline 1 μg/ml
+Disease: ovarian clear cell carcinoma
+DiseaseTreatment: doxycycline
+FactorValue: ARID1A expression
+FactorValue: ARID1A status
+FactorValue: DMSO
+FactorValue: 1 μg/ml doxycycline
+FractionationMethod: 10% Bis-Tris NuPAGE minigels
+FragmentMassTolerance: 20 ppm
+GeneticModification: Knockout of ARID1A
+GeneticModification: tetracycline-inducible wild-type ARID1A
+GeneticModification: ectopically expressed wild-type ARID1A
+Genotype: ARID1A wild-type
+Genotype: ARID1A-mutated
+GradientTime: 245 min gradient
+GradientTime: 5–30% B over 225 min
+GradientTime: 30–80% B over 5 min
+GradientTime: constant 80% B for 15 min
+GradientTime: 30 min gradient
+Instrument: Q Exactive Plus
+Instrument: Q Exactive HF
+Label: label-free quantitative comparisons
+Label: Label-free quantitation (LFQ)
+Label: MaxLFQ
+MaterialType: cells
+MaterialType: cell line
+Modification: acetylation (protein N-terminal)
+Modification: oxidation (Met)
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: 2
+NumberOfSamples: 6
+Organism: human
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: DTT
+SamplingTime: 96 h treatment duration
+Separation: nanoACQUITY UPLC
+Separation: 180 μm x 20 mm nanoACQUITY UPLC Symmetry C18 trap column
+Separation: 1.7 μm x 250 mm nanoACQUITY UPLC Peptide BEH C18 column
+Temperature: 37 °C
+Time: 96 h
+Treatment: DMSO
+Treatment: doxycycline

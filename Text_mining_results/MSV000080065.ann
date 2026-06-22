@@ -1,0 +1,36 @@
+AcquisitionMethod: data-dependent mode
+AnatomicSiteTumor: peripheral prostate zone
+CellLine: LNCaP
+CellLine: 22rv1
+CellLine: PC3
+CellLine: WPMY-1
+CleavageAgent: trypsin
+Disease: prostate cancer
+Disease: PCa
+FactorValue: tumor
+FactorValue: nonmalignant tissue
+FractionationMethod: strong anionic exchange
+FractionationMethod: strong anion exchange chromatography
+FragmentationMethod: higher energy collisional dissociation
+GeneticModification: metabolically labeled with heavy arginine and lysine
+GradientTime: 4-h gradient
+Instrument: Q-Exactive mass spectrometer (Thermo, USA)
+Label: Super-SILAC
+Label: stable isotope labeling by amino acids in cell culture (SILAC)
+MaterialType: tissue
+MaterialType: cells
+MaterialType: cell line
+NumberOfFractions: six fractions
+NumberOfSamples: 28 tumor
+NumberOfSamples: eight nonmalignant
+Organism: human
+OrganismPart: prostate
+PooledSample: pooled
+Separation: online liquid chromatography
+Separation: 30 cm C18 column
+Specimen: prostatectomy samples
+Specimen: radical prostatectomy specimens
+SpikedCompound: isotopically labeled standard obtained from four prostate-derived cells lines
+SpikedCompound: spike-in standard
+TumorGrade: Gleason score 6–9
+TumorSite: prostate

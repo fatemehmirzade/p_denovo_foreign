@@ -1,0 +1,41 @@
+AcquisitionMethod: shotgun
+AcquisitionMethod: MRM
+CellPart: supernatants
+CellType: Primary human umbilical vein cells (HUVEC)
+CellType: Normal human dermal fibroblasts (NHDF)
+Compound: interleukin-1beta (IL-1β; 10 ng/mL)
+DiseaseTreatment: inflammatory stimulation with 10 ng/mL interleukin-1beta (IL-1β; Sigma-Aldrich, USA)
+EnrichmentMethod: 160-nl enrichment column
+FactorValue: untreated
+FactorValue: inflammatory activation
+FactorValue: 10 ng/mL
+FlowRateChromatogram: 5 μl/min
+FlowRateChromatogram: 400 nl/min
+GradientTime: 20 min gradient
+GradientTime: 0 min, 0 % B; 1 min, 8 % B; 17 min, 20 % B; 20 min, 30 % B; 21 min, 80 % B; 26 min, 80 % B; 27 min, 40 % B; 28 min, 40 % B; 29 min, 0 % B; 40. 0 % B
+Instrument: Q Exactive orbitrap
+Instrument: 6490 triple quadrupole mass spectrometer
+IonizationType: Electrospray ionization
+Label: Label-free quantitative (LFQ)
+MS2MassAnalyzer: triple quadrupole mass spectrometry
+MaterialType: cells
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: zero
+Organism: human
+OrganismPart: umbilical vein
+SamplingTime: 24 h
+Separation: nano-chip-LC
+Separation: 1260 Infinity Series HPLC system
+Separation: 150 mm × 75 μm separation column (5 μm ZORBAX 300SB-C18, 30 Å pore size)
+Specimen: supernatants
+SpikedCompound: four synthetic standard peptides
+SyntheticPeptide: Glu1-Fribrinopeptide B – EGVNDNEEGFFSAR
+SyntheticPeptide: M28 – TTPAVLDSDGSYFLYSK
+SyntheticPeptide: HK0 – VLETKSLYVR
+SyntheticPeptide: HK1 - VLETK(ε-AC)SLYVR
+SyntheticPeptide: VIESGPHCANTEIIVK
+SyntheticPeptide: EICLDPEAPFLK
+SyntheticPeptide: CVCLQTTQGVHPK
+Time: 24 h
+Time: 6 h
+Treatment: inflammatory stimulation with 10 ng/mL interleukin-1beta

@@ -1,0 +1,30 @@
+AcquisitionMethod: data dependent mode
+AlkylationReagent: IAA
+CellLine: MCF-7 cells
+CleavageAgent: trypsin
+CollisionEnergy: 28 eV
+FlowRateChromatogram: 300 nL/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy C-trap dissociation
+FragmentationMethod: HCD
+GradientTime: 0–5 min
+GradientTime: 5–85 min
+GradientTime: 85–110 min
+GradientTime: 110–120 min
+GradientTime: 120–135 min
+Instrument: Q Exactive™ (Thermo Fisher, San Jose, CA, USA)
+IonizationType: ESI
+Label: label-free
+Label: labeling
+MaterialType: cells
+MaterialType: cell line
+Modification: Carbamidomethyl (C)
+Modification: Acetyl (Protein N-term)
+Modification: oxidation (M)
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: DTT
+Separation: nano-RPLC-ESI-MS/MS system integrated with Ultimate™ 3000 RSLCnano and Q Exactive™
+Separation: C18 trap column (150 μm i.d., 3 cm length)
+Separation: C18 separation column (75 μm i.d., 13 cm length)

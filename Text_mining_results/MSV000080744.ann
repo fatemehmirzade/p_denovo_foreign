@@ -1,0 +1,55 @@
+AcquisitionMethod: data dependent acquisition
+AcquisitionMethod: DDA
+Bait: Bisindolylmaleimide X
+Bait: Purvalanol B
+Bait: SB6-060-05
+CellLine: JJN-3
+CellLine: H460 (NCI-460)
+CellLine: A549 (ATCC CCL-185)
+CellLine: U2OS (ATCC HTB-96)
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy 30
+Compound: docetaxel 5 ng/mL
+Compound: cisplatin 5 μM
+Compound: cisplatin 0.5 μM
+Disease: multiple myeloma
+Disease: large cell lung cancer
+Disease: non-small cell lung cancer
+Disease: osteosarcoma
+DiseaseTreatment: docetaxel
+DiseaseTreatment: cisplatin
+EnrichmentMethod: Multiplexed Inhibitor Bead (MIB) assay
+EnrichmentMethod: modified MIB assay
+FactorValue: docetaxel
+FactorValue: cisplatin
+FlowRateChromatogram: 250 nL/min
+FragmentMassTolerance: 0.02 Da
+FragmentationMethod: HCD fragmentation
+GradientTime: 120 min multi-step gradient
+GradientTime: 5 min 2%–6% B
+GradientTime: 26 min 6%–12% B
+GradientTime: 49 min 12%–20% B
+GradientTime: 15 min 20%–28% B
+GradientTime: 7 min 28% −4 0% B
+GradientTime: 3 min 40%–100% B
+GradientTime: 15 min at 100% B
+Instrument: Q Exactive mass spectrometer (Thermo Scientific, USA)
+IonizationType: nanospray ESI
+Label: Label free quantification (LFQ)
+MaterialType: cell line
+Modification: deamidation of asparagine/glutamine
+Modification: oxidation of methionine
+Modification: N-terminal acetylation
+Modification: dimethylation of lysine/arginine
+NumberOfMissedCleavages: two
+NumberOfTechnicalReplicates: three
+Organism: human
+PrecursorMassTolerance: 20 ppm
+SamplingTime: 24 h
+Separation: EASY-nLC 1000 UPLC system
+Separation: Acclaim PepMap100 C-18 trap column (75 μm i.d. 2 cm, C18, 3 μm, 100 Å, Thermo Scientific, USA)
+Separation: acclaim PepMap100 C-18 analytical column (75 μm i.d. 50 cm, 2 μm, 100 Å, Thermo Scientific, USA)
+Temperature: 37 °C
+Time: 24 h
+Treatment: cisplatin
+Treatment: docetaxel

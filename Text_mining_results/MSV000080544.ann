@@ -1,0 +1,40 @@
+AcquisitionMethod: survey method
+AcquisitionMethod: HCD method
+AcquisitionMethod: IT method
+AcquisitionMethod: ETD method
+CleavageAgent: tryptic
+CollisionEnergy: 28% normalized collision energy
+CollisionEnergy: 35% normalized collision energy
+CollisionEnergy: 20
+CollisionEnergy: 25
+CollisionEnergy: 30
+CollisionEnergy: 23
+FlowRateChromatogram: 300 nL/min
+FragmentationMethod: HCD
+FragmentationMethod: CID
+FragmentationMethod: ETD
+FragmentationMethod: EThcD
+FragmentationMethod: ETciD
+GradientTime: 50 min
+Instrument: Orbitrap Fusion Lumos mass spectrometer (Thermo Fisher Scientific)
+Instrument: 5600 TripleTOF (QTOF) mass spectrometer (AB Sciex)
+MS2MassAnalyzer: Orbitrap
+MS2MassAnalyzer: ion trap
+Modification: carboxyamidomethylated cysteine
+Modification: Carbamidomethylated cysteine
+Modification: methionine oxidation
+NumberOfMissedCleavages: two
+NumberOfMissedCleavages: one
+NumberOfSamples: 96
+Organism: human
+Organism: mouse
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+Separation: Dionex 3000 HPLC system
+Separation: in-house packed C18 columns
+Separation: 75 μm × 2 cm trap column packed with 5 μm particles of Reprosil Pur ODS-3
+Separation: 75 μm × 40 cm analytical column, packed with 3 μm particles of C18 Reprosil Gold 120
+SpikedCompound: retention time (RT) standards
+SpikedCompound: 13C-labelled peptides
+SyntheticPeptide: synthetic tryptic peptides

@@ -1,0 +1,77 @@
+AcquisitionMethod: data-dependent mode
+AcquisitionMethod: LC-MS3 data collection strategy
+AlkylationReagent: chloroacetamide
+AlkylationReagent: iodoacetamide
+BiologicalReplicate: Replicate 1
+BiologicalReplicate: Replicate 2
+CellLine: KG-1
+CellLine: MDS-L
+CleavageAgent: trypsin
+CleavageAgent: LysC
+CollisionEnergy: 25
+CollisionEnergy: NCE 35
+CollisionEnergy: NCE 55
+Compound: lenalidomide 1 μM
+Compound: lenalidomide 10 μM
+Compound: DMSO
+Depletion: RPMI depleted of L-arginine and L-lysine
+Disease: myelodysplastic syndrome (MDS) with deletion of chromosome 5q (del(5q))
+EnrichmentMethod: K-ε-GG enrichment
+EnrichmentMethod: anti-K-ε-GG antibody
+EnrichmentMethod: immunoaffinity purification
+FactorValue: 1 μM lenalidomide
+FactorValue: 10 μM lenalidomide
+FactorValue: DMSO
+FactorValue: 4 hours
+FactorValue: 24 hours
+FlowRateChromatogram: 3 ml/min
+FlowRateChromatogram: 1 ml/min
+FlowRateChromatogram: 600 nL/min
+FractionIdentifier: final fraction 1
+FractionIdentifier: final fraction 2
+FractionIdentifier: fraction “A”
+FractionationMethod: basic pH reversed phase (bRP) fractionation
+FractionationMethod: basic reverse phase step
+FragmentMassTolerance: 1.0 Da
+FragmentationMethod: HCD
+FragmentationMethod: CID
+GradientTime: 64-min method
+GradientTime: 120 min linear gradient
+GrowthRate: ~6 cell doublings
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Instrument: Orbitrap Fusion mass spectrometer (Thermo Fisher Scientific)
+IonizationType: electrospray
+Label: SILAC
+Label: tandem mass tag (TMT)
+MS2MassAnalyzer: ion trap
+MaterialType: cell line
+Modification: K-ε-GG
+Modification: Oxidized methionine
+Modification: N-terminal protein acetylation
+Modification: carbamidomethylation of cysteine
+Modification: Gly-Gly addition to lysine
+NumberOfBiologicalReplicates: 2
+NumberOfFractions: 96 2 ml fractions
+NumberOfFractions: 8 final fractions
+NumberOfFractions: 24 final fractions
+NumberOfFractions: 24 fractions
+NumberOfFractions: 12 of the 24 peptide fraction
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 6 ppm
+PrecursorMassTolerance: 50 ppm
+ReductionReagent: dithiothreitol
+SamplingTime: 4 hours for ubiquitination profiling
+SamplingTime: 24 hours for protein level assessment
+Separation: Proxeon Easy-nLC 1000 system
+Separation: microcapillary column (360 μm OD × 75 μm ID) packed with 24 cm of ReproSil-Pul C18-AQ 1.9 μm beads
+Separation: Proxeon Easy nLC 1000
+Separation: 100 μm inner diameter fused-silica micro capillary
+Separation: C 18 reverse phase resin (GP118 resin 1.8 μm, 120 Å, Sepax Technologies)
+Temperature: 37°C
+Time: 4 hours
+Time: 24 hours
+Treatment: lenalidomide
+Treatment: DMSO

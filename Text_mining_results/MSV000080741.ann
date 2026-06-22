@@ -1,0 +1,39 @@
+AcquisitionMethod: data dependent
+AlkylationReagent: chloroacetamide
+Bait: 6His-SUMO2 T90K
+Bait: SUMO2
+CellLine: HEK293 N3S
+CleavageAgent: Lys-C
+CleavageAgent: endoproteinase Glu-C
+CleavageAgent: trypsinized
+EnrichmentMethod: Nickel affinity purification
+EnrichmentMethod: Enrichment of diGly-Lys containing peptides with anti-KεGG
+FactorValue: heat shock
+FactorValue: 43 °C
+FlowRateChromatogram: 250 nl/min
+FractionationMethod: protein electrophoresis
+FragmentMassTolerance: 0.5 Da
+GeneticModification: polyhistidine (6His)-tagged SUMO2 with Thr 90 mutated to Lys
+GeneticModification: 6His-SUMO2 T90K
+GradientTime: 90 minutes to 150 minutes
+GradientTime: 115 minute fractionation
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+IonizationType: EASY-Spray ion source (Thermo Scientific)
+MaterialType: cells
+MaterialType: cell line
+Modification: sumoylated
+Modification: Carbamidomethylation of Cys
+Modification: oxidation of Met
+Modification: acetylation of protein N-termini
+Modification: phosphorylation of Ser, Thr, and Tyr
+Modification: diGly adduction to Lys
+NumberOfFractions: nine slices
+NumberOfMissedCleavages: three
+NumberOfMissedCleavages: five
+Organism: human
+ReductionReagent: β-mercaptoethanol
+Separation: EASY-nLC 1000 liquid chromatography system
+Separation: 75 μm × 500 mm EASY-Spray column
+Temperature: 43 °C
+Time: 30 minutes
+Treatment: heat shock at 43 °C
