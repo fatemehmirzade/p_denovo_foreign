@@ -1,0 +1,28 @@
+AcquisitionMethod: DD-MS2 top10 method
+AlkylationReagent: chloroacetamide
+CellLine: MDA-MB-231 BT
+CellLine: 4T1 wild-type
+CellLine: MDA-MB-231 parental
+CellPart: secretome
+CleavageAgent: mass spectrometry (MS)-grade trypsin
+Disease: breast cancer
+EnrichmentMethod: 10 kDa molecular mass cut-off filters
+FactorValue: normoxia
+FactorValue: hypoxia
+GradientTime: 4 h gradient
+Instrument: Q-Exactive (Thermo Fisher Scientific)
+Label: label-free
+Label: SILAC-labelled
+Label: SILAC
+MaterialType: cell line
+NumberOfBiologicalReplicates: 2
+Organism: Homo sapiens
+Organism: Mus musculus
+ReductionReagent: DTT
+SamplingTime: 24 h
+Separation: 50 cm C18 reverse-phase analytical column (Thermo EasySpray ES803)
+Separation: EASY nanoLC 1000
+Specimen: CM
+Time: 24 h
+Treatment: normoxia
+Treatment: hypoxia

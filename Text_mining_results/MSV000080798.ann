@@ -1,0 +1,41 @@
+AcquisitionMethod: data-dependent mode
+Age: 28.33 ± 1.05
+Age: 31.33 ± 2.17
+AlkylationReagent: iodoacetamide
+AlkylationReagent: IAA
+BMI: 20.10 ± 0.75
+BMI: 24.74 ± 1.77
+BMI: 27.59 ± 2.11
+BMI: 28.62 ± 1.75
+CleavageAgent: Trypsin
+CollisionEnergy: normalized collision energy of 30
+DevelopmentalStage: pregnant
+Disease: Gestational diabetes mellitus (GDM)
+Disease: normal glucose tolerance (NGT)
+FactorValue: GDM
+FactorValue: NGT
+FlowRateChromatogram: 300 nL/min
+FragmentationMethod: HCD
+GradientTime: 4 h
+Instrument: nano-ESI Q-Exactive mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)
+IonizationType: nano-ESI
+Label: label-free
+MS2MassAnalyzer: Orbitrap analyzer
+MaterialType: tissue
+Modification: Carbamidomethyl (C)
+Modification: methionine oxidation (M, + 15.99492 Da)
+NumberOfBiologicalReplicates: 12
+NumberOfMissedCleavages: two
+NumberOfSamples: 6
+NumberOfSamples: 6
+Organism: human
+OrganismPart: omental adipose tissue
+PrecursorMassTolerance: precursor ion isolation window of 2 Da
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: immediately after delivery
+Separation: Reverse-phase high-performance liquid chromatography (RP-HPLC)
+Separation: EASY-nLC nano-LC system
+Separation: self-packed column (75 μm × 150 mm; 3 μm ReproSil-Pur C18 beads, 120 Å, Dr. Maisch GmbH, Ammerbuch, Germany)
+Treatment: GDM
+Treatment: NGT

@@ -1,0 +1,28 @@
+AcquisitionMethod: data-dependent acquisition
+AcquisitionMethod: DDA
+AlkylationReagent: iodacetamide
+CellType: Human aortic endothelial cells
+CleavageAgent: trypsin
+Disease: chronic heart failure
+Disease: CHF
+EnrichmentMethod: sequential ultracentrifugation
+FactorValue: HDLhealthy
+FactorValue: HDLCHF
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: online strong cation exchange (SCX) fractionation
+FractionationMethod: 2D salt steps on a nano column (Poros 10S, 300 μm × 10 cm, nanoViper, SCX, 10 μm)
+GradientTime: 30 min
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+MaterialType: biofluid
+NumberOfBiologicalReplicates: 10
+NumberOfFractions: 7 fractions
+NumberOfSamples: 5
+NumberOfSamples: 5
+Organism: Homo sapiens
+OrganismPart: serum
+ReductionReagent: DTT
+SamplingTime: 0, 5, 10, 15, 30, or 60 min
+Separation: reversed phase chromatography
+Separation: Ultimate 3000 RSLC
+Separation: 15 cm analytical column packed with 2 μm C18 particles (Acclaim PepMap RSLC, Thermo Scientific)
+Treatment: chronic heart failure

@@ -1,0 +1,42 @@
+AcquisitionMethod: data-dependent acquisition mode
+AlkylationReagent: iodoacetamide
+Bait: DQ molecules
+CellLine: CD114
+CellLine: 9087 STEINLIN
+CellLine: 9088 PF04015
+CellLine: 9047 PLH
+CellLine: 9050 MOU
+CellLine: 9051 PITOUT
+CellLine: 9037 SWEIG
+CellLine: 9064 AMALA
+CellLine: 9089 BOB
+CellType: B-lymphoblastoid cell lines
+CellType: B-cell lines
+CollisionEnergy: 25 %
+CollisionEnergy: 30 %
+Disease: Celiac disease
+EnrichmentMethod: immunoprecipitated
+FactorValue: DQ2.5
+FactorValue: DQ2.2
+FactorValue: DQ7.5
+FlowRateChromatogram: 0.3 μmul/min
+FragmentMassTolerance: 20 ppm
+GeneticModification: Epstein–Barr virus (EBV)-transformed
+Genotype: DQ2.5
+Genotype: DQ2.2
+Genotype: DQ7.5
+GradientTime: 45 min
+Instrument: quadrupole-Orbitrap (QExactive) mass spectrometer (ThermoElectron, Bremen, Germany)
+IonizationType: nanoelectrospray ion source (Proxeon/Thermo)
+MS2MassAnalyzer: Orbitrap
+MaterialType: cell line
+Modification: Pyro-glu (N-term Q and N-term E)
+Modification: deamidation (NQ)
+Modification: oxidation (M)
+NumberOfSamples: nine
+Organism: human
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 6 ppm
+Separation: Dionex Ultimate 3000 nano-LC system
+Separation: Acclaim PepMap100 RSLC column (C18, 2 μm beads, 100 Å, 75 μm inner diameter)
+SyntheticPeptide: biotin-EPRAPWIEQEGPEYW

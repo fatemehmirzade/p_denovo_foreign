@@ -1,0 +1,47 @@
+AcquisitionMethod: data-dependent MS/MS
+AcquisitionMethod: MRM mode
+AlkylationReagent: iodoacetamide
+Bait: 4E-T
+CellLine: SW480
+CellLine: SW620
+CleavageAgent: Bovine TPCK-treated trypsin
+CleavageAgent: Trypsin
+CollisionEnergy: normalized collision energy was set to 28%
+Disease: colon cancer
+EnrichmentMethod: IMAC
+EnrichmentMethod: TiO 2
+EnrichmentMethod: immunoprecipitation
+FactorValue: SW480
+FactorValue: SW620
+FlowRateChromatogram: 1.2 μL/min
+FlowRateChromatogram: 500 nL/min
+FractionIdentifier: HLB fraction #1
+FractionIdentifier: HLB fraction #5
+FractionationMethod: high-pH reverse-phase fractionation
+FragmentMassTolerance: 50 ppm
+GradientTime: 90 min
+GradientTime: 85 min
+GradientTime: 60 min
+Instrument: Thermo Q-Exactive mass spectrometer
+Instrument: QTrap 5500
+Label: stable isotope labeling of amino acids in cell culture
+Label: SILAC
+MaterialType: cell line
+Modification: Cysteine carbamidomethylation
+Modification: oxidized methionine
+Modification: Phosphorylation of S, T, and Y residues
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: eight fractions
+NumberOfFractions: four fractions
+NumberOfFractions: 16 phosphopeptide fractions
+NumberOfMissedCleavages: Two
+NumberOfTechnicalReplicates: technical duplicate
+Organism: human
+OriginSiteDisease: primary colon tumor origin
+OriginSiteDisease: lymph node metastasis
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+Separation: 100 μm × 10 cm C18 column
+Temperature: 37°C

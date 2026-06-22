@@ -1,0 +1,43 @@
+AcquisitionMethod: gel-free shotgunproteomics
+AlkylationReagent: iodoacetamide
+CellType: CD14 +
+CellType: CD4 +
+CellType: CD8 +
+CellType: CD19 +
+CellType: CD56+
+CleavageAgent: trypsin
+Compound: tocilizumab
+Disease: rheumatoid arthritis
+DiseaseTreatment: tocilizumab
+EnrichmentMethod: CD14+, CD4+, CD8+, and CD19+ cells were extracted using corresponding conjugated dynabeads
+EnrichmentMethod: CD56+ was extracted using CD56 primary antibodies, and Goat-anti-mouse dynabeads
+FactorValue: tocilizumab
+FactorValue: before biological treatment
+FactorValue: 4 months after
+FlowRateChromatogram: 300 nL/min
+FragmentationMethod: HCD
+GradientTime: 5 minutes ramp gradient
+GradientTime: 225 minutes ramp gradient
+Instrument: Q Exactive Plus mass spectrometer
+IonizationType: nanospray ionization
+Label: label free quantification
+MaterialType: cells
+Modification: carbamidomethyl (C)
+Modification: protein N-terminal acetylation
+Modification: deamidation (NQ)
+Modification: citrullination (R)
+Modification: phosphorylation (STY)
+NumberOfBiologicalReplicates: 1
+NumberOfTechnicalReplicates: triplicates
+Organism: Homo sapiens
+OrganismPart: Peripheral blood
+ReductionReagent: Tris (2-Carboxyethyl) phosphine
+SamplingTime: before biological treatment
+SamplingTime: 4 months after
+Separation: UHPLC-nanoESI MS/MS setup
+Separation: Dionex RSLC nanopump
+Separation: C18 reversed phase column (Dionex Acclaim PepMap RSLC C18, 2 μm, 100 Å, 75 μm × 2 cm)
+Separation: C18 reversed phase column (Dionex Acclaim PepMap RSLC C18, 2 μm, 75 Å, 75 μm × 50 cm)
+Time: before biological treatment
+Time: 4 months after
+Treatment: tocilizumab

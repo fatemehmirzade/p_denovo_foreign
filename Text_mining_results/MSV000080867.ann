@@ -1,0 +1,77 @@
+AcquisitionMethod: data-dependent Top15 method
+AcquisitionMethod: SRM
+AlkylationReagent: iodoacetamide
+CellLine: tert-hBECs
+CellLine: tert-hSAECs
+CellPart: secretome
+CellPart: exosomes
+CellPart: lysosomal and vacuolar compartments
+CellPart: whole-cell protein
+CellType: primary human cultures from trachea (phBECs)
+CellType: primary human cultures from bronchioles (phSAECs)
+CleavageAgent: LysC-tr
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27
+Compound: pRSV (MOI 1.0)
+Disease: Lower respiratory tract infections (LRTIs) from Respiratory Syncytial Virus (RSV)
+EnrichmentMethod: chloroform/methanol precipitation
+FactorValue: hBECs
+FactorValue: hSAECs
+FactorValue: mock-infected
+FactorValue: RSV-infected
+FactorValue: phBECs
+FactorValue: phSAECs
+FlowRateChromatogram: 300 nL/min
+FlowRateChromatogram: 500 nL/min
+FragmentMassTolerance: 0.5 Da
+FragmentationMethod: HCD
+FragmentationMethod: collision-activated dissociation
+GeneticModification: telomerase- immortalized
+GeneticModification: transducing primary cells with human telomerase and cyclin- dependent kinase (CDK)-4 retrovirus constructs
+GradientTime: 240 min
+GradientTime: 20-min
+GradientTime: 15-min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Instrument: TSQ Vantage triple quadrupole mass spectrometer (Thermo Scientific)
+IonizationType: nanoelectrospray ion source
+IonizationType: nanospray source
+Label: label-free quantification (LFQ)
+MaterialType: cells
+MaterialType: cell line
+MaterialType: biofluid
+MaterialType: tissue
+Modification: Carbamidomethylcysteine
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+NumberOfBiologicalReplicates: 3
+NumberOfBiologicalReplicates: 4
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+Organism: Mus musculus
+OrganismPart: trachea
+OrganismPart: small airway bronchiolar cells
+OrganismPart: bronchioles
+OrganismPart: lung
+OriginSiteDisease: trachea
+OriginSiteDisease: small airway bronchiolar cells
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 24h post-infection
+SamplingTime: 24 h after RSV infection
+Separation: nanoflow UHPLC instrument (Easy nLC, Thermo Fisher Scientific)
+Separation: C18 reversed-phase column (25 cm long, 75 μm inner diameter)
+Separation: Eksigent NanoLC-2D HPLC system (AB SCIEX, Dublin, CA)
+Separation: C18 reversed-phase nano-HPLC column (PicoFrit TM , 75 μm x 10 cm; tip ID 15 μm)
+Specimen: Conditioned Medium
+Specimen: supernatant
+Specimen: exosomes
+Specimen: whole-cell protein preparation
+SpikedCompound: stable isotope-labeled standard (SIS) peptides
+SyntheticPeptide: chemically synthesized incorporating isotopically labeled [ 13 C 6 15 N 4 ] arginine or [ 13 C 6 15 N 2 ] lysine
+Temperature: 37 °C
+Time: 24h
+Treatment: pRSV
+Treatment: RSV-infected
+Treatment: mock-infected
+Treatment: UV-inactivated RSV

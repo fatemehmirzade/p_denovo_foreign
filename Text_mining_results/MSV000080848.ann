@@ -1,0 +1,51 @@
+AcquisitionMethod: data-dependent
+AlkylationReagent: iodoacetamide
+CleavageAgent: trypsin
+Compound: metformin
+Disease: type 2 diabetes mellitus
+Disease: T2DM
+Disease: nondiabetic
+DiseaseTreatment: metformin
+DiseaseTreatment: statins
+FactorValue: type 2 diabetes mellitus
+FactorValue: nondiabetic
+FactorValue: metformin users
+FactorValue: nonusers
+FlowRateChromatogram: 5 μL per minute
+FlowRateChromatogram: 300 nL per minute
+FractionationMethod: hydrophilic interaction liquid chromatography (HILIC) fractionation
+FractionationMethod: Dionex UltiMate 3000 nano high-performance liquid chromatography using a 42-minute linear gradient and a TSKgel amide-80 HILIC column
+FragmentMassTolerance: 0.1 Da
+FragmentationMethod: higher-energy collisional dissociation
+Genotype: type 2 diabetes mellitus
+Genotype: nondiabetic
+GradientTime: 42-minute
+GradientTime: 86 minutes
+Instrument: Q-Exactive (Thermo Scientific)
+IonizationType: positive ion mode
+Label: isobaric tag for relative and absolute quantitation
+Label: iTRAQ
+Label: iTRAQ 8-plex
+MS2MassAnalyzer: Orbitrap
+MaterialType: tissue
+Modification: carbamidomethyl (C)
+Modification: iTRAQ8plex (K)
+Modification: iTRAQ8plex (N-term)
+Modification: oxidation (M)
+NumberOfBiologicalReplicates: 60
+NumberOfFractions: 22 fractions
+NumberOfMissedCleavages: 2
+NumberOfSamples: 30 diabetic
+NumberOfSamples: 30 non-diabetic
+Organism: Homo sapiens
+OrganismPart: repair arteries
+OrganismPart: internal mammary artery
+OrganismPart: internal thoracic artery
+PooledSample: pooled
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: dithiothreitol
+Separation: Dionex UltiMate 3000 nano high-performance liquid chromatography
+Separation: custom-made fused capillary precolumn (2 cm length, 360-μm outer diameter, 100-μm inner diameter)
+Separation: custom-made fused capillary column (20 cm length, 360-μm outer diameter, 100-μm inner diameter) packed with ReproSil Pur C18 3-μm resin (Dr Maish, GmbH)
+Treatment: metformin
+Treatment: statins

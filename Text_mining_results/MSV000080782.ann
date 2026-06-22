@@ -1,0 +1,53 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+Bait: HYPE
+Bait: HYPE E234G
+Bait: WT-bio
+CellLine: HEK293
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25
+Compound: recombinant AMPylators 1/10 w/w enzyme to total protein
+Compound: HYPE E234G 1/10–1/1000 w/w enzyme to total protein
+Compound: ATP 0–1000 μm
+EnrichmentMethod: NeutrAvidin agarose resin
+EnrichmentMethod: NeutrAvidin beads
+FactorValue: 1/10 w/w enzyme to total protein
+FactorValue: 1/10–1/1000 w/w enzyme to total protein
+FactorValue: 0–1000 μm
+FlowRateChromatogram: 250 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentMassTolerance: 0.01 Da
+FragmentationMethod: HCD
+GeneticModification: HYPE WT-bio
+GeneticModification: GFP-BirA
+GeneticModification: HYPE E234G
+GeneticModification: WT-bio
+GradientTime: 2 h
+GrowthRate: >10 doublings
+Instrument: QExactive mass spectrometer
+IonizationType: easy-spray source
+Label: SILAC
+MaterialType: cell line
+Modification: AMPylation
+Modification: Cysteine carbamidomethylation
+Modification: methionine oxidation
+Modification: acetylation of protein N terminus
+Modification: AMP-derived adduct (+624.1918 Da) to Ser, Thr, and Tyr
+Modification: AMP adduct mass of +329.0525 Da
+NumberOfBiologicalReplicates: 3
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: two
+NumberOfMissedCleavages: three
+NumberOfTechnicalReplicates: Two injections per sample
+Organism: Homo sapiens
+PrecursorMassTolerance: 4.5 ppm
+PrecursorMassTolerance: 5 ppm
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+SamplingTime: 18 h incubation
+SamplingTime: additional 24 h
+Separation: Acclaim PepMap RSLC column 50 cm × 75 μm inner diameter
+Separation: Easy nLC-1000
+SpikedCompound: “spike in” standard
+Temperature: 37 °C
+Treatment: recombinant AMPylators

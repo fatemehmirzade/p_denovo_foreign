@@ -1,0 +1,34 @@
+AcquisitionMethod: LC-MS/MS
+AcquisitionMethod: PRM
+AcquisitionMethod: Parallel reaction monitoring
+AlkylationReagent: carbamidomethylation
+CellType: sperm cells
+CleavageAgent: trypsin
+FractionationMethod: 1D SDS-PAGE separation
+FractionationMethod: separation of Triton X-100 soluble and insoluble fractions
+FractionationMethod: high-pH reversed-phase (Hp-RP) chromatography
+FragmentMassTolerance: 25 mmu
+FragmentationMethod: HCD
+FragmentationMethod: higher energy collisional dissociation
+GradientTime: long gradient runs
+Instrument: Q-Exactive
+Instrument: Q Exactive Plus, Thermo Fisher Scientific
+MaterialType: biofluid
+MaterialType: cells
+MaterialType: tissue
+Modification: carbamidomethylation of cysteines
+Modification: oxidation of methionines
+Modification: protein N-terminal acetylation
+NumberOfBiologicalReplicates: 5
+NumberOfFractions: 23 gel slices
+NumberOfFractions: 20 gel slices per fraction
+NumberOfMissedCleavages: one missed trypsin cleavage site
+NumberOfSamples: five healthy donors
+Organism: Homo sapiens
+OrganismPart: semen
+OrganismPart: sperm cells
+OrganismPart: testis
+PooledSample: pooled
+PrecursorMassTolerance: 5 ppm
+Separation: nano-LC
+SyntheticPeptide: Synthetic heavy labeled peptides

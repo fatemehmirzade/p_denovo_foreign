@@ -1,0 +1,45 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: HK-2 cells
+CellType: human proximal tubular epithelial cells (PTEC)
+CleavageAgent: sequencing grade modified trypsin
+CollisionEnergy: normalized collision energy (NCE) of 27
+Compound: DHT 100 nm
+Compound: EST 100 nm
+Compound: ethanol
+FactorValue: DHT
+FactorValue: EST
+FactorValue: ethanol
+FactorValue: 8h
+FractionationMethod: strong cationic exchange (SCX)
+FractionationMethod: SCX chromatography and fractionation
+FragmentMassTolerance: 20 ppm
+GradientTime: 60 min two-step gradient
+GradientTime: 60 min gradient
+Instrument: Q Exactive Plus hybrid quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific, San Jose, CA)
+IonizationType: nano-ESI source
+Label: stable isotope labeling with amino acids (SILAC)
+MaterialType: cells
+Modification: carbamidomethylation of cysteines
+Modification: oxidation of methionine and proline residues
+Modification: N-terminal acetylation
+NumberOfBiologicalReplicates: 4
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 10 fractions
+NumberOfMissedCleavages: two
+NumberOfSamples: 4
+NumberOfSamples: 3
+NumberOfSamples: 4
+Organism: Homo sapiens
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: dithiothreitol
+SamplingTime: 8h
+Separation: EASY-nLC1000 system
+Separation: 3.3 cm C18 pre-analytical column (IntegraFrit capillary, New Objective; inner diameter of 150 μm; 5 μm bead size; Agilent Pursuit C18, Agilent Technologies, Santa Clara, CA)
+Separation: resolving analytical column with dimensions 15 cm × 75 μm ID (PicoTip emitter, 8 μm tip, New Objective Agilent Pursuit C18, 3 μm bead size)
+SpikedCompound: labeled HK-2 cells
+Temperature: 37 °C
+Time: 8h
+Treatment: DHT
+Treatment: EST
+Treatment: ethanol

@@ -1,0 +1,64 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: Iodoacetamide
+AlkylationReagent: IAA
+Bait: His10-SUMO-2
+Bait: His10-S2
+Bait: His10-SUMO-2-K0-Q87R
+Bait: His10-S2-K0-Q87R
+CellLine: U2OS
+CleavageAgent: Lys-C
+CleavageAgent: Trypsin
+CollisionEnergy: normalized collision energy (NCE) of 25%
+Compound: Hydroxyurea 2 mm
+DiseaseTreatment: 2 mm Hydroxyurea
+EnrichmentMethod: Ni-NTA purification
+EnrichmentMethod: nickel-nitrilotriacetic acid-agarose beads (Ni-NTA)
+FactorValue: 2 h
+FactorValue: 24 h
+FactorValue: 2 mm Hydroxyurea
+FlowRateChromatogram: 200 nL/minute
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-collisional dissociation
+FragmentationMethod: HCD
+GeneticModification: His10-SUMO-2
+GeneticModification: His10-S2
+GeneticModification: His10-SUMO-2-K0-Q87R-IRES-GFP
+GeneticModification: His10-S2-K0-Q87R
+GradientTime: 120 min
+Instrument: Q-Exactive Orbitrap
+Instrument: Q-Exactive Plus Orbitrap
+IonizationType: nano-electrospray ion source
+Label: Label-free quantification
+Label: MaxLFQ
+MaterialType: cells
+MaterialType: cell line
+Modification: SUMOylation
+Modification: Carbamidomethylation of cysteine residues
+Modification: Oxidation of methionine
+Modification: phosphorylation
+Modification: acetylation of protein N termini
+Modification: Pyro-QQTGG
+Modification: QQTGG
+NumberOfBiologicalReplicates: 5
+NumberOfBiologicalReplicates: 4
+NumberOfMissedCleavages: two
+NumberOfSamples: 60 runs
+NumberOfSamples: 24 RAW files
+NumberOfTechnicalReplicates: technical triplicate
+NumberOfTechnicalReplicates: technical duplicate
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: Tris-(2-carboxyethyl)-phosphine hydrochloride
+ReductionReagent: TCEP
+SamplingTime: 2 h of hydroxyurea treatment
+SamplingTime: 24 h of hydroxyurea treatment
+Separation: EASY-nLC 1000 system
+Separation: 13 cm analytical column with an inner-diameter of 75 μm, in-house packed with 1.8 μm C18 beads
+Separation: 15 cm analytical columns with an inner-diameter of 75 μm, in-house packed with 1.9 μm C18 beads
+Time: 2 h
+Time: 24 h
+Treatment: Hydroxyurea
+Treatment: 2 mm Hydroxyurea
+Treatment: 2 h hydroxyurea treatment
+Treatment: 24 h hydroxyurea treatment

@@ -1,0 +1,34 @@
+AcquisitionMethod: data-dependent top-10 method
+AcquisitionMethod: top-15 method
+AlkylationReagent: iodoacetamide
+CellLine: HeLa cells (ATCC, S3 subclone)
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy was 25
+CollisionEnergy: normalized collision energy was 27
+EnrichmentMethod: TiO2 beads
+FlowRateChromatogram: 450 nL/min
+FlowRateChromatogram: 250 nL/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 90 min
+Instrument: Q Exactive
+Instrument: Q Exactive Plus
+Instrument: Q Exactive HF
+IonizationType: atmospheric pressure ion source
+IonizationType: NanoFlex source
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethylation of cysteine
+Modification: N-terminal protein acetylation
+Modification: oxidation (M)
+Modification: Phospho (STY)
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: DTT
+Separation: Thermo Easy nLC ultra-high-pressure HPLC system
+Separation: Analytical columns (50 cm long, 75-μm inner diameter) were packed in-house with ReproSil-Pur C 18 AQ 1.9-μm reversed phase resin
+Treatment: unstimulated

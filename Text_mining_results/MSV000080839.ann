@@ -1,0 +1,30 @@
+AlkylationReagent: CAA
+CellLine: BT-474
+CellLine: BT-474-J4
+CleavageAgent: trypsin
+Compound: lapatinib 1 μmol/L
+Disease: HER2/ERBB2–overexpressing breast cancers
+DiseaseTreatment: lapatinib
+EnrichmentMethod: Fe-IMAC column enrichment
+EnrichmentMethod: Kinobead pull downs
+FactorValue: BT-474
+FactorValue: BT-474-J4
+FractionationMethod: high pH reversed-phase micro-column fractionation
+FractionationMethod: Hydrophilic strong anion exchange fractionation
+Instrument: Orbitrap Q Exactive Plus mass spectrometer (Thermo Scientific)
+Instrument: Q Exactive HF mass spectrometer (Thermo Scientific)
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+Label: Dimethyl labeling
+MaterialType: cells
+MaterialType: cell line
+Modification: phosphorylation
+NumberOfFractions: 24 fractions
+Organism: Homo sapiens
+ReductionReagent: DTT
+SamplingTime: 2 hours after exchange
+SamplingTime: 8 hours after exchange
+SamplingTime: 24 hours after exchange
+Separation: nanoflow LC/MS-MS
+Separation: Agilent 1290
+Separation: UltiMate 3000 nano LC system
+Treatment: lapatinib

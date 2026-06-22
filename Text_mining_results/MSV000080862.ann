@@ -1,0 +1,43 @@
+AcquisitionMethod: shotgun
+Age: 24 to 40 years
+AlkylationReagent: 2-chloroacetamide
+AlkylationReagent: carbamidomethylation of cysteine
+AncestryCategory: Caucasian
+CleavageAgent: trypsin
+CleavageAgent: LysC
+Disease: healthy
+FactorValue: immediately after waking
+FactorValue: 10 a.m.
+FractionationMethod: basic reversed phase chromatography
+FragmentMassTolerance: 0.5 Da
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 100-min gradients
+GradientTime: 80-min gradient
+GradientTime: 100-min chromatography gradient
+GradientTime: 45-min HPLC gradients
+Instrument: Q Exactive HF mass spectrometer (Thermo Fisher Scientific)
+Label: label-free quantification
+Label: MaxLFQ
+MaterialType: biofluid
+Modification: N-acetylation of proteins’ N-termini
+Modification: oxidation of methionine
+NumberOfBiologicalReplicates: 8
+NumberOfMissedCleavages: two
+NumberOfSamples: 16
+NumberOfTechnicalReplicates: did not perform technical replicates
+Organism: Homo sapiens
+OrganismPart: saliva
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: tris (2-carboxyethyl) phosphine
+SamplingTime: immediately after waking
+SamplingTime: 10 a.m., at least 30 min after the donors had eaten breakfast and brushed their teeth
+Separation: EASY-nLC 1000 ultra-high pressure system
+Separation: in-house-made 40-cm column of the type described above
+Sex: female
+Sex: male
+Specimen: cotton swabs
+Time: immediately after waking
+Time: 10 a.m.
+Treatment: eating
+Treatment: tooth brushing

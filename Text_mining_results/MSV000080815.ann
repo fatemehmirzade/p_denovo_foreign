@@ -1,0 +1,64 @@
+AcquisitionMethod: top-10 data-dependent scan mode
+AlkylationReagent: iodoacetamide
+Bait: NTR
+Bait: Imp-β
+Bait: Imp-13
+Bait: Trn-1
+Bait: Trn-2
+Bait: Imp-7
+Bait: Imp-8
+Bait: Imp-9
+Bait: Imp-11
+Bait: Imp-5
+Bait: Trn-SR
+Bait: Imp-4
+Bait: Exp-4
+BiologicalReplicate: Experiments 1–3
+CellLine: HeLa-S3
+CellPart: cytosolic
+CellPart: nuclear
+CleavageAgent: trypsin
+CleavageAgent: Lys-C endopeptidase
+CollisionEnergy: normalized collision energy, 28%
+Compound: RanGDP 4 μM
+Compound: Imp-β 0.3–0.7 μM
+Compound: Imp-13 0.3–0.7 μM
+Compound: Trn-1 0.3–0.7 μM
+Compound: Trn-2 0.3–0.7 μM
+Compound: Imp-7 0.3–0.7 μM
+Compound: Imp-8 0.3–0.7 μM
+Compound: Imp-9 0.3–0.7 μM
+Compound: Imp-11 0.3–0.7 μM
+Compound: Imp-5 0.3–0.7 μM
+Compound: Trn-SR 0.3–0.7 μM
+Compound: Imp-4 0.3–0.7 μM
+Compound: Exp-4 0.3–0.7 μM
+Depletion: depleted of Imp-β family NTRs
+Depletion: depleted of RCC1
+EnrichmentMethod: in vitro reconstituted transport system
+FactorValue: NTR
+FactorValue: Ctl
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: Empore Cation Exchange-SR
+FragmentMassTolerance: ±20 mDa
+GradientTime: 100-min
+GradientTime: 20-min
+Instrument: Q Exactive hybrid quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific)
+IonizationType: nanospray ion source
+Label: SILAC
+Label: u- 13 C 6 Lys and u- 13 C 6 Arg
+MaterialType: cells
+MaterialType: cell line
+Modification: carbamidomethyl (Cys)
+Modification: oxidation (Met)
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: 1
+Organism: Homo sapiens
+PrecursorMassTolerance: ±6 ppm
+ReductionReagent: DTT
+Separation: EASY-nLC 1000
+Separation: NANO-HPLC capillary column C18 (75 μm x 150 mm, 3 μm particle size, Nikkyo Technos, Tokyo)
+Temperature: 30°C
+Time: 20 min
+Treatment: +NTR
+Treatment: without (Ctl)

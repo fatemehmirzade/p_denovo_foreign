@@ -1,0 +1,52 @@
+AcquisitionMethod: LC-MS/MS
+AlkylationReagent: N-ethylmaleimide
+CellLine: U2OS
+CellPart: nuclear
+CellPart: cytosolic
+CellPart: membrane
+CellPart: cytoskeletal compartments
+CleavageAgent: trypsin
+Compound: DMSO
+Compound: cycloheximide 40 μg/ml
+Compound: MG132 10 μm
+Disease: osteosarcoma
+DiseaseTreatment: DMSO
+DiseaseTreatment: 40 μg/ml cycloheximide
+DiseaseTreatment: 10 μ m MG132
+EnrichmentMethod: subcellular protein fractionation
+FactorValue: DMSO
+FactorValue: 40 μg/ml cycloheximide
+FactorValue: 10 μm MG132
+FactorValue: 6 h
+FlowRateChromatogram: 200 nl min−1
+FractionationMethod: denaturing size exclusion chromatography
+FragmentMassTolerance: 20 ppm
+GradientTime: 140 min
+Instrument: QExactive mass spectrometer (Thermo Scientific)
+IonizationType: nano-electrospray ionization
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: methionine oxidation
+Modification: deamidation of glutamine or asparagine
+Modification: N-terminal pyro-glutamic acid formation
+Modification: protein N-terminal acetylation
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 8 × 200 μl fractions
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+OrganismPart: nuclear
+OrganismPart: cytosolic
+OrganismPart: membrane
+OrganismPart: cytoskeletal compartments
+PooledSample: pooled
+PrecursorMassTolerance: 7 ppm
+ReductionReagent: triscarboxyethylphosphine
+ReductionReagent: TCEP
+SamplingTime: 6 h
+Separation: Acclaim PepMap C18 reverse phase analytical column
+Temperature: 37 °C
+Time: 6 h
+Treatment: DMSO
+Treatment: cycloheximide
+Treatment: MG132

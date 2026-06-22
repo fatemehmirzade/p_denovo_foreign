@@ -1,0 +1,56 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: chloroacetamide
+Bait: TrkA
+CellLine: SH-SY5Y
+CellLine: SH-SY5Y-TR
+CellLine: SH-SY5Y-TR-TrkA
+CellLine: PC12
+CleavageAgent: endoproteinase Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: collision energy: 25%
+Compound: NGF 100 ng/ml
+Depletion: Cbl-b depletion
+Disease: neuroblastoma
+EnrichmentMethod: TiO2-based phosphopeptide enrichment
+EnrichmentMethod: titansphere chromatography
+EnrichmentMethod: immunoprecipitated
+FactorValue: 5 to 120 min
+FactorValue: NGF 100 ng/ml
+FlowRateChromatogram: 1.0 ml/min
+FlowRateChromatogram: 250 nl/min
+FractionationMethod: strong cation exchange (SCX) chromatography
+FractionationMethod: 4 to 12% bis-tris gradient gels
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+GeneticModification: Tet-inducible system for TrkA expression
+GeneticModification: pT-REx-DEST30-TrkA
+GradientTime: 30 min
+GradientTime: 180-min gradient
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+IonizationType: nanoelectrospray ion source
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: Cysteine carbamidomethylation
+Modification: Protein N-acetylation
+Modification: N-pyroglutamine
+Modification: oxidized methionine
+Modification: phosphorylation of serine, threonine, and tyrosine
+Modification: deamidation of asparagine and glutamine
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 5 (interactome)
+NumberOfFractions: 10 (proteome)
+Organism: Homo sapiens
+Organism: Rattus norvegicus
+PooledSample: pooled
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: dithiothreitol
+SamplingTime: 5 to 120 min stimulation with NGF
+Separation: EASY-nLC system
+Separation: 15-cm analytical column (75-mm inner diameter) in-house packed with 3-mm reversed-phase C18 beads (ReproSil-Pur AQ, Dr. Maisch)
+Staining: Colloidal Blue Kit
+Temperature: 37°C
+Time: 5 to 120 min
+Treatment: NGF
+Treatment: CHX

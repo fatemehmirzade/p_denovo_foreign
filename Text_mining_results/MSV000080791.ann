@@ -1,0 +1,28 @@
+AcquisitionMethod: top-10 data-dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: HEK293
+CleavageAgent: modified trypsin
+CollisionEnergy: 27% normalized collision energy
+Compound: PCA 50 μM
+FactorValue: PCA
+FlowRateChromatogram: 250-nm flow rate
+FractionationMethod: Agilent 3100 OFFGEL fractionator
+FragmentMassTolerance: 4.5 ppm
+FragmentationMethod: high-energy collision dissociation
+Instrument: Q-Exactive (Thermo Fisher Scientific, Waltham, MA, USA)
+Label: SILAC
+Label: heavy or light isotopes
+Label: Arg +6 Da
+Label: Lys +6 Da
+MaterialType: cells
+MaterialType: cell line
+Modification: oxidation on Met
+Modification: carbamidomethylation in Cys
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: dithiothreitol
+Separation: easy-nano LC 1000 high-performance liquid chromatography (HPLC)
+Separation: 50-cm column (75-μm internal diameter) packed with 2 μm, 100-Å pore size C18 resin
+Time: 4 h
+Treatment: PCA

@@ -1,0 +1,45 @@
+AcquisitionMethod: data-dependent “top 10” method
+AlkylationReagent: iodoacetamide
+AlkylationReagent: Carbamidomethyl cysteine
+Bait: HLA class I molecules
+CellLine: U-87
+CellLine: T98G
+CellLine: LNT-229
+CellType: human Glioblastoma cell lines
+CleavageAgent: tryptic
+CollisionEnergy: Normalized collision energy was set to 25%
+Compound: 5′-Aza-2′-deoxycytidine (Decitabine, AdooQ Bioscience, Irvine, CA) 1 μm
+Disease: Glioblastoma
+DiseaseTreatment: 5-aza-2′-deoxycytidine
+DiseaseTreatment: Decitabine
+EnrichmentMethod: immunoaffinity purified using the W6/32 mAb bound to Amino-Link beads
+FactorValue: 1 μm
+FactorValue: 72 h
+FlowRateChromatogram: 0.15 μl/min
+FractionationMethod: in-gel proteolysis of 5 gel slices from each lane
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy collisional dissociation (HCD)
+GradientTime: 2 h
+GradientTime: 3 h
+Instrument: Q-Exactive-plus mass spectrometers (Thermo Scientific)
+IonizationType: electrospray
+Label: iBAQ
+Label: LFQ
+MaterialType: cell line
+MaterialType: cells
+Modification: Methionine oxidation
+Modification: Methionine sulfoxide
+Modification: n-acetylation
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 5 gel slices
+NumberOfMissedCleavages: two
+Organism: human
+PrecursorMassTolerance: 4.5 ppm
+SamplingTime: 72 h
+Separation: capillary chromatography
+Separation: reversed phase capillary chromatographies
+Separation: home-packed a 30 cm long, 75 μm inner diameter column with 3.5 μm silica ReproSil-Pur C18-AQ resin
+Temperature: 37 °C
+Time: 72 h
+Treatment: Decitabine
+Treatment: 5′-Aza-2′-deoxycytidine

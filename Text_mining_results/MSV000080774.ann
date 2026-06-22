@@ -1,0 +1,39 @@
+AcquisitionMethod: data-dependent acquisition mode
+AlkylationReagent: iodoacetamide
+CellLine: HeLa Kyoto cells
+CleavageAgent: Lys-C
+CleavageAgent: Trypsin
+CollisionEnergy: HCD normalized collision energy of 27
+Compound: nocodazol
+EnrichmentMethod: reversed-phase (RP) C18 Sep-Pak cartridges
+FactorValue: ERLIC
+FactorValue: AEX
+FactorValue: PolySAX LP
+FactorValue: PolyWAX LP
+FactorValue: pH 2
+FactorValue: pH 6
+FlowRateChromatogram: 1 mL/min
+FlowRateChromatogram: 230 nL/min
+FractionationMethod: PolySAX LP or PolyWAX LP column (PolyLC; 4.6 mm inner diameter (i.d.) × 200 mm, 5 μm particle size, 300 Å)
+FragmentMassTolerance: ±20 ppm
+FragmentationMethod: HCD
+GradientTime: 5 min at solvent A, then 43 min to 100% solvent B, and then 5 min at 100% solvent B
+GradientTime: 1 h gradient
+GradientTime: 2 h gradient
+GradientTime: 10 min at 2% solvent D, in 60 min (1 h gradient) or 120 min (2 h gradient) to 35% solvent D, in 5 min to 90% solvent D, 5 min at 90% solvent D
+Instrument: Q-Exactive (Thermo Fisher Scientific)
+IonizationType: electrospray
+MaterialType: cell line
+Modification: carbamidomethylation on cysteine
+Modification: oxidation on methionine
+Modification: phosphorylation of serine, threonine, and tyrosine
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+PrecursorMassTolerance: ±8 ppm
+ReductionReagent: dithiothreitol
+Separation: RP C18 column (Acclaim PepMap RSLC, Dionex; 75 μm i.d. × 500 mm, 2 μm particle size, 100 Å pore size)
+SyntheticPeptide: WAGGDASGK
+SyntheticPeptide: WAGG(pS)ASGK
+SyntheticPeptide: WWGSGPSGSGGSGGGK
+Time: overnight
+Treatment: nocodazol treatment

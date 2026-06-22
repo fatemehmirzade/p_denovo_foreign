@@ -1,0 +1,33 @@
+AcquisitionMethod: Top10
+AlkylationReagent: iodoacetamide
+CellLine: HeLa
+CellLine: U2OS
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+Compound: MG132 20μM
+Compound: Desferroxamine (DFX) 200μM
+Compound: Dimethyloxalylglycine (DMOG) 1mM
+FactorValue: MG132
+FactorValue: Desferroxamine (DFX)
+FactorValue: Dimethyloxalylglycine (DMOG)
+FactorValue: 1% O2
+FlowRateChromatogram: 200 nl/min
+FractionationMethod: HILIC (hydrophilic interaction liquid chromatography)
+GeneticModification: 47snoMEN
+GeneticModification: HBII-180C based snoMEN
+GeneticModification: GFP-HIF-1α
+GradientTime: 220 min
+Instrument: Q-Exactive (quadrupole Orbitrap) mass spectrometer (Thermo Fisher)
+IonizationType: nanoelectrospray
+Label: SILAC
+MaterialType: cells
+Organism: Homo sapiens
+ReductionReagent: TCEP
+Separation: Dionex RSLCnano HPLC
+Separation: 75 μm × 50 cm PepMap-C18 column
+Time: 3 hours
+Time: 24 hours
+Treatment: MG132
+Treatment: Desferroxamine
+Treatment: Dimethyloxalylglycine
+Treatment: 1% O2

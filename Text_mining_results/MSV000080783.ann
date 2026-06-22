@@ -1,0 +1,49 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: HeLa
+CellLine: MCF-7
+CellLine: MDA-MB-231
+CellLine: HCT116
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energies of 25
+Compound: inhibitor 1 5 μM
+Disease: cancer
+DiseaseTreatment: inhibitor 1
+FactorValue: 0 day
+FactorValue: 1 day
+FactorValue: 2 day
+FactorValue: 3 day
+FactorValue: 5 μM
+FlowRateChromatogram: 250 nL min –1
+FractionIdentifier: fraction 1
+FractionIdentifier: fraction 2
+FractionIdentifier: fraction 3
+FractionationMethod: fractionated to increase the number of identified proteins according to a published protocol
+FragmentationMethod: higher-energy collision dissociation
+FragmentationMethod: HCD
+GradientTime: 2 h
+Instrument: Q Exactive mass spectrometer
+IonizationType: easy-spray source
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: Cysteine carbamidomethylation
+Modification: methionine oxidation
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: three fractions/replicate
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+PrecursorMassTolerance: isolation window of 3.0 m / z
+ReductionReagent: DTT
+SamplingTime: 0 day treatment
+SamplingTime: 1 day treatment
+SamplingTime: 2 day treatment
+SamplingTime: 3 day treatment
+Separation: Acclaim PepMap RSLC column (50 cm × 75 μm inner-diameter; Thermo Fisher Scientific)
+SpikedCompound: heavy spike-in standard
+Temperature: 37 °C
+Time: 0 day
+Time: 1 day
+Time: 2 day
+Time: 3 day
+Treatment: inhibitor 1

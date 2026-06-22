@@ -1,0 +1,49 @@
+AcquisitionMethod: DDA
+AcquisitionMethod: PRM
+AlkylationReagent: iodoacetamide
+CellPart: membrane
+CellPart: nucleus
+CleavageAgent: trypsin
+CollisionEnergy: NCE 26
+Depletion: ProteoMiner
+Disease: hepatoma
+Disease: colorectal cancer
+Disease: bladder cancer
+EnrichmentMethod: ProteoMiner
+EnrichmentMethod: ProteoMiner Protein Enrichment Kits
+FactorValue: human hepatoma
+FactorValue: adjacent tissues
+FactorValue: colorectal cancer
+FactorValue: human bladder cancer
+FactorValue: human kidney tissues
+FlowRateChromatogram: 1 mL/min
+FlowRateChromatogram: 5 μL/min
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: Gemini high-pH RP column (5 μm, 110 Å, 250 × 4.6 mm2, Phenomenex, Torrance, CA)
+FractionationMethod: concatenation mode
+FragmentMassTolerance: 0.05 Da
+FragmentationMethod: HCD
+GradientTime: 60 min
+GradientTime: 115 min
+GradientTime: 60 min gradient
+Instrument: Q Exactive HF hybrid quadrupole-Orbitrap mass spectrometer
+MaterialType: tissue
+Modification: Carbamidomethylation (C)
+Modification: Oxidation (M)
+Modification: Deamidatioin (N, Q)
+NumberOfFractions: 60 fractions
+NumberOfFractions: 20 fractions
+NumberOfMissedCleavages: two
+NumberOfSamples: four human tissues
+NumberOfTechnicalReplicates: twice
+Organism: Human
+OrganismPart: hepatoma
+OrganismPart: colorectal cancer
+OrganismPart: bladder cancer
+OrganismPart: kidney tissues
+PrecursorMassTolerance: 20 ppm
+ReductionReagent: dithiothreitol
+Separation: 300 μm × 5 mm C18 TRAP column (μ-Precolumn, Thermo Scientific, Waltham, MA)
+Separation: 75 μm × 25 cm in-house packed analytical column containing 3 μm Ultimate LP-C18 particles (120 Å) from Welch (Shanghai, China)
+SyntheticPeptide: chemically synthetic peptides
+Treatment: ProteoMiner

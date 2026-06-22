@@ -1,0 +1,20 @@
+CellLine: BaF3-EpoR
+CellType: mCFU-E
+CellType: hCFU-E
+DevelopmentalStage: E13.5
+FactorValue: mCFU-E
+FactorValue: hCFU-E
+FactorValue: BaF3-EpoR
+FractionationMethod: 10% 1D SDS–PAGE
+Instrument: Q-Exactive Plus (Thermo)
+IonizationType: nano-electrospray ionization
+Label: MaxLFQ
+MaterialType: cells
+Organism: Homo sapiens
+Organism: Mus musculus
+OrganismPart: fetal livers
+SamplingTime: unstimulated
+Separation: liquid chromatography
+Staining: Coomassie
+Strain: Balb/c
+Treatment: unstimulated

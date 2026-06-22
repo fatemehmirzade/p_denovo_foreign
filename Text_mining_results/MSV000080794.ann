@@ -1,0 +1,52 @@
+AcquisitionMethod: LC–MS/MS
+CellLine: Huh-7
+CellPart: exosomes
+CleavageAgent: trypsin
+CollisionEnergy: 27% normalized collision energy
+Compound: HBx
+Compound: HBV replicon plasmids
+Compound: pCMV-HBV1.1
+Compound: pCMV-HBV1.1(X–)
+Disease: HBV-infected
+EnrichmentMethod: differential centrifugation protocol
+FactorValue: HBx
+FactorValue: wildtype
+FactorValue: HBx-null
+FactorValue: HBV-infected
+FactorValue: control
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: 12% SDS-PAGE
+FractionationMethod: electrophoresis separation step was omitted and pooled samples were boiled in 1× SDS-PAGE loading buffer and directly embedded in PAGE gel by mixing with 12% PAGE solution prior to gelling
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: high-energy collisional dissociation
+FragmentationMethod: HCD
+GeneticModification: N-terminal HA tag in pcDNA3
+GeneticModification: pCMV-HA-HBx
+GeneticModification: pCMV-HBV1.1
+GeneticModification: pCMV-HBV1.1(X–)
+GradientTime: 120 min
+Instrument: hybrid quadrupole Orbitrap (Q-Exactive) mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)
+IonizationType: electrospray
+Label: SILAC
+MaterialType: cell line
+MaterialType: biofluid
+Modification: protein N-terminus acetylation
+Modification: oxidized methionine
+Modification: carbamidomethylated cysteine
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+OrganismPart: sera
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+SamplingTime: 48 and 96 h post transfection
+Separation: Nano Aquity UPLC system
+Separation: analytical column (Acclaim PepMap C18, 75 μm × 15 cm)
+Staining: silver staining
+Temperature: 37 °C
+Time: 48 h
+Time: 96 h
+Treatment: HBx overexpression
+Treatment: HBV replication
+Treatment: HBx-null HBV replicon

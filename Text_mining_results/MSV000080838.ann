@@ -1,0 +1,48 @@
+Age: 67.5 ± 12.1
+Age: 76 ± 5.2
+Age: 76.9 ± 3.6
+Age: 74.5 ± 6.9
+Age: 72.6 ± 9.3
+AlkylationReagent: iodoacetamide
+AncestryCategory: Caucasian
+CleavageAgent: Trypsin
+CollisionEnergy: 35 eV
+Disease: cataract
+Disease: glaucoma
+Disease: pseudoexfoliation syndrome
+Disease: Pseudoexfoliative cataract
+Disease: Primary open angle glaucoma
+Disease: Pseudoexfoliative glaucoma
+FactorValue: Cataract
+FactorValue: Pseudoexfoliative cataract
+FactorValue: Primary open angle glaucoma
+FactorValue: Pseudoexfoliative glaucoma
+FlowRateChromatogram: 300 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy collisional dissociation
+GradientTime: 30 min
+Instrument: Orbitrap QExactive mass spectrometer (Thermo Scientific, USA)
+IonizationType: nano-electrospray ionization
+Label: Label-free protein quantification
+Label: Label-free quantification (LFQ)
+MS2MassAnalyzer: Orbitrap analyzer
+MaterialType: biofluid
+Modification: methionine oxidation
+Modification: N-terminal acetylation
+Modification: carbamidomethyl cysteine
+NumberOfBiologicalReplicates: 29
+NumberOfMissedCleavages: two
+NumberOfSamples: 29
+NumberOfTechnicalReplicates: two or more
+Organism: human
+OrganismPart: aqueous humor
+OriginSiteDisease: eye
+PooledSample: not pooled
+PrecursorMassTolerance: 4.5 ppm
+Separation: Agilent HPLC system 1100 Series
+Separation: trap column Zorbax 300SB–C18, 5 × 0.3 mm
+Separation: 150 mm x 75 μm Zorbax 300SB-C18 reverse phase analytical column
+Treatment: cataract
+Treatment: pseudoexfoliative cataract
+Treatment: Primary open angle glaucoma
+Treatment: pseudoexfoliative glaucoma

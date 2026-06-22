@@ -1,0 +1,52 @@
+AcquisitionMethod: data-dependent “top 10” method
+AcquisitionMethod: data-dependent “top 5” method
+AlkylationReagent: iodoacetamide
+CellLine: Ramos
+CellLine: Mutu
+CellLine: BL-41
+CellLine: U2932
+CellLine: L428
+CellLine: DB
+CellType: B-cells
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energies of 25
+Disease: diffuse large B-cell lymphoma
+Disease: DLBCL
+Disease: ABC-DLBCL
+Disease: GCB-DLBCL
+FactorValue: ABC-DLBCL
+FactorValue: GCB-DLBCL
+FlowRateChromatogram: 200 nl min−1
+FractionIdentifier: pH 11
+FractionIdentifier: pH 8
+FractionIdentifier: pH 6
+FractionIdentifier: pH 5
+FractionIdentifier: pH 4
+FractionIdentifier: pH 3
+FractionationMethod: Strong anion exchange chromatography
+FragmentMassTolerance: up to 20 ppm
+FragmentationMethod: higher energy collisional dissociation
+GradientTime: 205 min
+Instrument: quadrupole Orbitrap mass spectrometer (Q Exactive, Thermo Fisher Scientific)
+IonizationType: nanoelectrospray ion source
+Label: super-SILAC
+Label: label-free quantification
+Label: hybrid LFQ
+MaterialType: tissue
+MaterialType: cell line
+Modification: Cysteine carbamidomethylation
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+NumberOfBiologicalReplicates: 20
+NumberOfFractions: six fractions
+NumberOfMissedCleavages: two
+NumberOfSamples: 20
+Organism: Homo sapiens
+OrganismPart: tissue
+PooledSample: pooled
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: DTT
+Separation: nanoflow HPLC
+Separation: in house-made C 18 reversed phase column that was 50 cm long with a 75-μm inner diameter and packed with ReproSil-Pur C 18 -AQ 1.8-μm resin
+Specimen: FFPE
+SpikedCompound: super-SILAC mix

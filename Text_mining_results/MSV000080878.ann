@@ -1,0 +1,19 @@
+Bait: GFP-flag-sororin
+CellLine: HeLa
+CellLine: HeLa mSnw1-LAP
+CellLine: HeLa CENP-A-EGFP
+CellLine: HeLa mSmc3-LAP
+CellLine: HeLa GFP-flag-sororin
+CellLine: HeLa APC2-RFP
+CellLine: HeLa mPrpf8-LAP
+Compound: siRNA 20 nM
+Depletion: SNW1 depletion
+Depletion: PRPF8 depletion
+EnrichmentMethod: crosslinked anti-GFP antibody beads
+FactorValue: SNW1
+FactorValue: PRPF8
+GeneticModification: mSnw1-LAP
+GeneticModification: mPrpf8-LAP
+MaterialType: cells
+Organism: Homo sapiens
+Time: 48 h

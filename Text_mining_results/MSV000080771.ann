@@ -1,0 +1,27 @@
+AcquisitionMethod: data dependent mode
+AlkylationReagent: Iodoacetamide
+AlkylationReagent: IAA
+CellLine: HeLa S3 cells
+CleavageAgent: endoprotease LysC
+CleavageAgent: modified Trypsin
+Compound: thymidine 2 mM
+FactorValue: 2 h
+FactorValue: 8.5 h
+FactorValue: 14 h
+GradientTime: four-hour gradients
+Instrument: Q Exactive Plus MS (Thermo Scientific)
+IonizationType: EASY-spray ionization source
+Label: label free quantification
+Label: LFQ
+MaterialType: cells
+MaterialType: cell line
+Organism: Homo sapiens
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 2, 8.5 and 14 hours after release from the second block
+Separation: EASY-nLC–1000 HPLC system
+Separation: 50 cm long PepMap EASY-spray column
+Time: 2 h
+Time: 8.5 h
+Time: 14 h
+Treatment: double-thymidine block

@@ -1,0 +1,39 @@
+AcquisitionMethod: data-dependent acquisition
+CellLine: DG75
+CellLine: Daudi
+CollisionEnergy: normalized collision energy setting of 28%
+Compound: dimethyl sulfoxide
+Compound: AT13387
+Compound: STA-9090
+Disease: Burkitt lymphoma (BL)
+DiseaseTreatment: dimethyl sulfoxide (DMSO)
+DiseaseTreatment: AT13387
+DiseaseTreatment: STA-9090
+EnrichmentMethod: immunoprecipitation of phosphotyrosine-containing peptides using the pY1000 antibody
+FactorValue: DMSO
+FactorValue: AT13387
+FactorValue: STA-9090
+FlowRateChromatogram: 300 nl/minute
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher collision energy dissociation
+GradientTime: 90-minute
+GradientTime: 10-minute
+Instrument: Q Exactive HF (Thermo Fisher Scientific)
+Label: Stable isotope labeling with amino acids in cell culture (SILAC)
+MaterialType: cells
+MaterialType: cell line
+Modification: protein deamidation
+Modification: oxidation
+Modification: phosphorylation
+Modification: Cysteine carbamidomethylation
+NumberOfMissedCleavages: 2
+NumberOfTechnicalReplicates: 2
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 6 ppm
+Separation: Ultimate 3000 RSLCnano System
+Separation: ReproSil-Pur 120 C18-AQ, 1.9 μm; Dr. Maisch GmbH, 75 μm × 30 cm, self-packed
+Temperature: 37°C
+Treatment: dimethyl sulfoxide
+Treatment: AT13387
+Treatment: STA-9090

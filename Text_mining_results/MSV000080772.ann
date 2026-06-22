@@ -1,0 +1,50 @@
+AcquisitionMethod: data-dependent Top10 acquisition
+AlkylationReagent: iodoacteamide
+Bait: NOX4
+CellLine: HEK293
+CellLine: HEK293T/17
+CellPart: total membrane
+CleavageAgent: trypsin
+CollisionEnergy: 42% collision energy
+EnrichmentMethod: quantitative SILAC (stable isotope labeling of amino acids in cell culture) co-immunoprecipitation (Co-IP)
+EnrichmentMethod: NOX4 qCo-IP
+FactorValue: NOX1
+FactorValue: NOX4
+FlowRateChromatogram: 250 nl/min
+FlowRateChromatogram: 200 nl/min
+FractionationMethod: blue native-polyacrylamide gel electrophoresis (BN-PAGE)
+FractionationMethod: complexome profiling
+FragmentationMethod: high energy collision dissociation fragmentation
+FragmentationMethod: collision-induced dissociation
+GeneticModification: stably overexpressing NOX4
+GeneticModification: stably expressing NOX1
+GeneticModification: stably expressing NOX4
+Genotype: wt
+Genotype: calnexin-knock-out
+Genotype: Canx −/−
+Genotype: Nox4 −/−
+GradientTime: 60 min
+GradientTime: 90 min
+Instrument: Thermo Scientific TM Q Exactive Plus
+Instrument: Thermo Scientific Orbitrap XL mass spectrometer
+IonizationType: Nanospray Flex Ion Source
+Label: SILAC
+Label: quantitative SILAC
+MS2MassAnalyzer: linear ion trap
+MaterialType: cells
+Modification: N terminus acetylation
+Modification: oxidation of methionine
+Modification: deamidation on asparagine and glutamine
+Modification: carbamidomethylation
+NumberOfFractions: 40 equal fractions
+NumberOfFractions: 8 slices
+NumberOfMissedCleavages: 2
+Organism: Homo sapiens
+Organism: Mus musculus
+ReductionReagent: DTT
+Separation: C18 reversed-phase precolumn (Zorbax 300SB-C18, Agilent Technologies)
+Separation: in-house packed 2.2-μm Reprosil Gold C18 resin (Dr. Maisch GmbH) picotip emitter tip
+Separation: in-house packed 3-μm Reprosil C18 resin (Dr. Maisch GmbH) picotip emitter tip
+Staining: Coomassie
+Staining: Coomassie Blue
+Temperature: 37 °C

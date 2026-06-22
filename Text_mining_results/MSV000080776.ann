@@ -1,0 +1,27 @@
+AcquisitionMethod: quantitative label free mass spectrometry
+AlkylationReagent: carbamidomethyl cysteine
+Disease: lethal metastatic castration resistant prostate cancer (CRPC)
+Disease: treatment naïve localized prostate cancer
+DiseaseTreatment: anti-androgens
+DiseaseTreatment: chemotherapy
+EnrichmentMethod: Phosphopeptide enrichment
+FactorValue: treatment-naïve
+FactorValue: metastatic CRPC
+Genotype: metastatic castration resistant prostate cancer (CRPC)
+Instrument: Q-Exactive mass spectrometer (Thermo Scientific)
+Label: quantitative label free mass spectrometry
+Label: label free quantitation (LFQ)
+MaterialType: tissue
+Modification: N-terminal acetylation
+Modification: oxidized methionine
+Modification: phosphorylated serine, threonine, or tyrosine
+NumberOfBiologicalReplicates: 27
+NumberOfMissedCleavages: 2
+NumberOfSamples: 27
+NumberOfTechnicalReplicates: technical duplicates
+Organism: human
+OrganismPart: prostate cancer tissues
+Separation: EASY-spray columns (25cm × 75 μm ID, PepMap RSLC C18 2μm)
+Separation: easy-nLC 1000 ultra high-pressure liquid chromatography (UHPLC) system (Thermo Scientific)
+Treatment: treatment-naïve
+TumorStage: late stage

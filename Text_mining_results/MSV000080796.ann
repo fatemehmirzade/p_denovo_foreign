@@ -1,0 +1,19 @@
+CleavageAgent: trypsin
+Disease: normal healthy
+EnrichmentMethod: stage tip
+FractionationMethod: OFFGel fractionation
+FragmentMassTolerance: 10-ppm
+GradientTime: 120 min
+Instrument: Thermo Q-Exactive
+MaterialType: tissue
+MaterialType: biofluid
+Modification: Carbamidomethylation (+57.02146) of cysteine
+Modification: oxidation at MHW (+15.995)
+NumberOfFractions: Twelve
+Organism: Homo sapiens
+OrganismPart: ureter
+OrganismPart: urine
+OrganismPart: kidney
+PrecursorMassTolerance: 5-ppm
+ReductionReagent: DTT
+Separation: binary gradient

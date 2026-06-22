@@ -1,0 +1,60 @@
+AcquisitionMethod: top-five method
+AlkylationReagent: iodoacetamide
+AnatomicSiteTumor: ovaries
+CellLine: SNU119
+CellLine: TYKNU
+CellLine: KURAMOCHI
+CellLine: HEYA8
+CellLine: PEO4
+CellLine: 59M
+CellLine: SKOV3IP1
+CellLine: COV318
+CellType: immortalized ovarian surface epithelial cells
+CellType: fallopian tube epithelial cells
+CellType: Primary fallopian tube secretory epithelial cells (FTECs)
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25
+CollisionEnergy: 27 for Q Exactive HF
+Disease: human high-grade serous ovarian cancer (HGSOC)
+Disease: ovarian cancer
+Disease: serous-papillary high-grade, FIGO Stage IIIB/C, OvCa
+DiseaseTreatment: chemo-naive
+FactorValue: epithelial
+FactorValue: clear cell
+FactorValue: mesenchymal
+FlowRateChromatogram: 200 nl min −1
+FragmentationMethod: high-energy collisional dissociation
+GradientTime: 250 min gradient
+GradientTime: 5 min to 5%
+GradientTime: 180 min to 25%
+GradientTime: 45 min to 35%
+GradientTime: 20 min to 60%
+Instrument: Q Exactive, Thermo Fisher Scientific
+Instrument: Q Exactive HF, Thermo Fisher Scientific
+IonizationType: nano electrospray source
+Label: label-free protein quantification
+Label: Isobaric tag for relative and absolute quantification (ITRAQ)
+MaterialType: tissue
+MaterialType: cells
+MaterialType: cell line
+Modification: acetylation (N terminus)
+Modification: methionine oxidation
+Modification: carbamidomethylation
+NumberOfBiologicalReplicates: 3
+NumberOfSamples: 26
+NumberOfSamples: 30
+NumberOfSamples: 41
+Organism: human
+OrganismPart: ovarian tumours
+OrganismPart: fallopian tube
+OrganismPart: ovarian surface epithelium
+OriginSiteDisease: fallopian tube
+OriginSiteDisease: ovarian surface epithelium
+PooledSample: pooled
+ReductionReagent: DTT
+Separation: EASY-nLC 1000 HPLC system
+Separation: Columns (75 μm inner diameter, 50 cm length) were in-house packed with 1.9 μm C 18 particles
+TumorGrade: high-grade
+TumorSite: ovaries
+TumorStage: FIGO Stage IIIB/C

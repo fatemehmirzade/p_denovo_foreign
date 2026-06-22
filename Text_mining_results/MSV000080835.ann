@@ -1,0 +1,73 @@
+AcquisitionMethod: data-dependent mode
+AcquisitionMethod: top-10 method
+AlkylationReagent: iodoacetamide
+CellLine: MDA-MB-231
+CellLine: HeLa
+CellLine: HepG2
+CellLine: RKO
+CellLine: U2OS
+CellLine: LNCaP
+CellLine: Jurkat
+CellPart: microparticle proteome
+CellPart: plasma microparticle proteome
+CleavageAgent: endoproteinase Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy (NCE) of 25
+Compound: hormonal anti-androgenic (GnRH agonist) therapy
+Compound: purified PSA 0.5 ng/ml
+Compound: purified PSA 2 ng/ml
+Compound: purified PSA 10 ng/ml
+Compound: purified PSA 50 ng/ml
+Compound: purified PSA 200 ng/ml
+Disease: prostate cancer
+DiseaseTreatment: hormonal anti-androgenic (GnRH agonist) therapy
+DiseaseTreatment: radiotherapy treatments
+EnrichmentMethod: isolation of microparticles
+FactorValue: healthy individuals
+FactorValue: prostate cancer patients
+FactorValue: before radiation therapy
+FactorValue: 24 h after the first radiation treatment
+FactorValue: 2 weeks after the first radiation treatment
+FactorValue: 0.5 ng/ml
+FactorValue: 2 ng/ml
+FactorValue: 10 ng/ml
+FactorValue: 50 ng/ml
+FactorValue: 200 ng/ml
+FlowRateChromatogram: 300 nl/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GradientTime: 4 h gradients
+GrowthRate: more than 10 doublings
+Instrument: Q-Exactive (Thermo Scientific)
+Instrument: Q-Exactive Plus (Thermo Scientific)
+IonizationType: EASY-Spray
+Label: SILAC
+Label: super-SILAC
+Label: label-free
+MaterialType: biofluid
+MaterialType: cells
+MaterialType: cell line
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+Modification: carbamidomethyl cysteine
+NumberOfMissedCleavages: two
+NumberOfSamples: 28
+NumberOfTechnicalReplicates: three
+Organism: Homo sapiens
+OrganismPart: plasma
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: DTT
+SamplingTime: before radiation therapy
+SamplingTime: 24 h after the first radiation treatment
+SamplingTime: 2 weeks after the first radiation treatment
+Separation: EASY-nLC1000 UHPLC system
+Separation: 75 μm i.d. × 50 cm long EASY-spray PepMap columns (Thermo Scientific) packed with 2 μm C18 particles 100 Å pore size
+Sex: male
+SpikedCompound: purified PSA
+Time: before radiation therapy
+Time: 24 h after the first radiation treatment
+Time: 2 weeks after the first radiation treatment
+Treatment: hormonal anti-androgenic (GnRH agonist) therapy
+Treatment: radiotherapy

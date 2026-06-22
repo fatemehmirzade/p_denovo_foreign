@@ -1,0 +1,41 @@
+AlkylationReagent: chloroacetamide
+BiologicalReplicate: ASC12
+BiologicalReplicate: ASC21
+BiologicalReplicate: ASC23
+CellPart: cellular fraction
+CellType: Adipose-derived stem cells (ASCs)
+CleavageAgent: Trypsin
+FactorValue: normoxic
+FactorValue: hypoxic
+FactorValue: 20 %
+FactorValue: 1 %
+FlowRateChromatogram: 300 nL/min
+FractionIdentifier: secretome
+FractionIdentifier: peptidome
+FractionIdentifier: proteome
+FractionationMethod: spin filters
+FractionationMethod: reducing sodium dodecyl sulfate polyacrylamide gel electrophoresis (SDS-PAGE; (Biorad Any kD Mini-PROTEAN® TGX))
+FragmentationMethod: HCD
+GradientTime: 5-min ramp gradient
+GradientTime: 70-min ramp gradient
+GradientTime: 30 min
+Instrument: QExactive Plus mass spectrometer (Thermo Scientific, Waltham, USA)
+IonizationType: nanospray ionization
+Label: label-free quantitation
+MaterialType: cells
+Modification: carbamidomethyl (C)
+Modification: oxidation (M)
+NumberOfBiologicalReplicates: 3
+NumberOfTechnicalReplicates: duplicate
+Organism: Homo sapiens
+ReductionReagent: tris(2-carboxyethyl)phosphine
+SamplingTime: 24 h in serum- and albumin-free supplements in either normoxic (20 %) or hypoxic (1 %) atmospheres
+Separation: UPLC-nanoESI MS/MS
+Separation: C18 reversed phase column (Dionex Acclaim PepMap RSLC C18, 2 μm, 100 Å, 100 μm × 2 cm)
+Separation: C18 reversed phase column (Dionex Acclaim PepMap RSLC C18, 2 μm, 75 Å, 75 μm × 50 cm)
+Staining: Coomassie blue
+Staining: SimplyBlue SafeStain
+Temperature: 37 °C
+Time: 24 h
+Treatment: normoxic (20 %)
+Treatment: hypoxic (1 %)

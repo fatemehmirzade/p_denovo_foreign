@@ -1,0 +1,63 @@
+AcquisitionMethod: Top10
+AlkylationReagent: iodoacetamide
+CellLine: NB4
+CellType: acute myeloid leukemia blast cells
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+Compound: hydroxyurea 80 μM
+Compound: RO-3306 9 μM
+Disease: acute myeloid leukemia
+DiseaseTreatment: serum starvation
+DiseaseTreatment: hydroxyurea
+DiseaseTreatment: RO-3306
+FactorValue: serum starvation
+FactorValue: hydroxyurea
+FactorValue: RO-3306
+FactorValue: 48 hr
+FactorValue: 18 hr
+FlowRateChromatogram: 200 nl/min
+FractionIdentifier: F1
+FractionIdentifier: F2
+FractionIdentifier: F3
+FractionIdentifier: F4
+FractionIdentifier: F5
+FractionIdentifier: F6
+FractionIdentifier: F7
+FractionIdentifier: F8
+FractionIdentifier: F9
+FractionIdentifier: F10
+FractionIdentifier: F11
+FractionIdentifier: F12
+FractionationMethod: strong anion exchange column
+FractionationMethod: hSAX method
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: collision-induced dissociation
+FragmentationMethod: HCD
+GradientTime: 220 min
+Instrument: Q-Exactive Orbitrap mass spectrometer
+IonizationType: nanoelectrospray
+Label: label free quantitation (LFQ)
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+MaterialType: cell line
+Modification: Deamidation
+Modification: oxidation of methionine
+Modification: Gln→pyro-Glu
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 12 × 750 μl fractions
+NumberOfMissedCleavages: 2
+Organism: human
+PrecursorMassTolerance: 7 ppm
+ReductionReagent: TCEP
+SamplingTime: 48 hr in suspension before harvest
+SamplingTime: 18 hr
+Separation: Dionex RSLCnano HPLC-coupled Q-Exactive Orbitrap mass spectrometer
+Separation: 2-cm PepMap trap column
+Separation: analytical column (75 μm × 50 cm PepMap-C18 column)
+Staining: Coomassie protein staining
+Temperature: 37°C
+Time: 48 hr
+Time: 18 hr
+Treatment: serum starvation
+Treatment: hydroxyurea
+Treatment: RO-3306

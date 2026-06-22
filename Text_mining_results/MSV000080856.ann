@@ -1,0 +1,53 @@
+AcquisitionMethod: data-dependent acquisition mode
+AcquisitionMethod: SRM
+AlkylationReagent: iodoacetamide
+CellPart: whole cell lysates
+CellPart: plasma membrane
+CellPart: Golgi
+CellPart: soluble Golgi fractions
+CellType: primary human umbilical vein endothelial cells (HUVECs)
+CleavageAgent: trypsin
+CollisionEnergy: optimized collision energy
+Compound: LPS 50 ng/ml
+Compound: R. conorii (Malish 7 strain)
+Disease: Mediterranean spotted fever
+EnrichmentMethod: biotinylated cross-linking enrichment protocol
+EnrichmentMethod: streptavidin magnetic beads
+FactorValue: R. conorii infection
+FactorValue: LPS
+FlowRateChromatogram: 300 nl/min
+FlowRateChromatogram: 500 nl/min
+FractionationMethod: SDS-PAGE
+FractionationMethod: sucrose interface
+FragmentMassTolerance: ±20 ppm
+FragmentationMethod: collision-activated dissociation
+GradientTime: 120 min
+GradientTime: 15-min
+Instrument: Q Exactive Orbitrap mass spectrometer (Thermo Scientific, San Jose, CA)
+Instrument: TSQ Vantage triple quadrupole mass spectrometer (Thermo Scientific, San Jose, CA)
+IonizationType: nanospray source
+Label: trypsin-catalyzed 18O labeling
+Label: 16O/18O labeling
+MaterialType: cells
+Modification: biotinylated cross-linking
+Modification: oxidized methionine
+NumberOfBiologicalReplicates: 2
+NumberOfMissedCleavages: maximum of two missed cleavages
+Organism: Homo sapiens
+Organism: Rickettsia conorii
+OrganismPart: umbilical vein endothelial cells
+PooledSample: pooled
+PrecursorMassTolerance: ±20 ppm
+ReductionReagent: DTT
+ReductionReagent: dithiothreitol
+SamplingTime: 10 days later
+Separation: reversed phase nano-HPLC C18 column (75 μm × 150 cm)
+Separation: C18 reverse-phase nano-HPLC column (PicoFritTM, 75 μm × 10 cm; tip inner diameter of 15 μm)
+SpikedCompound: SIS peptides
+Staining: Colloidal Blue
+Strain: Malish 7
+SyntheticPeptide: chemically synthesized incorporating isotopically labeled [13C615N4]arginine or [13C615N2]lysine
+Time: 10 days
+Time: overnight
+Treatment: R. conorii infection
+Treatment: LPS

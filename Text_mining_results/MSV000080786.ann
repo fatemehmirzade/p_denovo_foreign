@@ -1,0 +1,43 @@
+AcquisitionMethod: DDA
+AcquisitionMethod: Top12 method
+AlkylationReagent: iodoacetamide
+CleavageAgent: trypsin
+Compound: conduritol B-epoxide 100 mg/kg/day
+Disease: Gaucher disease
+Disease: neuronopathic GD
+Disease: type 1
+Disease: type 2
+Disease: type 3
+DiseaseTreatment: enzyme replacement therapy (ERT)
+DiseaseTreatment: Miglustat
+FactorValue: Gaucher disease
+FactorValue: type 1
+FactorValue: type 2
+FactorValue: type 3
+FactorValue: conduritol B-epoxide
+FlowRateChromatogram: 0.25 μl/min
+GeneticModification: Gba flox/flox ; nestin-Cre
+Genotype: neuronopathic GD
+Genotype: type 2 and 3 Gaucher disease
+GradientTime: 10 min
+GradientTime: 80 min
+GradientTime: 10 min
+GradientTime: 5 min
+GradientTime: 5 min
+Instrument: quadrupole Orbitrap mass spectrometer (Q Exactive, Thermo Scientific)
+IonizationType: nanoESI
+MaterialType: biofluid
+MaterialType: tissue
+Modification: carbamidomethylation of cysteines
+Modification: oxidation of methionines
+Organism: Homo sapiens
+Organism: Mus musculus
+OrganismPart: cerebrospinal fluid
+OrganismPart: brain
+ReductionReagent: dithiothreitol
+SamplingTime: between 7 and 22 h after death
+Separation: split-less nano-Ultra Performance Liquid Chromatography
+Separation: C18 T3 HSS nano-column (75 μm internal diameter, 250 mm length, 1.8 μm particle size; Waters)
+Strain: Gba flox/flox ; nestin-Cre
+Strain: C57BL/6OlaHsd
+Treatment: conduritol B-epoxide

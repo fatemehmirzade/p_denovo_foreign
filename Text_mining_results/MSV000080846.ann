@@ -1,0 +1,41 @@
+AcquisitionMethod: data-dependent MS/MS
+Age: 38
+AlkylationReagent: Iodoacetamide
+AlkylationReagent: IAA
+CleavageAgent: modified porcine trypsin
+CleavageAgent: Trypsin
+CollisionEnergy: normalized collision energy of 25
+Disease: diffuse-type gastric cancers
+DiseaseTreatment: curative surgery
+FlowRateChromatogram: 1.0 µL/min
+FlowRateChromatogram: 500 nL/min
+FlowRateChromatogram: 2.7 µL/min
+FlowRateChromatogram: 300 nL/min
+FractionIdentifier: 10 NCFC fractions
+FractionationMethod: online noncontiguous fractionating and concatenating device (NCFC fractionator)
+FractionationMethod: online CF
+FractionationMethod: online NCFC
+FragmentationMethod: Higherenergy collisional dissociation
+GradientTime: 100 min
+GradientTime: 10 min
+GradientTime: 330 min
+GradientTime: 5 min
+GradientTime: 20 min
+GradientTime: 5 min
+Instrument: QExactive orbitrap mass spectrometer (Thermo Electron, San Jose, CA)
+MaterialType: tissue
+Modification: Carbamidomethylation to cysteine
+Modification: methionine oxidation
+NumberOfFractions: 10 fraction loops
+NumberOfFractions: 10 10 min eluates
+NumberOfFractions: 50 2 min eluates
+Organism: human
+OrganismPart: tumor tissue
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+SamplingTime: at the time of performing curative surgery
+Separation: online two-dimensional reverse-phase/reverse-phase liquid chromatography separation platform
+Separation: online 2D-NCFC-RP/RPLC system
+Separation: mid-pH RP COL, 50 cm × 150 µm
+Separation: two capillary analytical RP columns (COL1 and COL2, 150 cm × 75 µm)
+Sex: M

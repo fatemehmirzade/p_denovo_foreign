@@ -1,0 +1,66 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: chloroacetamide
+CellLine: HEK293
+CellLine: HeLa
+CellLine: U2OS
+CellLine: HeLa- Kyoto
+CleavageAgent: endoproteinase Lys-C
+CleavageAgent: modified sequencing grade trypsin
+Compound: PRMT1
+Compound: PRMT4
+Compound: PRMT5
+Compound: EPZ015666 100 nM
+EnrichmentMethod: PTMScan Mono-Methyl Arginine Motif [mme-RG] Immunoaffinity Beads
+FactorValue: PRMT1
+FactorValue: PRMT4
+FactorValue: PRMT5
+FactorValue: EPZ015666
+FlowRateChromatogram: 1 ml/min
+FlowRateChromatogram: 250 nl/min
+FractionationMethod: HpH fractionation
+FractionationMethod: HpH reversed-phase prefractionation
+FractionationMethod: Waters XBridge BEH130 C18 3.5 mm 4.6 × 250 mm column on an UltiMate 3000 HPLC (high-performance liquid chromatography) system
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher-energy collisional dissociation
+FragmentationMethod: HCD
+GeneticModification: C-terminal GFP
+GeneticModification: GFP-tagged MCM6
+GeneticModification: GFP-tagged SMC1A
+GeneticModification: SMARCA5 tagged with C-terminal GFP
+GeneticModification: EIF4B tagged with C-terminal GFP
+GeneticModification: EIF3I tagged with C-terminal GFP
+GeneticModification: CBX4 tagged with C-terminal GFP
+GeneticModification: SRSF1 tagged with C-terminal GFP
+GeneticModification: SRSF2 tagged with C-terminal GFP
+GeneticModification: RFC5 tagged with C-terminal GFP
+GeneticModification: EEF1A1 tagged with C-terminal GFP
+GeneticModification: FUS tagged with C-terminal GFP
+GradientTime: 62 min
+GradientTime: 5 min
+GradientTime: 3 min
+GradientTime: 5 min
+GradientTime: 77-min gradient
+Instrument: Orbitrap Q Exactive HF
+IonizationType: nanoelectrospray source
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: omega-NG-MMA
+Modification: carbamidomethylation
+Modification: protein N-terminal acetylation
+Modification: methionine oxidation
+Modification: mono- methylation on lysine and arginine
+NumberOfFractions: 14
+NumberOfMissedCleavages: three
+Organism: Homo sapiens
+PrecursorMassTolerance: 7 parts per million (ppm)
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 48 hours after transfection
+Separation: nanoscale EASY-nLC 1000 UHPLC system
+Separation: 15-cm analytical column (75 mm inner diameter) in-house packed with 1.9-mm C18 beads (Reprosil Pur-AQ, Dr. Maisch)
+Time: 48 hours
+Treatment: siRNA against human PRMT1
+Treatment: siRNA against PRMT4
+Treatment: siRNA against PRMT5
+Treatment: 100 nM EPZ015666

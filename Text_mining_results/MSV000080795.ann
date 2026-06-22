@@ -1,0 +1,36 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: chloroacetamide
+CellLine: Human osteosarcoma cells (U2OS)
+CleavageAgent: endoproteinase Lys-C
+CleavageAgent: sequencing grade-modified trypsin
+Compound: VE-821 1 μM
+Compound: HU 2 mM
+Depletion: nucleotide depletion
+DiseaseTreatment: hydroxyurea
+DiseaseTreatment: VE-821
+EnrichmentMethod: TiO2 spheres
+FactorValue: VE-821
+FactorValue: HU
+FractionationMethod: micro-column-based SCX
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy C-trap dissociation
+FragmentationMethod: HCD
+GradientTime: 2 h
+Instrument: Q Exactive Plus, Thermo Scientific
+Label: SILAC
+MS2MassAnalyzer: Orbitrap mass analyzer
+MaterialType: cell line
+Modification: Cysteine carbamidomethylation
+Modification: protein N-terminal acetylation
+Modification: methionine oxidation
+Modification: phosphorylation of serine, threonine, and tyrosine
+NumberOfFractions: five fractions
+NumberOfMissedCleavages: three
+Organism: Homo sapiens
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: dithiothreitol
+SamplingTime: 1 h
+Separation: C18 reversed phase columns (15 cm length, 75 μm inner diameter, 1.9 μm bead size)
+Temperature: 37 °C
+Treatment: hydroxyurea
+Treatment: VE-821

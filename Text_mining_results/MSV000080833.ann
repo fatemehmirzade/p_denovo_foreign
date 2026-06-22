@@ -1,0 +1,40 @@
+AcquisitionMethod: data-dependent TOP12 acquisition method
+AlkylationReagent: 2-iodoacetamide
+CleavageAgent: sequencing-grade-modified trypsin
+CollisionEnergy: NCE 27
+Compound: methotrexate
+Compound: Leflunomide
+Disease: Rheumatoid arthritis
+Disease: RA
+DiseaseTreatment: methotrexate
+DiseaseTreatment: MTX
+DiseaseTreatment: Leflunomide
+FactorValue: RA-patients
+FactorValue: healthy controls
+FlowRateChromatogram: 300 nL/min
+GradientTime: 230 min
+Instrument: Q Exactive Plus mass spectrometer (Thermo Scientific)
+IonizationType: electrospray ionization
+Label: label-free quantitative proteomics
+Label: LFQ (label-free quantitation)
+MaterialType: tissue
+Modification: carbamidomethylated cysteine residues
+Modification: acetylation of the N-terminal of proteins
+Modification: oxidation of methionine
+Modification: deamidation of asparginine and glutamine residues
+Modification: arginine citrullination
+NumberOfBiologicalReplicates: 21
+NumberOfMissedCleavages: max two tryptic missed cleavages
+NumberOfSamples: 11 RA-patients
+NumberOfSamples: 10 healthy controls
+NumberOfTechnicalReplicates: triplicate
+Organism: Homo sapiens
+OrganismPart: colon mucosa
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: tris(2-carboxyethyl)- phosphine
+Separation: UltiMate 3000 UPLC system
+Separation: 50 cm C18 Acclaim PepMap100 analytical column
+Specimen: biopsies
+Treatment: methotrexate
+Treatment: Leflunomide

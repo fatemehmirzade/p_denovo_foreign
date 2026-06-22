@@ -1,0 +1,38 @@
+AcquisitionMethod: data-dependent MS/MS
+AlkylationReagent: CAA
+CellType: NI H1
+CellType: HI H9
+CellType: NI TFBJ
+CellType: NI TFC1
+CellType: NI A1
+CellType: NI A2
+CellType: NI A3
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25 eV
+Disease: deleterious homoplasmic mutation in the mitochondrial gene MT-ATP6 (m.9185T>C)
+FactorValue: NPC_Ctrl
+FactorValue: NPC_ATP6
+FlowRateChromatogram: 266 nl/min
+FractionIdentifier: 2
+FractionIdentifier: 3
+FractionIdentifier: 4
+FractionIdentifier: 5
+FractionIdentifier: buffer X
+FractionationMethod: strong cation exchange (SCX) chromatography
+GeneticModification: m.9185T>C
+Genotype: NPC_Ctrl
+Genotype: NPC_ATP6
+GradientTime: 180 min
+Instrument: Q-Exactive Plus Orbitrap mass spectrometer (Thermo Scientific, Waltham, MA)
+IonizationType: nanoelectrospray
+Label: label-free
+MaterialType: cells
+Modification: Cysteine carbamidomethylation
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+NumberOfMissedCleavages: two
+Organism: Homo sapiens
+ReductionReagent: DTT
+ReductionReagent: TCEP
+Separation: nanoflow reverse phase liquid chromatography (Dionex Ultimate 3000, Thermo Scientific, Waltham, MA)
+Separation: PicoFrit analytical column (75 μm ID × 40 cm long, 15 μm Tip ID (New Objectives, Woburn, MA)) in-house packed with 2.1-μm C18 resin (Reprosil-AQ Pur, Dr. Maisch, Ammerbuch-Entringen, Germany)

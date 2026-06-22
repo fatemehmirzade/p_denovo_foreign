@@ -1,0 +1,41 @@
+AlkylationReagent: chloroacetamide
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27
+Compound: RNAlater
+Compound: 4% formalin
+Disease: gastroenterologically healthy
+FactorValue: directly frozen
+FactorValue: RNAlater
+FactorValue: immediately stabilized in 4% formalin
+FactorValue: stored for 30 min at ambient temperature before stabilization with 4% formalin
+FlowRateChromatogram: 300 nL/min
+FragmentationMethod: HCD
+GradientTime: 180 min
+Instrument: Q Exactive Plus mass spectrometer (Thermo Scientific, Waltham, USA)
+IonizationType: nanospray ionization
+Label: label-free quantative analysis
+MaterialType: tissue
+Modification: carbamidomethyl (C)
+Modification: protein N-terminal acetylation
+Modification: deamidation (NQ)
+Modification: oxidation (M)
+Modification: peptide N-terminal formylation
+NumberOfSamples: 24
+Organism: Homo sapiens
+OrganismPart: colon mucosa
+OrganismPart: sigmoideum
+PrecursorMassTolerance: mass window of m/z 1.6
+ReductionReagent: tris(2-carboxyethyl)phosphine
+Separation: UPLC-nanoESI MS/MS setup
+Separation: UltiMate 3000 UHPLC system
+Separation: RSLC nanopump module
+Separation: 2 cm trapping reversed phase Acclaim PepMap RSLC C18 column
+Separation: analytical 50 cm reversed phase Acclaim PepMap RSLC C18 column
+Specimen: biopsies
+Time: 30 min
+Treatment: directly frozen
+Treatment: RNAlater
+Treatment: formalin-fixation
+Treatment: paraffin-embedding
+Treatment: iFFPE
+Treatment: sFFPE

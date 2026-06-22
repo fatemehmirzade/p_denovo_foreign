@@ -1,0 +1,45 @@
+AcquisitionMethod: LC-MS/MS-based SILAC quantitative proteomics
+AlkylationReagent: iodoacetamide
+BiologicalReplicate: BR1
+BiologicalReplicate: BR2
+BiologicalReplicate: BR3
+CellLine: MDA-MB-231
+CellPart: secretome
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy was set to 28%
+Disease: breast cancer
+FactorValue: control
+FactorValue: POPX2 knockdown
+FlowRateChromatogram: 300 nL min–1
+FractionationMethod: SDS-PAGE
+FractionationMethod: in-gel digestion
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: HCD
+GeneticModification: POPX2 knockdown
+GeneticModification: POPX2 shRNA
+GradientTime: 60 min
+Instrument: Q-Exactive (Thermo Fisher)
+IonizationType: electrospray
+Label: SILAC
+Label: heavy labeled Lys8 and Arg6
+MaterialType: cell line
+Modification: Carbamidomethylation (C)
+Modification: Oxidation (M)
+Modification: deamidation (NQ)
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 10 fractions
+NumberOfSamples: six
+NumberOfTechnicalReplicates: two
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: dithiothreitol
+SamplingTime: 24 h for secretome/CM collection
+Separation: Dionex Ultimate 3000 RSLCnano system
+Separation: Acclaim peptide trap column
+Separation: Dionex EASY-Spray 75 μm × 10 cm column packed with PepMap C18 3 μm, 100 Å
+Specimen: secretome
+Specimen: conditioned media
+Staining: Coomassie blue staining
+Temperature: 37 °C
+Time: 24 h

@@ -1,0 +1,44 @@
+AcquisitionMethod: MS/MS mode
+Bait: A20
+Bait: RNF41
+CellLine: HEK293T cells
+CleavageAgent: trypsin
+Compound: simvastatin 1 μM
+Compound: tamoxifen 1 μM
+Compound: reversine 1 μM
+Compound: human TNFα 300 IU ml⁻¹
+EnrichmentMethod: Virotrap
+EnrichmentMethod: MyOne Streptavidin T1 beads pre-loaded with 10 μl ANTI-FLAG BioM2-Biotin antibody
+FactorValue: simvastatin
+FactorValue: tamoxifen
+FactorValue: reversine
+FactorValue: human TNFα
+GeneticModification: p55 GAG fusion constructs
+GeneticModification: pMET7-GAG-Ras
+GeneticModification: pMET7-GAG-EGFP
+GeneticModification: N-terminal E-tag
+GeneticModification: MYC-
+GeneticModification: FLAG-
+GeneticModification: VSV
+GeneticModification: N-terminal GAG sequence
+GeneticModification: pMD2.g pseudotyping vector
+GeneticModification: pcDNA3-FLAG-VSV-G
+GeneticModification: pcDNA3-Etag-VSV-G
+GeneticModification: pMET7-GAG-bait
+GeneticModification: pMET7-E-tag prey
+GeneticModification: pMET7-FLAG-RAF1
+GeneticModification: N-terminally FLAG-tagged A20
+GeneticModification: N-terminally FLAG-tagged RNF41
+Instrument: Q Exactive instrument (Thermo Scientific)
+MaterialType: cells
+MaterialType: cell line
+Organism: Homo sapiens
+ReductionReagent: dithiothreitol
+SamplingTime: harvested supernatant after 24 h
+SamplingTime: harvested after 32 h
+Separation: nano-LC
+Time: 32 h
+Treatment: simvastatin
+Treatment: tamoxifen
+Treatment: reversine
+Treatment: human TNFα

@@ -1,0 +1,55 @@
+AcquisitionMethod: top 10 data dependent mode
+AcquisitionMethod: PRM
+AcquisitionMethod: Targeted-MS2
+CellLine: Kit225
+CellPart: cytosol
+CellPart: nuclear enrichment
+CellType: CD4 + T lymphocytes
+CellType: T lymphocytes
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25 eV
+CollisionEnergy: normalized collision energy of 28
+Compound: IL-2 200 U/ml
+Disease: leukemic
+EnrichmentMethod: TiO2 beads
+FactorValue: 200 U/ml
+FactorValue: 5 min
+FlowRateChromatogram: 250 nl/min
+FlowRateChromatogram: 300 nl/min
+FractionationMethod: high pH fractionation
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher energy C-trap dissociation
+FragmentationMethod: HCD
+GradientTime: 120 min
+GradientTime: 90 min
+Instrument: Q Exactive HF mass spectrometer (Thermo Fisher Scientific)
+Instrument: Q Exactive mass spectrometer (ThermoFisher Scientific)
+IonizationType: nanoelectrospray source
+IonizationType: nanoES Emitter
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: Carbamidomethylation
+Modification: oxidation of M
+Modification: protein N-terminal acetylation
+Modification: NQ deamidation
+Modification: STY phosphorylation
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: maximum of 2
+Organism: Human
+OrganismPart: nuclear
+OrganismPart: cytosol
+PooledSample: pooled
+PrecursorMassTolerance: 7 ppm
+SamplingTime: 5 min
+Separation: reverse phase liquid chromatography system (EASY-nLC 1000 ultrahigh pressure, Thermo Fisher Scientific)
+Separation: analytical in-house packed column (20 cm × 75 μm, ReproSil-Pur C18-AQ 3 μm resin (Dr. Maisch GmbH))
+Separation: Easy-nLC 1000 nanoUPLC System (ThermoFisher Scientific)
+Separation: Acclaim PepMap100 precolumn (75 μm × 2 cm, ThermoFisher Scientific)
+Separation: Acclaim PepMap RSLC (50 μm × 15 cm, Thermo Scientific) analytical column
+SyntheticPeptide: SIL phosphopeptide mixture
+Temperature: 37 °C
+Time: 5 min
+Treatment: IL-2
+Treatment: unstimulated

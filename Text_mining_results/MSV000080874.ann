@@ -1,0 +1,40 @@
+AcquisitionMethod: data-dependent mode
+AcquisitionMethod: data-dependent TOP10 mode
+AlkylationReagent: iodoacetamide
+CellLine: HeLa
+CleavageAgent: trypsin
+CollisionEnergy: NCE 27
+Disease: cervical cancer
+Disease: ovarian cyst
+FactorValue: whole-cell lysate
+FactorValue: urine
+FactorValue: cerebrospinal fluid
+FlowRateChromatogram: 300 nl/min
+GradientTime: 60 min
+GradientTime: 75 min
+Instrument: TripleToF 5600+ mass spectrometer (both Sciex, Framingham, MA)
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific, Waltham, MA)
+Label: label-free quantification
+MaterialType: cells
+MaterialType: cell line
+MaterialType: biofluid
+Modification: oxidation (M)
+Modification: deamidation (NQ)
+Modification: phospho (STY)
+Modification: carbamidomethyl (C)
+NumberOfMissedCleavages: two
+NumberOfSamples: 89
+Organism: Homo sapiens
+OrganismPart: urine
+OrganismPart: cerebrospinal fluid
+PrecursorMassTolerance: 0.07 Da
+PrecursorMassTolerance: 0.006 Da
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+Separation: microfluidic chip system (EK425)
+Separation: trap column (ReproSil-Pur C18-AQ, 200 μm × 0.5 mm, 3 μm)
+Separation: ReproSil-Pur C18-AQ analytical column chip (75 μm × 15 cm, 3 μm)
+Separation: trapping column: 200 μm × 0.5 mm ReproSil-Pur C18-AQ 3 μm
+Separation: analytical column: 75 μm × 15 cm ReproSil-Pur C18-AQ 3 μm

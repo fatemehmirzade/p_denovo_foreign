@@ -1,0 +1,41 @@
+AcquisitionMethod: data-dependent acquisition
+AcquisitionMethod: DDA
+AlkylationReagent: methylmethane thiosulfonate
+AlkylationReagent: MMTS
+CellLine: MCF-10A
+CellLine: MCF-7
+CellType: breast epithelial cell line
+CellType: normal mammary epithelial cells
+CleavageAgent: proteinase K
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 30 V
+Disease: breast cancer
+FactorValue: MCF-10A
+FactorValue: MCF-7
+FlowRateChromatogram: 5 μL/min
+FlowRateChromatogram: 0.4 μL/min
+FragmentMassTolerance: 0.02 Da
+GradientTime: 90 min
+Instrument: Q-Exactive Plus high-resolution mass spectrometer (Thermo Scientific, Inc.)
+IonizationType: nano-electrospray ionization
+Label: Stable Isotope Labeling with Amino Acids in Cell Culture
+Label: SILAC
+Label: heavy-labeled
+Label: light-labeled
+MaterialType: cell line
+Modification: fixed MMTS modification on cysteine
+Modification: variable oxidation of methionine
+Modification: deamidation of asparagine and glutamine
+Modification: acetylation of the protein N-terminus
+NumberOfBiologicalReplicates: 5
+NumberOfMissedCleavages: up to two
+NumberOfSamples: 30 raw LC-MS/MS data files
+NumberOfTechnicalReplicates: triplicate
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: tris(2-carboxyethyl)phosphine hydrochloride
+ReductionReagent: TCEP
+Separation: nanoAcquity UPLC system
+Separation: Symmetry C18 300 mm × 180 μm trapping column
+Separation: 75 μm × 250 mm column packed with 1.7 μm Acquity HSST3 C18 stationary phase

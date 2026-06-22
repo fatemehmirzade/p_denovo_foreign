@@ -1,0 +1,52 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: chloroacetamide
+Bait: TNF-α
+CellLine: A549
+CellLine: HEK293
+CellLine: HCT116
+CellLine: L929
+CellLine: A20.2J
+CleavageAgent: endoproteinase Lys‐C
+CleavageAgent: sequencing grade modified trypsin
+Compound: recombinant human TNF‐α 100 ng/ml
+EnrichmentMethod: agarose-conjugated α-FLAG M2 antibody affinity matrix
+EnrichmentMethod: di-glycine-lysine antibody resin
+EnrichmentMethod: TiO2 spheres
+FactorValue: 100 ng/ml
+FactorValue: indicated periods
+FractionationMethod: micro-column-based strong-cation exchange chromatography (SCX)
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: higher‐energy C‐trap dissociation
+FragmentationMethod: HCD
+GeneticModification: FLAG-tagged TNF-α
+GeneticModification: GFP-SPATA2
+GeneticModification: TwinStrep-FLAG CYLD
+GeneticModification: GFP-SPATA2 458*
+GeneticModification: GFP-SPATA2 200*
+GeneticModification: GFP-SPATA2 D200
+GeneticModification: Strep-FLAG CYLD 600*
+GeneticModification: Strep-FLAG CYLD 400*
+GeneticModification: Strep-FLAG CYLD USP
+GeneticModification: FLAG-tagged HOIP
+Instrument: quadrupole Orbitrap (Q‐Exactive, Thermo Scientific)
+Label: SILAC labeling
+MS2MassAnalyzer: Orbitrap mass analyzer
+MaterialType: cells
+MaterialType: cell line
+Modification: di‐Gly‐modified
+Modification: phosphorylation
+Modification: Cysteine carbamidomethylation
+Modification: protein N‐terminal acetylation
+Modification: methionine oxidation
+Modification: N‐ethylmaleimide modification of cysteines
+Modification: di‐glycine‐lysine
+NumberOfFractions: six fractions
+NumberOfMissedCleavages: three
+Organism: human
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: dithiothreitol
+Separation: nanoflow HPLC system
+Separation: C18 reversed-phase columns (15 cm length, 75 μm inner diameter)
+Temperature: 37 °C
+Time: indicated periods
+Treatment: recombinant human TNF-α

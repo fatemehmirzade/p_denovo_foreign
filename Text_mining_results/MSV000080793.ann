@@ -1,0 +1,63 @@
+AcquisitionMethod: data-dependent acquisition
+AlkylationReagent: chloroacetamide
+Bait: His10-SUMO-2
+Bait: His10-SUMO-2-K0-Q87R
+CellLine: HeLa
+CellLine: U2-OS
+CleavageAgent: Endoproteinase Lys-C
+CleavageAgent: Modified Trypsin
+CollisionEnergy: normalized collision energy of 25%
+Compound: MG-132 10 μM
+Compound: PR-619 20 μM
+EnrichmentMethod: Ni-NTA agarose beads (Qiagen)
+FactorValue: MG-132
+FactorValue: PR-619
+FactorValue: heat shock
+FactorValue: 10 μM
+FactorValue: 20 μM
+FactorValue: 43°C
+FactorValue: 1 hour
+FlowRateChromatogram: 250 nL per minute
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: Higher-Collisional Dissociation (HCD)
+GeneticModification: His10-SUMO-2
+GeneticModification: His10-SUMO-2-K0-Q87R
+GradientTime: 120 minute gradient
+Instrument: Q-Exactive (Thermo)
+Label: Label-Free Quantification
+Label: MaxQuant LFQ
+MaterialType: cells
+MaterialType: cell line
+Modification: SUMOylation
+Modification: Cysteine carbamidomethylation
+Modification: Protein N-terminal acetylation
+Modification: peptide N-terminal carbamylation
+Modification: methionine oxidation
+Modification: QQTGG
+Modification: pyro-QQTGG
+Modification: lysine acetylation
+Modification: serine-threonine-tyrosine phosphorylation
+NumberOfBiologicalReplicates: 17
+NumberOfMissedCleavages: 3
+NumberOfSamples: 6 control
+NumberOfSamples: 3 heat shock
+NumberOfSamples: 3 MG-132
+NumberOfSamples: 5 PR-619
+NumberOfTechnicalReplicates: 11
+NumberOfTechnicalReplicates: 6
+NumberOfTechnicalReplicates: 6
+NumberOfTechnicalReplicates: 9
+Organism: human
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: β-mercaptoethanol
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 7 hours
+Separation: EASY-nLC system (Proxeon)
+Separation: 20 cm long analytical columns (ID 75 μm, Polymicro Avantes) packed in-house with 1.8 μm C18 beads (Reprospher 100)
+Temperature: 43°C
+Time: 7 hours
+Time: 1 hour
+Treatment: MG-132
+Treatment: PR-619
+Treatment: heat shock

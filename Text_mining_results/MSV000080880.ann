@@ -1,0 +1,36 @@
+AcquisitionMethod: data-dependent mode
+Age: median age: 32 years old
+CollisionEnergy: normalized collision energy value of 27
+Compound: pasteurized bovine milk 200 mL
+Disease: non-atopic healthy
+EnrichmentMethod: solid-phase extracted using Sep-pak C18 pre-packed columns
+FactorValue: drank a cup of milk daily
+FactorValue: strict diary-free diet
+FlowRateChromatogram: 300 nL/min
+FragmentMassTolerance: 20 ppm
+FragmentationMethod: high-energy collision dissociation
+GradientTime: 60 min gradient
+GradientTime: 50 min
+GradientTime: 3 min
+GradientTime: 1 min
+GradientTime: 1 min
+GradientTime: 5 minutes
+Instrument: Q Exactive Plus hybrid quadrupole-Orbitrap mass spectrometer (Thermo Fisher Scientific)
+IonizationType: nanospray source
+MaterialType: biofluid
+Modification: Oxidation of methionine
+Modification: phosphorylation of serine and threonine
+NumberOfBiologicalReplicates: 12
+NumberOfSamples: 12
+NumberOfSamples: 6
+NumberOfSamples: 6
+Organism: Homo sapiens
+OrganismPart: breast milk
+PrecursorMassTolerance: 10 ppm
+SamplingTime: 2–4 weeks after parturition
+SamplingTime: 2 hours after a regular milk load (200 mL)
+Separation: Waters Nano Acquity UHPLC
+Separation: 75 micron × 150 mm Magic C18 200Å 3U reverse phase column
+Time: 2 hours
+Treatment: drank a cup of milk daily
+Treatment: strict diary-free diet

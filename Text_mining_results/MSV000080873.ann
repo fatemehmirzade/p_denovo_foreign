@@ -1,0 +1,47 @@
+AcquisitionMethod: data-dependent MS/MS
+AlkylationReagent: chloroacetamide
+CellLine: 143B.TK− (ATCC-CRL-8303)
+CellLine: ρ0 cells
+CellType: osteosarcoma
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25 eV
+Depletion: mtDNA depletion
+Depletion: ρ 0 cells
+Disease: respiratory chain disease (RCD)
+EnrichmentMethod: immunoprecipitation of ubiquitinated peptides using the PTMScan Ubiquitin Remnant Motif Kit
+EnrichmentMethod: TiO2 (GL Sciences, Torrance, CA) enrichment of phosphorylated peptides
+FactorValue: wild-type
+FactorValue: ρ0
+FlowRateChromatogram: 266 nL/min
+FractionIdentifier: pH levels 11, 8, 6, 5, 4, and 3
+FractionationMethod: strong anion exchange chromatography
+FractionationMethod: SAX
+FractionationMethod: strong cation exchange (SCX) chromatography
+FragmentMassTolerance: 20 ppm
+GeneticModification: ρ0
+Genotype: thymidine kinase deficient (TK−)
+GradientTime: 210 min
+GrowthRate: grown to confluency
+Instrument: Q-Exactive Plus Orbitrap mass spectrometer (Thermo Scientific, Waltham, MA)
+IonizationType: nanoelectrospray
+Label: SILAC
+MaterialType: cells
+MaterialType: cell line
+Modification: phosphorylation
+Modification: ubiquitination
+Modification: Cysteine carbamidomethylation
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+Modification: diGly modification of lysine
+NumberOfBiologicalReplicates: 4
+NumberOfFractions: six pH fractions
+NumberOfMissedCleavages: two
+NumberOfMissedCleavages: three
+Organism: Homo sapiens
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: DTT
+Separation: nanoflow reverse phase liquid chromatography
+Separation: PicoFrit analytical column (75 μm ID × 25 cm long, 15 μm Tip ID (New Objectives, Woburn, MA) in-house packed with 3-μm C18 resin (Reprosil-AQ Pur, Dr. Maisch, Ammerbuch-Entringen, Germany)
+Temperature: 37 °C
+Treatment: mtDNA depletion

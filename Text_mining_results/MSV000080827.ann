@@ -1,0 +1,46 @@
+AcquisitionMethod: data dependent mass spectrometric method
+Age: 40y
+Age: 39y
+Age: 27y
+Age: 20y
+AlkylationReagent: iodoacetamide
+CellLine: ES04 (WiCell institute)
+CellPart: cytosolic (CYT)
+CellPart: nuclear (NUC)
+CellPart: chromatin-bound (CH)
+CellType: human embryonic stem cells
+CellType: human ESC-MSC
+CellType: human bone marrow-derived MSC
+CellType: BM-MSC
+CleavageAgent: Lys-C
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy 25
+FactorValue: hESC
+FactorValue: ESC-MSC
+FactorValue: BM-MSC
+FlowRateChromatogram: 250 nl/min
+FractionationMethod: in-solution isoelectric focusing (OFFGEL fractionator, Agilent)
+FragmentMassTolerance: FTMS MS/MS tolerance 20 ppm
+FragmentationMethod: higher energy collisional dissociation
+FragmentationMethod: HCD
+GradientTime: 100 min
+Instrument: Q Exactive mass spectrometer (Thermo Scientific, Bremen, Germany)
+Label: SILAC
+Label: triple SILAC
+MaterialType: cells
+Modification: N-terminal acetylation
+Modification: methionine oxidation
+Modification: cysteine carbamidomethylation
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 12 fractions
+NumberOfMissedCleavages: maximum two missed cleavages
+Organism: Homo Sapiens
+OrganismPart: bone marrow
+PooledSample: pooled
+PrecursorMassTolerance: first search mass accuracy tolerance 20 ppm
+PrecursorMassTolerance: main search mass accuracy tolerance 4.5 ppm
+ReductionReagent: DTT
+Separation: EASY nLC-II
+Separation: ReproSil-Pur 120 C18-AQ 3 μm diameter beads
+Sex: male
+Temperature: 37 °C

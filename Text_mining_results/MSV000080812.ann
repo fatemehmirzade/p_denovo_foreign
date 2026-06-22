@@ -1,0 +1,77 @@
+Bait: K0-SUMO
+Bait: His10-SUMO2-8KR-Q87R-IRES-GFP
+CellLine: HeLa
+CellLine: U2OS
+CleavageAgent: LysC
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 25
+Compound: MG132 10 μM
+Compound: bortezomib 100 nM
+Compound: Cdk1/2 Inhibitor III 10 μM
+DiseaseTreatment: heat-shock
+DiseaseTreatment: proteasome inhibition by MG132
+DiseaseTreatment: proteasome inhibition by bortezomib
+DiseaseTreatment: CDK inhibition
+EnrichmentMethod: Ni-NTA purification
+EnrichmentMethod: Ni-NTA beads (Qiagen)
+FactorValue: standard growth conditions
+FactorValue: proteotoxic treatments
+FactorValue: heat-shock
+FactorValue: MG132
+FactorValue: bortezomib
+FactorValue: CDK inhibition
+FactorValue: 43 °C
+FactorValue: 1 h
+FactorValue: 8 h
+FactorValue: 24 h
+FactorValue: 2 h
+FactorValue: 10 μM
+FactorValue: 100 nM
+FractionIdentifier: F1–F6
+FractionIdentifier: F0
+FractionationMethod: high-pH fractionation samples
+FractionationMethod: C18 StageTips
+FragmentMassTolerance: 4.5 p.p.m.
+FragmentationMethod: higher-energy collision disassociation
+FragmentationMethod: HCD
+GeneticModification: stably expressing K0-SUMO (His10-SUMO2-8KR-Q87R-IRES-GFP)
+GradientTime: 140-min gradient
+GradientTime: 40-min gradient
+GradientTime: 70-min gradient
+Instrument: Q-Exactive HF mass spectrometer (Thermo)
+IonizationType: Nanospray Flex Ion Source
+Label: label-free quantification (LFQ)
+MaterialType: cell line
+MaterialType: cells
+Modification: SUMOylated
+Modification: phosphorylation
+Modification: ubiquitylation
+Modification: acetylation
+Modification: methylation
+Modification: protein N-terminal acetylation
+Modification: methionine oxidation
+Modification: QQTGG on lysine
+Modification: pyroQQTGG on lysine
+NumberOfBiologicalReplicates: 4
+NumberOfFractions: six fractions
+NumberOfMissedCleavages: 4
+NumberOfSamples: 48
+Organism: human
+PrecursorMassTolerance: 1.3 m/z
+ReductionReagent: β-mercaptoethanol
+ReductionReagent: βME
+ReductionReagent: TCEP
+ReductionReagent: DTT
+SamplingTime: 1 h
+Separation: columns 15 cm long with a 75-μm internal diameter, which was packed in-house with ReproSil-Pur 120 C18-AQ 1.9-μm beads (Dr. Maisch)
+Separation: EASY-nLC 1200 system (Thermo Fisher Scientific)
+Temperature: 37 °C
+Temperature: 43 °C
+Time: 1 h
+Time: 8 h
+Time: 24 h
+Time: 2 h
+Treatment: heat-shock
+Treatment: MG132
+Treatment: bortezomib
+Treatment: Cdk1/2 Inhibitor III

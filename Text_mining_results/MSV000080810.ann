@@ -1,0 +1,28 @@
+AcquisitionMethod: nanoscale liquid chromatography tandem mass spectrometry
+AcquisitionMethod: LC–MS/MS
+Bait: biotinylated double-stranded DNA (dsDNA) oligo
+Bait: biotinylated dsDNA oligos
+CellLine: LoVo
+CellLine: SNU175
+CellLine: COLO320
+CellPart: Nuclear soluble fraction
+CellPart: nuclear extract
+CleavageAgent: trypsin/lysC
+Disease: colorectal cancer (CRC)
+EnrichmentMethod: high-throughput DNA pull-down
+EnrichmentMethod: DNA pulldowns
+FactorValue: Ref-allele
+FactorValue: Alt-allele
+FractionationMethod: strong anion exchange
+GradientTime: 2 h gradient
+GradientTime: 4 h gradient
+Label: dimethyl label swapping
+Label: label-free quantification analysis
+MaterialType: cell line
+NumberOfFractions: six fractions
+Organism: Human
+OrganismPart: nuclear soluble fraction
+OrganismPart: nuclear extracts
+Separation: nanoscale liquid chromatography tandem mass spectrometry (LC–MS/MS)
+Separation: nanoscale LC–MS/MS
+SpikedCompound: universal protein standard 2

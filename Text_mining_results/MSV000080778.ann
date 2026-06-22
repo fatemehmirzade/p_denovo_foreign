@@ -1,0 +1,97 @@
+AcquisitionMethod: data dependent
+AlkylationReagent: iodoacetamide
+CellLine: HeLa cells
+CleavageAgent: LysC
+CleavageAgent: trypsin
+Compound: aspirin 20 m m
+Compound: aspirin 10 m m
+Compound: aspirin 5 m m
+Compound: aspirin 2 m m
+Compound: aspirin 1 m m
+Compound: aspirin 0.5 m m
+Compound: salicylic acid 20 m m
+Compound: salicylic acid 10 m m
+Compound: salicylic acid 5 m m
+Compound: salicylic acid 2 m m
+Compound: salicylic acid 1 m m
+Compound: salicylic acid 0.5 m m
+Compound: bufexamac 0.25 m m
+Compound: nicotinamide 20 m m
+Compound: aspirin 20 m m
+Compound: aspirin 10 m m
+Compound: aspirin 5 m m
+Compound: aspirin 2.5 m m
+Compound: aspirin 1.25 m m
+Compound: aspirin 0.625 m m
+Compound: salicylic acid 20 m m
+Compound: salicylic acid 10 m m
+Compound: salicylic acid 5 m m
+Compound: salicylic acid 2.5 m m
+Compound: salicylic acid 1.25 m m
+Compound: salicylic acid 0.625 m m
+Compound: aspirin 5 m m
+Compound: aspirin-d 3 5 m m
+DiseaseTreatment: aspirin
+DiseaseTreatment: salicylic acid
+DiseaseTreatment: bufexamac
+DiseaseTreatment: nicotinamide
+EnrichmentMethod: immune affinity chromatography
+FactorValue: 20 m m
+FactorValue: 10 m m
+FactorValue: 5 m m
+FactorValue: 2 m m
+FactorValue: 1 m m
+FactorValue: 0.5 m m
+FactorValue: 6 h
+FactorValue: 24 h
+FactorValue: 48 h
+FactorValue: 0.25 h
+FactorValue: 0.5 h
+FactorValue: 1 h
+FactorValue: 2 h
+FactorValue: 16 h
+FragmentMassTolerance: 20 ppm
+GradientTime: 90 min to 240 min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+IonizationType: EASY-Spray ion source
+Label: SILAC
+Label: label-free
+MaterialType: cells
+MaterialType: cell line
+Modification: acetylated lysine
+Modification: Carbamidomethylation of cysteines
+Modification: oxidation of methionines
+Modification: acetylation of protein N termini
+Modification: acetylation of lysines
+Modification: d3-acetylation of lysines
+NumberOfMissedCleavages: three
+Organism: human
+PooledSample: pooled
+PrecursorMassTolerance: 6 ppm
+ReductionReagent: DTT
+SamplingTime: 6, 24, or 48 h
+SamplingTime: 0.25, 0.5, 1, 2, 6, 16, or 24 h
+SamplingTime: 6 h
+SamplingTime: 8 h exposure to aspirin-d 3 (0 h recovery)
+SamplingTime: 8 h aspirin + 0.25 h recovery
+SamplingTime: 8 h aspirin + 0.5 h recovery
+SamplingTime: 15 min
+Separation: EASY-nLC 1000 liquid chromatography system
+Separation: 75 μm × 500 mm EASY-Spray column
+Temperature: 37 °C
+Time: 6 h
+Time: 24 h
+Time: 48 h
+Time: 0.25 h
+Time: 0.5 h
+Time: 1 h
+Time: 2 h
+Time: 6 h
+Time: 16 h
+Time: 24 h
+Treatment: DMSO
+Treatment: aspirin
+Treatment: aspirin-d 3
+Treatment: salicylic acid
+Treatment: bufexamac
+Treatment: nicotinamide

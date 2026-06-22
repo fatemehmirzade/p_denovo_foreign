@@ -1,0 +1,43 @@
+AcquisitionMethod: data-dependent
+AlkylationReagent: iodoacetamide
+CellLine: HEKT293
+CellLine: Jurkat
+CellType: Human Jurkat T cells
+CleavageAgent: trypsin
+CollisionEnergy: 25% normalized collision energy
+EnrichmentMethod: COmbined FRActional DIagonal Chromatography (COFRADIC)
+FlowRateChromatogram: 80 μL/min
+FlowRateChromatogram: 300 nL/min
+FractionationMethod: RP-HPLC
+FragmentationMethod: HCD
+GeneticModification: overexpressing HA-tagged ubiquitin
+GradientTime: 100 min
+GradientTime: 30 min
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific, Bremen, Germany)
+IonizationType: positive ionization mode
+MaterialType: cells
+MaterialType: cell line
+Modification: chemical acetylation
+Modification: N-acetylated
+Modification: Boc-Gly-OSu
+Modification: oxidation by H2O2
+Modification: methionine oxidation
+Modification: carbamidomethylation of cysteines
+Modification: N-terminal protein acetylation
+Modification: lysine acetylation
+Modification: N-terminal pyro-glutamate
+Modification: Lys-ε-Gly
+Modification: Gly on protein N-termini
+NumberOfFractions: 360 fractions in total
+NumberOfMissedCleavages: one missed cleavage
+NumberOfSamples: 60
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: tris(carboxyethyl)phosphine
+ReductionReagent: TCEP
+Separation: Ultimate 3000 RSLC nano LC
+Separation: trapping column (made in-house, 100 μm i.d. × 20 mm, 5 μm beads C18 Reprosil-HD, Dr. Maisch, Ammerbuch-Entringen, Germany)
+Separation: analytical column (made in-house, 75 μm i.d. × 150 mm, 3 μm beads C18 Reprosil-HD, Dr. Maisch)
+SyntheticPeptide: Ac.AEVDYKNR.OH

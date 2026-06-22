@@ -1,0 +1,38 @@
+AcquisitionMethod: label-free quantification
+AlkylationReagent: iodoacetamide
+CellLine: HeLa
+CellLine: CW-2
+CellLine: HCA7
+CellLine: NCI-H747
+CleavageAgent: modified trypsin
+Compound: OA 25nM
+Compound: siRNA
+Depletion: CIP2A
+Depletion: RAS
+DiseaseTreatment: CIP2A depletion
+DiseaseTreatment: RAS depletion
+DiseaseTreatment: OA
+EnrichmentMethod: TiO 2 enrichment
+EnrichmentMethod: TiO 2 affinity chromatography
+FactorValue: CIP2A
+FactorValue: RAS
+FactorValue: OA
+FragmentMassTolerance: 5-ppm
+GeneticModification: CIP2A depletion
+GeneticModification: RAS knockdown
+GeneticModification: RAS depletion
+Instrument: Q Exactive quadrupole-orbitrap mass spectrometer (Thermo Fisher Scientific)
+Label: label-free quantification
+MaterialType: cells
+MaterialType: cell line
+Modification: phosphorylation
+NumberOfBiologicalReplicates: 15
+NumberOfSamples: 15
+Organism: Homo sapiens
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+SamplingTime: 72 hours after transfection
+Separation: EASY-nLC 1000 nanoflow LC instrument
+SpikedCompound: bovine α-casein
+Time: 72 hours
+Treatment: OA

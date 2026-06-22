@@ -1,0 +1,90 @@
+AcquisitionMethod: data dependent mode
+AlkylationReagent: iodoacetamide
+CellLine: NIH 3T3 mouse fibroblast cells
+CellLine: RPE-1
+CellLine: RPE-1 trisomic cells
+CellType: mouse fibroblast
+CleavageAgent: LysC
+CleavageAgent: trypsin
+Compound: MG132 20 μM
+Compound: Bafilomycin A1 250 nM
+Compound: wortmannin 500 nM
+Compound: Actinomycin D 100 nM
+Compound: DMSO
+DiseaseTreatment: MG132
+DiseaseTreatment: Bafilomycin A1
+DiseaseTreatment: wortmannin
+DiseaseTreatment: Actinomycin D
+EnrichmentMethod: click reaction
+EnrichmentMethod: Click-iT protein enrichment-kit
+FactorValue: 0 hr
+FactorValue: 4 hr
+FactorValue: 8 hr
+FactorValue: 16 hr
+FactorValue: 32 hr
+FactorValue: MG132
+FactorValue: Bafilomycin A1
+FactorValue: wortmannin
+FactorValue: Actinomycin D
+FactorValue: DMSO
+FactorValue: RPE-1
+FactorValue: RPE-1 trisomic
+FlowRateChromatogram: 300 nl/min
+FlowRateChromatogram: 250 nl/min
+FlowRateChromatogram: 500 nl/min
+FractionationMethod: isoelectric focusing
+FractionationMethod: strong anion exchange (SAX)
+FractionationMethod: online SCX/WAX approach
+FragmentationMethod: higher energy collision induced dissociation
+Genotype: aneuploid
+Genotype: trisomic
+Genotype: disomic
+GradientTime: 4 hr linear gradient
+GradientTime: 4 or 2 hr gradients
+GradientTime: 12 hr gradient
+GradientTime: 2 hr gradients
+GradientTime: 8 hr gradient
+GradientTime: 6 hr gradients
+GradientTime: 4 hr gradients
+Instrument: Q Exactive mass spectrometer (ThermoScientific)
+Instrument: Q Exactive orbitrap system
+IonizationType: electrospray ionization (ESI)
+Label: SILAC
+Label: Light SILAC
+Label: Heavy SILAC
+Label: Medium SILAC
+MS2MassAnalyzer: Orbitrap
+MaterialType: cells
+MaterialType: cell line
+Modification: oxidation of methionines
+Modification: n-terminal acetylation
+Modification: deamidation of aspargine and glutamine residues
+Modification: Carbamidomethyl of c-termini
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 12 fractions
+NumberOfTechnicalReplicates: technical triplicates
+Organism: mouse
+Organism: human
+ReductionReagent: DTT
+SamplingTime: 0 hr
+SamplingTime: 4 hr
+SamplingTime: 6 hr
+SamplingTime: 8 hr
+SamplingTime: 16 hr
+SamplingTime: 24 hr
+SamplingTime: 32 hr
+Separation: 2,000 mm monolithic column with a 100-μm inner diameter filled with C18 material
+Separation: High Performance Liquid Chromatography (HPLC) system (ThermoScientific)
+Separation: 15 cm column with an inner diameter of 75 μm packed in house with ReproSil-Pur C18-AQ material
+Separation: 4 m long monolithic column (2 × 2 m column combined)
+Separation: 15 cm C18 column
+Time: 0 hr
+Time: 4 hr
+Time: 8 hr
+Time: 16 hr
+Time: 32 hr
+Treatment: MG132
+Treatment: Bafilomycin A1
+Treatment: wortmannin
+Treatment: Actinomycin D
+Treatment: DMSO

@@ -1,0 +1,38 @@
+AcquisitionMethod: data-dependent MS/MS
+AlkylationReagent: carbamidomethylation
+CellLine: U1810
+CleavageAgent: trypsin
+CollisionEnergy: 30% normalized collision energy
+Compound: Syn-hsa-miR-372-3p miScript miR-mimic 10 n M
+Compound: AllStar neg. control siRNA 10 n M
+Disease: non-small cell lung cancer
+EnrichmentMethod: strong cation exchange solid-phase extraction (Phenomenex Strata-X-C, Phenomenex, Torrance, CA, USA)
+FactorValue: miR-372-3p mimic
+FactorValue: control siRNA
+FlowRateChromatogram: 5 μl/min
+FlowRateChromatogram: 250 nl/min
+FractionationMethod: isoelectric focusing (IEF)
+FractionationMethod: HiRIEF
+FragmentationMethod: higher energy collision dissociation
+GeneticModification: transfected with 10 n M Syn-hsa-miR-372-3p miScript miR-mimic
+GradientTime: 50 min
+Instrument: hybrid Q-Exactive mass spectrometer (Thermo Fisher Scientific)
+IonizationType: nano electrospray ionization
+Label: tandem mass tag (TMT)-10plex isobaric label
+MaterialType: cells
+MaterialType: cell line
+Modification: oxidation on methionine residues
+NumberOfBiologicalReplicates: 3
+NumberOfFractions: 72 fractions
+Organism: Homo sapiens
+PooledSample: pooled
+PrecursorMassTolerance: 10 p.p.m.
+ReductionReagent: dithiothreitol
+SamplingTime: Thirty-two hours after transfection
+Separation: Ultimate 3000 RSLC system
+Separation: C18 guard desalting column (Acclaim pepmap 100, 75 μm × 2cm, nanoViper, Thermo Fisher Scientific)
+Separation: nano EASY-Spray column (pepmap RSLC, C18, 2 μm bead size, 100 Å, 75 μm internal diameter, 50 cm long, Thermo Fisher Scientific)
+Temperature: 37 °C
+Time: Thirty-two hours
+Treatment: 10 n M AllStar neg. control siRNA
+Treatment: 10 n M AllStars hs cell death siRNA

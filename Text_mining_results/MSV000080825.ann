@@ -1,0 +1,26 @@
+AcquisitionMethod: data-dependent mode
+AlkylationReagent: Iodoacetamide
+AlkylationReagent: IAA
+AnatomicSiteTumor: lung
+AncestryCategory: race
+CleavageAgent: Lys-C/trypsin
+Disease: lung adenocarcinoma
+Disease: non-small cell lung cancer
+DiseaseTreatment: none of whom received preoperative treatment
+FactorValue: malignant
+FactorValue: non-malignant
+Instrument: Orbitrap Q Exactive Plus mass spectrometer (Thermo Fisher Scientific)
+IonizationType: nanospray source
+MaterialType: tissue
+NumberOfBiologicalReplicates: 38
+NumberOfSamples: 38
+NumberOfTechnicalReplicates: Triplicate
+Organism: Homo sapiens
+OrganismPart: lung tissue
+OriginSiteDisease: lung
+ReductionReagent: dithiothreitol
+ReductionReagent: DTT
+Separation: Waters Nano Acquity UHPLC
+Sex: gender
+TumorSite: lung
+TumorStage: early stage (Stage IA/IB)

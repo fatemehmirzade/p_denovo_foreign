@@ -1,0 +1,53 @@
+AcquisitionMethod: data-dependent acquisition
+Age: 8- to 12-week-old
+AnatomicSiteTumor: liver
+Bait: ERK1
+Bait: ERK2
+CellLine: HaCaT A5
+CellLine: HepG2 (ATCC HB-806)
+CellType: primary hepatocytes
+CellType: primary human epidermal keratinocytes
+CellType: primary mouse hepatocytes
+CleavageAgent: tryptic
+Compound: recombinant mouse HGF 100 ng/ml
+Compound: recombinant human HGF 100 ng/ml
+Compound: recombinant human IL-6
+Compound: U0126 20 mM
+Disease: liver metastasis derived from colorectal cancer
+EnrichmentMethod: immunoprecipitation
+EnrichmentMethod: STAGE-Tip method
+FactorValue: recombinant mouse HGF
+FactorValue: recombinant human HGF
+FactorValue: recombinant human IL-6
+FactorValue: U0126
+FractionationMethod: SDS-PAGE
+GradientTime: <1 hour
+Instrument: LTQ-Orbitrap XL mass spectrometer (Thermo Scientific)
+Instrument: Q Exactive Plus Hybrid Quadrupole-Orbitrap mass spectrometer (Thermo Scientific)
+Label: label-based approach
+Label: stable isotope–labeled standard peptides
+MaterialType: cells
+MaterialType: tissue
+Modification: phosphorylation
+Modification: threonine and tyrosine phosphorylation
+Modification: double-phosphorylated
+Modification: monophosphorylated
+NumberOfBiologicalReplicates: 4
+Organism: Mus musculus
+Organism: Homo sapiens
+OrganismPart: liver
+OriginSiteDisease: colorectal cancer
+SamplingTime: 10 min after stimulation with rhHGF (100 ng/ml)
+Separation: nanoUPLC
+Separation: nanoAcquity
+Separation: EASY-nLC 1000
+Sex: male
+Staining: SimplyBlue SafeStain
+Strain: C57BL/6N
+SyntheticPeptide: Isotopically labeled peptide/phosphopeptide one-source ratio standards
+Temperature: 37°C
+Time: 10 min
+Treatment: recombinant mouse HGF
+Treatment: recombinant human HGF
+Treatment: recombinant human IL-6
+TumorSite: liver

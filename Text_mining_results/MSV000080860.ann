@@ -1,0 +1,49 @@
+AcquisitionMethod: automatic data-dependent switching mode
+AcquisitionMethod: AP-MS
+AlkylationReagent: iodoacetamide
+Bait: p130Cas
+Bait: p130Cas mutant with 15 tyrosine residues mutated to phenylalanine
+Bait: p130Cas15F
+BiologicalReplicate: 1–3
+CellType: HUVECs
+CleavageAgent: trypsin
+Compound: VEGF
+Compound: Ad.p130Cas
+Compound: Ad.p130Cas15F
+EnrichmentMethod: immunoprecipitation
+FactorValue: VEGF
+FactorValue: 0
+FactorValue: 10
+FactorValue: 30
+FactorValue: 60 min
+FactorValue: Ad.p130Cas
+FactorValue: Ad.p130Cas15F
+FlowRateChromatogram: 250 nL/min
+GeneticModification: Ad.p130Cas
+GeneticModification: Ad.p130Cas15F
+GradientTime: 40 min
+Instrument: Q-Exactive mass spectrometer (Thermo Fisher Scientific, Loughborough, UK)
+IonizationType: positive ion mode
+Label: label-free quantification
+MaterialType: cells
+Modification: Carbamidomethyl (C)
+Modification: Oxidation (M)
+Modification: Acetyl (Protein N-term)
+NumberOfBiologicalReplicates: 3
+NumberOfMissedCleavages: 2
+NumberOfTechnicalReplicates: technical duplicates
+Organism: Homo sapiens
+PrecursorMassTolerance: 20 ppm
+PrecursorMassTolerance: 4.5 ppm
+ReductionReagent: DTT
+SamplingTime: 0 min VEGF treatment
+SamplingTime: 10 min VEGF treatment
+SamplingTime: 30 min VEGF treatment
+SamplingTime: 60 min VEGF treatment
+Separation: Dionex Ultimate 3000 (RSLCnano) chromatography system
+Separation: homemade column (100 mm length, 75 μm inside diameter), packed with 1.9 μm ReprosilAQ C 18
+Time: 0
+Time: 10
+Time: 30
+Time: 60 min
+Treatment: VEGF
