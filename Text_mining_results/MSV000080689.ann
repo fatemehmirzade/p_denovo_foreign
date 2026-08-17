@@ -1,0 +1,23 @@
+AcquisitionMethod: data-dependent acquisition mode
+AlkylationReagent: IAA
+CellLine: HeLa S3 cells (DSMZ, Braunschweig, Germany)
+CellPart: lysate
+CleavageAgent: trypsin
+CollisionEnergy: normalized collision energy of 27
+FlowRateChromatogram: 10 µL/min
+FlowRateChromatogram: 250 µL/min
+FragmentMassTolerance: 0.02 Da
+GradientTime: 40 min
+Instrument: Q Exactive mass spectrometer (Thermo Scientific)
+MaterialType: cell line
+Modification: carbamidomethylation of Cys
+Modification: oxidation of Met
+Modification: phosphorylation of Ser/Thr/Tyr
+NumberOfMissedCleavages: 2
+NumberOfSamples: single run
+Organism: Homo sapiens
+PrecursorMassTolerance: 10 ppm
+ReductionReagent: DTT
+Separation: nano RSLC HPLC system
+Separation: trap column (C18, 100 μm x 2 cm PepMap RSLC, Thermo Scientific)
+Separation: 50 cm main column (C18, 75 μm x 50 cm PepMap RSLC, Thermo Scientific)
